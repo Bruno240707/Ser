@@ -1,0 +1,79 @@
+# ================================
+#        Config      
+# ================================
+prefix: '[TheMinions] '
+# Database Configuration
+# Allowed Database Types
+# - H2
+# - FLAT
+# - MYSQL
+# - REDIS
+configDatabase:
+  host: localhost
+  database: database_name
+  userName: root
+  passWord: '123456'
+  port: 8080
+  useSsl: false
+  type: H2
+# - wrapLength = After how many characters in a lore you want
+#                to separate it.
+# - wrapStart = After line is separated what character do you
+#               want to start the new line with.
+loreWrapper:
+  wrapLength: 50
+  wrapStart: '&7'
+minion-egg-item:
+  material: STONE
+  amount: 1
+  displayName: '&9%minion_egg_egg_displayname%'
+  headData: null
+  headOwner: null
+  headOwnerUUID: null
+  lore:
+  - '&7%minion_description%'
+  - ''
+  - '&7Time Between Actions: &a%minion_time_between_actions%s'
+  - '&7Max Storage: &a%minion_max_storage%'
+  - '&7Resources Generated: &b%minion_resources_generated%'
+  - ''
+  - '&9&lRARE'
+  slot: null
+  enabled: false
+  command: null
+  enchanted: false
+  customModelData: null
+skin-item:
+  material: PLAYER_HEAD
+  amount: 1
+  displayName: '&a%minion_skin_display_name%'
+  headData: null
+  headOwner: null
+  headOwnerUUID: null
+  lore:
+  - '&7%minion_skin_lore%'
+  slot: null
+  enabled: false
+  command: null
+  enchanted: false
+  customModelData: null
+# maxMinionsPerPlayer = This is the max amount of minions that a player can place
+# Take in count this is the max amount per all players, then you need to set permissions
+# for each player, e.g: 'theminions.place_amount.1' if you want player have 1 minion
+# 'theminions.place_amount.2' if you want he to place just two and so
+maxMinionsPerPlayer: 15
+messages:
+  IDEAL_LAYOUT:
+  - message:
+    - '          '
+    probability: 100.0
+  INVALID_LAYOUT:
+  - message:
+    - '&c/!\'
+    - '&cInvalid Layout!'
+    probability: 100.0
+  STORAGE_FULL:
+  - message:
+    - '&c/!\'
+    - '&cStorage limit reached!'
+    probability: 100.0

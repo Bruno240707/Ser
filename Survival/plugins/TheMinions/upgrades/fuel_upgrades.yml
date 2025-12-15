@@ -1,0 +1,58 @@
+# ================================
+#        Fuels      
+
+# percentageOfSeconds is the amount of time that will be
+# removed from total, example if a minion takes 1 second and fuel is 25%
+# new action time will be of 0.75 seconds.
+# ================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fuel-upgrades:
+  enchanted_coal:
+    id: enchanted_coal
+    item:
+      material: COAL
+      amount: 1
+      displayName: '%minion_upgrade_display_name%'
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - '%minion_upgrade_lore%'
+      slot: null
+      enabled: false
+      command: null
+      enchanted: false
+      customModelData: null
+    displayName: '&aEnchanted Coal'
+    description:
+    - '&7Increases the speed of'
+    - '&7your minion by &a%minion_upgrade_percentage_seconds%%'
+    - '&7for 30 seconds.'
+    - ''
+    - '&a&lUNCOMMON'
+    percentageOfSecondsToRemove: 40.0
+    timer:
+      amount: 30
+      type: SECONDS

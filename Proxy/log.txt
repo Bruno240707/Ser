@@ -1,0 +1,258 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/workspaces/Velocity_prueba/Proxy/velocity.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2025-12-15T04:15:18.331260958Z main WARN Advanced terminal features are not available in this environment
+[04:15:21 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
+[04:15:21 INFO]: Loading localizations...
+[04:15:23 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[04:15:23 INFO]: Loading plugins...
+[04:15:23 INFO]: Loaded 1 plugins
+[04:15:23 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[04:15:24 INFO]: Done (5.05s)!
+[04:15:30 INFO]: [connected player] Bruno240707 (/127.19.211.102:58215) has connected
+[04:15:31 ERROR]: [connected player] Bruno240707 (/127.19.211.102:58215): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:15:31 INFO]: [connected player] Bruno240707 (/127.19.211.102:58215) has disconnected: [38;2;255;85;85mNo hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.[0m
+[04:15:36 INFO]: [connected player] Bruno240707 (/127.19.211.102:60649) has connected
+[04:15:36 ERROR]: [connected player] Bruno240707 (/127.19.211.102:60649): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:15:36 INFO]: [connected player] Bruno240707 (/127.19.211.102:60649) has disconnected: [38;2;255;85;85mNo hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.[0m
+[04:15:40 INFO]: [connected player] Bruno240707 (/127.19.211.102:46291) has connected
+[04:15:41 ERROR]: [connected player] Bruno240707 (/127.19.211.102:46291): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:15:41 INFO]: [connected player] Bruno240707 (/127.19.211.102:46291) has disconnected: [38;2;255;85;85mNo hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.[0m
+[04:15:45 INFO]: [connected player] Bruno240707 (/127.19.211.102:36017) has connected
+[04:15:46 ERROR]: [connected player] Bruno240707 (/127.19.211.102:36017): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:15:46 INFO]: [connected player] Bruno240707 (/127.19.211.102:36017) has disconnected: [38;2;255;85;85mNo hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.[0m
+[04:15:50 INFO]: [connected player] Bruno240707 (/127.19.211.102:56697) has connected
+[04:15:50 ERROR]: [connected player] Bruno240707 (/127.19.211.102:56697): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:15:51 INFO]: [connected player] Bruno240707 (/127.19.211.102:56697) has disconnected: [38;2;255;85;85mNo hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.[0m
+[04:15:55 INFO]: [connected player] Bruno240707 (/127.19.211.102:35867) has connected
+[04:15:55 ERROR]: [connected player] Bruno240707 (/127.19.211.102:35867): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:15:55 INFO]: [connected player] Bruno240707 (/127.19.211.102:35867) has disconnected: [38;2;255;85;85mUnable to connect you to lobby. Please try again later.[0m
+[04:16:00 INFO]: [connected player] Bruno240707 (/127.19.211.102:44557) has connected
+[04:16:00 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:11 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:11 ERROR]: [connected player] Bruno240707 (/127.19.211.102:44557): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:11 INFO]: [connected player] Bruno240707 (/127.19.211.102:44557) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:16 INFO]: [connected player] Bruno240707 (/127.19.211.102:44091) has connected
+[04:16:16 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:16 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:16 ERROR]: [connected player] Bruno240707 (/127.19.211.102:44091): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:16 INFO]: [connected player] Bruno240707 (/127.19.211.102:44091) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:20 INFO]: [connected player] Bruno240707 (/127.19.211.102:40321) has connected
+[04:16:21 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:21 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:21 ERROR]: [connected player] Bruno240707 (/127.19.211.102:40321): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:21 INFO]: [connected player] Bruno240707 (/127.19.211.102:40321) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:25 INFO]: [connected player] Bruno240707 (/127.19.211.102:36523) has connected
+[04:16:25 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:25 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:25 ERROR]: [connected player] Bruno240707 (/127.19.211.102:36523): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:25 INFO]: [connected player] Bruno240707 (/127.19.211.102:36523) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:30 INFO]: [connected player] Bruno240707 (/127.19.211.102:56161) has connected
+[04:16:30 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:30 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:30 ERROR]: [connected player] Bruno240707 (/127.19.211.102:56161): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:30 INFO]: [connected player] Bruno240707 (/127.19.211.102:56161) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:35 INFO]: [connected player] Bruno240707 (/127.19.211.102:47211) has connected
+[04:16:35 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:35 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:35 ERROR]: [connected player] Bruno240707 (/127.19.211.102:47211): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:35 INFO]: [connected player] Bruno240707 (/127.19.211.102:47211) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:40 INFO]: [connected player] Bruno240707 (/127.19.211.102:57989) has connected
+[04:16:40 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:40 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:40 ERROR]: [connected player] Bruno240707 (/127.19.211.102:57989): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:40 INFO]: [connected player] Bruno240707 (/127.19.211.102:57989) has disconnected: [38;2;255;85;85mUnable to connect to lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:45 INFO]: [initial connection] /127.19.211.102:59959 has disconnected
+[04:16:49 INFO]: [connected player] Bruno240707 (/127.19.211.102:57597) has connected
+[04:16:49 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:49 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:49 ERROR]: [connected player] Bruno240707 (/127.19.211.102:57597): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:49 INFO]: [connected player] Bruno240707 (/127.19.211.102:57597) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:54 INFO]: [connected player] Bruno240707 (/127.19.211.102:35161) has connected
+[04:16:54 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:54 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:54 ERROR]: [connected player] Bruno240707 (/127.19.211.102:35161): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:54 INFO]: [connected player] Bruno240707 (/127.19.211.102:35161) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:16:58 INFO]: [connected player] Bruno240707 (/127.19.211.102:38127) has connected
+[04:16:59 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:16:59 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:16:59 ERROR]: [connected player] Bruno240707 (/127.19.211.102:38127): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:16:59 INFO]: [connected player] Bruno240707 (/127.19.211.102:38127) has disconnected: [38;2;255;85;85mUnable to connect to lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:03 INFO]: [connected player] Bruno240707 (/127.19.211.102:56631) has connected
+[04:17:03 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:03 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:03 ERROR]: [connected player] Bruno240707 (/127.19.211.102:56631): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:03 INFO]: [connected player] Bruno240707 (/127.19.211.102:56631) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:08 INFO]: [connected player] Bruno240707 (/127.19.211.102:60329) has connected
+[04:17:08 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:08 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:08 ERROR]: [connected player] Bruno240707 (/127.19.211.102:60329): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:08 INFO]: [connected player] Bruno240707 (/127.19.211.102:60329) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:13 INFO]: [connected player] Bruno240707 (/127.19.211.102:39109) has connected
+[04:17:13 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:13 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:13 ERROR]: [connected player] Bruno240707 (/127.19.211.102:39109): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:13 INFO]: [connected player] Bruno240707 (/127.19.211.102:39109) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:18 INFO]: [connected player] Bruno240707 (/127.19.211.102:54403) has connected
+[04:17:18 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:18 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:18 ERROR]: [connected player] Bruno240707 (/127.19.211.102:54403): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:18 INFO]: [connected player] Bruno240707 (/127.19.211.102:54403) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:23 INFO]: [connected player] Bruno240707 (/127.19.211.102:36597) has connected
+[04:17:23 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:23 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:23 ERROR]: [connected player] Bruno240707 (/127.19.211.102:36597): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:23 INFO]: [connected player] Bruno240707 (/127.19.211.102:36597) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:27 INFO]: [connected player] Bruno240707 (/127.19.211.102:36765) has connected
+[04:17:28 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:28 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:28 ERROR]: [connected player] Bruno240707 (/127.19.211.102:36765): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:28 INFO]: [connected player] Bruno240707 (/127.19.211.102:36765) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:32 INFO]: [connected player] Bruno240707 (/127.19.211.102:56969) has connected
+[04:17:32 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:32 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:32 ERROR]: [connected player] Bruno240707 (/127.19.211.102:56969): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:32 INFO]: [connected player] Bruno240707 (/127.19.211.102:56969) has disconnected: [38;2;255;85;85mUnable to connect to lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:37 INFO]: [connected player] Bruno240707 (/127.19.211.102:47527) has connected
+[04:17:37 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:37 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:37 ERROR]: [connected player] Bruno240707 (/127.19.211.102:47527): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:37 INFO]: [connected player] Bruno240707 (/127.19.211.102:47527) has disconnected: [38;2;255;85;85mUnable to connect to lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:42 INFO]: [connected player] Bruno240707 (/127.19.211.102:52477) has connected
+[04:17:42 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:42 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:42 ERROR]: [connected player] Bruno240707 (/127.19.211.102:52477): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:42 INFO]: [connected player] Bruno240707 (/127.19.211.102:52477) has disconnected: [38;2;255;85;85mUnable to connect to lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:46 INFO]: [connected player] Bruno240707 (/127.19.211.102:54165) has connected
+[04:17:47 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:47 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:47 ERROR]: [connected player] Bruno240707 (/127.19.211.102:54165): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:47 INFO]: [connected player] Bruno240707 (/127.19.211.102:54165) has disconnected: [38;2;255;85;85mUnable to connect to lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:54 INFO]: [connected player] Bruno240707 (/127.19.211.102:58147) has connected
+[04:17:55 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:17:55 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:17:55 ERROR]: [connected player] Bruno240707 (/127.19.211.102:58147): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:17:55 INFO]: [connected player] Bruno240707 (/127.19.211.102:58147) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:17:59 INFO]: [connected player] Bruno240707 (/127.19.211.102:57175) has connected
+[04:18:00 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:18:00 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:18:00 ERROR]: [connected player] Bruno240707 (/127.19.211.102:57175): disconnected while connecting to lobby: Outdated server! I'm still on 1.21.8
+[04:18:00 INFO]: [connected player] Bruno240707 (/127.19.211.102:57175) has disconnected: [38;2;255;85;85mNo se ha podido conectar a lobby: Outdated server! I'm still on 1.21.8[0m
+[04:19:30 INFO]: [connected player] Bruno240707 (/127.19.211.102:39803) has connected
+[04:19:31 INFO]: [server connection] Bruno240707 -> lobby has connected
+[04:20:38 INFO]: [server connection] Bruno240707 -> survival has connected
+[04:20:48 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[04:22:09 INFO]: [connected player] Bruno240707 (/127.19.211.102:39803) has disconnected
+[04:22:09 INFO]: [server connection] Bruno240707 -> survival has disconnected
+[04:25:13 INFO]: Shutting down the proxy...
+[04:25:13 INFO]: Closing endpoint /0.0.0.0:25565

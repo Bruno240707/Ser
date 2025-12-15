@@ -1,0 +1,65 @@
+# ================================
+#        Messages      
+# ================================
+plugin-messages:
+  successfully-reloaded: '&aPlugin has been reloaded successfully!'
+  invalid-player: '&cInvalid Player!'
+  use-syntax: '&cUsage: %usage%!'
+  no-permission: '&eYou don''t have permission to do that!'
+  unknown-command: '&cUnknown command!'
+  must-be-aplayer: '&cYou must be a player to do that!'
+  invalid-arguments: '&cInvalid Arguments!'
+  invalid-amount: '&cInvalid Amount!'
+  invalid-level: '&cInvalid level!'
+  use-help: '&cUse: /theminions help'
+  help-message: '&7%command% - &e%description%'
+  help-header: '      &6&lTheMinions   '
+  helpfooter: '&e<< &6Page %page% of %maxpage% &e>>'
+  previous-page: '<<'
+  next-page: '>>'
+  help-page-hover-message: Click to go to page %page%
+minion-messages:
+  invalid-item: '&cInvalid Item!'
+  invalid-minion: '&cInvalid Minion!'
+  invalid-auto-ship: '&cInvalid Automated Shipping!'
+  invalid-egg: '&cInvalid Minion Egg!'
+  invalid-fuel: '&cInvalid Fuel!'
+  invalid-skin: '&cInvalid Skin!'
+  invalid-upgrade: '&cInvalid Upgrade!'
+  can-be-crafted-minion: '&eClick to view recipe!'
+  cant-be-crafted-minion: '&cThis minion can''t be crafted!'
+  cant-be-crafted-minion-message: '&cYou can''t craft this Minion!'
+  upgrade-max-level-placeholder:
+  - '&aMax Level has been reached!'
+  upgrade-status-placeholder:
+  - '&7Time Between Actions: %minion_time_between_actions_upgrade%'
+  - '&7Max Storage: %minion_max_storage_upgrade%'
+  max-storage-with-difference-placeholder: '&8%minion_max_storage% &8➜ &e%minion_next_level_max_storage%'
+  max-storage-without-difference-placeholder: '&e%minion_next_level_max_storage%'
+  time-between-with-difference-placeholder: '&8%minion_time_between_actions% &8➜ &a%minion_next_level_time_between_actions%'
+  time-between-without-difference-placeholder: '&a%minion_next_level_time_between_actions%'
+  can-upgrade-no-materials: '&cYou need &6%minion_upgrade_material_amount% &cmore
+    %minion_upgrade_material_name%!'
+  can-upgrade-no-money: '&cYou need &6%minion_upgrade_money_amount% &cmore coins!'
+  can-upgrade-max-level: '&cMax Tier reached!'
+  can-upgrade: '&eClick to upgrade!'
+  upgrade-no-materials-message: '&cYou dont have enough items to craft that tier!
+    You need &6%minion_upgrade_material_amount% &cmore. &7(%minion_upgrade_current_amount%/%minion_upgrade_required_amount%)'
+  upgrade-no-money-message: '&cYou need &6%minion_upgrade_money_amount% &cmore coins!'
+  upgrade-max-level-message: '&cYou already have the max tier for this minion!'
+  upgrade-message: '&aYou have upgraded your minion to Tier %minion_level_roman%!'
+  fuel-ends-in-format: '%days_placeholder% %hours_placeholder% %minutes_placeholder%
+    %seconds_placeholder%'
+  fuel-history-time-format: '%days_placeholder% %hours_placeholder% %minutes_placeholder%
+    %seconds_placeholder% ago'
+  pick-up-minion: '&aYou picked up a minion! You currently have %minions_placed_amount%
+    out of a maximum of %minions_max_amount_to_place% minions placed.'
+  you-placed-aminion: '&bYou placed a minion! (%minions_placed_amount%/%minions_max_amount_to_place%)'
+  you-can-only-place-amaxof: '&cYou can only can place a max of %minions_max_amount_to_place%
+    minions!'
+  days: '%days%d'
+  hours: '%hours%h'
+  minutes: '%minutes%m'
+  seconds: '%seconds%s'
+  no-time-format: '&b-'
+  show-no-time-symbol: true

@@ -1,0 +1,22 @@
+# ================================
+#        Medicine Man Perk      
+# ================================
+id: medicine_man
+enabled: true
+display-name: Medicine Man
+description:
+- '  &a%percent%% &7chance to regen &a%regen_percent%% &7of'
+- '  &7your life while in combat.'
+max-level: 50
+gui-options:
+  slot: 20
+  page: 1
+  item: PLAYER_HEAD
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY5MTkwN2VjYzllMjNkNTRhYmY4ZDNhYmMyNDU1ZmU3YmZlNzU5ODBiNDdjYTkyOTQ5MDFlZGU0ZGI4NGE0ZiJ9fX0=
+  customModelData: 0
+  mainMenuLore:
+  - '%skill_medicine_man_description%'
+chance-per-level: 0.1
+initial-amount: 0
+heal-percentage-to-regenerate-per-level: 0.1
+heal-percentage-to-regenerate-base: 0.0

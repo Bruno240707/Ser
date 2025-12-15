@@ -1,0 +1,1565 @@
+# ================================
+#        Skins      
+# ================================
+minion-skins:
+  grinch_skin:
+    id: grinch_skin
+    displayName: Grinch Skin
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-2112372902,-1572321144,-1420482444,861773871],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTljODlhODg5YzRiYjQyMWVhOWM1NmNiZWFlN2FmMWU2ZDg1ZjRmYWZmMzRhY2JhNzJlMWE4ZDVjNDExNmE4In19fQ=="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '0'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '0'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;172465787,1412189078,-1901248633,-613848931],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI0YjVjNzQ4MzA2MDlmOWNlN2JmYjhjYTI2ZmFjMTcxZWRiYzZiMjdjNjM3ZWExMDFmYzFhZTFhMmZhYzQ0MSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+  wheat_minion_1:
+    id: wheat_skin_1
+    displayName: Wheat Skin I
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-1255199807,-1459073859,-1175996722,-1730635138],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNkZWYyNTI0ZTA2MjU0NzBlYmRmYTUyZDJlMGUzM2ZiOWJjYjI1NjgyZGUwOWZiNjljZWY5NmM5OWZjYTEyZiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_2:
+    id: wheat_skin_2
+    displayName: Wheat Skin II
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-1706431977,-224310773,-1904815268,653001677],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI5OWUwODFiMTg4NzdhNzQ2MmIwYjRlMDk2ODZhOTQ0ZDk2NTliNzRmNmM5NTFlM2ZiMDYxMWMxZjJhOGFkYiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_3:
+    id: wheat_skin_3
+    displayName: Wheat Skin II
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-426415671,1891975875,-1161475981,-994301957],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNlNmZmYTY1M2VkZjQxODYxYjhkOWQyNDg4NDM0ZDg3NTY5NDM2ZjdmYTljNmQ2OGFhYTUwOTE2MDRiYjI0In19fQ=="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_4:
+    id: wheat_skin_4
+    displayName: Wheat Skin IV
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1179666344,-1016051065,-1076283308,-2119234351],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg1YzIyZmFmNWFkM2Y3MTg5ZmUxMTdjZTkzOTM3MjExYjE3OTAxMjhmMmJmZmQ5ODVjYmJjZDhhN2U3ZjU3MyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_5:
+    id: wheat_skin_5
+    displayName: Wheat Skin V
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-400279682,623332170,-1427351634,1125997107],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc2Y2ZlMThjODkyZTE1ZTBjOWRhOWZlNjI5MzA1ZmQ1OTU5NWMxMTRhMmZmMmMwMTY1NzMwMWMwYmU0N2U2YSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_6:
+    id: wheat_skin_6
+    displayName: Wheat Skin VI
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-690744543,447823946,-2009237798,-1775063916],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhNWUzNzM4NTgyNjI0NmVkY2E5NzM4Y2U2NzVlNGM2MzJlYjk0MDY3YTAzNjQ3YjBkODBjYjhlZGNmOWVmYyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_7:
+    id: wheat_skin_7
+    displayName: Wheat Skin VII
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-1270957381,326782682,-1355298730,-522964860],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkNTgzMDFhNGMyYzFkMTJkOGFlM2VhMGE4ZjhkZDNjZjA0ODM3NGJjZTJhYTAwNjQ1NTY5MDVhMDA0MjhiYyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_8:
+    id: wheat_skin_8
+    displayName: Wheat Skin VIII
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1904636126,1559447413,-1145045055,-686455152],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQxYjBjYjdlNDI5OWRiOWY4MTJjOTNjYzE2NjNlOTk4NDU3N2VhNzg1ZDUwNGIxM2JiYzljNzRlMmEyYzc1YiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_9:
+    id: wheat_skin_9
+    displayName: Wheat Skin IX
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1687120399,-1743238306,-1308004071,1009626935],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY0ODc4ZTExYjdiMDNhNDEwNDI2ZDE1ODEyNjdkMDk5ZDgyNzBhZDBjYjBkY2MxNGZjNTExNmJkMmM3N2IwNiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_10:
+    id: wheat_skin_10
+    displayName: Wheat Skin X
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;276960214,1226196769,-1215173468,-505821122],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM4NWYzMzA4MmMzYjIxMGFmMTBiY2JiMTYwMjI1NTNjMzAyZTQwNzE1ODNkYTRhZmY4ZjUzNzVmYmQxMWU3MiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  wheat_minion_11:
+    id: wheat_skin_11
+    displayName: Wheat Skin XI
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;859963248,-1418050703,-1676156756,206315358],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16776960'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_hoe
+      count: 1
+      schema_version: 1
+  diamond_minion_1:
+    id: diamond_skin_1
+    displayName: Diamond Skin I
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-114508852,372002147,-1638816770,-2010553111],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRiMDA4MDY4ODIzODQ0ZDEyOWVmZDgzOWM4MzA2NTBkOThlZWE4MTA0Y2YyYjMyNmE5YmU3ZGZiMTdhYjk5ZCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_2:
+    id: diamond_skin_2
+    displayName: Diamond Skin II
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1876811091,1126712963,-1512485887,1235019107],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJkMjA0ZjNiNGJiNGRjMzdhMDk0OWY1ODc3ODg0ODlhMWNkMTQ4ODIxYTEwN2FiMDU3NTgyY2VjMWJjZDEwMyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_3:
+    id: diamond_skin_3
+    displayName: Diamond Skin II
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-2009292837,1031881707,-1978502215,-833173511],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4YjQzYjMzZWI5OGIzZjhlOGZjYmZiMTE5MjliNzM2YTU2ZDcwMDE2M2RmNGUwZGNkYTIxYzM5N2Q4MWM3MSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_4:
+    id: diamond_skin_4
+    displayName: Diamond Skin IV
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-716222239,-936491951,-1663217394,-1540280473],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ2YWU5OWEzYTlmM2VlNjI2M2U0ZDA5NzZkN2ZhNGNiNmYwNTU3YzBiNjE0NWMwY2JlODEzOGUzNjQ5NTRkZSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_5:
+    id: diamond_skin_5
+    displayName: Diamond Skin V
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-649603010,-826652415,-1875792451,36396394],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA3YjkwNGQxNzJjNzIyNGYyOWZmYTQ0NmQ3OTc3MGMxNGM0MGUwYjExNDg4YTAxNGQzYWI2NzgwNTc3ZmRjOCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_6:
+    id: diamond_skin_6
+    displayName: Diamond Skin VI
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-607014364,-614644400,-1613310140,1507665093],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmNTZkOTQ5Mzk0ZTI1ZTU2ODZiOWYxODAwYmI1ZGY3YzUzMGY5ZTE2Nzg1ZWRiN2I0MDA3NmE1ZjkzYjlhMyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_7:
+    id: diamond_skin_7
+    displayName: Diamond Skin VII
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-43225648,1736003223,-1891495726,1579022843],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ1ZmQwYzFkZGExZDRiMDBhYjM2MzQ4ZmNkY2NlZjViYTE5Y2I5MjAwOWMwM2M2ZTQ3MjkxZDZhYTk4NmQxNSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_8:
+    id: diamond_skin_8
+    displayName: Diamond Skin VIII
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1190274412,-1818541887,-1932762257,1261121926],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg4NmEzM2U0ZWQ5NzRhNGNlYjIzMTc4MGIyMzE2YjYzMGU0MzQ4NzQyNDlmZTUwZjM5MTk3YzQ1ZWU0YzFiOCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_9:
+    id: diamond_skin_9
+    displayName: Diamond Skin IX
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;671919918,-1604108110,-1851336241,728658379],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRhOTBmNTdjZmZlMDZlZTEyNGFlYTM4YjMyZDY2ZjcwMTZhZTlkYjY0YTUwNTA4Y2E1Yzc0YWVjZjhmZGU2ZSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_10:
+    id: diamond_skin_10
+    displayName: Diamond Skin X
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-919253443,-187807918,-1493434425,-866367716],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiODVkMjk5OTNkMWIzNWVlNDA0YmRjNWQxNmM1YTA0YTc2ODg1ZmQ5NWZkMzM3ZjIwMTQzYzM5YjU3NWE3OSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  diamond_minion_11:
+    id: diamond_skin_11
+    displayName: Diamond Skin XI
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;331378965,-240434755,-1463022838,-195619753],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDBjM2ZlNjg3NDAwNDdjYTk3NjIzZWU5NzVkYjE2OTAyYWI1NDFjY2M2MTFmNGQ2NzA1NmQ1OTNiZjA4OWFiYiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '255'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      schema_version: 1
+  snow_minion_1:
+    id: null
+    displayName: Snow Minion I
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-631874514,1392461159,-1733174116,-254889030],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZkMTgwNjg0YzM1MjFjOWZjODk0NzhiYTQ0MDVhZTljZTQ5N2RhODEyNGZhMGRhNWEwMTI2NDMxYzRiNzhjMyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  snow_minion_2:
+    id: null
+    displayName: Snow Minion II
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-1134042972,-530694069,-1546249278,-226563732],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk5MjFiYWI1NGFmMTQwNDgxYzAxNmE1OWE4MTliMzY5NjY3YTRlNGZiMmYyNDQ5Y2VlYmY3Yzg5N2VkNTg4ZSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  snow_minion_3:
+    id: null
+    displayName: Snow Minion III
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-694273604,2067484036,-1140663377,-1978465654],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUxMzg2MmQxZDBjNTJkMjcyZWNlMTA5ZTkyM2FmNjJhZWRlYmIxM2I1NmM0NzA4NWY0MTc1MmE1ZDRkNTllMiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  snow_minion_4:
+    id: null
+    displayName: Snow Minion IV
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1877851936,-1333836071,-1805641660,-1197501698],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ0ODVkOTBhMTI5ZmY2NzJkOTI4N2FmN2JmNDdmOGVjZTk0YWJlYjQ5NmJkYTM4MzY2MzMwODkzYWE2OTQ2NCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  snow_minion_5:
+    id: null
+    displayName: Snow Minion V
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;395784840,-339981428,-2002544771,1516140114],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhOWQzYmZhNDMxMjA2YWIzM2U2MmY4ODE1ZTQwOTJkYWU2ZThmYzlmMDRiOWEwMDVhMjA1MDYxZWE4OTVhOCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  snow_minion_6:
+    id: null
+    displayName: Snow Minion VI
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-1194993046,650593582,-1735187846,-2057232771],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M1M2U5ZWY0YWJhM2E0MWZlOGUwM2M0M2U2YTMxMGVlYzAyMmQxMDg5ZmQ5YTkyZjNhZjhlZDhlZWQ0ZWMwMyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  snow_minion_7:
+    id: null
+    displayName: Snow Minion VII
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;153646560,-1820900910,-1923868422,-192310454],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFmZDJiMzBmMmVmOTM3ODU0MDRjZjRjYTQyZTZmMjg3NTVlMjkzNWNkM2NhZTkxMDEyMWJmYTQzMjczNDVjMSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  snow_minion_8:
+    id: null
+    displayName: Snow Minion VIII
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1711481943,-2078390402,-2039770837,76436200],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1MzIyMWIxYjJlNDBhOTdhN2ExMGZiNDc3MTBlNjFiZGQ4NGUxNTA1MmRkODE3ZGEyZjg5NzgzMjQ4Mzc1ZSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  snow_minion_9:
+    id: null
+    displayName: Snow Minion IX
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-966424738,733235602,-2095295950,675525577],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FhMzcwYmVlYmU3N2NlZDViYTRkMTA2NTkxZDUyMzY0MGY1N2U3YzQ2YTRjZWNlYzYwYTRmZTBlYmFjNGE0YyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_shovel
+      count: 1
+      schema_version: 1
+  cow_minion_1:
+    id: null
+    displayName: Cow Minion I
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-1665260823,1823231631,-2003365830,-126260072],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRmZjBmNThjMmYyY2RjNzQyMzQwYTdhNzFlYjEzYmU5MjhiZmY2M2FmZjgzMzAwMmE0N2I3NDZiOTZiNDQ4OCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+  cow_minion_2:
+    id: null
+    displayName: Cow Minion II
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-901125383,-329169562,-2038130175,123649036],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFjMDEwODIzNjgyZWRkZmQyNzdiODQ4MjVkODk3MjNjNjc1NDFkZjcyMTZhYTI3M2I5N2Y1YjZjMjRhNjg1MCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+  cow_minion_3:
+    id: null
+    displayName: Cow Minion III
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1548406493,1102201479,-1557755064,1486958099],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdlYzlhNDU1NWQ0NDcyOGVhNTQ0NzFmYzU4NjcyMjZkMTZhZDFkNTljMzk1ZTc3ZjU5MjY5ZmUyMzI0MmM1YSJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+  cow_minion_4:
+    id: null
+    displayName: Cow Minion IV
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-838844661,176178095,-1446811268,-1353775241],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk5ZjkzMjY0YWU4MzQyYzkzOWQyYjFlY2IxOGNlYjUzMjI2ZWI0ODM3OGMxYjAwYzg2N2E5MjNlOThmNTJkYyJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+  cow_minion_5:
+    id: null
+    displayName: Cow Minion V
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;341810677,-490977115,-1741925212,1259057843],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU3MDhkYzIzYzQzOTlhNjE3OWVlMmY0OWYzMWQ2YzRmOTg0YzRkMmE1ZTUyMzc5YzgxNTJkOTlhYzczMDJkNCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+  cow_minion_6:
+    id: null
+    displayName: Cow Minion VI
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;869045207,-48476770,-1277829360,1462629552],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA5NTRmYjk2YzNmNmM5ZDgzM2IyZTQwYjgzNTI2NTU0YWNlNmU0ZDJhMTIxYjAxYzY0N2Q5OGNlOWUyZDZmMiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+  cow_minion_7:
+    id: null
+    displayName: Cow Minion VII
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-1255826650,1702838901,-1413193651,1807240891],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VjNGEyOTA0MDIxMjE4ZGFkODI5NTQzNTAxYzI1OGE1MGRhNThiMWRiMjZkOWE5YWIzOWJjM2YyNzU5Mjg5OCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+  cow_minion_8:
+    id: null
+    displayName: Cow Minion VIII
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-589746851,-1970975615,-1563171530,-1838713679],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YxODk5NjQ0ZDA5ZDY0OTE1YzgxN2FjZTQzYjE3Y2Y5YzRhOWQxNDAxMjQzOGJmOTdmNmIxN2IwZmZiY2RlMiJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+  cow_minion_9:
+    id: null
+    displayName: Cow Minion IX
+    description: []
+    helmet:
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;1659316537,985678252,-1503429528,1884368130],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdmOWIxMDk1NDI4YWRlNDE1MjY0ZDk5MmJjNGUyOTNlNmMxOTc0YTcyYTA0YTlmYTMyMDA3NDg0MDdiODRkMCJ9fX0="}]}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+      schema_version: 1
+    chestplate:
+      DataVersion: 4440
+      id: minecraft:leather_chestplate
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    leggings:
+      DataVersion: 4440
+      id: minecraft:leather_leggings
+      count: 1
+      components:
+        minecraft:dyed_color: '16777215'
+      schema_version: 1
+    boots:
+      DataVersion: 4440
+      id: minecraft:leather_boots
+      count: 1
+      components:
+        minecraft:dyed_color: '8388608'
+      schema_version: 1
+    inHand:
+      DataVersion: 4440
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1

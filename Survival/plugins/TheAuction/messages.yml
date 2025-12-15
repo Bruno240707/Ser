@@ -1,0 +1,116 @@
+# ================================
+#        Messages      
+# ================================
+plugin-messages:
+  successfully-reloaded: '&a¡El plugin se ha recargado correctamente!'
+  invalid-player: '&c¡Jugador no válido!'
+  use-syntax: '&cUso: %usage%!'
+  no-permission: '&e¡No tienes permiso para hacer eso!'
+  unknown-command: '&c¡Comando desconocido!'
+  must-be-aplayer: '&c¡Debes ser un jugador para hacer eso!'
+  invalid-arguments: '&c¡Argumentos no válidos!'
+  invalid-amount: '&c¡Cantidad no válida!'
+  use-help: '&cUsa: /auction help'
+  help-message: '&7%command% - &e%description%'
+  help-header: '      &6&lTheAuction   '
+  helpfooter: '&e<< &6Página %page% de %maxpage% &e>>'
+  previous-page: '<<'
+  next-page: '>>'
+  help-page-hover-message: Clic para ir a la página %page%
+auction-messages:
+  cant-cancel-auction-due-to-more-than-one-bid: '&c¡No puedes cancelar esta subasta
+    porque ya tiene más de una puja!'
+  starting-bid:
+  - ''
+  - ^^^^^^^^^^^^^^
+  - Tu subasta
+  - puja inicial
+  submit-bid:
+  - ''
+  - ^^^^^^^^^^^^^^
+  - Ingresa una cantidad
+  - para pujar
+  enter-query:
+  - ''
+  - ''
+  - ^^^^^^^^^^^^^^
+  - Ingresa Búsqueda
+  item-duration-format: '&e%duration_time% %duration_type%'
+  auction-duration-format: '&e%auction_duration_time% %auction_duration_type%'
+  auction-started: '&e¡Subasta iniciada para %auction_item_name%&e!'
+  auction-ends-in-format: '%days_placeholder% %hours_placeholder% %minutes_placeholder%
+    %seconds_placeholder%'
+  auction-history-time-format: Hace %days_placeholder% %hours_placeholder% %minutes_placeholder%
+    %seconds_placeholder%
+  days: '%days%d'
+  hours: '%hours%h'
+  minutes: '%minutes%m'
+  seconds: '%seconds%s'
+  no-time-format: '&b-'
+  show-no-time-symbol: true
+  time-format:
+    DAYS: Días
+    MINUTES: Minutos
+    SECONDS: Segundos
+    HOURS: Horas
+  invalid-amount: '&cCantidad no válida'
+  must-be-higher-than-min: '&c¡La cantidad a pujar debe ser mayor que %auction_new_bid%!'
+  no-bids-information:
+  - '&7%auction_is_buy_it_now%: &6%auction_starting_bid% monedas'
+  bids-information:
+  - '&7Pujas: &a%auction_bids_amount% pujas'
+  - ''
+  - '&7Puja máx.: &6%auction_top_bid% monedas'
+  - '&7Pujador: %auction_bidder_name%'
+  sold-for:
+  - '&7Comprador: &a%auction_buyer_name%'
+  - ''
+  - '&7Vendido por: &6%auction_top_bid% monedas'
+  not-sold-yet:
+  - '&7%auction_is_buy_it_now%: &6%auction_starting_bid% monedas'
+  its-your-auction:
+  - '&a¡Esta es tu propia subasta!'
+  - ''
+  bid-history-format:
+  - '&8————————————————————'
+  - '&7Puja: &6%auction_bid_amount% monedas'
+  - '&7Por: %auction_owner_name%'
+  - '&b%auction_history_bid_time%'
+  own-auction: '&a¡Esta es tu propia subasta!'
+  can-submit-bin: '&e¡Clic para comprar!'
+  can-submit: '&e¡Clic para pujar!'
+  cannot-submit: '&c¡No te alcanza para la puja!'
+  already-top-bid: '&a¡Ya eres el mayor pujador!'
+  you-cannot-afford-it: '&c¡No te alcanza!'
+  you-already-have-the-highest-bid: '&a¡Ya tienes la puja más alta en esta subasta!'
+  your-bid-is-lowest-than-top-bid: '&c¡Tu puja es menor que la puja máxima!'
+  you-cannot-bid-your-own: '&a¡No puedes pujar en tu propia subasta!'
+  auction-expired: '&c¡Esa subasta acaba de expirar!'
+  bid-placed: '&e¡Puja de &6%bid_amount% monedas &erealizada por %auction_item_name%!'
+  successfully-bought: '&e¡Has reclamado &a%auction_item_name% &ede la subasta de
+    %auction_owner_name%!'
+  currently-browsing: '&a¡Explorando!'
+  currently-not-browsing: '&e¡Clic para ver ítems!'
+  sort-selected: '&b► '
+  sort-not-selected: ''
+  auction-is-not-bin: Puja inicial
+  auction-is-bin: Compra Ya
+  buy-it-now-placeholder: Subasta Compra Ya
+  auction-placeholder: Subasta
+  in-progress-status: '&7Termina en: &e%auction_remaining_time%'
+  normal-auction-ended-status: '&7Estado: &a¡Terminada!'
+  bin-auction-ended-status: '&7Estado: &a¡Vendido!'
+  expired-status: '&7Estado: &c¡Expirado!'
+  collected-money: '&e¡Recogiste &6%auction_top_bid% monedas &epor vender %auction_item_name%
+    &ea %auction_buyer_name% &een una subasta!'
+  pick-up-back: '&e¡Reclamaste &f%auction_item_name% &ede tu subasta expirada!'
+  you-paid-minimum-price: '&7¡Pagaste el precio mínimo de &6%auction_top_bid% monedas&7!'
+  you-had-the-top: '&7¡Tuviste la puja más alta por &6%auction_top_bid% monedas&7!'
+  you-had-not-the-top: '&6%auction_own_bid% monedas&7 no alcanzaron la puja máxima!'
+  you-may-collect-item: '&7Puedes recoger el ítem.'
+  you-may-collect-money: '&7Puedes recoger el dinero.'
+  click-to-pickup-item: '&e¡Clic para recoger el ítem!'
+  click-to-pickup-coins: '&e¡Clic para recoger monedas!'
+  claimed-auction-item: '&e¡Recogiste &a%auction_item_name% &ede la subasta de %auction_owner_name%!'
+  claimed-money-back: '&e¡Reclamaste tus &6%auction_own_bid% monedas &ede la subasta
+    de %auction_owner_name%!'

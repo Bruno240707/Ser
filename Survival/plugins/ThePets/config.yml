@@ -1,0 +1,67 @@
+# ================================
+#        Config      
+# ================================
+prefix: '[ThePets] '
+# Database Configuration
+# Allowed Database Types
+# - H2
+# - FLAT
+# - MYSQL
+# - REDIS
+config-database:
+  host: localhost
+  database: database_name
+  userName: root
+  passWord: '123456'
+  port: 8080
+  useSsl: false
+  type: H2
+pet-xp-to-give-block-break-amount: 2
+pet-xp-to-give-skill-amount: 2
+# - wrapLength = After how many characters in a lore you want
+#                to separate it.
+# - wrapStart = After line is separated what character do you
+#               want to start the new line with.
+lore-wrapper:
+  wrapLength: 40
+  wrapStart: '&7'
+pet-egg-item:
+  material: STONE
+  amount: 1
+  displayName: '%pet_egg_egg_displayname%'
+  headData: null
+  headOwner: null
+  headOwnerUUID: null
+  lore:
+  - '&8%pet_category_displayname% Pet'
+  - ''
+  - '%pet_description_gui%'
+  - ''
+  - '&7Progress to next level: &e%pet_level_progress%%'
+  - '%pet_action_bar% &e%pet_xp%&6/&e%pet_max_xp%'
+  - ''
+  - '&eRight-click to add this pet to'
+  - '&eyour pet menu!'
+  - ''
+  - '&e&lCOMMON'
+  slot: null
+  enabled: false
+  command: null
+  enchanted: false
+  customModelData: null
+level-up-settings:
+  sound:
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    enabled: true
+    volume: 0.2
+    pitch: 1.0
+  message:
+    messages:
+    - '&3&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&c&b&lPET LEVEL UP &3%pet_egg_displayname% %pet_level_roman%'
+    - '&c  '
+    - '&c&a&lREWARDS'
+    - ''
+    - '&c%pet_info_message%'
+    - '&3&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    enabled: true

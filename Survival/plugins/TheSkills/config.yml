@@ -1,0 +1,59 @@
+# ================================
+#        Config      
+# ================================
+prefix: '[Skills] '
+# Database Configuration
+# Allowed Database Types
+# - H2
+# - FLAT
+# - MYSQL
+# - REDIS
+config-database:
+  host: localhost
+  database: database_name
+  userName: root
+  passWord: '123456'
+  port: 8080
+  useSsl: false
+  type: H2
+gain-xp-settings:
+  action-bar:
+    message: '&2%skill_displayname% (%skill_xp%/%skill_max_xp%)'
+    enabled: true
+    disabledWorlds: []
+    disabledRegions: []
+  sound:
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    enabled: true
+    volume: 0.2
+    pitch: 1.0
+level-up-settings:
+  action-bar:
+    message: '&aSuccessfully Level Up &2&l%skill_displayname% %skill_level_roman%'
+    enabled: true
+    disabledWorlds: []
+    disabledRegions: []
+  sound:
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    enabled: true
+    volume: 0.2
+    pitch: 1.0
+  message:
+    messages:
+    - '&3&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&c&b&lSKILL LEVEL UP &3%skill_displayname% %skill_level_roman%'
+    - '&c  '
+    - '&c&a&lREWARDS'
+    - ''
+    - '&c%skill_info_message%'
+    - '&3&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    enabled: true
+health-settings:
+  multiply-health-for: 5
+  health-scale: 0.2
+  scaled-health-enabled: false
+information-action-bar:
+  message: '&c%player_health%/%player_max_health% ♥       &a%skill_level_defense_number%%skill_defense_displayname%'
+  enabled: true
+  disabledWorlds: []
+  disabledRegions: []

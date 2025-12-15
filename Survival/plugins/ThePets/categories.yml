@@ -1,0 +1,8 @@
+# ================================
+#        Categories      
+# ================================
+pet-categories:
+- id: foraging
+  displayName: Foraging
+- id: fishing
+  displayName: Fishing

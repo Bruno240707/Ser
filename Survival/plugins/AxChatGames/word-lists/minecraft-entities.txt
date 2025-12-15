@@ -1,0 +1,155 @@
+Barco de acacia
+Barco de acacia con cofre
+Allay
+Nube de efecto persistente
+Armadillo
+Soporte para armadura
+Flecha
+Ajolote
+Balsa de bambú con cofre
+Balsa de bambú
+Murciélago
+Abeja
+Barco de abedul
+Barco de abedul con cofre
+Blaze
+Visualización de bloque
+Barco
+Pantanoso
+Breeze
+Carga de viento
+Camello
+Gato
+Araña de cueva
+Barco de cerezo
+Barco de cerezo con cofre
+Barco con cofre
+Vagoneta con cofre
+Pollo
+Bacalao
+Vagoneta con bloque de comandos
+Vaca
+Creaking
+Creaking
+Creeper
+Barco de roble oscuro
+Barco de roble oscuro con cofre
+Delfín
+Burro
+Bola de fuego de dragón
+Ahogado
+Huevo lanzado
+Guardián anciano
+Cristal del End
+Dragón del End
+Perla de Ender lanzada
+Enderman
+Endermite
+Invocador
+Colmillos de invocador
+Frasco de experiencia lanzado
+Orbe de experiencia
+Ojo de Ender
+Bloque en caída
+Bola de fuego
+Cohete de fuegos artificiales
+Boya de pesca
+Zorro
+Rana
+Vagoneta con horno
+Ghast
+Gigante
+Marco brillante
+Calamar brillante
+Cabra
+Guardián
+Hoglin
+Vagoneta con tolva
+Caballo
+Zombi momificado
+Ilusionista
+Interacción
+Gólem de hierro
+Objeto
+Visualización de objeto
+Marco
+Barco de jungla
+Barco de jungla con cofre
+El conejo asesino
+Nudo de rienda
+Rayo
+Poción persistente
+Llama
+Escupitajo de llama
+Cubo de magma
+Barco de manglar
+Barco de manglar con cofre
+Marcador
+Vagoneta
+Champiñaca
+Mula
+Barco de roble
+Barco de roble con cofre
+Ocelote
+Generador de objetos ominoso
+Cuadro
+Barco de roble pálido
+Barco de roble pálido con cofre
+Panda
+Loro
+Fantasma
+Cerdo
+Piglin
+Piglin bruto
+Saqueador
+Jugador
+Oso polar
+Poción
+Pez globo
+Conejo
+Devastador
+Salmón
+Oveja
+Shulker
+Proyectil de shulker
+Pececillo de plata
+Esqueleto
+Caballo esqueleto
+Slime
+Bola de fuego pequeña
+Sniffer
+Gólem de nieve
+Bola de nieve
+Vagoneta con generador
+Flecha espectral
+Araña
+Poción arrojadiza
+Barco de abeto
+Barco de abeto con cofre
+Calamar
+Esqueleto glacial
+Lavagante
+Renacuajo
+Visualización de texto
+TNT activada
+Vagoneta con TNT
+Llama ambulante
+Tridente
+Pez tropical
+Tortuga
+Ánima
+Aldeano
+Vindicador
+Vendedor ambulante
+Warden
+Carga de viento
+Bruja
+Wither
+Esqueleto de Wither
+Calavera de Wither
+Lobo
+Zoglin
+Zombi
+Caballo zombi
+Aldeano zombi
+Piglin zombificado

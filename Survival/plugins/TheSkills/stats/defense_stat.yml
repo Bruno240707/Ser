@@ -1,0 +1,20 @@
+# ================================
+#        Defense Stat      
+# ================================
+id: defense
+enabled: true
+display-name: '&a❇ Defense'
+description:
+- '&7With &a%level_number% &7Defense you reduces the damage'
+- '&7that you take from enemies by &a%percentage%%&7.'
+max-level: 50
+gui-options:
+  slot: 12
+  page: 1
+  item: PLAYER_HEAD
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI1ODcxYzcyOTg3MjY2ZTE1ZjFiZTQ5YjFlYzMzNGVmNmI2MThlOTY1M2ZiNzhlOTE4YWJkMzk1NjNkYmI5MyJ9fX0=
+  customModelData: 0
+  mainMenuLore:
+  - '%skill_defense_description%'
+damage-reduction-percentage-per-level: 0.5
+base-amount: 0.0

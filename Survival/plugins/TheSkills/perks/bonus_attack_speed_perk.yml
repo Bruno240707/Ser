@@ -1,0 +1,17 @@
+# ================================
+#        Bonus Attack Speed Perk      
+# ================================
+id: bonus_attack_speed
+enabled: true
+display-name: Bonus Attack Speed
+description:
+- '&aSoon...'
+max-level: 50
+gui-options:
+  slot: 19
+  page: 0
+  item: PLAYER_HEAD
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ5MmNhOTQwNzkxMzZkMjUyNTcwM2QzNzVjMjU1N2VhYzIwMWVlN2RkMzljZTExYzY0YTljMzgxNDdlY2M0ZCJ9fX0=
+  customModelData: 0
+  mainMenuLore:
+  - '%skill_bonus_attack_speed_description%'

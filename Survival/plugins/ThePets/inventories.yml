@@ -1,0 +1,687 @@
+# ================================
+#        Inventories      
+# ================================
+mainGUI:
+  commonGUI:
+    title: Menú Principal
+    size: 54
+    background:
+      items:
+        0:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        1:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        2:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        3:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        4:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        5:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        6:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        7:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        8:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        9:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        18:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        27:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        36:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        45:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        17:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        26:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        35:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        44:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        53:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        46:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        47:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        48:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        50:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        51:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+        52:
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+          displayName: ' '
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          lore: []
+          slot: null
+          enabled: false
+          command: null
+          enchanted: false
+          customModelData: null
+      filler: null
+      useFiller: false
+    closeGUI:
+      material: BARRIER
+      amount: 1
+      displayName: '&cCerrar'
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - ''
+      - '&e» &7Clic para cerrar'
+      slot: 49
+      enabled: true
+      command: null
+      enchanted: false
+      customModelData: null
+  petItem:
+    material: PLAYER_HEAD
+    amount: 1
+    displayName: '&a%pet_egg_egg_displayname%'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&8Mascota de %pet_category_displayname%'
+    - ''
+    - '&7%pet_description_gui%'
+    - ''
+    - '&7Progreso al siguiente nivel: &e%pet_level_progress%%'
+    - '%pet_action_bar% &e%pet_xp%&6/&e%pet_max_xp%'
+    - ''
+    - '%pet_summon_status%!'
+    - '&e¡Clic Derecho para ver!'
+    slot: null
+    enabled: false
+    command: null
+    enchanted: false
+    customModelData: null
+  petMenuInfoItem:
+    material: BONE
+    amount: 1
+    displayName: '&aMascotas'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&7Mira y gestiona todas tus'
+    - '&7Mascotas.'
+    - ''
+    - '&7¡Sube de nivel tus mascotas'
+    - '&7más rápido ganando XP en su'
+    - '&7habilidad favorita!'
+    - ''
+    - '&7Mascota Seleccionada: %pet_selected_pet%'
+    slot: 4
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null
+  convertPetToItemEnabled:
+    material: LIME_DYE
+    amount: 1
+    displayName: '&aConvertir Mascota en Ítem'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&7Activa esto y haz clic en'
+    - '&7cualquier mascota para convertirla'
+    - '&7en un ítem.'
+    - ''
+    - '&aHabilitado'
+    slot: 50
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null
+  convertPetToItemDisabled:
+    material: GRAY_DYE
+    amount: 1
+    displayName: '&aConvertir Mascota en Ítem'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&7Activa esto y haz clic en'
+    - '&7cualquier mascota para convertirla'
+    - '&7en un ítem.'
+    - ''
+    - '&cDeshabilitado'
+    slot: 50
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null
+  hidePetsEnabled:
+    material: STONE_BUTTON
+    amount: 1
+    displayName: '&aOcultar Mascotas'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&7Oculta las cabezas de las'
+    - '&7mascotas para que no sean'
+    - '&7visibles en el mundo.'
+    - ''
+    - '&7Los efectos siguen activos.'
+    - ''
+    - '&7Estado: &a¡Mascotas visibles!'
+    - '&7Mascota Seleccionada: &c%pet_selected_pet%'
+    - ''
+    - '&e¡Clic para ocultar!'
+    slot: 51
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null
+  hidePetsDisabled:
+    material: STONE_BUTTON
+    amount: 1
+    displayName: '&cOcultar Mascotas'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&7Oculta las cabezas de las'
+    - '&7mascotas para que no sean'
+    - '&7visibles en el mundo.'
+    - ''
+    - '&7Los efectos siguen activos.'
+    - ''
+    - '&7Estado: &c¡Mascotas ocultas!'
+    - '&7Mascota Seleccionada: &a%pet_selected_pet%'
+    - ''
+    - '&e¡Clic para mostrar!'
+    slot: 51
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null
+  slots:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  customGoBackItem:
+    material: ARROW
+    amount: 1
+    displayName: '&eVolver'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - ''
+    - '&7¡Clic para volver!'
+    slot: 47
+    enabled: false
+    command: your go back command %player%
+    enchanted: false
+    customModelData: null
+petLevelsGUI:
+  commonGUI:
+    title: Mascota %pet_egg_displayname% &8(%current_page%/%max_page%)
+    size: 54
+    background:
+      items: null
+      filler:
+        material: BLACK_STAINED_GLASS_PANE
+        amount: 1
+        displayName: ' '
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+        enabled: false
+        command: null
+        enchanted: false
+        customModelData: null
+      useFiller: true
+    closeGUI:
+      material: BARRIER
+      amount: 1
+      displayName: '&cCerrar'
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - ''
+      - '&e» &7Clic para cerrar'
+      slot: 49
+      enabled: true
+      command: null
+      enchanted: false
+      customModelData: null
+  inProgressItem:
+    material: YELLOW_STAINED_GLASS_PANE
+    amount: 1
+    displayName: '&a%pet_egg_egg_displayname%'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&8Mascota de %pet_category_displayname%'
+    - ''
+    - '&7%pet_description_gui%'
+    - ''
+    - '&7Progreso al siguiente nivel: &e%pet_level_progress%%'
+    - '%pet_action_bar% &e%pet_xp%&6/&e%pet_max_xp%'
+    - ''
+    slot: null
+    enabled: false
+    command: null
+    enchanted: false
+    customModelData: null
+  unlockedItem:
+    material: LIME_STAINED_GLASS_PANE
+    amount: 1
+    displayName: '&a%pet_egg_egg_displayname%'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&8Mascota de %pet_category_displayname%'
+    - ''
+    - '&7%pet_description_gui%'
+    slot: null
+    enabled: false
+    command: null
+    enchanted: false
+    customModelData: null
+  lockedItem:
+    material: RED_STAINED_GLASS_PANE
+    amount: 1
+    displayName: '&a%pet_egg_egg_displayname%'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&8Mascota de %pet_category_displayname%'
+    - ''
+    - '&7%pet_description_gui%'
+    slot: null
+    enabled: false
+    command: null
+    enchanted: false
+    customModelData: null
+  previousPage:
+    material: ARROW
+    amount: 1
+    displayName: '&aNiveles 1 - 25'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&eClic para ver'
+    slot: 50
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null
+  nextPage:
+    material: ARROW
+    amount: 1
+    displayName: '&aNiveles 26 - 50'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&eClic para ver'
+    slot: 50
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null
+  goBack:
+    material: ARROW
+    amount: 1
+    displayName: '&aVolver'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&7A tus Mascotas'
+    slot: 48
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null
+  levelSlots:
+  - 9
+  - 18
+  - 27
+  - 28
+  - 29
+  - 20
+  - 11
+  - 2
+  - 3
+  - 4
+  - 13
+  - 22
+  - 31
+  - 32
+  - 33
+  - 24
+  - 15
+  - 6
+  - 7
+  - 8
+  - 17
+  - 26
+  - 35
+  - 44
+  - 53
+  petItem:
+    material: PLAYER_HEAD
+    amount: 1
+    displayName: '&a%pet_egg_egg_displayname%'
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - '&8Mascota de %pet_category_displayname%'
+    - ''
+    - '&7%pet_description_gui%'
+    - ''
+    - '&7Progreso al siguiente nivel: &e%pet_level_progress%%'
+    - '%pet_action_bar% &e%pet_xp%&6/&e%pet_max_xp%'
+    slot: 0
+    enabled: true
+    command: null
+    enchanted: false
+    customModelData: null

@@ -1,0 +1,156 @@
+# ================================
+#        Mining      
+# ================================
+id: mining
+enabled: true
+display-name: Mining
+description:
+- '&7Earn xp by mining ores!'
+max-level: 50
+xp-requirements:
+  0: 0.0
+  1: 15.0
+  2: 30.0
+  3: 45.0
+  4: 60.0
+  5: 75.0
+  6: 90.0
+  7: 105.0
+  8: 120.0
+  9: 135.0
+  10: 150.0
+  11: 165.0
+  12: 180.0
+  13: 195.0
+  14: 210.0
+  15: 225.0
+  16: 240.0
+  17: 255.0
+  18: 270.0
+  19: 285.0
+  20: 300.0
+  21: 315.0
+  22: 330.0
+  23: 345.0
+  24: 360.0
+  25: 375.0
+  26: 390.0
+  27: 405.0
+  28: 420.0
+  29: 435.0
+  30: 450.0
+  31: 465.0
+  32: 480.0
+  33: 495.0
+  34: 510.0
+  35: 525.0
+  36: 540.0
+  37: 555.0
+  38: 570.0
+  39: 585.0
+  40: 600.0
+  41: 615.0
+  42: 630.0
+  43: 645.0
+  44: 660.0
+  45: 675.0
+  46: 690.0
+  47: 705.0
+  48: 720.0
+  49: 735.0
+skill-info-in-gui:
+  1:
+  - '&7Abilities To Upgrade:'
+  - '&8» &f+1 %skill_strength_displayname%'
+  - '&8» &f+1 %skill_magic_find_displayname%'
+  - ''
+  - '&7Your Stats:'
+  - '&8» &r&6%skill_mining_fortune_displayname%'
+  - '   &7%skill_mining_fortune_description%'
+  - '&8» &r&6%skill_mining_speed_displayname%'
+  - '   &7%skill_mining_speed_description%'
+  10:
+  - '&7Abilities To Upgrade:'
+  - '&8» &f+2 %skill_strength_displayname%'
+  - '&8» &f+2 %skill_magic_find_displayname%'
+  - ''
+  - '&7Your Stats:'
+  - '&8» &r&6%skill_mining_fortune_displayname%'
+  - '   &7%skill_mining_fortune_description%'
+  - '&8» &r&6%skill_mining_speed_displayname%'
+  - '   &7%skill_mining_speed_description%'
+stat-rewards:
+  1:
+  - stat: strength
+    amount: 1.0
+  - stat: magic_find
+    amount: 1.0
+  - stat: mining_fortune
+    amount: 1.0
+  - stat: mining_speed
+    amount: 1.0
+  10:
+  - stat: strength
+    amount: 2.0
+  - stat: magic_find
+    amount: 2.0
+  - stat: mining_fortune
+    amount: 1.0
+  - stat: mining_speed
+    amount: 1.0
+skill-info-in-message:
+  1:
+  - '&7Abilities To Upgrade:'
+  - '&8» &f+1 %skill_strength_displayname%'
+  - '&8» &f+1 %skill_magic_find_displayname%'
+  - ''
+  - '&7Your Stats:'
+  - '&8» &r&6%skill_mining_fortune_displayname%'
+  - '   &7%skill_mining_fortune_description%'
+  - '&8» &r&6%skill_mining_speed_displayname%'
+  - '   &7%skill_mining_speed_description%'
+  10:
+  - '&7Abilities To Upgrade:'
+  - '&8» &f+2 %skill_strength_displayname%'
+  - '&8» &f+2 %skill_magic_find_displayname%'
+  - ''
+  - '&7Your Stats:'
+  - '&8» &r&6%skill_mining_fortune_displayname%'
+  - '   &7%skill_mining_fortune_description%'
+  - '&8» &r&6%skill_mining_speed_displayname%'
+  - '   &7%skill_mining_speed_description%'
+command-rewards: {}
+gui-options:
+  slot: 30
+  page: 0
+  item: PLAYER_HEAD
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgzNjhkZmFmOTQ4NGUxMjNkMzBhNTc2ODI2ZTk3NjNkZDg2Mzg0MThjZGNhYmFkZjYxMzZjZTQ1NzQ5YWExMSJ9fX0=
+  customModelData: 0
+  mainMenuLore:
+  - '&7Abilities To Upgrade:'
+  - '&8» %skill_strength_displayname%'
+  - '&8» %skill_magic_find_displayname%'
+  - ''
+  - '&7Your Stats:'
+  - '&8» &r&6%skill_mining_fortune_displayname%'
+  - '   &7%skill_mining_fortune_description%'
+  - '&8» &r&6%skill_mining_speed_displayname%'
+  - '   &7%skill_mining_speed_description%'
+rewards:
+  COAL_ORE: 2.0
+  IRON_ORE: 2.0
+  STONE: 2.0
+  COBBLESTONE: 2.0
+  DIAMOND_ORE: 2.0
+  REDSTONE_ORE: 2.0
+minion-xp-rewards:
+  COAL_ORE: 2.0
+  IRON_ORE: 2.0
+  STONE: 2.0
+  COBBLESTONE: 2.0
+  DIAMOND_ORE: 2.0
+  REDSTONE_ORE: 2.0
+  COAL: 2.0
+  IRON_INGOT: 2.0
+  DIAMOND: 2.0
+  REDSTONE: 2.0

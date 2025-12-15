@@ -1,0 +1,113 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axchatgames.html
+
+prefix: '<gradient:#FFCC00:#FF5599><b>AxChatGames</b></gradient> <#AAAAAA>» '
+
+database:
+  # h2, sqlite, mysql, postgresql
+  type: SQLITE
+  
+  # you only need to touch these when using mysql/postgresql
+  address: 127.0.0.1
+  port: 3306
+  database: admin
+  username: admin
+  password: admin
+  pool:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000
+    keepalive-time: 0
+    connection-timeout: 5000
+
+# all settings are in seconds
+game:
+  # how often should a chat game happen?
+  # can be a range, for example 180-300 (which is 3-5 minutes)
+  start-time: 180
+  # how long should chat games last if no one wins?
+  max-length: 30
+  # how many online players are needed for chat games to start?
+  # if this amount is not met, events will silently be skipped
+  # vanished players will be skipped
+  minimum-players: 0
+
+# if enabled, when a word contains a space, the different sections won't be mixed up
+# for example: "Jungle Sapling" will always be something like: "lgeJun alSignp", but if disabled, it can be something like: "aSplgiJg lunne"
+smart-scramble: true
+
+# should the words be case-sensitive?
+# if disabled, players can write their answers both in lower- and uppercase
+case-sensitive: true
+
+# when a game is case-sensitive and someone messes up the capitalization, should we notify them?
+# for example if the word is "Pig" and someone guesses "pig" they will be notified
+notify-for-incorrect-case: true
+
+# if enabled, when someone wins a chat game, their message won't be sent
+cancel-winning-message: true
+
+# what event priority should the plugin use? if everything is working, no need to touch this
+# however if the plugin isn't detecting your answers, you can try setting this to LOWEST
+# values: LOWEST, LOW, NORMAL, HIGH, HIGHEST, MONITOR
+# requires a restart to change
+chat-listener-priority: LOW
+
+leaderboard:
+  # how many spots should the leaderboards have?
+  # you can set this to any amount
+  positions: 10
+  # how often leaderboards should update?
+  # in seconds, requires a restart to update
+  update-seconds: 300
+
+# https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/text/SimpleDateFormat.html
+# some examples:
+# - day/month/year (most used) format: dd/MM/yyyy hh:mm:ss
+# - month/day/year (usa) format: MM/dd/yyyy h:mm:ss a
+# - year/month/day (default) format: yyyy/MM/dd hh:mm:ss
+date-format: yyyy/MM/dd HH:mm:ss
+
+# how many winners can there be?
+# note: the default messages are made for a single winner setup, so if you increase this make sure to go over the messsages
+maximum-winners: 1
+
+# how rewards should be given
+# note that this only works if you have multiple rewards defined and they all have a chance set
+# modes:
+# 0 - one random reward will be chosen (the chance percentages are weighted and one will be picked)
+# 1 - multiple rewards can be chosen (all rewards are rolled separately and if you are lucky you can get multiple)
+reward-mode: 0
+
+# list of worlds where chat games will not show up and where players can't win the event
+blacklisted-worlds:
+- example-world
+
+# list of valid sounds: https://www.digminecraft.com/lists/sound_list_pc.php
+# format: <sound>|<volume>|<pitch>
+# you can set any of them to an empty value "" to disable
+sounds:
+  # when a game starts
+  start: block.note_block.xylophone|1|1
+  win:
+    # sound played to the winner
+    winner: entity.experience_orb.pickup|1|2
+    # sound played to everyone who didn't win
+    others: block.note_block.xylophone|1|0
+  # when the game ends without a winner
+  end: block.note_block.xylophone|1|0
+  # used for the notify-for-incorrect-case setting
+  incorrect-case: block.anvil.land|1|1
+
+# should be plugin notify you if there is a new update?
+update-notifier:
+  # if enabled, it will display the message in the console
+  enabled: true
+  # if enabled, it will broadcast the update message to all players who have the <plugin-name>.update-notify permission
+  on-join: true
+
+# prints out a lot of random information about the plugin in the console
+# this can cause a lot of spam, only use if a developer asks you to
+debug: false
+
+# do not change this
+version: 4

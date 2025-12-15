@@ -1,0 +1,43 @@
+# ================================
+#        Commands      
+# ================================
+reload-command:
+  aliases:
+  - reload
+  description: Reload files
+  permission: thepets.reload
+  syntax: /ThePets reload
+  onlyForPlayers: true
+  cooldownInSeconds: 0
+  enabled: true
+  labelProvider: thepets
+open-command:
+  aliases:
+  - open
+  description: Open Pets GUI
+  permission: thepets.open
+  syntax: /ThePets open
+  onlyForPlayers: true
+  cooldownInSeconds: 0
+  enabled: true
+  labelProvider: thepets
+help-command:
+  aliases:
+  - help
+  description: Show all commands
+  permission: thepets.help
+  syntax: /ThePets help
+  onlyForPlayers: true
+  cooldownInSeconds: 0
+  enabled: true
+  labelProvider: thepets
+give-egg-command:
+  aliases:
+  - giveegg
+  description: Give pet egg to a player
+  permission: thepets.giveegg
+  syntax: /ThePets giveegg <player> <id>
+  onlyForPlayers: true
+  cooldownInSeconds: 0
+  enabled: true
+  labelProvider: thepets

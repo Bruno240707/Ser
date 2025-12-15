@@ -1,0 +1,91 @@
+# ================================
+#        Tiger Pet      
+# ================================
+pet-entity-options:
+  displayName: '&8[Nvl %pet_level_number%] %pet_egg_displayname% de &7%player%'
+  material: PLAYER_HEAD
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZkZjM3OGJlZTY5ODBhNzg0NTkzYTFhZTk4OTI4MGE2ZTk2MjFhOTE5MTcyZGE0OWQzMTgxNWYzYzQ5Mjg2ZSJ9fX0=
+  particle: DRIP_LAVA
+pet-egg:
+  petId: tiger
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZkZjM3OGJlZTY5ODBhNzg0NTkzYTFhZTk4OTI4MGE2ZTk2MjFhOTE5MTcyZGE0OWQzMTgxNWYzYzQ5Mjg2ZSJ9fX0=
+  displayName: '&6Tigre'
+  material: PLAYER_HEAD
+  eggDisplayName: '&7[Nvl %pet_level_number%] %pet_egg_displayname%'
+  petModelEngine:
+    modelId: null
+    useModelEngine: false
+    modelEngineAnimation: null
+command-rewards:
+  rewards: {}
+pet-levels:
+  1:
+    requiredXp: 15.0
+    petInfoInGUI:
+    - '&8Mascota de %pet_category_displayname%'
+    - ''
+    - '&8+&a5 &9☠ Daño Crítico'
+    - '&8+&a5 &9☣ Prob. Crítica'
+    - ''
+    - '&6Fuerza de Resistencia al Fuego'
+    - '&fAñade &c10% &fde resistencia al fuego'
+    - '&f¡proporcionada por una &cpoción mágica&f!'
+    petPotions:
+    - potion: FIRE_RESISTANCE
+      level: 2
+    statRewards:
+    - stat: critic_chance
+      amount: 5
+    - stat: critic_damage
+      amount: 5
+    petInfoInMessage:
+    - '&8+&a5 &9☠ Daño Crítico'
+    - '&8+&a5 &9☣ Prob. Crítica'
+    - ''
+    - '&6Fuerza de Resistencia al Fuego'
+    - '&fAñade &c+10% &fde resistencia al fuego'
+    - '&f¡proporcionada por una &cpoción mágica&f!'
+    commandRewards: []
+    commandsWhenSpawn:
+    - commandExecutor: CONSOLE
+      command: give %player% oak_log
+    commandWhenDeSpawn:
+    - commandExecutor: CONSOLE
+      command: give %player% oak_log
+  5:
+    requiredXp: 25.0
+    petInfoInGUI:
+    - '&8Mascota de %pet_category_displayname%'
+    - ''
+    - '&8+&a10 &9☠ Daño Crítico'
+    - '&8+&a10 &9☣ Prob. Crítica'
+    - ''
+    - '&6Fuerza de Resistencia al Fuego'
+    - '&fAñade &c+25% &fde resistencia al fuego'
+    - '&f¡proporcionada por una &cpoción mágica&f!'
+    petPotions:
+    - potion: FIRE_RESISTANCE
+      level: 3
+    statRewards:
+    - stat: critic_chance
+      amount: 10
+    - stat: critic_damage
+      amount: 10
+    petInfoInMessage:
+    - '&8+&a10 &9☠ Daño Crítico'
+    - '&8+&a10 &9☣ Prob. Crítica'
+    - ''
+    - '&6Fuerza de Resistencia al Fuego'
+    - '&fAñade &c+25% &fde resistencia al fuego'
+    - '&f¡proporcionada por una &cpoción mágica&f!'
+    commandRewards: []
+    commandsWhenSpawn: []
+    commandWhenDeSpawn: []
+pet-model-engine:
+  modelId: null
+  useModelEngine: false
+  modelEngineAnimation: null
+category: foraging
+enabled: true
+id: tiger
+max-level: 50

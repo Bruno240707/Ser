@@ -1,0 +1,164 @@
+Mining:
+  default:
+    type: block
+    trigger: break
+    check_replace: true
+    menu_item:
+      material: '{block}'
+  sources:
+    # --- Piedras Comunes (Base del grindeo) ---
+    stone:
+      block: stone
+      xp: 1.0
+    cobblestone:
+      block: cobblestone
+      xp: 1.0
+    andesite:
+      block: andesite
+      xp: 1.0
+    diorite:
+      block: diorite
+      xp: 1.0
+    granite:
+      block: granite
+      xp: 1.0
+    sandstone:
+      block: sandstone
+      xp: 1.0
+    deepslate:
+      block: deepslate
+      xp: 1.5
+    tuff:
+      block: tuff
+      xp: 1.5
+    calcite:
+      block: calcite
+      xp: 1.5
+    smooth_basalt:
+      block: smooth_basalt
+      xp: 1.5
+    dripstone_block:
+      block: dripstone_block
+      xp: 1.5
+    
+    # --- Nether y End (Materiales blandos) ---
+    netherrack:
+      block: netherrack
+      xp: 0.5
+    blackstone:
+      block: blackstone
+      xp: 1.0
+    basalt:
+      block: basalt
+      xp: 1.0
+    magma_block:
+      block: magma_block
+      xp: 1.0
+    end_stone:
+      block: end_stone
+      xp: 1.5
+    obsidian:
+      block: obsidian
+      xp: 15.0
+    crying_obsidian:
+      block: crying_obsidian
+      xp: 20.0
+
+    # --- Minerales (Ores) Normales ---
+    coal_ore:
+      block: coal_ore
+      xp: 5.0
+    copper_ore:
+      block: copper_ore
+      xp: 6.0
+    iron_ore:
+      block: iron_ore
+      xp: 8.0
+    nether_quartz_ore:
+      block: nether_quartz_ore
+      xp: 8.0
+    redstone_ore:
+      block: redstone_ore
+      xp: 10.0
+    lapis_ore:
+      block: lapis_ore
+      xp: 12.0
+    gold_ore:
+      block: gold_ore
+      xp: 12.0
+    diamond_ore:
+      block: diamond_ore
+      xp: 50.0
+    emerald_ore:
+      block: emerald_ore
+      xp: 60.0
+
+    # --- Minerales en Deepslate (Premio por dureza) ---
+    deepslate_coal_ore:
+      block: deepslate_coal_ore
+      xp: 6.0
+    deepslate_copper_ore:
+      block: deepslate_copper_ore
+      xp: 7.0
+    deepslate_iron_ore:
+      block: deepslate_iron_ore
+      xp: 10.0
+    deepslate_redstone_ore:
+      block: deepslate_redstone_ore
+      xp: 12.0
+    deepslate_lapis_ore:
+      block: deepslate_lapis_ore
+      xp: 15.0
+    deepslate_gold_ore:
+      block: deepslate_gold_ore
+      xp: 15.0
+    deepslate_diamond_ore:
+      block: deepslate_diamond_ore
+      xp: 60.0
+    deepslate_emerald_ore:
+      block: deepslate_emerald_ore
+      xp: 75.0
+
+    # --- Casos Especiales ---
+    nether_gold_ore:
+      block: nether_gold_ore
+      xp: 3.0
+    ancient_debris:
+      block: ancient_debris
+      xp: 150.0
+    amethyst_block:
+      block: amethyst_block
+      xp: 5.0
+    amethyst_cluster:
+      block: amethyst_cluster
+      xp: 8.0
+      support_block: side
+    
+    # --- Terracotas (Decoración) ---
+    terracotta:
+      block: terracotta
+      xp: 1.0
+    white_terracotta:
+      block: white_terracotta
+      xp: 1.0
+    orange_terracotta:
+      block: orange_terracotta
+      xp: 1.0
+    yellow_terracotta:
+      block: yellow_terracotta
+      xp: 1.0
+    light_gray_terracotta:
+      block: light_gray_terracotta
+      xp: 1.0
+    brown_terracotta:
+      block: brown_terracotta
+      xp: 1.0
+    red_terracotta:
+      block: red_terracotta
+      xp: 1.0
+
+tags:
+  mining_luck_applicable:
+  - '*'
+  speed_mine_applicable:
+  - '*'

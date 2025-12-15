@@ -1,0 +1,30 @@
+26ed0e51-3dbb-3950-b9ae-1b7db8ac61c6:
+  visitoSurvival: true
+  ultimaUbicacion:
+    ==: org.bukkit.Location
+    world: mina
+    x: 204.02144832890906
+    y: 27.0
+    z: 195.3241153825187
+    pitch: 13.281604
+    yaw: 176.73132
+fb3917eb-9fe6-31ce-a729-d659b2ebdf67:
+  visitoSurvival: true
+  ultimaUbicacion:
+    ==: org.bukkit.Location
+    world: mina
+    x: 182.63493913593462
+    y: 26.0
+    z: 165.6428635136007
+    pitch: 11.640183
+    yaw: 65.65662
+0d45db84-9179-4b23-93b7-38a90642b372:
+  visitoSurvival: true
+  ultimaUbicacion:
+    ==: org.bukkit.Location
+    world: mina
+    x: 191.52704104606542
+    y: 28.0
+    z: 166.59346854179415
+    pitch: 7.5357327
+    yaw: 166.11314

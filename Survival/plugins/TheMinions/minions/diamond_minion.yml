@@ -1,0 +1,216 @@
+# ================================
+#        Diamond Minion      
+# ================================
+id: diamond_minion
+display-name: Diamond Minion
+type: BLOCK_BREAK
+minion-entity-options:
+  displayName: '&bDiamond Minion'
+  particle: ''
+minion-layout:
+  type: TWO_X_TWO
+  toReplaceBlock: DIAMOND_ORE
+  toReplaceCrop: null
+  materialThatCauseException: []
+  allMaterialsCauseExceptionExcept:
+  - COBBLESTONE
+  - STONE
+  - DIAMOND_ORE
+  minionMob: null
+minion-egg:
+  displayName: Diamond
+  eggDisplayName: '%minion_egg_displayname% Minion %minion_level_roman%'
+minion-levels:
+  1:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 64
+    executeActionsTime:
+      amount: 1
+      type: SECONDS
+    minionSkin: diamond_minion_1
+    maxStorage: 1
+  2:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 1
+      type: SECONDS
+    minionSkin: diamond_minion_2
+    maxStorage: 2
+  3:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 110
+      type: SECONDS
+    minionSkin: diamond_minion_3
+    maxStorage: 3
+  4:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 105
+      type: SECONDS
+    minionSkin: diamond_minion_4
+    maxStorage: 3
+  5:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 100
+      type: SECONDS
+    minionSkin: diamond_minion_5
+    maxStorage: 3
+  6:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 90
+      type: SECONDS
+    minionSkin: diamond_minion_6
+    maxStorage: 3
+  7:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 85
+      type: SECONDS
+    minionSkin: diamond_minion_7
+    maxStorage: 3
+  8:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 80
+      type: SECONDS
+    minionSkin: diamond_minion_8
+    maxStorage: 3
+  9:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 70
+      type: SECONDS
+    minionSkin: diamond_minion_9
+    maxStorage: 3
+  10:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 60
+      type: SECONDS
+    minionSkin: diamond_minion_10
+    maxStorage: 3
+  11:
+    minionRecipe: null
+    matRequirement:
+      requiredMaterial: DIAMOND
+      requiredMaterialAmount: 128
+    executeActionsTime:
+      amount: 55
+      type: SECONDS
+    minionSkin: diamond_minion_11
+    maxStorage: 3
+description:
+- '&7Place this minion and it will'
+- '&7start generating and mining'
+- '&7diamond ore! Requires an open'
+- '&7arena to place diamond ore.'
+- '&7Minions also work when you are'
+- '&7offline!'
+layout-gu-isettings:
+  layoutItems:
+  - item:
+      material: WHITE_STAINED_GLASS_PANE
+      amount: 1
+      displayName: '&fAir'
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - '&7Air should be 1 layer underneath'
+      - '&7where the minion is standing.'
+      slot: null
+      enabled: false
+      command: null
+      enchanted: false
+      customModelData: null
+    slots:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 20
+    - 21
+    - 23
+    - 24
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+  minionSlot: 22
+minion-settings:
+  # The final price of base Item
+  normalSellPrice: 0.0
+  # The Item that minion give by default
+  baseItem:
+    itemsToGive:
+    - DataVersion: 4440
+      id: minecraft:diamond
+      count: 4
+      schema_version: 1
+    requiredItemsToCreate: {}
+  # Specific settings by each upgrade
+  upgradeSettings:
+    super_compactor_3000:
+      sellPrice: 20.0
+      itemSettings:
+        itemsToGive:
+        - DataVersion: 4440
+          id: minecraft:diamond_block
+          count: 1
+          schema_version: 1
+        requiredItemsToCreate:
+          2:
+            DataVersion: 4440
+            id: minecraft:diamond
+            count: 1
+            schema_version: 1
+  # If this minion can use fuel
+  canUseFuel: false
+  # If this minion can use Auto Shipping
+  canUseAutoShipping: false
+  # Id's of upgrades that are blocked
+  blockedUpgrades: null

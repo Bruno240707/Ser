@@ -1,6 +1,0 @@
-# ================================
-#        Config      
-# ================================
-prefix: '[TheAssistant] '
-config-slime-world-manager:
-  slimeWorldManagerSource: file

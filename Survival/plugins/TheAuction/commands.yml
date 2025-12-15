@@ -1,0 +1,33 @@
+# ================================
+#        Commands      
+# ================================
+reload-command:
+  aliases:
+  - reload
+  description: Reload files
+  permission: theauction.reload
+  syntax: /TheAuction reload
+  onlyForPlayers: true
+  cooldownInSeconds: 0
+  enabled: true
+  labelProvider: theauction
+open-command:
+  aliases:
+  - open
+  description: Open auction gui
+  permission: theauction.open
+  syntax: /TheAuction open
+  onlyForPlayers: true
+  cooldownInSeconds: 0
+  enabled: true
+  labelProvider: theauction
+help-command:
+  aliases:
+  - help
+  description: Show all commands
+  permission: theauction.help
+  syntax: /TheAuction help
+  onlyForPlayers: true
+  cooldownInSeconds: 0
+  enabled: true
+  labelProvider: theauction

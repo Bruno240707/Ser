@@ -1,0 +1,23 @@
+devoradora_de_almas:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4440
+    id: minecraft:netherite_sword
+    count: 1
+    components:
+      minecraft:item_model: '"bruno240707:devoradora_de_almas"'
+      minecraft:attribute_modifiers: '[{amount:50.0d,id:"minecraft:1cca2ff7-eb8d-4641-9a8e-87d5377a3991",operation:"add_value",type:"minecraft:attack_damage"}]'
+      minecraft:custom_name: '{extra:[{bold:1b,color:"#342959",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        Devoradora de almas",underlined:0b}],text:""}'
+    schema_version: 1
+lanza_dorada:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4440
+    id: minecraft:netherite_sword
+    count: 1
+    components:
+      minecraft:item_model: '"bruno240707:lanza_dorada"'
+      minecraft:custom_name: '{extra:[{bold:1b,color:"#BED45B",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        Lanza Dorada",underlined:0b}],text:""}'
+    schema_version: 1
