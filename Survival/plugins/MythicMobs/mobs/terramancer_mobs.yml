@@ -1,0 +1,650 @@
+######## created by samus2002 #########
+
+#### VFX ####
+
+# Impact #
+
+VFX_Earth_Dust:
+  Type: text_display
+  DisplayOptions:
+    Text: ""
+    BlockLight: 15
+    SkyLight: 15
+    Scale: 0.2,0.2,0.2
+    Billboard: CENTER
+    ShadowStrength: 0
+    BackgroundColor: 0,0,0,0
+    Translation: 0,0,0
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - settextdisplay{text="À";delay=0} @self ~onSpawn
+  - settextdisplay{text="Á";delay=2} @self ~onSpawn
+  - settextdisplay{text="Â";delay=4} @self ~onSpawn
+  - settextdisplay{text="Ã";delay=6} @self ~onSpawn
+  - settextdisplay{text="Ä";delay=8} @self ~onSpawn
+  - settextdisplay{text="Å";delay=10} @self ~onSpawn
+  - settextdisplay{text="Æ";delay=12} @self ~onSpawn
+  - settextdisplay{text="Ç";delay=14} @self ~onSpawn
+  - settextdisplay{text="È";delay=16} @self ~onSpawn
+  - remove{delay=18} @self ~onSpawn
+
+
+VFX_Earth_Impact:
+  Type: text_display
+  DisplayOptions:
+    Text: ""
+    BlockLight: 15
+    SkyLight: 15
+    Scale: 1,1,1
+    Billboard: CENTER
+    #ShadowStrength: 0
+    BackgroundColor: 0,0,0,0
+    Translation: 0,0,0
+    ViewRange: 5
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - settextdisplay{text="Ò";delay=0} @self ~onSpawn
+  - settextdisplay{text="Ó";delay=2} @self ~onSpawn
+  - settextdisplay{text="Ô";delay=4} @self ~onSpawn
+  - settextdisplay{text="Õ";delay=6} @self ~onSpawn
+  - settextdisplay{text="Ö";delay=8} @self ~onSpawn
+  - remove{delay=10} @self ~onSpawn
+VFX_Earth_Impact2:
+  Type: text_display
+  DisplayOptions:
+    Text: ""
+    BlockLight: 15
+    SkyLight: 15
+    Scale: 1,1,1
+    Billboard: CENTER
+    #ShadowStrength: 0
+    BackgroundColor: 0,0,0,0
+    Translation: 0,0,1
+    ViewRange: 5
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - settextdisplay{text="Ò";delay=0} @self ~onSpawn
+  - settextdisplay{text="Ó";delay=2} @self ~onSpawn
+  - settextdisplay{text="Ô";delay=4} @self ~onSpawn
+  - settextdisplay{text="Õ";delay=6} @self ~onSpawn
+  - settextdisplay{text="Ö";delay=8} @self ~onSpawn
+  - remove{delay=10} @self ~onSpawn
+
+
+
+VFX_Earth_Break_Impact:
+  Type: ARMOR_STAND
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_impact} @self ~onSpawn
+  - setrotation{relative=true;yaw=<random.0to360>} @self ~onSpawn
+  - partvis{p=bone2;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone3;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone4;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone5;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone6;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone7;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - brightness{mid=vfx_earth_impact;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+VFX_Earth_Break_Impact2:
+  Type: ARMOR_STAND
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_impact;scale=1.3} @self ~onSpawn
+  - setrotation{relative=true;yaw=<random.0to360>} @self ~onSpawn
+  - partvis{p=bone2;v=false;em=true;child=true} @self ~onSpawn 0.3
+  - partvis{p=bone3;v=false;em=true;child=true} @self ~onSpawn 0.3
+  - partvis{p=bone4;v=false;em=true;child=true} @self ~onSpawn 0.3
+  - partvis{p=bone5;v=false;em=true;child=true} @self ~onSpawn 0.3
+  - partvis{p=bone6;v=false;em=true;child=true} @self ~onSpawn 0.3
+  - partvis{p=bone7;v=false;em=true;child=true} @self ~onSpawn 0.3
+  - brightness{mid=vfx_earth_impact;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill5} @self ~onSpawn
+  - remove{delay=26} @self ~onSpawn
+
+# Earth Pulse #
+
+VFX_Earth_Pulse1:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill1} @self ~onSpawn
+  - tint{c=a3a2a2;damagetint=false} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+VFX_Earth_Pulse2:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill2} @self ~onSpawn
+  - tint{c=a3a2a2;damagetint=false} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+VFX_Earth_Pulse3:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill3} @self ~onSpawn
+  - tint{c=a3a2a2;damagetint=false} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+VFX_Earth_Pulse4:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true;scale=1.4} @self ~onSpawn
+  - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill3} @self ~onSpawn
+  - tint{c=a3a2a2;damagetint=false} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+VFX_Earth_Pulse5:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=false;scale=1.7} @self ~onSpawn
+  - setrotation{relative=true;pitch=78;yaw=90} @self ~onSpawn
+  - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill3} @self ~onSpawn
+  - tint{c=a3a2a2;damagetint=false} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+
+VFX_Earth_Pulse_Shoot_Impact:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_pulse;scale=1} @self ~onSpawn
+  - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=shoot_impact;speed=1.3} @self ~onSpawn
+  - tint{c=a3a2a2;damagetint=false} @self ~onSpawn
+  - remove{delay=12} @self ~onSpawn
+VFX_Earth_Pulse_Shoot_Impact2:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_pulse;scale=1} @self ~onSpawn
+  - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=shoot_impact2} @self ~onSpawn
+  - tint{c=a3a2a2;damagetint=false} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+
+# Earth Root #
+
+VFX_Earth_Root:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_root;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_root;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - sudoskill{s=Earth_Clap_SUDO;cat=true;delay=0} @owner ~onSpawn
+VFX_Earth_Root2:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_root;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_root;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - sudoskill{s=Earth_Shockwave_SUDO;cat=true;delay=0} @owner ~onSpawn
+
+# Earth Ring #
+
+VFX_Earth_Ring:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_ring;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_ring;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - skill{s=Earth_Ring_REMOVE_AS_CHILD} @owner ~onTimer:10
+  - state{s=spawn;speed=1} @self ~onSpawn
+  - state{s=loop} @self ~onSpawn
+  - skill{s=Earth_Ring_SPEEDUP} @owner ~onTimer:3
+  - skill{s=Earth_Ring_SPEEDDOWN} @owner ~onTimer:3
+  - setstance{stance=NORMAL} @self ~onSpawn
+
+# Earth Rubble Trail #
+
+VFX_Earth_Rubble_Trail:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_trail;scale=0.8} @self ~onSpawn
+  - partvis{p=bone8;v=false;em=true;child=true} @self ~onSpawn
+  - skill{s=Earth_Rubble_TRAIL;delay=1} @self ~onSpawn
+  - brightness{mid=vfx_earth_trail;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+
+# Earth Rubbles #
+
+VFX_Earth_Rubble_1:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_rubble_small_1} @self ~onSpawn
+  - brightness{mid=vfx_earth_rubble_small_1;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=loop} @self ~onSpawn
+  #- summon{type=VFX_Earth_Rubble_Trail;amount=1;radius=0;yRadius=0;onSurface=true} @modelpart{p=bone} ~onTimer:3
+VFX_Earth_Rubble_2:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_rubble_small_2} @self ~onSpawn
+  - brightness{mid=vfx_earth_rubble_small_2;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=loop} @self ~onSpawn
+  #- summon{type=VFX_Earth_Rubble_Trail;amount=1;radius=0;yRadius=0;onSurface=true} @modelpart{p=bone} ~onTimer:3
+VFX_Earth_Rubble_3:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_rubble_small_3} @self ~onSpawn
+  - brightness{mid=vfx_earth_rubble_small_3;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=loop} @self ~onSpawn
+  #- summon{type=VFX_Earth_Rubble_Trail;amount=1;radius=0;yRadius=0;onSurface=true} @modelpart{p=bone} ~onTimer:3
+
+# Earth Large Rubble #
+
+VFX_Earth_Rubble_Large:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_rubble_large} @self ~onSpawn
+  - brightness{mid=vfx_earth_rubble_large;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=loop} @self ~onSpawn
+  - summon{type=VFX_Earth_Rubble_Trail;amount=1;radius=0;yRadius=0;onSurface=true} @modelpart{p=bone} ~onTimer:3
+
+# Earth Shift 1 #
+
+VFX_Earth_Shift_Impact:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_impact;lockpitch=true} @self ~onSpawn
+  - partvis{p=bone2;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone3;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone4;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone5;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone6;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - partvis{p=bone7;v=false;em=true;child=true} @self ~onSpawn 0.5
+  - brightness{mid=vfx_earth_impact;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - randomskill{skills=
+    [- state{s=skill2} @self],
+    [- state{s=skill3} @self],
+    [- state{s=skill4} @self]} ~onSpawn
+  - remove{delay=29} @self ~onSpawn
+VFX_Earth_Shift_Impact2:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_impact;lockpitch=true;scale=1.7} @self ~onSpawn
+  - partvis{p=bone2;v=false;em=true;child=true} @self ~onSpawn 0.2
+  - partvis{p=bone3;v=false;em=true;child=true} @self ~onSpawn 0.2
+  - partvis{p=bone4;v=false;em=true;child=true} @self ~onSpawn 0.2
+  - partvis{p=bone5;v=false;em=true;child=true} @self ~onSpawn 0.2
+  - partvis{p=bone6;v=false;em=true;child=true} @self ~onSpawn 0.2
+  - partvis{p=bone7;v=false;em=true;child=true} @self ~onSpawn 0.2
+  - brightness{mid=vfx_earth_impact;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - randomskill{skills=
+    [- state{s=skill2} @self],
+    [- state{s=skill3} @self],
+    [- state{s=skill4} @self]} ~onSpawn
+  - remove{delay=29} @self ~onSpawn
+
+VFX_Earth_Shift_1:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_shift_small;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_shift_small;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - remove{delay=66} @self ~onSpawn
+  - summon{type=VFX_Earth_Shift_Impact;amount=1;radius=0;yRadius=0;onSurface=true;delay=5} @modelpart{p=bone2;y=0.1} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_withdraw;volume=1.3;pitch=<random.float.1to1.1>;delay=44} @self ~onSpawn
+
+VFX_Earth_Shift_2:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_shift_medium;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_shift_medium;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - remove{delay=66} @self ~onSpawn
+  - summon{type=VFX_Earth_Shift_Impact;amount=1;radius=0;yRadius=0;onSurface=true;delay=5} @modelpart{p=bone2;y=0.2} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_withdraw;volume=1.3;pitch=<random.float.0.9to1>;delay=44} @self ~onSpawn
+
+VFX_Earth_Shift_3:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_shift_large;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_shift_large;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - remove{delay=70} @self ~onSpawn
+  - summon{type=VFX_Earth_Shift_Impact;amount=1;radius=0;yRadius=0;onSurface=true;delay=5} @modelpart{p=bone2;y=0.3} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_withdraw;volume=1.3;pitch=<random.float.0.8to0.9>;delay=47} @self ~onSpawn
+
+# Earth Clap #
+
+VFX_Earth_Clap:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_clap;lockpitch=true;delay=5} @self ~onSpawn
+  - brightness{mid=vfx_earth_clap;b=1;s=15;delay=5} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0;delay=5} @self ~onSpawn
+  - state{s=skill;delay=5} @self ~onSpawn
+  - remove{delay=50} @self ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_into_ground;volume=1.3;pitch=<random.float.1to1.1>;delay=0} @self ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_emerge_2;volume=1.3;pitch=1;delay=19} @self ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_smash;volume=1.3;pitch=<random.float.0.9to1>;delay=47} @self ~onSpawn
+  
+  - particles{p=Campfire_Cosy_Smoke;amount=10;hS=1;vS=0.15;y=0;size=1;speed=0.04;delay=6} @selflocation ~onSpawn
+  
+  - particles{p=Campfire_Cosy_Smoke;amount=10;hS=0.6;vS=1;y=0;size=1;speed=0.04;delay=26} @selflocation{y=3.5} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=1;radius=0;yRadius=0;onSurface=false;delay=26} @selflocation{y=1} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=1;radius=0;yRadius=0;onSurface=false;delay=26} @selflocation{y=2.25} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=1;radius=0;yRadius=0;onSurface=false;delay=26} @selflocation{y=3.5} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=1;radius=0;yRadius=0;onSurface=false;delay=26} @selflocation{y=4.5} ~onSpawn
+  
+  - particles{p=Campfire_Cosy_Smoke;amount=10;hS=0.6;vS=1;y=0;size=1;speed=0.04;delay=47} @selflocation{y=3.5} ~onSpawn
+  - summon{type=VFX_Earth_Pulse5;amount=1;radius=0;yRadius=0;onSurface=false;delay=47} @selflocation{y=2.5} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=1;radius=0;yRadius=0;onSurface=false;delay=47} @selflocation{y=1;so=1} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=1;radius=0;yRadius=0;onSurface=false;delay=47} @selflocation{y=2.25;so=-1} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=1;radius=0;yRadius=0;onSurface=false;delay=47} @selflocation{y=3.5;so=1} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=1;radius=0;yRadius=0;onSurface=false;delay=47} @selflocation{y=4.5;so=-1} ~onSpawn
+  
+# Earth Spike Summon #
+
+VFX_Earth_Spike_Summon:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_spike_summon;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_spike_summon;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=emerge} @self ~onSpawn
+  - remove{delay=26} @self ~onSpawn
+  - summon{type=VFX_Earth_Pulse1;amount=1;radius=0;yRadius=0;onSurface=true;delay=2} @modelpart{p=p1;y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Pulse1;amount=1;radius=0;yRadius=0;onSurface=true;delay=2} @modelpart{p=p2;y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Pulse1;amount=1;radius=0;yRadius=0;onSurface=true;delay=2} @modelpart{p=p3;y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=3;hS=0.3;vS=0.1;y=0;size=1;speed=0.04;delay=2} @modelpart{p=p1;y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=3;hS=0.3;vS=0.1;y=0;size=1;speed=0.04;delay=2} @modelpart{p=p2;y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=3;hS=0.3;vS=0.1;y=0;size=1;speed=0.04;delay=2} @modelpart{p=p3;y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact;amount=1;radius=0;yRadius=0;onSurface=false;delay=2} @modelpart{p=p1;y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact;amount=1;radius=0;yRadius=0;onSurface=false;delay=2} @modelpart{p=p2;y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact;amount=1;radius=0;yRadius=0;onSurface=false;delay=2} @modelpart{p=p3;y=0.1} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_emerge_2;volume=1.3;pitch=<random.float.0.8to0.9>;delay=2} @self ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_shoot;volume=1.3;pitch=<random.float.0.6to0.7>;delay=22} @self ~onSpawn
+
+# Earth Spikes #
+
+VFX_Earth_Spike_1:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_spike_1;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_spike_1;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=shoot} @self ~onSpawn
+  - remove{delay=39} @self ~onSpawn
+  - summon{type=VFX_Earth_Shift_Impact;amount=1;radius=0;yRadius=0;onSurface=false;delay=4} @selflocation{y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Pulse1;amount=1;radius=0;yRadius=0;onSurface=false;delay=4} @selflocation{y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=5;hS=0.6;vS=0.1;y=0;size=1;speed=0.04;delay=4} @selflocation{y=0.1} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_shoot;volume=1;pitch=<random.float.0.9to1>} @selflocation ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_smash;volume=1;pitch=<random.float.0.9to1.1>;delay=4} @selflocation ~onSpawn
+VFX_Earth_Spike_2:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_spike_2;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_spike_2;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=shoot} @self ~onSpawn
+  - remove{delay=39} @self ~onSpawn
+  - summon{type=VFX_Earth_Shift_Impact;amount=1;radius=0;yRadius=0;onSurface=false;delay=4} @selflocation{y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Pulse1;amount=1;radius=0;yRadius=0;onSurface=false;delay=4} @selflocation{y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=5;hS=0.6;vS=0.1;y=0;size=1;speed=0.04;delay=4} @selflocation{y=0.1} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_shoot;volume=1;pitch=<random.float.0.9to1>} @selflocation ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_smash;volume=1;pitch=<random.float.0.9to1.1>;delay=4} @selflocation ~onSpawn
+VFX_Earth_Spike_3:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_spike_3;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_spike_3;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=shoot} @self ~onSpawn
+  - remove{delay=39} @self ~onSpawn
+  - summon{type=VFX_Earth_Shift_Impact;amount=1;radius=0;yRadius=0;onSurface=false;delay=4} @selflocation{y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Pulse1;amount=1;radius=0;yRadius=0;onSurface=false;delay=4} @selflocation{y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=5;hS=0.6;vS=0.1;y=0;size=1;speed=0.04;delay=4} @selflocation{y=0.1} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_shoot;volume=1;pitch=<random.float.0.9to1>} @selflocation ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_smash;volume=1;pitch=<random.float.0.9to1.1>;delay=4} @selflocation ~onSpawn
+
+# Earth Wave #
+
+VFX_Earth_Wave:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_wave;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_earth_wave;b=1;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - remove{delay=64} @self ~onSpawn
+  #emerge
+  - summon{type=VFX_Earth_Shift_Impact;amount=1;radius=0;yRadius=0;onSurface=false;delay=2} @modelpart{p=p1;y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Pulse3;amount=1;radius=0;yRadius=0;onSurface=false;delay=2} @modelpart{p=p1;y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=3;hS=0.4;vS=0.1;y=0;size=1;speed=0.04;delay=2} @modelpart{p=p1;y=0.1} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_emerge_1;volume=1;pitch=<random.float.0.9to1>;delay=2} @selflocation ~onSpawn
+  #end
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_into_ground;volume=1;pitch=<random.float.0.9to1.1>;delay=0} @selflocation ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_withdraw;volume=0.9;pitch=<random.float.0.6to0.7>;delay=44} @self ~onSpawn
+  
+  - setvariable{var=waveheightactual;value=<caster.l.y> + 1;type=INTEGER;scope=TARGET} @owner ~onSpawn
+
+# Earth Shockwave Platform #
+
+VFX_Earth_Shockwave:
+  Type: block_display
+  DisplayOptions:
+    Block: AIR
+    Billboard: FIXED
+  Options:
+    Invincible: true
+    Collidable: false
+  Skills:
+  - model{usestatemachine=true;mid=vfx_earth_platform;lockpitch=true;delay=7} @self ~onSpawn
+  - brightness{mid=vfx_earth_platform;b=1;s=15;delay=7} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0;delay=7} @self ~onSpawn
+  - setrotation{relative=true;yaw=<random.0to360>;delay=7} @self ~onSpawn
+  - randomskill{skills=
+    [- state{s=skill1} @self],
+    [- state{s=skill2} @self],
+    [- state{s=skill3} @self],
+    [- state{s=skill4} @self];delay=7} ~onSpawn
+  - remove{delay=71} @self ~onSpawn
+  #emerge
+  - summon{type=VFX_Earth_Break_Impact2;amount=2;radius=2;yRadius=0;onSurface=false;delay=9} @selflocation{y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=7;hS=0.8;vS=0.1;y=0;size=1;speed=0.06;delay=9} @selflocation{y=0.1} ~onSpawn
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_into_ground;volume=1;pitch=<random.float.0.9to1>;delay=0} @selflocation ~onSpawn
+  #end
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_smash;volume=1;pitch=<random.float.0.9to1.1>;delay=37} @selflocation ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=2;radius=2;yRadius=0;onSurface=false;delay=40} @selflocation{y=0.1} ~onSpawn
+  - summon{type=VFX_Earth_Pulse4;amount=1;radius=0;yRadius=0;onSurface=false;delay=40} @selflocation{y=0.1} ~onSpawn
+  - particles{p=Campfire_Cosy_Smoke;amount=7;hS=0.8;vS=0.1;y=0;size=1;speed=0.1;delay=40} @selflocation{y=0.1} ~onSpawn
+  
+  - effect:sound{s=terramancer_sounds:samus.terramancer.earth_break;volume=1;pitch=<random.float.0.7to0.8>;delay=70} @selflocation ~onSpawn
+  - summon{type=VFX_Earth_Break_Impact2;amount=2;radius=2;yRadius=0;onSurface=false;delay=70} @selflocation{y=0.5} ~onSpawn
+
