@@ -9,12 +9,12 @@ pages:
 - lines:
   - content: '#ICON: AMETHYST_SHARD'
     height: 0.6
-  - content: '&#b037a4&lPlayer Levels'
+  - content: '&#b037a4&lNiveles de Jugador'
     height: 0.3
-  - content: Earn in-game perks!
+  - content: ¡Gana beneficios en el juego!
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&7Click to Open'
+  - content: '&7Haz clic para Abrir'
     height: 0.3
   actions: {}

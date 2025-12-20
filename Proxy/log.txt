@@ -3,31 +3,22 @@ WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal
 WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
 WARNING: Restricted methods will be blocked in a future release unless native access is enabled
 
-2025-12-20T15:04:40.765624488Z main WARN Advanced terminal features are not available in this environment
-[12:04:42 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
-[12:04:42 INFO]: Loading localizations...
-[12:04:43 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[12:04:43 INFO]: Loading plugins...
-[12:04:43 INFO]: Loaded 1 plugins
-[12:04:43 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[12:04:43 INFO]: Done (2.67s)!
-[12:05:52 INFO]: [connected player] Bruno240707 (/127.19.211.102:41213) has connected
-[12:05:53 INFO]: [server connection] Bruno240707 -> lobby has connected
-[12:06:25 INFO]: [server connection] Bruno240707 -> survival has connected
-[12:06:49 INFO]: [server connection] Bruno240707 -> lobby has disconnected
-[12:26:36 INFO]: [connected player] Bruno240707 (/127.19.211.102:41213) has disconnected
-[12:26:36 INFO]: [server connection] Bruno240707 -> survival has disconnected
-[12:27:05 INFO]: [connected player] Bruno240707 (/127.19.211.102:34283) has connected
-[12:27:05 INFO]: [server connection] Bruno240707 -> lobby has connected
-[12:27:11 INFO]: [server connection] Bruno240707 -> survival has connected
-[12:27:11 INFO]: [server connection] Bruno240707 -> lobby has disconnected
-[12:29:27 INFO]: [connected player] Bruno240707 (/127.19.211.102:34283) has disconnected
-[12:29:27 INFO]: [server connection] Bruno240707 -> survival has disconnected
-[12:29:33 INFO]: [connected player] Bruno240707 (/127.19.211.102:38261) has connected
-[12:29:33 INFO]: [server connection] Bruno240707 -> lobby has connected
-[12:29:55 INFO]: [server connection] Bruno240707 -> survival has connected
-[12:29:55 INFO]: [server connection] Bruno240707 -> lobby has disconnected
-[12:30:25 INFO]: [connected player] Bruno240707 (/127.19.211.102:38261) has disconnected
-[12:30:25 INFO]: [server connection] Bruno240707 -> survival has disconnected
-[12:30:35 INFO]: Shutting down the proxy...
-[12:30:35 INFO]: Closing endpoint /0.0.0.0:25565
+2025-12-20T19:15:11.330515367Z main WARN Advanced terminal features are not available in this environment
+[16:15:12 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
+[16:15:12 INFO]: Loading localizations...
+[16:15:13 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[16:15:13 INFO]: Loading plugins...
+[16:15:13 INFO]: Loaded 1 plugins
+[16:15:13 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[16:15:13 INFO]: Done (1.84s)!
+[16:33:31 INFO]: [connected player] Bruno240707 (/127.19.211.102:36105) has connected
+[16:33:31 INFO]: [server connection] Bruno240707 -> lobby has connected
+[16:33:34 INFO]: [server connection] Bruno240707 -> survival has connected
+[16:33:36 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[16:38:07 INFO]: [connected player] Bruno240707 (/127.19.211.102:36105): kicked from server survival: Server closed
+[16:38:07 INFO]: [server connection] Bruno240707 -> survival has disconnected
+[16:38:07 INFO]: [server connection] Bruno240707 -> lobby has connected
+[16:38:11 INFO]: Shutting down the proxy...
+[16:38:11 INFO]: Closing endpoint /0.0.0.0:25565
+[16:38:11 INFO]: [connected player] Bruno240707 (/127.19.211.102:36105) has disconnected: El proxy se ha apagado.
+[16:38:11 INFO]: [server connection] Bruno240707 -> lobby has disconnected

@@ -9,6 +9,9 @@ metas_list_page_size: 15
 debug: HIGHEST
 check_updates: true
 gui_menus:
+  Jobs:
+    file: jobs.yml
+  
   serverwarps:
     file: serverwarps.yml
   

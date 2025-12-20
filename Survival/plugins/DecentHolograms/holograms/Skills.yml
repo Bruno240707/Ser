@@ -9,12 +9,12 @@ pages:
 - lines:
   - content: '#ICON:IRON_SWORD'
     height: 0.6
-  - content: '&a&lSkills'
+  - content: '&a&lHabilidades'
     height: 0.3
-  - content: '&fUnlock special skills!'
+  - content: '&f¡Desbloquea habilidades especiales!'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&7Click to Open'
+  - content: '&7Haz clic para Abrir'
     height: 0.3
   actions: {}

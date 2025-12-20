@@ -60,12 +60,12 @@ npc:
       skintrait: {
         }
       location:
-        bodyYaw: -61.754475
+        bodyYaw: -128.6762
         x: 11.5045
         y: 89.0
         z: 65.5118
-        yaw: -61.7545
-        pitch: -2.5353
+        yaw: -128.6762
+        pitch: -0.1864
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: WANDERING_TRADER
       owner:
@@ -99,12 +99,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 139.443
+        bodyYaw: -179.57388
         x: -36.4807
         y: 89.0
         z: 130.5388
-        yaw: 157.6353
-        pitch: -4.3768
+        yaw: 176.6537
+        pitch: -1.3559
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -136,12 +136,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -6.784546
+        bodyYaw: 0.33348846
         x: 45.5362
         y: 88.0
         z: 69.4775
-        yaw: -6.7845
-        pitch: 0.6512
+        yaw: 0.3335
+        pitch: -11.219
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: CREEPER
       owner:
@@ -172,12 +172,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 50.193756
+        bodyYaw: 90.97983
         x: 25.4798
         y: 89.0
         z: 124.454
-        yaw: 50.1938
-        pitch: -2.8851
+        yaw: 90.9798
+        pitch: 4.7619
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: COW
       owner:
@@ -211,12 +211,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 59.252853
+        bodyYaw: 32.654182
         x: -23.5147
         y: 87.0
         z: 93.4948
-        yaw: 59.2529
-        pitch: -19.8473
+        yaw: 32.6542
+        pitch: -4.3256
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -253,12 +253,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 71.87218
+        bodyYaw: 38.560837
         x: -23.4661
         y: 87.0
         z: 90.489
-        yaw: 71.8722
-        pitch: -12.6967
+        yaw: 38.5608
+        pitch: 0.0
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -295,12 +295,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 57.739716
+        bodyYaw: 30.87249
         x: -23.5177
         y: 87.0
         z: 87.5141
-        yaw: 57.7397
-        pitch: 0.0
+        yaw: 30.8725
+        pitch: -9.0064
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -337,12 +337,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -141.12978
+        bodyYaw: 2.836197
         x: -5.4879
         y: 87.0
         z: 105.5022
-        yaw: -141.1298
-        pitch: -6.5109
+        yaw: 2.8362
+        pitch: -9.4505
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -379,12 +379,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -135.2372
+        bodyYaw: -24.704346
         x: -8.51
         y: 87.0
         z: 105.4913
-        yaw: -135.2372
-        pitch: -1.1719
+        yaw: -24.7043
+        pitch: 0.0
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -421,12 +421,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -126.577
+        bodyYaw: -52.2619
         x: -11.5128
         y: 87.0
         z: 105.4743
-        yaw: -126.577
-        pitch: -10.1369
+        yaw: -52.2619
+        pitch: -18.6894
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -463,11 +463,11 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 96.464775
+        bodyYaw: -129.48303
         x: 6.486
         y: 87.0
         z: 87.5065
-        yaw: 116.4648
+        yaw: -129.483
         pitch: 0.0
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
@@ -505,12 +505,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -29.98067
+        bodyYaw: -147.60103
         x: 6.5127
         y: 87.0
         z: 93.5355
-        yaw: -29.9807
-        pitch: -23.1595
+        yaw: -147.601
+        pitch: 0.0
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -547,11 +547,11 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -20.896217
+        bodyYaw: -145.2897
         x: 6.4972
         y: 87.0
         z: 90.4825
-        yaw: -20.8962
+        yaw: -145.2897
         pitch: 0.0
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
@@ -589,12 +589,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -4.7001877
+        bodyYaw: -140.89514
         x: -11.474
         y: 87.0
         z: 75.5006
-        yaw: -4.7002
-        pitch: -19.649
+        yaw: -140.8951
+        pitch: -9.5225
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -631,12 +631,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 19.607056
+        bodyYaw: -165.74728
         x: -8.5069
         y: 87.0
         z: 75.5061
-        yaw: 19.6071
-        pitch: -18.6626
+        yaw: -165.7473
+        pitch: -3.7335
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -673,12 +673,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -95.19119
+        bodyYaw: 147.07344
         x: -5.511
         y: 87.0
         z: 75.4166
-        yaw: -95.1912
-        pitch: -13.8303
+        yaw: 167.0734
+        pitch: -3.8089
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -824,12 +824,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 23.552475
+        bodyYaw: 20.886223
         x: 8.4703
         y: 88.0
         z: 2.4605
-        yaw: 23.5525
-        pitch: -8.3945
+        yaw: 20.8862
+        pitch: -20.3019
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PANDA
       owner:
@@ -866,12 +866,12 @@ npc:
         tags:
         - CITIZENS_NPC
       location:
-        bodyYaw: 85.26317
+        bodyYaw: 89.05342
         x: 62.4587
         y: 88.0
         z: 90.5178
-        yaw: 105.2632
-        pitch: -35.682
+        yaw: 90.9445
+        pitch: -10.449
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -908,12 +908,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -44.21013
+        bodyYaw: -50.841038
         x: 17.4438
         y: 88.0
         z: 30.4944
-        yaw: -44.2101
-        pitch: -5.4213
+        yaw: -50.841
+        pitch: -17.9251
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: HUSK
       owner:
@@ -945,12 +945,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 123.54823
+        bodyYaw: -17.010086
         x: 15.4655
         y: 87.0
         z: 20.5157
-        yaw: 123.5482
-        pitch: -8.5004
+        yaw: -17.0101
+        pitch: -16.7927
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: EVOKER
       owner:
@@ -979,12 +979,12 @@ npc:
       owner:
         uuid: 3d5432ca-b1b9-43f1-bc31-67a521aba1aa
       location:
-        bodyYaw: 123.86107
+        bodyYaw: 80.44949
         x: 48.5101
         y: 89.0
         z: 49.4677
-        yaw: 143.8611
-        pitch: -4.0177
+        yaw: 80.4495
+        pitch: -5.8497
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       skintrait:
         signature: vZvcVcbInX57KzA4F9GlDSII8GGHGR4tBE+8YIoyptp5y95XnCena5a0N9JtTpo/Hiakgku0yj6Ja6jtCbF1X6PXVaVOt/q8ssVt76WeM5EaKqnPvDyPz4tslxlpMKO12tNFGF8aAa/4juAVuZIex1pfbNydGOse4mictFWd2MJd4a56jCW05UvrMrW20nBJu5Q71lCFMbCppOqrJ/H08tQoXbv2RUrEA1Cs67ukxiFNzf+yVbimxr2nTi3dWy6bh0yz6eEjvuM0m06JCHiCYjb2RcfAAGCtrP3//hIQP9GBSb0EM8+su/DVGZJ95Qvjw7/lJpdif7qSPdvZ3ecGAHCH1F1zZNF15EloF8oG4DaHgHLUmv1C91nwxea5Hk/yAe0N3NTjhWV5wZPxoLYvooxcxeGrxC6a3FyY5Z4Ca27TzsZLem2tG1NSfJ+ErMZRHd4vk3m/dSjRspJDfs7yb0y3v06ZuNzxwY06+MBoh6n8T8Ww44chtrFjF8VPopt2Ie8+zFlbok3pqqRXWgyzXtpdPUEAeCB4spaEONHH2kEK2+mr8H3EzBukSUlsA1YBZTbBk/LYM5kXD/qRWv79c5WOrjdUkMExmhdIvL9wg+iQK2IaekmTCi4bxYc0z/bq15R0LT6mZUSRRJKXkOFYflYdEj9TKJd+B10b+Jc38+U=
@@ -1018,12 +1018,12 @@ npc:
       owner:
         uuid: 3d5432ca-b1b9-43f1-bc31-67a521aba1aa
       location:
-        bodyYaw: 104.90329
+        bodyYaw: 50.939255
         x: 48.5294
         y: 89.0
         z: 45.4636
-        yaw: 124.9033
-        pitch: -7.5736
+        yaw: 50.9393
+        pitch: -6.3834
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       skintrait:
         signature: A7pslCfZBGcoVVNVXZ8AXn4F1zXyyutdhUa+ScuOxqlU+rWvkpic8Ra1jAmaWrUyxBBSh/6t479BnhwikXqiGCCd4ITJMYf8/SA00yLMv1B9zeruYyxmKzPZGw2D/y8Y8lDUjCt8WBMCZGNGsPcQjfqs09t1ZFBPJiSOdnLe9fMa7QrGHmOXq9r8MqmZpHER7GjLSX/ilakGG0NqtimDAMLJDVL451wLZUKq1W0/cJ13JZwLJVUmmCJvwaNEYqX/ajtg8BiBkQ40FpHV4ou1vx6YdtXw01Yg7zxZWU5T/JlEsRfqnad9ea0RlbmZgGhCkEjcLtAihnmEOnFKIadIF8QXnLXB69js6tFZXvdjikwJ97ga2QwhlDyefhcCJau4NJIxDRvWeUiYHBaCmMZ4q85SimSr+pAVLstTHo+KEs9s2fxVPSmvkhjVEfD/iT38Jy4wno7457zUM4KWbUyOuPlTXGi5fkjMjY74590ITP2glbMRFY1R8Zgg24B9IMHsNLzL4fVjqezOm8Yin+R7SA5Zb0WpavznDpV6ZXlnKBjLrKpJ6S0y0yJ56Gi4KbGYSqZVg22cKAXiAJOaQfumhQmFJCaonewK+AD6DexIph2GqUCHcuIm90qe01KaxD9vsl9CZxca57B4vlrxpi6X4k7+U9hACtej9eG56Oz9oLk=
@@ -1096,12 +1096,12 @@ npc:
       owner:
         uuid: 3d5432ca-b1b9-43f1-bc31-67a521aba1aa
       location:
-        bodyYaw: 66.95839
+        bodyYaw: 29.885582
         x: 44.4724
         y: 89.0
         z: 37.5214
-        yaw: 66.9584
-        pitch: -12.1059
+        yaw: 29.8856
+        pitch: -20.9155
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       skintrait:
         signature: lvPo4DeLv3s0h3q44d8UcVXm5WI1ykkE5RABRIa98CPPBfKYo+vV7AAM6DRevtaFRMUmlztkGI/5/Cmva04nLZiYwoerd1NB18eLIudMCSiZR1BNmWAqIjyr4OWxZs9XZc2X6KAYSn8kQOE28wwXYmy4rE0z45lP7fs40Dk1XdkuczcwAczMKSIgskvD8EE1fmML6pXdH6NADGXdJnq46ReAx/O/UXn0+jgkkt8HJ+92ldfsZAaubeglq5fjRpTiFaSqpB77dlRPvj6BjIxjYVwCJWyoSeli/Ar939sWjZwR5oc5C+Xy7xYKQsiRj1AVg5K2YSQQxmjRwOeGr8lTHeQn6MzA700ywsZkYsFkRaqYCw46WRttCAZkOyDx3Nf/qFy62bTT3rRzTIQqmrwYn8dHD5BpQ323A5hCb19TGljIUz3+WV1WlJXfPKR7Bkh0wS7IOSuI3/MLVgJ1I8tDeIbX3KABB740970J7BK71ndev53VsDFx2Y8J6jvhiuWYMuJbRIZDKn4aISDehi637aLi263CufTWRZm3Ovm3YgQQxZUZOKy3bUMiAsOeaPr+m8eSzoSXKqm9vGweylKylGUiws6COPsX18Oj2ZwL4Tsvax4wvZ+RimBISheAwtXwZVjjaNLVI/6iweTt4/0Gz3ja4EeknBYzhtLVVsEz8I0=
@@ -1135,12 +1135,12 @@ npc:
       owner:
         uuid: 3d5432ca-b1b9-43f1-bc31-67a521aba1aa
       location:
-        bodyYaw: 76.76285
+        bodyYaw: -26.757816
         x: 36.4845
         y: 89.0
         z: 33.5275
-        yaw: 76.7628
-        pitch: -3.3741
+        yaw: -26.7578
+        pitch: -18.3574
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       skintrait:
         signature: Vx8hq+DtBFoLHPb65wVg7TAK7Tbosm369ve4fVQfKGeo/w3V5MLkpCdoMAOIvlFgg8m+DOH5qz7yj2YL2n59qwTvFAZwOXwTuhK+zr43pE2nN7B9mmB61gqMM3Nb8eUW/fxe2iK1r4y2y1fxT+CIz5XlsLulQIe0XuOsYanIhzhzuhhEoTc4d1GdvNMT0lIstojz5zGpWQaF7SPUqVYjcALmfbZySL8U8s3kG3FLrjhyRU+626atnSfIJ4tBz/nwW+UOqBloppcUAWZ9KrluJW5d7RlyxYGcc4sxx7HkPzNb3jWYiGA39Q3INM8L8EEvdUdv45gMwaUztf5PNJKWlebT+oeiWYrX7oplj1zP9+d6wzYkDUfV8y9Jsik5dWTDAfAlnlBVENr85EU30hitGDnPdILykMdpYaj6CBsBtdkzpqopS3yOXUvelGHEa2UcJLr1RALerrgd8K0Hy4lq0WEi8JSrl/i0FB45w4xdo/Gq1XCJ09hLMbWy6+3iuxY8aqnzGjTfBeb7c0iIBFy3AeATs5VXuPh0St+4/393rWKsXfiQBDvLXDhqWCVi/pTCgPyUwur7uc+w3CypeM+Gqx4hgv+qEpP6rCyCnqsXus+beAzvpvNfeg+2xAMa2Ogj3dNDH8tbKG8TAsDBy2oTBg6HZc8wmI4F6Cqb5UkrwPk=
@@ -1174,12 +1174,12 @@ npc:
       owner:
         uuid: 3d5432ca-b1b9-43f1-bc31-67a521aba1aa
       location:
-        bodyYaw: 60.178955
+        bodyYaw: -11.930847
         x: 32.4943
         y: 89.0
         z: 33.5031
-        yaw: 60.179
-        pitch: -1.1199
+        yaw: -11.9308
+        pitch: -21.0679
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       skintrait:
         signature: ZmCRtjgW5qk4dh6Rjm0PVn5ZwNKKdc7R7aGiPP3PGEFmBtpO5UkygHloUIkt9TtKCEr94IX9YmaYNhZszTA8ybvFji8C8LFnF9KrCz9Ra3N2xMTesnG4LB2uL2eBXd/RLzNq4wKyMTQ2Pzcpr+5+hRz3CxxC2JGqNf4dHbCEBCzdEFVvUoFjel0H4bRtC5T/zp7x9JjSgeaB+dGBRHRdx6nt9kPwKIbvz40N98beIXk2mEXhH8mzXyEh1YXaMSmcHq8fQvF1YbfYVt0yXTdAN5xESRDtR5q0jPyao8bq8vMEb0rrxpxutCG/Eusd9+5MA9ypsPb9TsJp4T06moFPXvv7zIzVd/ZD7dB9J8DgtEU71p1pn0X+1jOGjKG0fzCr3e7Q2pbmFUFy6pxVtMe7M2qLZ3/Rb6sdWb7SFLgJZeJ84hZKL23hTR8XKC3fnkQwJu71qAV+eRHREbKRgE0adXQHMSKnaBmvVfFosKAAxiBqCMbaMxqWxyLPN3XI/9HNGebJaOGgkDuIC1uBKF2AAXk8lg7hgz3GGkpEKfvWIDZaCrwO2ggw2jh8Oa/INHsJjvqmHOK0Bz0goKhCovXl2UmiFCl4tJQSVHoTciFFYxPipQpyx5S44Urvt6UwfVjjspxxYCfi7R+UaNeTlSL+vqqMkQ5vLXhk6f8fnY7eGfw=
@@ -1211,12 +1211,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 24.162788
+        bodyYaw: -0.9664612
         x: 40.4725
         y: 89.0
         z: 34.4883
-        yaw: 24.1628
-        pitch: -34.1007
+        yaw: -0.9665
+        pitch: -19.6549
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       owner:
         uuid: 3d5432ca-b1b9-43f1-bc31-67a521aba1aa
@@ -1360,12 +1360,12 @@ npc:
           hand: RIGHT
           player: true
       location:
-        bodyYaw: 136.86908
+        bodyYaw: 156.8982
         x: 19.46
         y: 89.0
         z: 130.4519
-        yaw: 136.8691
-        pitch: -13.9054
+        yaw: 156.8982
+        pitch: 2.3367
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       gravity:
         enabled: true
@@ -1448,12 +1448,12 @@ npc:
         uuid: 3d5432ca-b1b9-43f1-bc31-67a521aba1aa
       type: GOAT
       location:
-        bodyYaw: 3.9467926
+        bodyYaw: -76.52238
         x: 1.4954
         y: 87.0
         z: 20.489
-        yaw: 3.9468
-        pitch: -3.9816
+        yaw: -76.5224
+        pitch: -30.0219
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       scoreboardtrait:
         tags:
@@ -1487,12 +1487,12 @@ npc:
         uuid: 0ea956ef-8df7-4ed1-bbaa-e4496278c809
       type: PLAYER
       location:
-        bodyYaw: -42.922123
+        bodyYaw: -121.5385
         x: -3.5049
         y: 88.0
         z: 26.5327
-        yaw: -42.9221
-        pitch: 0.8094
+        yaw: -121.5385
+        pitch: -7.517
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       commandtrait:
         commands:

@@ -18,21 +18,18 @@ pages:
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&f&oWelcome back to Server Name, &e&o{player}&f&o!'
+  - content: '&f&o¡Bienvenido de vuelta a Server Name, &e&o{player}&f&o!'
     height: 0.3
-  - content: '&f&oWe''re happy you''re here for &e&oSeason 1&f&o!'
+  - content: '&f&o¡Nos alegra que estés aquí!'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&f&oReady to start? Use &e&o/rtp&f&o to begin your adventure!'
+  - content: '&f&o¿Listo para empezar? ¡Usa &e&o/rtp&f&o para comenzar tu aventura!'
     height: 0.3
-  - content: '&f&oClaim land and begin to expand your &e&oempire&f&o!'
+  - content: '&f&o¡Reclama tierra y comienza a expandir tu &e&oimperio&f&o!'
     height: 0.3
-  - content: '&f&oClaim your rewards with &e&o/rewards&f&o!'
+  - content: '&f&o¡Reclama tus recompensas con &e&o/rewards&f&o!'
     height: 0.5
-  - content: '&f&oMake sure to check our &e&o/help &f&ofor helpful information!'
-    height: 0.3
-  - content: '&f&oSurvival Setup &e&o1.1 &f&owas last updated on &e&o15th September,
-      2024'
+  - content: '&f&o¡Asegúrate de revisar nuestro &e&o/help &f&opara información útil!'
     height: 0.3
   actions: {}

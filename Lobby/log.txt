@@ -1,233 +1,227 @@
 Starting org.bukkit.craftbukkit.Main
 *** Warning, you've not updated in a while! ***
 *** Please download a new build from https://papermc.io/downloads/paper ***
-2025-12-20T15:04:42.208320981Z ServerMain WARN Advanced terminal features are not available in this environment
+2025-12-20T19:15:12.338170614Z ServerMain WARN Advanced terminal features are not available in this environment
 WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
 WARNING: sun.misc.Unsafe::allocateMemory has been called by io.netty.util.internal.PlatformDependent0$2 (file:/workspaces/prueba/Lobby/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar)
 WARNING: Please consider reporting this to the maintainers of class io.netty.util.internal.PlatformDependent0$2
 WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
-[12:04:43 INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
-[12:04:43 INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[12:04:43 INFO]: [PluginInitializerManager] Initializing plugins...
-[12:04:45 INFO]: [PluginInitializerManager] Initialized 10 plugins
-[12:04:45 INFO]: [PluginInitializerManager] Bukkit plugins (10):
+[16:15:13 INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[16:15:13 INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[16:15:13 INFO]: [PluginInitializerManager] Initializing plugins...
+[16:15:14 INFO]: [PluginInitializerManager] Initialized 10 plugins
+[16:15:14 INFO]: [PluginInitializerManager] Bukkit plugins (10):
  - BrunoCore (1.0), Essentials (2.22.0-dev+47-faa02b5), EssentialsChat (2.22.0-dev+47-faa02b5), EssentialsSpawn (2.22.0-dev+47-faa02b5), LuckPerms (5.5.0), SkinsRestorer (15.9.1), ViaVersion (5.5.0), WorldEdit (7.3.17+7262-c7fbe08), WorldGuard (7.0.14+2339-43997ec), WorldGuardExtraFlags (4.2.4-SNAPSHOT)
-[12:04:52 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:04:52 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[12:04:53 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 720.6ms
-[12:04:55 INFO]: Loaded 1407 recipes
-[12:04:55 INFO]: Loaded 1520 advancements
-[12:04:56 INFO]: Starting minecraft server version 1.21.8
-[12:04:56 INFO]: Loading properties
-[12:04:56 INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[12:04:56 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:04:56 INFO]: Server Ping Player Sample Count: 12
-[12:04:56 INFO]: Using 4 threads for Netty based IO
-[12:04:57 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[12:04:57 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[12:04:58 INFO]: Default game type: SURVIVAL
-[12:04:58 INFO]: Generating keypair
-[12:04:58 INFO]: Starting Minecraft server on *:30001
-[12:04:58 INFO]: Using epoll channel type
-[12:04:58 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[12:04:58 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[12:05:00 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.0
-[12:05:00 INFO]: [ViaVersion] ViaVersion 5.5.0 is now loaded. Registering protocol transformers and injecting...
-[12:05:01 INFO]: [ViaVersion] Loading block connection mappings ...
-[12:05:01 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[12:05:02 INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17+7262-c7fbe08
-[12:05:03 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@108a251f]
-[12:05:03 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[12:05:03 INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
-[12:05:03 INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+47-faa02b5
-[12:05:03 INFO]: [BrunoCore] Loading server plugin BrunoCore v1.0
-[12:05:03 INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.1
-[12:05:03 INFO]: [WorldGuardExtraFlags] Loading server plugin WorldGuardExtraFlags v4.2.4-SNAPSHOT
-[12:05:03 INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+47-faa02b5
-[12:05:03 INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+47-faa02b5
-[12:05:03 INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:05:03 INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
-[12:05:03 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[12:05:04 INFO]: WEPIF: Using the Bukkit Permissions API.
-[12:05:04 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[12:05:07 INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[12:05:08 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
-[12:05:08 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.5.0[0m
-[12:05:08 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Bukkit - Paper[0m
-[12:05:08 INFO]: 
-[12:05:08 INFO]: [LuckPerms] Loading configuration...
-[12:05:08 INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:05:09 INFO]: [LuckPerms] Loading internal permission managers...
-[12:05:09 INFO]: [LuckPerms] Performing initial data load...
-[12:05:09 INFO]: [LuckPerms] Successfully enabled. (took 2046ms)
-[12:05:09 INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.1
-[12:05:10 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m
-[12:05:10 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in PROXY mode![0;39m
-[12:05:10 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to put the same config.yml on all servers and on the proxy.[0;39m
-[12:05:10 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(<proxy>/plugins/SkinsRestorer/)[0;39m
-[12:05:10 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.8[32;1m.[0;39m
-[12:05:11 WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mProxy mode API is enabled (server.proxyMode.api), but MySQL is not set up, this is not supported. You must configure MySQL on all servers and on the proxy and use the same database.[0;39m
-[12:05:11 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:05:11 WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:05:11 WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[12:05:11 WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[12:05:11 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:05:11 INFO]: Preparing level "Lobby"
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |    [33;1mProxy Mode[32;1m    |[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.9.1[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mee713cb[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[12:05:11 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[12:05:12 INFO]: Preparing start region for dimension minecraft:overworld
-[12:05:13 INFO]: Preparing spawn area: 0%
-[12:05:14 INFO]: Preparing spawn area: 0%
-[12:05:14 INFO]: Preparing spawn area: 0%
-[12:05:14 INFO]: Preparing spawn area: 0%
-[12:05:14 INFO]: Time elapsed: 1613 ms
-[12:05:14 INFO]: [ViaVersion] Enabling ViaVersion v5.5.0
-[12:05:14 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[12:05:14 INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
-[12:05:14 INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
-[12:05:14 INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
-[12:05:14 INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
-[12:05:14 INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
-[12:05:14 INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
-[12:05:14 INFO]: [WorldGuard] Loading region data...
-[12:05:15 INFO]: [Essentials] Enabling Essentials v2.22.0-dev+47-faa02b5
-[12:05:15 ERROR]: [Essentials] You are running an unsupported server version!
-[12:05:15 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:05:15 INFO]: [Essentials] No kits found to migrate.
-[12:05:15 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[12:05:15 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[12:05:15 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[12:05:15 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[12:05:15 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[12:05:15 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[12:05:15 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[12:05:15 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[12:05:15 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[12:05:15 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[12:05:15 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[12:05:15 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[12:05:15 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[12:05:15 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[12:05:15 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[12:05:15 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[12:05:15 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[12:05:15 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[12:05:15 INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[12:05:15 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[12:05:15 INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[12:05:15 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[12:05:15 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[12:05:15 INFO]: [Essentials] Loaded 45989 items from items.json.
-[12:05:15 INFO]: [Essentials] Using locale en
-[12:05:15 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:05:15 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:05:15 WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[12:05:15 WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[12:05:15 INFO]: [Essentials] Using superperms-based permissions.
-[12:05:15 INFO]: [BrunoCore] Enabling BrunoCore v1.0
-[12:05:15 INFO]: [BrunoCore] --- Iniciando BrunoCore ---
-[12:05:15 ERROR]: [BrunoCore] ¡ERROR! No encontré 'mineralesMagicos.yml' dentro del .jar. Verifica tu carpeta resources.
-[12:05:15 INFO]: [BrunoCore] ¡BrunoCore cargado correctamente!
-[12:05:15 INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlySpeedFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
-[12:05:15 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
-[12:05:16 INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+47-faa02b5
-[12:05:16 INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[12:05:16 INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+47-faa02b5
-[12:05:16 INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[12:05:16 INFO]: [spark] Starting background profiler...
-[12:05:16 INFO]: Done preparing level "Lobby" (5.106s)
-[12:05:16 INFO]: Running delayed init tasks
-[12:05:16 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[12:05:16 INFO]: [Essentials] [38;2;255;170;0mFetching version information...[0m
-[12:05:16 INFO]: Done (35.966s)! For help, type "help"
-[12:05:16 WARN]: [ViaVersion] There is a newer plugin version available: 5.6.0, you're on: 5.5.0
-[12:05:16 WARN]: [Essentials] [38;2;170;0;0mYou're [38;2;255;85;85m1 [38;2;170;0;0mEssentialsX dev build(s) out of date![0m
-[12:05:16 WARN]: [Essentials] [38;2;170;0;0mDownload it here:[38;2;255;85;85m https://essentialsx.net/downloads.html[0m
-[12:05:53 INFO]: UUID of player Bruno240707 is 0d45db84-9179-4b23-93b7-38a90642b372
-[12:05:53 INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
-[12:05:56 INFO]: [38;2;255;255;85mBruno240707 joined the game[0m
-[12:05:56 INFO]: Bruno240707[/127.19.211.102:47046] logged in with entity id 25 at ([Lobby]-317.0, 64.0, -341.0)
-[12:06:49 INFO]: Bruno240707 lost connection: Disconnected
-[12:06:50 INFO]: [38;2;255;255;85mBruno240707 left the game[0m
-[12:27:05 INFO]: UUID of player Bruno240707 is 0d45db84-9179-4b23-93b7-38a90642b372
-[12:27:06 INFO]: [38;2;255;255;85mBruno240707 joined the game[0m
-[12:27:06 INFO]: Bruno240707[/127.19.211.102:34610] logged in with entity id 131 at ([Lobby]-316.75797774909216, 63.0, -334.42215470760897)
-[12:27:11 INFO]: Bruno240707 lost connection: Disconnected
-[12:27:11 INFO]: [38;2;255;255;85mBruno240707 left the game[0m
-[12:29:33 INFO]: UUID of player Bruno240707 is 0d45db84-9179-4b23-93b7-38a90642b372
-[12:29:34 INFO]: [38;2;255;255;85mBruno240707 joined the game[0m
-[12:29:34 INFO]: Bruno240707[/127.19.211.102:60376] logged in with entity id 132 at ([Lobby]-317.0, 64.0, -341.0)
-[12:29:55 INFO]: Bruno240707 lost connection: Disconnected
-[12:29:55 INFO]: [38;2;255;255;85mBruno240707 left the game[0m
-[12:30:35 INFO]: Stopping server
-[12:30:35 INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+47-faa02b5
-[12:30:35 INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+47-faa02b5
-[12:30:35 INFO]: [WorldGuardExtraFlags] Disabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
-[12:30:35 INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.1
-[12:30:35 INFO]: [BrunoCore] Disabling BrunoCore v1.0
-[12:30:35 INFO]: [BrunoCore] BrunoCore desactivado.
-[12:30:35 INFO]: [Essentials] Disabling Essentials v2.22.0-dev+47-faa02b5
-[12:30:35 INFO]: [WorldGuard] Disabling WorldGuard v7.0.14+2339-43997ec
-[12:30:35 INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[12:30:35 INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
-[12:30:35 INFO]: [LuckPerms] Starting shutdown process...
-[12:30:35 INFO]: [LuckPerms] Closing storage...
-[12:30:35 INFO]: [LuckPerms] Goodbye!
-[12:30:35 INFO]: [WorldEdit] Disabling WorldEdit v7.3.17+7262-c7fbe08
-[12:30:35 INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[12:30:35 INFO]: [ViaVersion] Disabling ViaVersion v5.5.0
-[12:30:35 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[12:30:35 INFO]: Saving players
-[12:30:36 INFO]: Saving worlds
-[12:30:36 INFO]: Saving chunks for level 'ServerLevel[Lobby]'/minecraft:overworld
-[12:30:36 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Lobby'
-[12:30:36 INFO]: [ChunkHolderManager] Halted chunk system for world 'Lobby'
-[12:30:36 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Lobby'
-[12:30:36 WARN]: Exception in thread "Thread-7" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
-[12:30:36 WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
-[12:30:36 WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
-[12:30:36 WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
-[12:30:36 WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
-[12:30:36 WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
-[12:30:36 WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
-[12:30:36 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
-[12:30:36 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
-[12:30:36 WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
-[12:30:36 WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:377)
-[12:30:36 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
-[12:30:36 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
-[12:30:36 WARN]: 	... 8 more
-[12:30:36 INFO]: [ChunkHolderManager] Saved 4 block chunks, 101 entity chunks, 0 poi chunks in world 'Lobby' in 0.05s
-[12:30:36 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Lobby'
-[12:30:36 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Lobby'
-[12:30:36 INFO]: ThreadedAnvilChunkStorage (Lobby): All chunks are saved
-[12:30:36 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:30:36 INFO]: Waiting for all RegionFile I/O tasks to complete...
-[12:30:36 INFO]: All RegionFile I/O tasks to complete
-[12:30:36 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[12:30:36 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[16:15:22 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:15:22 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:15:23 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 880.1ms
+[16:15:26 INFO]: Loaded 1407 recipes
+[16:15:26 INFO]: Loaded 1520 advancements
+[16:15:26 INFO]: Starting minecraft server version 1.21.8
+[16:15:26 INFO]: Loading properties
+[16:15:26 INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[16:15:26 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:15:26 INFO]: Server Ping Player Sample Count: 12
+[16:15:26 INFO]: Using 4 threads for Netty based IO
+[16:15:28 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:15:28 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:15:28 INFO]: Default game type: SURVIVAL
+[16:15:28 INFO]: Generating keypair
+[16:15:28 INFO]: Starting Minecraft server on *:30001
+[16:15:29 INFO]: Using epoll channel type
+[16:15:29 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:15:29 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:15:30 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.0
+[16:15:30 INFO]: [ViaVersion] ViaVersion 5.5.0 is now loaded. Registering protocol transformers and injecting...
+[16:15:31 INFO]: [ViaVersion] Loading block connection mappings ...
+[16:15:32 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:15:32 INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17+7262-c7fbe08
+[16:15:34 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@356a6b93]
+[16:15:34 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[16:15:34 INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[16:15:34 INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+47-faa02b5
+[16:15:34 INFO]: [BrunoCore] Loading server plugin BrunoCore v1.0
+[16:15:34 INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.1
+[16:15:34 INFO]: [WorldGuardExtraFlags] Loading server plugin WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[16:15:34 INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+47-faa02b5
+[16:15:34 INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+47-faa02b5
+[16:15:34 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:15:34 INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
+[16:15:34 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:15:34 INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:15:35 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[16:15:38 INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[16:15:39 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[16:15:39 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.5.0[0m
+[16:15:39 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Bukkit - Paper[0m
+[16:15:39 INFO]: 
+[16:15:39 INFO]: [LuckPerms] Loading configuration...
+[16:15:39 INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:15:40 INFO]: [LuckPerms] Loading internal permission managers...
+[16:15:40 INFO]: [LuckPerms] Performing initial data load...
+[16:15:40 INFO]: [LuckPerms] Successfully enabled. (took 2404ms)
+[16:15:40 INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.1
+[16:15:41 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m
+[16:15:41 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in PROXY mode![0;39m
+[16:15:41 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to put the same config.yml on all servers and on the proxy.[0;39m
+[16:15:41 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(<proxy>/plugins/SkinsRestorer/)[0;39m
+[16:15:41 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.8[32;1m.[0;39m
+[16:15:42 WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mProxy mode API is enabled (server.proxyMode.api), but MySQL is not set up, this is not supported. You must configure MySQL on all servers and on the proxy and use the same database.[0;39m
+[16:15:42 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:15:42 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:15:42 WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:15:42 WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[16:15:42 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:15:42 INFO]: Preparing level "Lobby"
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |    [33;1mProxy Mode[32;1m    |[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.9.1[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mee713cb[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[16:15:42 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[16:15:43 INFO]: Preparing start region for dimension minecraft:overworld
+[16:15:44 INFO]: Preparing spawn area: 0%
+[16:15:44 INFO]: Preparing spawn area: 0%
+[16:15:44 INFO]: Preparing spawn area: 0%
+[16:15:44 INFO]: Time elapsed: 1134 ms
+[16:15:44 INFO]: [ViaVersion] Enabling ViaVersion v5.5.0
+[16:15:44 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[16:15:44 INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[16:15:45 INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[16:15:45 INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[16:15:45 INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[16:15:45 INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[16:15:45 INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[16:15:45 INFO]: [WorldGuard] Loading region data...
+[16:15:45 INFO]: [Essentials] Enabling Essentials v2.22.0-dev+47-faa02b5
+[16:15:45 ERROR]: [Essentials] You are running an unsupported server version!
+[16:15:45 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:15:45 INFO]: [Essentials] No kits found to migrate.
+[16:15:45 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[16:15:45 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[16:15:45 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[16:15:45 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[16:15:45 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[16:15:45 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[16:15:45 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[16:15:45 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[16:15:45 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[16:15:45 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[16:15:45 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[16:15:45 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[16:15:45 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[16:15:45 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[16:15:45 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[16:15:45 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[16:15:45 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[16:15:45 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[16:15:45 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[16:15:45 INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[16:15:45 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[16:15:45 INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[16:15:45 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[16:15:46 INFO]: [Essentials] Loaded 45989 items from items.json.
+[16:15:46 INFO]: [Essentials] Using locale en
+[16:15:46 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:15:46 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:15:46 WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[16:15:46 WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[16:15:46 INFO]: [Essentials] Using superperms-based permissions.
+[16:15:46 INFO]: [BrunoCore] Enabling BrunoCore v1.0
+[16:15:46 INFO]: [BrunoCore] --- Iniciando BrunoCore ---
+[16:15:46 ERROR]: [BrunoCore] ¡ERROR! No encontré 'mineralesMagicos.yml' dentro del .jar. Verifica tu carpeta resources.
+[16:15:46 INFO]: [BrunoCore] ¡BrunoCore cargado correctamente!
+[16:15:46 INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlySpeedFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[16:15:46 INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[16:15:46 INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+47-faa02b5
+[16:15:46 INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:15:46 INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+47-faa02b5
+[16:15:46 INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:15:46 INFO]: [spark] Starting background profiler...
+[16:15:47 INFO]: Done preparing level "Lobby" (4.358s)
+[16:15:47 INFO]: Running delayed init tasks
+[16:15:47 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:15:47 INFO]: [Essentials] [38;2;255;170;0mFetching version information...[0m
+[16:15:47 INFO]: Done (36.176s)! For help, type "help"
+[16:15:47 WARN]: [ViaVersion] There is a newer plugin version available: 5.6.0, you're on: 5.5.0
+[16:15:47 WARN]: [Essentials] [38;2;170;0;0mYou're [38;2;255;85;85m1 [38;2;170;0;0mEssentialsX dev build(s) out of date![0m
+[16:15:47 WARN]: [Essentials] [38;2;170;0;0mDownload it here:[38;2;255;85;85m https://essentialsx.net/downloads.html[0m
+[16:33:31 INFO]: UUID of player Bruno240707 is 0d45db84-9179-4b23-93b7-38a90642b372
+[16:33:32 INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
+[16:33:33 INFO]: [38;2;255;255;85mBruno240707 joined the game[0m
+[16:33:33 INFO]: Bruno240707[/127.19.211.102:45438] logged in with entity id 28 at ([Lobby]-317.0, 64.0, -341.0)
+[16:33:36 INFO]: Bruno240707 lost connection: Disconnected
+[16:33:36 INFO]: [38;2;255;255;85mBruno240707 left the game[0m
+[16:38:07 INFO]: UUID of player Bruno240707 is 0d45db84-9179-4b23-93b7-38a90642b372
+[16:38:08 INFO]: [38;2;255;255;85mBruno240707 joined the game[0m
+[16:38:08 INFO]: Bruno240707[/127.19.211.102:44050] logged in with entity id 107 at ([Lobby]-317.0, 64.0, -341.0)
+[16:38:11 INFO]: Stopping server
+[16:38:11 INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+47-faa02b5
+[16:38:11 INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+47-faa02b5
+[16:38:11 INFO]: [WorldGuardExtraFlags] Disabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[16:38:11 INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.1
+[16:38:11 INFO]: [BrunoCore] Disabling BrunoCore v1.0
+[16:38:11 INFO]: [BrunoCore] BrunoCore desactivado.
+[16:38:11 INFO]: [Essentials] Disabling Essentials v2.22.0-dev+47-faa02b5
+[16:38:11 INFO]: [WorldGuard] Disabling WorldGuard v7.0.14+2339-43997ec
+[16:38:11 INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[16:38:11 INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[16:38:11 INFO]: [LuckPerms] Starting shutdown process...
+[16:38:11 INFO]: [LuckPerms] Closing storage...
+[16:38:11 INFO]: [LuckPerms] Goodbye!
+[16:38:11 INFO]: [WorldEdit] Disabling WorldEdit v7.3.17+7262-c7fbe08
+[16:38:11 INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:38:11 INFO]: [ViaVersion] Disabling ViaVersion v5.5.0
+[16:38:11 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[16:38:11 INFO]: Saving players
+[16:38:11 INFO]: Bruno240707 lost connection: Server closed
+[16:38:11 INFO]: [38;2;255;255;85mBruno240707 left the game[0m
+[16:38:11 WARN]: Exception in thread "Thread-7" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
+[16:38:11 WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
+[16:38:11 WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
+[16:38:11 WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
+[16:38:11 WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
+[16:38:11 WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
+[16:38:11 WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
+[16:38:11 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+[16:38:11 WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+[16:38:11 WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
+[16:38:11 WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:377)
+[16:38:11 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+[16:38:11 WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+[16:38:11 WARN]: 	... 8 more
+[16:38:11 INFO]: Saving worlds
+[16:38:11 INFO]: Saving chunks for level 'ServerLevel[Lobby]'/minecraft:overworld
+[16:38:11 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Lobby'
+[16:38:11 INFO]: [ChunkHolderManager] Halted chunk system for world 'Lobby'
+[16:38:11 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Lobby'
+[16:38:11 INFO]: [ChunkHolderManager] Saved 285 block chunks, 299 entity chunks, 0 poi chunks in world 'Lobby' in 0.27s
+[16:38:11 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Lobby'
+[16:38:11 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Lobby'
+[16:38:11 INFO]: ThreadedAnvilChunkStorage (Lobby): All chunks are saved
+[16:38:11 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:38:11 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:38:11 INFO]: All RegionFile I/O tasks to complete
+[16:38:11 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:38:11 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

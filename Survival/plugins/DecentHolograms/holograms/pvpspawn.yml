@@ -12,18 +12,18 @@ pages:
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&c&l&oDANGER &8- &7&o[KEEP INVENTORY: OFF]'
+  - content: '&c&l&oPELIGRO &8- &7&o[MANTENER INVENTARIO: DESACTIVADO]'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&f&oYou''re about to enter the &c&oPvP Arena&f&o!'
+  - content: '&f&oEstás a punto de entrar en la &c&oArena PvP&f&o!'
     height: 0.3
-  - content: '&f&oMake sure you have &c&ostrong armor&f&o equipped.'
+  - content: '&f&oAsegúrate de tener &c&oarmadura fuerte&f&o equipada.'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&f&oIf you die, you will &c&olose your items&f&o!'
+  - content: '&f&oSi mueres, &c&operderás tus objetos&f&o!'
     height: 0.3
-  - content: '&f&oGood luck out there, &c&o%player_name%&f&o!'
+  - content: '&f&o¡Buena suerte, &c&o%player_name%&f&o!'
     height: 0.3
   actions: {}

@@ -9,12 +9,12 @@ pages:
 - lines:
   - content: '#ICON:GRASS_BLOCK'
     height: 0.6
-  - content: '&#F9CD40§lBlock Shop'
+  - content: '&#F9CD40§lBBloques'
     height: 0.3
-  - content: §fOfficial Shop Items!
+  - content: §fTienda Oficial de Items!
     height: 0.3
   - content: §r
     height: 0.3
-  - content: §7Click to Open
+  - content: §7Click para Abrir
     height: 0.3
   actions: {}

@@ -11,10 +11,10 @@ pages:
     height: 0.6
   - content: '&e&lAuction House'
     height: 0.3
-  - content: '&rList items for Auction!'
+  - content: '&rVende tus Items!'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&7Click to Open'
+  - content: '&7Click para Abrir'
     height: 0.3
   actions: {}

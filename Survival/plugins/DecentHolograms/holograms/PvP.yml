@@ -9,13 +9,13 @@ pages:
 - lines:
   - content: '#ICON:RED_DYE'
     height: 0.6
-  - content: '&c&lPvP Arena'
+  - content: '&c&lArena PvP'
     height: 0.3
-  - content: '&rFight other players!'
+  - content: '&r¡Pelea contra otros jugadores!'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&7Click to Teleport'
+  - content: '&7Haz clic para Teletransportarte'
     height: 0.3
   actions: {}
 

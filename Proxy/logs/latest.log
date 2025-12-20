@@ -1,27 +1,18 @@
-[12:04:42] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
-[12:04:42] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[12:04:43] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[12:04:43] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[12:04:43] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
-[12:04:43] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[12:04:43] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.67s)!
-[12:05:52] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:41213) has connected
-[12:05:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has connected
-[12:06:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has connected
-[12:06:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has disconnected
-[12:26:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Bruno240707 (/127.19.211.102:41213) has disconnected
-[12:26:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has disconnected
-[12:27:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:34283) has connected
-[12:27:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has connected
-[12:27:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has connected
-[12:27:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has disconnected
-[12:29:27] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Bruno240707 (/127.19.211.102:34283) has disconnected
-[12:29:27] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has disconnected
-[12:29:33] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:38261) has connected
-[12:29:33] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has connected
-[12:29:55] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has connected
-[12:29:55] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has disconnected
-[12:30:25] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Bruno240707 (/127.19.211.102:38261) has disconnected
-[12:30:25] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has disconnected
-[12:30:35] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[12:30:35] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[16:15:12] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
+[16:15:12] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[16:15:13] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[16:15:13] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[16:15:13] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[16:15:13] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[16:15:13] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.84s)!
+[16:33:31] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:36105) has connected
+[16:33:31] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has connected
+[16:33:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has connected
+[16:33:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has disconnected
+[16:38:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:36105): kicked from server survival: Server closed
+[16:38:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has disconnected
+[16:38:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has connected
+[16:38:11] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[16:38:11] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[16:38:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:36105) has disconnected: El proxy se ha apagado.
+[16:38:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has disconnected

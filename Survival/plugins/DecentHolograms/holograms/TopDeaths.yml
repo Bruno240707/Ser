@@ -9,7 +9,7 @@ pages:
 - lines:
   - content: '#ICON:totem_of_undying'
     height: 0.6
-  - content: '&#ff2f2f&lT&#ff2929&lo&#ff2323&lp &#fe1d1d&lD&#fe1818&le&#fe1212&la&#fe0c0c&lt&#fd0606&lh&#fd0000&ls'
+  - content: '&#ff2f2f&lT&#ff2929&lo&#ff2323&lp &#fe1d1d&lM&#fe1818&lu&#fe1212&le&#fe0c0c&lrt&#fd0606&le&#fd0000&ls'
     height: 0.3
   - content: '&4#1 &c%ajlb_lb_statistic_deaths_1_alltime_name% §8- §f%ajlb_lb_statistic_deaths_1_alltime_value%'
     height: 0.3

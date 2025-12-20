@@ -9,12 +9,12 @@ pages:
 - lines:
   - content: '#ICON: GOLD_INGOT'
     height: 0.6
-  - content: '&#FFD700&lWebstore'
+  - content: '&#FFD700&lTienda Web'
     height: 0.3
-  - content: '&fCheck out our Webstore!'
+  - content: '&f¡Visita nuestra Tienda Web!'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&7Click to Open'
+  - content: '&7Haz clic para Abrir'
     height: 0.3
   actions: {}

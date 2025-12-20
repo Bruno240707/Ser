@@ -9,18 +9,18 @@ pages:
 - lines:
   - content: '#ICON:END_CRYSTAL'
     height: 0.6
-  - content: '&dTeleportation Portal'
+  - content: '&dPortal de Teletransporte'
     height: 0.3
-  - content: '&7Explore the world!'
+  - content: '&7¡Explora el mundo!'
     height: 0.3
   - content: '&f'
     height: 0.3
-  - content: '&fThis portal will open the /rtp GUI,'
+  - content: '&fEste portal abrirá la GUI /rtp,'
     height: 0.3
-  - content: '&fallowing you to teleport to all worlds!'
+  - content: '&f¡permitiéndote teletransportarte a todos los mundos!'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&bUse &n/spawn&b to come back!'
+  - content: '&b¡Usa &n/spawn&b para volver!'
     height: 0.3
   actions: {}
