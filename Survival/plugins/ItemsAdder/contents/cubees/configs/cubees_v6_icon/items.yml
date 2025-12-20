@@ -1,0 +1,80 @@
+info:
+  namespace: cubees
+items:
+
+  cubees-icon-basalt_delta_cubee:
+    display_name: &e
+    resource:
+      material: GOLDEN_HORSE_ARMOR
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - v6/cubee-basalt_delta
+      model_id: 7191044
+  cubees-icon-blackstone_cubee:
+    display_name: &e
+    resource:
+      material: GOLDEN_HORSE_ARMOR
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - v6/cubee-blackstone
+      model_id: 7191045
+  cubees-icon-crimson_fungus_cubee:
+    display_name: &e
+    resource:
+      material: GOLDEN_HORSE_ARMOR
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - v6/cubee-crimson_fungus
+      model_id: 7191046
+  cubees-icon-magma_cubee:
+    display_name: &e
+    resource:
+      material: GOLDEN_HORSE_ARMOR
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - v6/cubee-magma
+      model_id: 7191047
+  cubees-icon-nether_portal_cubee:
+    display_name: &e
+    resource:
+      material: GOLDEN_HORSE_ARMOR
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - v6/cubee-nether_portal
+      model_id: 7191048
+  cubees-icon-nether_waste_cubee:
+    display_name: &e
+    resource:
+      material: GOLDEN_HORSE_ARMOR
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - v6/cubee-nether_waste
+      model_id: 7191049
+  cubees-icon-soul_valley_cubee:
+    display_name: &e
+    resource:
+      material: GOLDEN_HORSE_ARMOR
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - v6/cubee-soul_valley
+      model_id: 7191050
+  cubees-icon-warped_fungus_cubee:
+    display_name: &e
+    resource:
+      material: GOLDEN_HORSE_ARMOR
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - v6/cubee-warped_fungus
+      model_id: 7191051
+
+
+
+#4c55fedd7b128b210d38f1779cf09ee2

@@ -150,7 +150,7 @@ Mirror_Shuriken_SUDO:
   
 Mirror_Shuriken_MISSILE_SUDO:
   Skills:
-  - missile{fO=true;bulletType=MOB;mob=Mirror_Shuriken_BACK;onHit=Mirror_Shuriken_hit_Back;md=100;mr=400;v=32;i=1;hR=1;vR=1;in=2;sE=false;sB=false;syo=0.3;tyo=1} @self
+  - missile{fO=true;bulletType=MOB;mob=Mirror_Shuriken_Back;onHit=Mirror_Shuriken_hit_Back;md=100;mr=400;v=32;i=1;hR=1;vR=1;in=2;sE=false;sB=false;syo=0.3;tyo=1} @self
   
   
 Mirror_Shuriken_hit:

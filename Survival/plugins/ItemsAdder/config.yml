@@ -33,7 +33,7 @@ resource-pack:
             trigger_on_failed_times: 5
     external-host:
       enabled: true
-      url: https://download.mc-packs.net/pack/88ffbf514dad621373b8d23f0b5f635b5f9096a9.zip
+      url: https://download.mc-packs.net/pack/1c907956117121e222a3289ab2149dac43737182.zip
       skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: false
   title:
     enabled: true

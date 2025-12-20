@@ -99,3 +99,4 @@
 [2025-12-16 18:23:50] - Bruno240707 bought 1 x <red>[</red><aqua>Allay Spawner</aqua><red>]</red><white>(Spawners.page1.items.1) for $225,000.00<white> with the buy screen.
 [2025-12-16 18:25:00] - Bruno240707 bought 1 x <red>[</red><aqua>Allay Spawner</aqua><red>]</red><white>(Spawners.page1.items.1) for $225,000.00<white> with the buy screen.
 [2025-12-16 18:35:49] - Bruno240707 bought 1 x <red>[</red><aqua>Squid Spawner</aqua><red>]</red><white>(Spawners.page1.items.32) for $100,000.00<white> with the buy screen.
+[2025-12-19 20:42:30] - Bruno240707 bought 1 x Enchanted Book<white>(Enchanting.page1.items.2) for $1,944.81<white> with the buy screen.

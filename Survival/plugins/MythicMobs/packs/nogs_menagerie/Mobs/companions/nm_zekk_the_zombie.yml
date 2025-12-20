@@ -1,0 +1,27 @@
+nm_zekk_the_zombie:
+  Type: PIG
+  Display: ''
+  Health: 5000
+  Damage: 0
+  AIGoalSelectors:
+  - clear  
+  - randomstroll
+  - float
+  Options:
+    Collidable: true
+    MovementSpeed: 0.3
+    Invincible: true
+    PreventOtherDrops: true
+    Silent: true
+    PreventRenaming: false
+    PreventLeashing: false
+    AlwaysShowName: false
+  Skills:
+  - model{mid=nm_zekk_the_zombie;n=name} @self ~onSpawn
+  - skill{s=nm_zekk_the_zombie_spawn;sync=true} ~onSpawn
+  
+  - model{mid=nm_zekk_the_zombie;n=name} @self ~onLoad
+  
+  - randomskill{s=nm_zekk_the_zombie_trip_parse;sync=true;cd=3} ~onInteract
+  
+  - skill{s=nm_zekk_the_zombie_walking;sync=true} @self ~onTimer:10

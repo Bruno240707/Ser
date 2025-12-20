@@ -161,11 +161,29 @@ items:
       - '&8Warp del Servidor'
       - '&r'
       - '&bDescripción:'
-      - '&f¡Teletranspórtate a la Mina'
-      - '&fpara enfrentarte a'
-      - '&fotros jugadores!' # Nota: La descripción aquí probablemente se copió de la arena PvP.
+      - '&f¡Teletranspórtate a la Mina!'
       - ''
       - '&e→ &lCLIC &r&epara Teletransportarte!'
     left_click_commands:
       - '[player] essentials:warp mina' # Comando para ir al warp 'mina'
+      - '[close]'
+
+    # Mascotas
+  'Mascotas':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJmYzQ2NzZmNWFiMTQ0ZTY3NDhiY2FiNjFhMzRlODgzYzYxMmRkMmI2MWUwZWZmNWNhNGM1MjllMTJhYWM4In19fQ== # Cabeza de jugador personalizada
+    slot: 31
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES] # Ocultar atributos
+    display_name: '&cTienda de Mascotas'
+    lore:
+      - '&8Warp del Servidor'
+      - '&r'
+      - '&bDescripción:'
+      - '&f¡Teletranspórtate a la Tienda'
+      - '&fde Mascotas!'
+      - ''
+      - '&e→ &lCLIC &r&epara Teletransportarte!'
+    left_click_commands:
+      - '[player] essentials:warp Mascotas' # Comando para ir al warp 'mina'
       - '[close]'

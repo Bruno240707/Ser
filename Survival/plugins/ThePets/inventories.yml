@@ -3,7 +3,7 @@
 # ================================
 mainGUI:
   commonGUI:
-    title: Menú Principal
+    title: Main Menu
     size: 54
     background:
       items:
@@ -337,13 +337,13 @@ mainGUI:
     closeGUI:
       material: BARRIER
       amount: 1
-      displayName: '&cCerrar'
+      displayName: '&cClose'
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
       - ''
-      - '&e» &7Clic para cerrar'
+      - '&e» &7Click to close'
       slot: 49
       enabled: true
       command: null
@@ -357,15 +357,15 @@ mainGUI:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&8Mascota de %pet_category_displayname%'
+    - '&8%pet_category_displayname% Pet'
     - ''
     - '&7%pet_description_gui%'
     - ''
-    - '&7Progreso al siguiente nivel: &e%pet_level_progress%%'
+    - '&7Progress to next level: &e%pet_level_progress%%'
     - '%pet_action_bar% &e%pet_xp%&6/&e%pet_max_xp%'
     - ''
     - '%pet_summon_status%!'
-    - '&e¡Clic Derecho para ver!'
+    - '&eRight-Click to view!'
     slot: null
     enabled: false
     command: null
@@ -374,19 +374,19 @@ mainGUI:
   petMenuInfoItem:
     material: BONE
     amount: 1
-    displayName: '&aMascotas'
+    displayName: '&aPets'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&7Mira y gestiona todas tus'
-    - '&7Mascotas.'
+    - '&7View and manage all of your'
+    - '&7Pets.'
     - ''
-    - '&7¡Sube de nivel tus mascotas'
-    - '&7más rápido ganando XP en su'
-    - '&7habilidad favorita!'
+    - '&7Level up your pets faster by'
+    - '&7gaining xp in their favorite'
+    - '&7skill!'
     - ''
-    - '&7Mascota Seleccionada: %pet_selected_pet%'
+    - '&7Selected Pet: %pet_selected_pet%'
     slot: 4
     enabled: true
     command: null
@@ -395,16 +395,16 @@ mainGUI:
   convertPetToItemEnabled:
     material: LIME_DYE
     amount: 1
-    displayName: '&aConvertir Mascota en Ítem'
+    displayName: '&aConvert Pet to an Item'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&7Activa esto y haz clic en'
-    - '&7cualquier mascota para convertirla'
-    - '&7en un ítem.'
+    - '&7Enable this setting and click'
+    - '&7any pet to convert it to an'
+    - '&7item.'
     - ''
-    - '&aHabilitado'
+    - '&aEnabled'
     slot: 50
     enabled: true
     command: null
@@ -413,16 +413,16 @@ mainGUI:
   convertPetToItemDisabled:
     material: GRAY_DYE
     amount: 1
-    displayName: '&aConvertir Mascota en Ítem'
+    displayName: '&aConvert Pet to an Item'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&7Activa esto y haz clic en'
-    - '&7cualquier mascota para convertirla'
-    - '&7en un ítem.'
+    - '&7Enable this setting and click'
+    - '&7any pet to convert it to an'
+    - '&7item.'
     - ''
-    - '&cDeshabilitado'
+    - '&cDisabled'
     slot: 50
     enabled: true
     command: null
@@ -431,21 +431,21 @@ mainGUI:
   hidePetsEnabled:
     material: STONE_BUTTON
     amount: 1
-    displayName: '&aOcultar Mascotas'
+    displayName: '&aHide Pets'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&7Oculta las cabezas de las'
-    - '&7mascotas para que no sean'
-    - '&7visibles en el mundo.'
+    - '&7Hide all pets which are little'
+    - '&7heads from being visible in the'
+    - '&7world.'
     - ''
-    - '&7Los efectos siguen activos.'
+    - '&7Pet effects remain active.'
     - ''
-    - '&7Estado: &a¡Mascotas visibles!'
-    - '&7Mascota Seleccionada: &c%pet_selected_pet%'
+    - '&7Currently: &aPets shown!'
+    - '&7Selected Pet: &c%pet_selected_pet%'
     - ''
-    - '&e¡Clic para ocultar!'
+    - '&eClick to hide!'
     slot: 51
     enabled: true
     command: null
@@ -454,21 +454,21 @@ mainGUI:
   hidePetsDisabled:
     material: STONE_BUTTON
     amount: 1
-    displayName: '&cOcultar Mascotas'
+    displayName: '&cHide Pets'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&7Oculta las cabezas de las'
-    - '&7mascotas para que no sean'
-    - '&7visibles en el mundo.'
+    - '&7Hide all pets which are little'
+    - '&7heads from being visible in the'
+    - '&7world.'
     - ''
-    - '&7Los efectos siguen activos.'
+    - '&7Pet effects remain active.'
     - ''
-    - '&7Estado: &c¡Mascotas ocultas!'
-    - '&7Mascota Seleccionada: &a%pet_selected_pet%'
+    - '&7Currently: &cPets hidden!'
+    - '&7Selected Pet: &a%pet_selected_pet%'
     - ''
-    - '&e¡Clic para mostrar!'
+    - '&eClick to show!'
     slot: 51
     enabled: true
     command: null
@@ -499,13 +499,13 @@ mainGUI:
   customGoBackItem:
     material: ARROW
     amount: 1
-    displayName: '&eVolver'
+    displayName: '&eGo Back'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - ''
-    - '&7¡Clic para volver!'
+    - '&7Click to go back!'
     slot: 47
     enabled: false
     command: your go back command %player%
@@ -513,7 +513,7 @@ mainGUI:
     customModelData: null
 petLevelsGUI:
   commonGUI:
-    title: Mascota %pet_egg_displayname% &8(%current_page%/%max_page%)
+    title: '%pet_egg_displayname% &8Pet (%current_page%/%max_page%)'
     size: 54
     background:
       items: null
@@ -534,13 +534,13 @@ petLevelsGUI:
     closeGUI:
       material: BARRIER
       amount: 1
-      displayName: '&cCerrar'
+      displayName: '&cClose'
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
       - ''
-      - '&e» &7Clic para cerrar'
+      - '&e» &7Click to close'
       slot: 49
       enabled: true
       command: null
@@ -554,11 +554,11 @@ petLevelsGUI:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&8Mascota de %pet_category_displayname%'
+    - '&8%pet_category_displayname% Pet'
     - ''
     - '&7%pet_description_gui%'
     - ''
-    - '&7Progreso al siguiente nivel: &e%pet_level_progress%%'
+    - '&7Progress to next level: &e%pet_level_progress%%'
     - '%pet_action_bar% &e%pet_xp%&6/&e%pet_max_xp%'
     - ''
     slot: null
@@ -574,7 +574,7 @@ petLevelsGUI:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&8Mascota de %pet_category_displayname%'
+    - '&8%pet_category_displayname% Pet'
     - ''
     - '&7%pet_description_gui%'
     slot: null
@@ -590,7 +590,7 @@ petLevelsGUI:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&8Mascota de %pet_category_displayname%'
+    - '&8%pet_category_displayname% Pet'
     - ''
     - '&7%pet_description_gui%'
     slot: null
@@ -601,12 +601,12 @@ petLevelsGUI:
   previousPage:
     material: ARROW
     amount: 1
-    displayName: '&aNiveles 1 - 25'
+    displayName: '&aLevels 1 - 25'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&eClic para ver'
+    - '&eClick to view'
     slot: 50
     enabled: true
     command: null
@@ -615,12 +615,12 @@ petLevelsGUI:
   nextPage:
     material: ARROW
     amount: 1
-    displayName: '&aNiveles 26 - 50'
+    displayName: '&aLevels 26 - 50'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&eClic para ver'
+    - '&eClick to view'
     slot: 50
     enabled: true
     command: null
@@ -629,12 +629,12 @@ petLevelsGUI:
   goBack:
     material: ARROW
     amount: 1
-    displayName: '&aVolver'
+    displayName: '&aGo Back'
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&7A tus Mascotas'
+    - '&7To Your Pets'
     slot: 48
     enabled: true
     command: null
@@ -674,11 +674,11 @@ petLevelsGUI:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - '&8Mascota de %pet_category_displayname%'
+    - '&8%pet_category_displayname% Pet'
     - ''
     - '&7%pet_description_gui%'
     - ''
-    - '&7Progreso al siguiente nivel: &e%pet_level_progress%%'
+    - '&7Progress to next level: &e%pet_level_progress%%'
     - '%pet_action_bar% &e%pet_xp%&6/&e%pet_max_xp%'
     slot: 0
     enabled: true

@@ -1,0 +1,42 @@
+
+nm_exo_the_enderman_spawn:
+  Skills:
+  - freeze{ticks=8} @self 
+  - sound{s=entity.enderman.teleport;p=1.6;v=1} @self
+  - effect:particle{particle=portal;amount=16;hS=0.25;vS=0.25} @self
+  - delay 5
+  - sound{s=entity.armadillo.step;p=1;v=2} @self
+
+
+nm_exo_the_enderman_teleport_parse:
+  Conditions:
+  - onground{} true cancel
+  Skills:
+  - CancelEvent
+  - skill{s=nm_exo_the_enderman_teleport_activate}
+  
+nm_exo_the_enderman_teleport_activate:
+  Condition:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - freeze{ticks=31} @self
+  - sound{s=entity.enderman.ambient;p=1.6;v=1} @self
+  - state{state=teleport;li=1;lo=1;n=false;speed=1} @self
+  - delay 4
+  - sound{s=entity.enderman.teleport;p=1.6;v=1} @self
+  - effect:particle{particle=portal;amount=16;hS=0.25;vS=0.25} @self
+  - delay 6
+  - teleport{spreadh=4;spreadv=1} @selflocation
+  - delay 14
+  - sound{s=entity.enderman.teleport;p=1.6;v=1} @self
+  - effect:particle{particle=portal;amount=16;hS=0.25;vS=0.25} @self
+  - delay 5
+  - sound{s=entity.armadillo.step;p=1;v=2} @self
+  
+
+nm_exo_the_enderman_walking:
+  Conditions:
+  - moving true
+  Skills:
+  - sound{s=entity.armadillo.step;p=1.6;v=0.2} @self

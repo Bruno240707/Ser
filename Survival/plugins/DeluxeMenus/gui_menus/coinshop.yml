@@ -153,4 +153,4 @@ items:
       - '&r'
       - '&e&l→ CLIC &epara Navegar'
     left_click_commands:
-      - '[openguimenu] levels' # Abre el menú 'levels'
+      - '[openguimenu] ranks' # Abre el menú 'levels'

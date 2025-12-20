@@ -1,0 +1,28 @@
+nm_slak_the_skeleton:
+  Type: PIG
+  Display: ''
+  Health: 5000
+  Damage: 0
+  AIGoalSelectors:
+  - clear  
+  - randomstroll
+  - lookatplayers
+  - float
+  Options:
+    Collidable: true
+    MovementSpeed: 0.3
+    Invincible: true
+    PreventOtherDrops: true
+    Silent: true
+    PreventRenaming: false
+    PreventLeashing: false
+    AlwaysShowName: false
+  Skills:
+  - model{mid=nm_slak_the_skeleton;n=name} @self ~onSpawn
+  - skill{s=nm_slak_the_skeleton_spawn;sync=true} ~onSpawn
+  
+  - model{mid=nm_slak_the_skeleton;n=name} @self ~onLoad
+  
+  - randomskill{s=nm_slak_the_skeleton_head_spin_parse;sync=true;cd=3} ~onInteract
+  
+  - skill{s=nm_slak_the_skeleton_walking;sync=true} @self ~onTimer:10

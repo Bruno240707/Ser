@@ -1,0 +1,29 @@
+DisplayName: Sweets I Cubees !
+IconName: Sweets I Cubees !
+DefaultCategory: false
+Icon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4440
+  id: minecraft:golden_horse_armor
+  count: 1
+  components:
+    minecraft:lore: '[{extra:[" Candy Corn Crab Cubee"],text:""},{extra:[" Croissant
+      Shark Cubee"],text:""},{extra:[" Cupcake Snake Cubee"],text:""},{extra:[" Donut
+      Cubee"],text:""},{extra:[" Gummy Bear Cubee"],text:""},{extra:[" Macarons Cubee"],text:""},{extra:["
+      Marshmellow Cubee"],text:""},{extra:[" Creamie Cookie Boar Cubee"],text:""}]'
+    minecraft:custom_name: '{extra:[" Sweets I Cubees !"],text:""}'
+    minecraft:custom_model_data: '{floats:[7191319.0f]}'
+  schema_version: 1
+Pets:
+- cubee-candy_corn_crab
+- cubee-croissant_shark
+- cubee-cupcake_snake
+- cubee-donut
+- cubee-gummy_bear
+- cubee-macarons
+- cubee-marshmellow
+- cubee-creamie_cookie_boar
+Id: cubee-category-sweets-i
+ExcludedCategories: []
+
+

@@ -2,6 +2,7 @@
 #=========================================================
 menu_title: '¡Vota por el Servidor!'
 open_command:
+  - vote
   - votar
 open_commands: []
 size: 36

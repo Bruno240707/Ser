@@ -1,0 +1,69 @@
+{
+	"credit": "Made by Nog's Menagerie",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "nogs_menagerie:heads/nm_head_colin_the_creeper_texture"
+	},
+	"elements": [
+		{
+			"name": "skull",
+			"from": [4.5, 0, 4.5],
+			"to": [11.5, 7, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 3.5], "texture": "#1"},
+				"east": {"uv": [0, 4, 3.5, 7.5], "texture": "#1"},
+				"south": {"uv": [4, 0, 7.5, 3.5], "texture": "#1"},
+				"west": {"uv": [4, 4, 7.5, 7.5], "texture": "#1"},
+				"up": {"uv": [3.5, 11.5, 0, 8], "texture": "#1"},
+				"down": {"uv": [11.5, 0, 8, 3.5], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [24, 13, 0],
+			"translation": [0, 0.25, -1],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [24, 13, 0],
+			"translation": [0, 0.25, -1],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 109, 5],
+			"translation": [2, 3.5, 0],
+			"scale": [0.71, 0.71, 0.71]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 109, 5],
+			"translation": [2, 3.5, 0],
+			"scale": [0.71, 0.71, 0.71]
+		},
+		"ground": {
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"gui": {
+			"rotation": [17, -142, 0],
+			"translation": [0, 5.25, 0],
+			"scale": [1.28, 1.28, 1.28]
+		},
+		"head": {
+			"translation": [0, 8.9, -1.75]
+		},
+		"fixed": {
+			"translation": [0, 1.75, -11.25],
+			"scale": [3.02, 3.02, 3.02]
+		}
+	},
+	"groups": [
+		{
+			"name": "base",
+			"origin": [8, 9.02967, 7.925],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

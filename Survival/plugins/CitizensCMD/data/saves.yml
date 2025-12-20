@@ -199,9 +199,9 @@ npc-data:
   npc-25:
     cooldown: 0
     right-click-commands:
-    - '[player] ah'
+    - '[player] theauction open'
     left-click-commands:
-    - '[player] ah'
+    - '[player] theauction open'
     price: 0
   npc-27:
     cooldown: 0
