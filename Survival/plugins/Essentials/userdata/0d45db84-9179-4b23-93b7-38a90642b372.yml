@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1766190016000
-  login: 1766189180552
+  logout: 1766244625418
+  login: 1766244613274
   kits:
     squid: 1765846154467
     claiming: 1765901149455
@@ -26,11 +26,11 @@ last-account-name: Bruno240707
 logoutlocation:
   world: 0c52527c-f895-4989-828f-80caa9f6e8b5
   world-name: Spawn
-  x: -7.4614933730982695
-  y: 105.29463237634093
-  z: 81.73439317766447
-  yaw: 90.72021484375
-  pitch: 19.485855102539062
+  x: 28.195146218994616
+  y: 88.0
+  z: 95.46625535443364
+  yaw: -149.97219848632812
+  pitch: 18.00567054748535
 lastlocation:
   world: 84574fde-df87-47b2-b7b6-fba349c79632
   world-name: world

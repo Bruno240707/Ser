@@ -253,12 +253,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 48.933716
+        bodyYaw: 71.87218
         x: -23.4661
         y: 87.0
         z: 90.489
-        yaw: 48.9337
-        pitch: -17.4961
+        yaw: 71.8722
+        pitch: -12.6967
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -295,12 +295,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: 34.368492
+        bodyYaw: 57.739716
         x: -23.5177
         y: 87.0
         z: 87.5141
-        yaw: 34.3685
-        pitch: -19.7613
+        yaw: 57.7397
+        pitch: 0.0
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:

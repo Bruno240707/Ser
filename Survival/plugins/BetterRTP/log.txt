@@ -1,21 +1,21 @@
-2025-12-19 21:04:47 [INFO]: Loading Overrides...
-2025-12-19 21:04:47 [INFO]: Loading World Types...
-2025-12-19 21:04:47 [INFO]: - World Type for 'world' set to 'NORMAL'
-2025-12-19 21:04:47 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2025-12-19 21:04:47 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2025-12-19 21:04:47 [INFO]: Loading Defaults...
-2025-12-19 21:04:47 [INFO]: Loading Custom Worlds...
-2025-12-19 21:04:47 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2025-12-19 21:04:47 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2025-12-19 21:05:01 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-12-19 21:05:01 [INFO]: Database COOLDOWN:world configured and loaded!
-2025-12-19 21:05:01 [INFO]: Database COOLDOWN:world_nether configured and loaded!
-2025-12-19 21:05:01 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
-2025-12-19 21:05:01 [INFO]: Database COOLDOWN:pvp configured and loaded!
-2025-12-19 21:05:01 [INFO]: Database COOLDOWN:mina configured and loaded!
-2025-12-19 21:05:01 [INFO]: Database COOLDOWN:Spawn configured and loaded!
-2025-12-19 21:05:01 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-12-19 21:05:01 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-12-19 21:05:19 [INFO]: Attempting to queue up some more safe locations...
-2025-12-19 21:05:21 [INFO]: Queueing paused, max queue limit reached!
-2025-12-19 21:20:14 [INFO]: Disabling BetterRTP v3.6.13
+2025-12-20 12:06:16 [INFO]: Loading Overrides...
+2025-12-20 12:06:16 [INFO]: Loading World Types...
+2025-12-20 12:06:16 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-12-20 12:06:16 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-12-20 12:06:16 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-12-20 12:06:16 [INFO]: Loading Defaults...
+2025-12-20 12:06:16 [INFO]: Loading Custom Worlds...
+2025-12-20 12:06:16 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-12-20 12:06:16 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-12-20 12:06:30 [INFO]: Database COOLDOWN:world configured and loaded!
+2025-12-20 12:06:30 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2025-12-20 12:06:30 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2025-12-20 12:06:30 [INFO]: Database COOLDOWN:pvp configured and loaded!
+2025-12-20 12:06:30 [INFO]: Database COOLDOWN:mina configured and loaded!
+2025-12-20 12:06:30 [INFO]: Database COOLDOWN:Spawn configured and loaded!
+2025-12-20 12:06:30 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-12-20 12:06:30 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-12-20 12:06:30 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-12-20 12:06:50 [INFO]: Attempting to queue up some more safe locations...
+2025-12-20 12:06:52 [INFO]: Queueing paused, max queue limit reached!
+2025-12-20 12:30:32 [INFO]: Disabling BetterRTP v3.6.13
