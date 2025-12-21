@@ -168,3 +168,8 @@ kits:
     - elytra 1 name:&#0073FB☠_&#0C78FBS&#177CFCo&#2381FCu&#2E86FCl&#3A8AFDs_&#468FFDE&#5194FDl&#5D98FEy&#689DFEt&#74A2FEr&#7FA6FFa_&#8BABFF☠
       lore:&#0073FB&lE&#0C78FB&lX&#177CFC&lC&#2381FC&lL&#2E86FC&lU&#3A8AFD&lS&#468FFD&lI&#5194FD&lV&#5D98FE&lE_&#689DFE&lI&#74A2FE&lT&#7FA6FF&lE&#8BABFF&lM|&fThis_item_can_be_only_obtained|&ffrom_the_soul_shop
       mending:1 protection_environmental:6 durability:5
+  cana_pesca:
+    delay: 0
+    items:
+    - fishing_rod 1 name:&a&lApprentice_Angler's_Rod lore:&7A_sturdy_rod_for_budding_fishermen.|&7Slightly_better_than_the_standard_rod.|_|&fCommon
+      custom-model-data:50081

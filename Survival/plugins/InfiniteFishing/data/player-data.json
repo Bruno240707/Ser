@@ -2,34 +2,10 @@
    "0d45db84-9179-4b23-93b7-38a90642b372": {
       "caught-fish": [
          {
-            "size": 3.8,
-            "weight": 11,
-            "fish-id": "silver-carp-fish",
-            "timestamp": 1766269094849
-         },
-         {
-            "size": 3.3,
-            "weight": 2.5,
-            "fish-id": "salmon-void-fish",
-            "timestamp": 1766285482061
-         },
-         {
-            "size": 1.6,
-            "weight": 3,
-            "fish-id": "golden-pink-jellyfish",
-            "timestamp": 1766269071032
-         },
-         {
-            "size": 3.2,
-            "weight": 7.6,
-            "fish-id": "sturgeon-fish",
-            "timestamp": 1766285755104
-         },
-         {
-            "size": 3,
-            "weight": 8.8,
-            "fish-id": "red-snapper-fish",
-            "timestamp": 1766266615631
+            "size": 2,
+            "weight": 2.6,
+            "fish-id": "mullet-fish",
+            "timestamp": 1766285719562
          },
          {
             "size": 3.1,
@@ -38,34 +14,16 @@
             "timestamp": 1766285704862
          },
          {
-            "size": 3.7,
-            "weight": 6.3,
-            "fish-id": "silver-carp-fish",
-            "timestamp": 1766285743013
+            "size": 3.3,
+            "weight": 2.5,
+            "fish-id": "salmon-void-fish",
+            "timestamp": 1766285482061
          },
          {
-            "size": 5.3,
-            "weight": 10,
-            "fish-id": "tuna-fish",
-            "timestamp": 1766266005237
-         },
-         {
-            "size": 2.6,
-            "weight": 11,
-            "fish-id": "catfish-fish",
-            "timestamp": 1766266493085
-         },
-         {
-            "size": 3.6,
-            "weight": 5.7,
-            "fish-id": "silver-carp-fish",
-            "timestamp": 1766266039627
-         },
-         {
-            "size": 2,
-            "weight": 2.6,
-            "fish-id": "mullet-fish",
-            "timestamp": 1766285719562
+            "size": 3,
+            "weight": 8.8,
+            "fish-id": "red-snapper-fish",
+            "timestamp": 1766266615631
          },
          {
             "size": 5.5,
@@ -80,6 +38,12 @@
             "timestamp": 1766266685789
          },
          {
+            "size": 5.3,
+            "weight": 10,
+            "fish-id": "tuna-fish",
+            "timestamp": 1766266005237
+         },
+         {
             "size": 2.3,
             "weight": 3.4,
             "fish-id": "silver-mullet-fish",
@@ -90,6 +54,42 @@
             "weight": 4.3,
             "fish-id": "silver-sunfish-fish",
             "timestamp": 1766285444662
+         },
+         {
+            "size": 3.8,
+            "weight": 11,
+            "fish-id": "silver-carp-fish",
+            "timestamp": 1766269094849
+         },
+         {
+            "size": 3.7,
+            "weight": 6.3,
+            "fish-id": "silver-carp-fish",
+            "timestamp": 1766285743013
+         },
+         {
+            "size": 3.2,
+            "weight": 7.6,
+            "fish-id": "sturgeon-fish",
+            "timestamp": 1766285755104
+         },
+         {
+            "size": 3.6,
+            "weight": 5.7,
+            "fish-id": "silver-carp-fish",
+            "timestamp": 1766266039627
+         },
+         {
+            "size": 2.6,
+            "weight": 11,
+            "fish-id": "catfish-fish",
+            "timestamp": 1766266493085
+         },
+         {
+            "size": 1.6,
+            "weight": 3,
+            "fish-id": "golden-pink-jellyfish",
+            "timestamp": 1766269071032
          }
       ],
       "uuid": "0d45db84-9179-4b23-93b7-38a90642b372"

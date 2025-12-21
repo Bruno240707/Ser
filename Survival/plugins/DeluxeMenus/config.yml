@@ -12,6 +12,9 @@ gui_menus:
   Jobs:
     file: jobs.yml
   
+  Tienda_Cañas:
+    file: tienda_cañas.yml
+  
   serverwarps:
     file: serverwarps.yml
   
