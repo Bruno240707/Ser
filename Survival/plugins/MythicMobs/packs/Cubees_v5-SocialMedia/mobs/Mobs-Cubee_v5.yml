@@ -30,7 +30,7 @@ cubee-discord:
   - setvar{var=caster.cubeemodel;value="discord";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-discord;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-discord;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -72,7 +72,7 @@ cubee-facebook:
   - setvar{var=caster.cubeemodel;value="facebook";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-facebook;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-facebook;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -116,7 +116,7 @@ cubee-instagram:
   - setvar{var=caster.cubeemodel;value="instagram";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-instagram;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-instagram;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -158,7 +158,7 @@ cubee-kick:
   - setvar{var=caster.cubeemodel;value="kick";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-kick;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-kick;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -200,7 +200,7 @@ cubee-reddit:
   - setvar{var=caster.cubeemodel;value="reddit";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-reddit;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-reddit;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -242,7 +242,7 @@ cubee-tiktok:
   - setvar{var=caster.cubeemodel;value="tiktok";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-tiktok;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-tiktok;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -284,7 +284,7 @@ cubee-twitter:
   - setvar{var=caster.cubeemodel;value="twitter";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-twitter;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-twitter;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -326,7 +326,7 @@ cubee-x:
   - setvar{var=caster.cubeemodel;value="x";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-x;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-x;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -368,7 +368,7 @@ cubee-twitch:
   - setvar{var=caster.cubeemodel;value="twitch";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-twitch;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-twitch;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -410,7 +410,7 @@ cubee-website:
   - setvar{var=caster.cubeemodel;value="website";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-website;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-website;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -452,7 +452,7 @@ cubee-youtube:
   - setvar{var=caster.cubeemodel;value="youtube";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{mid=cubee-youtube;n=false} @self ~onSpawn
+  - model{sync=true;mid=cubee-youtube;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged

@@ -60,8 +60,8 @@ cubee-ebony_cat:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="ebony_cat";type=STRING;save=true;delay=2} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.67;mid=cubee-ebony_cat;n=false;usm=true;sync=true} @self ~onSpawn
-  - model{scale=0.67;mid=cubee-ebony_cat;n=false;usm=true;sync=true;delay=5} @self ~onLoad
+  - model{sync=true;scale=0.67;mid=cubee-ebony_cat;n=false;usm=true;sync=true} @self ~onSpawn
+  - model{sync=true;scale=0.67;mid=cubee-ebony_cat;n=false;usm=true;sync=true;delay=5} @self ~onLoad
   - tint{m=cubee-ebony_cat;c=ffffff;d=true;delay=2} @self ~onSpawn
   - cullconfig{mid=cubee-ebony_cat;bkc=false;delay=2} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} ?!hasaura{auraname=Stay}
@@ -106,8 +106,8 @@ cubee-knocked_out-ebony_cat:
     Silent: true
   Skills:
   - potion{t=SLOW_FALLING;d=100;i=false;hasparticles=false} @self
-  - model{scale=0.67;mid=cubee-ebony_cat;n=false;usm=true;sync=true} @self ~onSpawn
-  - model{scale=0.67;mid=cubee-ebony_cat;n=false;usm=true;sync=true;delay=5} @self ~onLoad
+  - model{sync=true;scale=0.67;mid=cubee-ebony_cat;n=false;usm=true;sync=true} @self ~onSpawn
+  - model{sync=true;scale=0.67;mid=cubee-ebony_cat;n=false;usm=true;sync=true;delay=5} @self ~onLoad
   - partvisibility{mid=cubee-ebony_cat;p=bone11;v=false} @self ~onSpawn 
   - partvisibility{mid=cubee-ebony_cat;p=bone13;v=false} @self ~onSpawn
   - state{s=knocked;li=0;lo=0} @self ~onSpawn
@@ -182,8 +182,8 @@ cubee-gothic_hag:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="gothic_hag";type=STRING;save=true;delay=2} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.67;mid=cubee-gothic_hag;n=false;usm=true;sync=true} @self ~onSpawn
-  - model{scale=0.67;mid=cubee-gothic_hag;n=false;usm=true;sync=true;delay=5} @self ~onLoad
+  - model{sync=true;scale=0.67;mid=cubee-gothic_hag;n=false;usm=true;sync=true} @self ~onSpawn
+  - model{sync=true;scale=0.67;mid=cubee-gothic_hag;n=false;usm=true;sync=true;delay=5} @self ~onLoad
   - tint{m=cubee-gothic_hag;c=ffffff;d=true;delay=2} @self ~onSpawn
   - cullconfig{mid=cubee-gothic_hag;bkc=false;delay=2} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} ?!hasaura{auraname=Stay}
@@ -229,8 +229,8 @@ cubee-knocked_out-gothic_hag:
     Silent: true
   Skills:
   - potion{t=SLOW_FALLING;d=100;i=false;hasparticles=false} @self
-  - model{scale=0.67;mid=cubee-gothic_hag;n=false;usm=true;sync=true} @self ~onSpawn
-  - model{scale=0.67;mid=cubee-gothic_hag;n=false;usm=true;sync=true;delay=5} @self ~onLoad
+  - model{sync=true;scale=0.67;mid=cubee-gothic_hag;n=false;usm=true;sync=true} @self ~onSpawn
+  - model{sync=true;scale=0.67;mid=cubee-gothic_hag;n=false;usm=true;sync=true;delay=5} @self ~onLoad
   - partvisibility{mid=cubee-gothic_hag;p=bone11;v=false} @self ~onSpawn 
   - partvisibility{mid=cubee-gothic_hag;p=bone13;v=false} @self ~onSpawn
   - state{s=knocked;li=0;lo=0} @self ~onSpawn
@@ -305,8 +305,8 @@ cubee-skelly_warlock:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="skelly_warlock";type=STRING;save=true;delay=2} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.67;mid=cubee-skelly_warlock;n=false;usm=true;sync=true} @self ~onSpawn
-  - model{scale=0.67;mid=cubee-skelly_warlock;n=false;usm=true;sync=true;delay=5} @self ~onLoad
+  - model{sync=true;scale=0.67;mid=cubee-skelly_warlock;n=false;usm=true;sync=true} @self ~onSpawn
+  - model{sync=true;scale=0.67;mid=cubee-skelly_warlock;n=false;usm=true;sync=true;delay=5} @self ~onLoad
   - tint{m=cubee-skelly_warlock;c=ffffff;d=true;delay=2} @self ~onSpawn
   - cullconfig{mid=cubee-skelly_warlock;bkc=false;delay=2} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} ?!hasaura{auraname=Stay}
@@ -352,8 +352,8 @@ cubee-knocked_out-skelly_warlock:
     Silent: true
   Skills:
   - potion{t=SLOW_FALLING;d=100;i=false;hasparticles=false} @self
-  - model{scale=0.67;mid=cubee-skelly_warlock;n=false;usm=true;sync=true} @self ~onSpawn
-  - model{scale=0.67;mid=cubee-skelly_warlock;n=false;usm=true;sync=true;delay=5} @self ~onLoad
+  - model{sync=true;scale=0.67;mid=cubee-skelly_warlock;n=false;usm=true;sync=true} @self ~onSpawn
+  - model{sync=true;scale=0.67;mid=cubee-skelly_warlock;n=false;usm=true;sync=true;delay=5} @self ~onLoad
   - partvisibility{mid=cubee-skelly_warlock;p=bone11;v=false} @self ~onSpawn 
   - partvisibility{mid=cubee-skelly_warlock;p=bone13;v=false} @self ~onSpawn
   - state{s=knocked;li=0;lo=0} @self ~onSpawn
@@ -428,8 +428,8 @@ cubee-soul_weaver:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="soul_weaver";type=STRING;save=true;delay=2} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.67;mid=cubee-soul_weaver;n=false;usm=true;sync=true} @self ~onSpawn
-  - model{scale=0.67;mid=cubee-soul_weaver;n=false;usm=true;sync=true;delay=5} @self ~onLoad
+  - model{sync=true;scale=0.67;mid=cubee-soul_weaver;n=false;usm=true;sync=true} @self ~onSpawn
+  - model{sync=true;scale=0.67;mid=cubee-soul_weaver;n=false;usm=true;sync=true;delay=5} @self ~onLoad
   - tint{m=cubee-soul_weaver;c=ffffff;d=true;delay=2} @self ~onSpawn
   - cullconfig{mid=cubee-soul_weaver;bkc=false;delay=2} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} ?!hasaura{auraname=Stay}
@@ -475,8 +475,8 @@ cubee-knocked_out-soul_weaver:
     Silent: true
   Skills:
   - potion{t=SLOW_FALLING;d=100;i=false;hasparticles=false} @self
-  - model{scale=0.67;mid=cubee-soul_weaver;n=false;usm=true;sync=true} @self ~onSpawn
-  - model{scale=0.67;mid=cubee-soul_weaver;n=false;usm=true;sync=true;delay=5} @self ~onLoad
+  - model{sync=true;scale=0.67;mid=cubee-soul_weaver;n=false;usm=true;sync=true} @self ~onSpawn
+  - model{sync=true;scale=0.67;mid=cubee-soul_weaver;n=false;usm=true;sync=true;delay=5} @self ~onLoad
   - partvisibility{mid=cubee-soul_weaver;p=bone11;v=false} @self ~onSpawn 
   - partvisibility{mid=cubee-soul_weaver;p=bone13;v=false} @self ~onSpawn
   - state{s=knocked;li=0;lo=0} @self ~onSpawn
@@ -494,7 +494,7 @@ vfx_cubee-dizzy_effect:
   DisplayOptions:
     TeleportDuration: 1
   Skills:
-  - model{mid=dizzy_effect;usm=true;scale=1} @self ~onSpawn
+  - model{sync=true;mid=dizzy_effect;usm=true;scale=1} @self ~onSpawn
   - remove{delay=100} @self ~onSpawn
   
 XDummy-vfx-ebony_cat-bullet:
@@ -505,8 +505,8 @@ XDummy-vfx-ebony_cat-bullet:
     Item: AIR
   Display: '&d' # Display name of the mob
   Skills:
-  - model{save=true;delay=1;scale=1.3;usm=true;mid=vfx-ebony_cat-bullet} @self ~onSpawn
-  - model{save=true;delay=5;scale=1.3;usm=true;mid=vfx-ebony_cat-bullet} @self ~onLoad
+  - model{sync=true;save=true;delay=1;scale=1.3;usm=true;mid=vfx-ebony_cat-bullet} @self ~onSpawn
+  - model{sync=true;save=true;delay=5;scale=1.3;usm=true;mid=vfx-ebony_cat-bullet} @self ~onLoad
 
 XDummy-vfx-ebony_cat-explode:
   Type: ITEM_DISPLAY
@@ -516,8 +516,8 @@ XDummy-vfx-ebony_cat-explode:
     Item: AIR
   Display: '&d' # Display name of the mob
   Skills:
-  - model{save=true;delay=1;scale=1;usm=true;mid=vfx-ebony_cat-explode} @self ~onSpawn
-  - model{save=true;delay=5;scale=1;usm=true;mid=vfx-ebony_cat-explode} @self ~onLoad
+  - model{sync=true;save=true;delay=1;scale=1;usm=true;mid=vfx-ebony_cat-explode} @self ~onSpawn
+  - model{sync=true;save=true;delay=5;scale=1;usm=true;mid=vfx-ebony_cat-explode} @self ~onLoad
   - remove{delay=9} @self ~onSpawn
 
 XDummy-vfx-ebony_cat-large_bullet:
@@ -528,8 +528,8 @@ XDummy-vfx-ebony_cat-large_bullet:
     Item: AIR
   Display: '&d' # Display name of the mob
   Skills:
-  - model{save=true;delay=1;scale=1.3;usm=true;mid=vfx-ebony_cat-large_bullet} @self ~onSpawn
-  - model{save=true;delay=5;scale=1.3;usm=true;mid=vfx-ebony_cat-large_bullet} @self ~onLoad
+  - model{sync=true;save=true;delay=1;scale=1.3;usm=true;mid=vfx-ebony_cat-large_bullet} @self ~onSpawn
+  - model{sync=true;save=true;delay=5;scale=1.3;usm=true;mid=vfx-ebony_cat-large_bullet} @self ~onLoad
 
 XDummy-vfx-ebony_cat-large_explode:
   Type: ITEM_DISPLAY
@@ -540,8 +540,8 @@ XDummy-vfx-ebony_cat-large_explode:
   Display: '&d' # Display name of the mob
   Skills:
   - setrotation{relative=true;yaw=180;p=0} @Self ~onSpawn
-  - model{save=true;delay=1;scale=1.25;usm=true;mid=vfx-ebony_cat-large_explode} @self ~onSpawn
-  - model{save=true;delay=5;scale=1.25;usm=true;mid=vfx-ebony_cat-large_explode} @self ~onLoad
+  - model{sync=true;save=true;delay=1;scale=1.25;usm=true;mid=vfx-ebony_cat-large_explode} @self ~onSpawn
+  - model{sync=true;save=true;delay=5;scale=1.25;usm=true;mid=vfx-ebony_cat-large_explode} @self ~onLoad
   - remove{delay=23} @self ~onSpawn
 
 XDummy-vfx-gothic_hag_crows:
@@ -552,8 +552,8 @@ XDummy-vfx-gothic_hag_crows:
     Item: AIR
   Display: '&d' # Display name of the mob
   Skills:
-  - model{save=true;delay=1;scale=2;usm=true;mid=vfx-gothic_hag_crows} @self ~onSpawn
-  - model{save=true;delay=5;scale=2;usm=true;mid=vfx-gothic_hag_crows} @self ~onLoad
+  - model{sync=true;save=true;delay=1;scale=2;usm=true;mid=vfx-gothic_hag_crows} @self ~onSpawn
+  - model{sync=true;save=true;delay=5;scale=2;usm=true;mid=vfx-gothic_hag_crows} @self ~onLoad
   - remove{delay=10} @self ~onSpawn
 
 
@@ -594,8 +594,8 @@ XDummy-minion-cubee-skelly_warlock-bomb:
   - addtag{t=Spawned;delay=27} @self ~onSpawn
   - stun{d=27;facing=false} @self ~onSpawn
   - runaigoalselector{aigoalselector=meleeAttack;delay=28} @self ~onSpawn
-  - model{save=true;delay=1;scale=1;usm=true;mid=xdummy-minion_bomb_warlock} @self ~onSpawn
-  - model{save=true;delay=5;scale=1;usm=true;mid=xdummy-minion_bomb_warlock} @self ~onLoad
+  - model{sync=true;save=true;delay=1;scale=1;usm=true;mid=xdummy-minion_bomb_warlock} @self ~onSpawn
+  - model{sync=true;save=true;delay=5;scale=1;usm=true;mid=xdummy-minion_bomb_warlock} @self ~onLoad
   - skill{s=Cubee-skelly_warlock-minion-bomb} @self ~onTimer:3
   - skill{s=Cubee-skelly_warlock-minion-bomb-explode} @self ~onDeath
   - skill{s=Cubee-skelly_warlock-minion-bomb-explode} @self ~onDespawn
@@ -638,7 +638,7 @@ XDummy-minion-cubee-skelly_warlock-melee:
   - addtag{t=Spawned;delay=27} @self ~onSpawn
   - stun{d=27;facing=false} @self ~onSpawn
   - runaigoalselector{aigoalselector=meleeAttack;delay=28} @self ~onSpawn
-  - model{save=true;delay=1;scale=1;usm=true;mid=xdummy-minion_melee_warlock} @self ~onSpawn
-  - model{save=true;delay=5;scale=1;usm=true;mid=xdummy-minion_melee_warlock} @self ~onLoad
+  - model{sync=true;save=true;delay=1;scale=1;usm=true;mid=xdummy-minion_melee_warlock} @self ~onSpawn
+  - model{sync=true;save=true;delay=5;scale=1;usm=true;mid=xdummy-minion_melee_warlock} @self ~onLoad
   - skill{s=Cubee-skelly_warlock-minion-melee} @self ~onTimer:3
   - remove{delay=200} @self ~onSpawn

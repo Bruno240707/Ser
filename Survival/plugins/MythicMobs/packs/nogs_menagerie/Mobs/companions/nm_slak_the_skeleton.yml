@@ -18,10 +18,10 @@ nm_slak_the_skeleton:
     PreventLeashing: false
     AlwaysShowName: false
   Skills:
-  - model{mid=nm_slak_the_skeleton;n=name} @self ~onSpawn
+  - model{sync=true;mid=nm_slak_the_skeleton;n=name} @self ~onSpawn
   - skill{s=nm_slak_the_skeleton_spawn;sync=true} ~onSpawn
   
-  - model{mid=nm_slak_the_skeleton;n=name} @self ~onLoad
+  - model{sync=true;mid=nm_slak_the_skeleton;n=name} @self ~onLoad
   
   - randomskill{s=nm_slak_the_skeleton_head_spin_parse;sync=true;cd=3} ~onInteract
   

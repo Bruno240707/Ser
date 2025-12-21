@@ -12,9 +12,9 @@ Zekk_Estatua:
     PreventOtherDrops: true
     Invisible: true
   Skills:
-  - model{mid=nm_zekk_the_zombie;drive=false;ride=false} @self ~onSpawn
+  - model{sync=true;mid=nm_zekk_the_zombie;drive=false;ride=false} @self ~onSpawn
   - state{s=idle;forceSync=true} @self ~onSpawn
-  - model{mid=nm_zekk_the_zombie;drive=false;ride=false} @self ~onLoad
+  - model{sync=true;mid=nm_zekk_the_zombie;drive=false;ride=false} @self ~onLoad
   - state{s=idle;forceSync=true} @self ~onLoad
 
 Unicorn_Estatua:
@@ -31,9 +31,9 @@ Unicorn_Estatua:
     PreventOtherDrops: true
     Invisible: true
   Skills:
-  - model{mid=Pet_Unicorn_Heavenly;drive=false;ride=false} @self ~onSpawn
+  - model{sync=true;mid=Pet_Unicorn_Heavenly;drive=false;ride=false} @self ~onSpawn
   - state{s=idle;forceSync=true} @self ~onSpawn
-  - model{mid=Pet_Unicorn_Heavenly;drive=false;ride=false} @self ~onLoad
+  - model{sync=true;mid=Pet_Unicorn_Heavenly;drive=false;ride=false} @self ~onLoad
   - state{s=idle;forceSync=true} @self ~onLoad
 
 Oceanic_Shark_Estatua:
@@ -50,9 +50,9 @@ Oceanic_Shark_Estatua:
     PreventOtherDrops: true
     Invisible: true
   Skills:
-  - model{mid=Pet_Shark_Oceanic;drive=false;ride=false} @self ~onSpawn
+  - model{sync=true;mid=Pet_Shark_Oceanic;drive=false;ride=false} @self ~onSpawn
   - state{s=idle;forceSync=true} @self ~onSpawn
-  - model{mid=Pet_Shark_Oceanic;drive=false;ride=false} @self ~onLoad
+  - model{sync=true;mid=Pet_Shark_Oceanic;drive=false;ride=false} @self ~onLoad
   - state{s=idle;forceSync=true} @self ~onLoad
 
 Dragon_Fire_Estatua:
@@ -69,9 +69,9 @@ Dragon_Fire_Estatua:
     PreventOtherDrops: true
     Invisible: true
   Skills:
-  - model{mid=Pet_Fire_Dragon_Fire;drive=false;ride=false} @self ~onSpawn
+  - model{sync=true;mid=Pet_Fire_Dragon_Fire;drive=false;ride=false} @self ~onSpawn
   - state{s=idle;forceSync=true} @self ~onSpawn
-  - model{mid=Pet_Fire_Dragon_Fire;drive=false;ride=false} @self ~onLoad
+  - model{sync=true;mid=Pet_Fire_Dragon_Fire;drive=false;ride=false} @self ~onLoad
   - state{s=idle;forceSync=true} @self ~onLoad
 
 Ebony_Estatua:
@@ -88,9 +88,9 @@ Ebony_Estatua:
     PreventOtherDrops: true
     Invisible: true
   Skills:
-  - model{mid=ebony_cat;drive=false;ride=false} @self ~onSpawn
+  - model{sync=true;mid=ebony_cat;drive=false;ride=false} @self ~onSpawn
   - state{s=idle;forceSync=true} @self ~onSpawn
-  - model{mid=ebony_cat;drive=false;ride=false} @self ~onLoad
+  - model{sync=true;mid=ebony_cat;drive=false;ride=false} @self ~onLoad
   - state{s=idle;forceSync=true} @self ~onLoad
 
 Castle_Knight_Estatua:
@@ -107,9 +107,9 @@ Castle_Knight_Estatua:
     PreventOtherDrops: true
     Invisible: true
   Skills:
-  - model{mid=Pet_Knight_Castle;drive=false;ride=false} @self ~onSpawn
+  - model{sync=true;mid=Pet_Knight_Castle;drive=false;ride=false} @self ~onSpawn
   - state{s=idle;forceSync=true} @self ~onSpawn
-  - model{mid=Pet_Knight_Castle;drive=false;ride=false} @self ~onLoad
+  - model{sync=true;mid=Pet_Knight_Castle;drive=false;ride=false} @self ~onLoad
   - state{s=idle;forceSync=true} @self ~onLoad
 
 Phoenix_Estatua:
@@ -126,9 +126,9 @@ Phoenix_Estatua:
     PreventOtherDrops: true
     Invisible: true
   Skills:
-  - model{mid=Pet_Griffon_Phoenix;drive=false;ride=false} @self ~onSpawn
+  - model{sync=true;mid=Pet_Griffon_Phoenix;drive=false;ride=false} @self ~onSpawn
   - state{s=idle;forceSync=true} @self ~onSpawn
-  - model{mid=Pet_Griffon_Phoenix;drive=false;ride=false} @self ~onLoad
+  - model{sync=true;mid=Pet_Griffon_Phoenix;drive=false;ride=false} @self ~onLoad
   - state{s=idle;forceSync=true} @self ~onLoad
 
 Cacti_Estatua:
@@ -145,7 +145,7 @@ Cacti_Estatua:
     PreventOtherDrops: true
     Invisible: true
   Skills:
-  - model{mid=Pet_Cacti_Sculk;drive=false;ride=false} @self ~onSpawn
+  - model{sync=true;mid=Pet_Cacti_Sculk;drive=false;ride=false} @self ~onSpawn
   - state{s=idle;forceSync=true} @self ~onSpawn
-  - model{mid=Pet_Cacti_Sculk;drive=false;ride=false} @self ~onLoad
+  - model{sync=true;mid=Pet_Cacti_Sculk;drive=false;ride=false} @self ~onLoad
   - state{s=idle;forceSync=true} @self ~onLoad

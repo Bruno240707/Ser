@@ -7,7 +7,7 @@ VFX_AwakenedArcher_FIRSTIMPACT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_first_hit_impact;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_first_hit_impact;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1.2} @self ~onSpawn
@@ -45,7 +45,7 @@ VFX_AwakenedArcher_SHOOTIMPACT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_awakened_arrow_impact;scale=0.7} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_awakened_arrow_impact;scale=0.7} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=impact;speed=1.4} @self ~onSpawn
@@ -59,7 +59,7 @@ VFX_AwakenedArcher_SHOOTIMPACT_PIERCING:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_awakened_arrow_impact;scale=1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_awakened_arrow_impact;scale=1} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - tint{c=ff7b47;damagetint=false} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -74,7 +74,7 @@ VFX_AwakenedArcher_SHOOTIMPACT_FIXED:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_awakened_arrow_impact;scale=0.7;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_awakened_arrow_impact;scale=0.7;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=impact2;speed=1.4} @self ~onSpawn
@@ -88,7 +88,7 @@ VFX_AwakenedArcher_Arrow:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_awakened_arrow} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_awakened_arrow} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot;p=1} @self ~onSpawn
@@ -102,7 +102,7 @@ VFX_AwakenedArcher_Arrow_SHAKING:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_awakened_arrow} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_awakened_arrow} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot_shaking;p=1} @self ~onSpawn
@@ -116,7 +116,7 @@ VFX_AwakenedArcher_Arrow_PIERCING:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_awakened_arrow} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_awakened_arrow} @self ~onSpawn
   - tint{c=ff7b47;damagetint=false} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -144,7 +144,7 @@ VFX_Blasting_Combo_ROLL_VFX:
     Invincible: true
     Collidable: false
   Skills: 
-  - model{usestatemachine=true;mid=quick_dash_vfx_1;lockpitch=true;delay=0} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=quick_dash_vfx_1;lockpitch=true;delay=0} @self ~onSpawn
   - look{force=true;delay=0} @owner ~onSpawn
   - brightness{b=15;s=15;delay=0} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0;delay=0} @self ~onSpawn
@@ -178,7 +178,7 @@ VFX_Blasting_Combo_ROLL_BACK:
     Invincible: true
     Collidable: false
   Skills: 
-  - model{usestatemachine=true;mid=quick_dash_vfx_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=quick_dash_vfx_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=back_roll;speed=1} @self ~onSpawn
@@ -210,7 +210,7 @@ VFX_Blasting_Combo_ROLL_SIDE:
     Invincible: true
     Collidable: false
   Skills: 
-  - model{usestatemachine=true;mid=quick_dash_vfx_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=quick_dash_vfx_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=side_roll;speed=1} @self ~onSpawn
@@ -242,7 +242,7 @@ VFX_Blasting_Combo_ROLL_JUMP:
     Invincible: true
     Collidable: false
   Skills: 
-  - model{usestatemachine=true;mid=quick_dash_vfx_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=quick_dash_vfx_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=jump;speed=1} @self ~onSpawn
@@ -276,7 +276,7 @@ VFX_AwakenedArcher_FOURTH_CHARGE:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shot_charging;syncbody=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shot_charging;syncbody=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=charging_and_shoot;speed=1.5} @self ~onSpawn
@@ -290,7 +290,7 @@ VFX_AwakenedArcher_FOURTH_CHARGE_IMPACT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shot_charging;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shot_charging;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot_impact} @self ~onSpawn
@@ -305,7 +305,7 @@ VFX_AwakenedArcher_Rupture_Small:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=15;s=15} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=13;s=13;delay=22} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=11;s=11;delay=26} @self ~onSpawn
@@ -332,7 +332,7 @@ VFX_AwakenedArcher_Rubbles_Small:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_rubbles;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_rubbles;lockpitch=true} @self ~onSpawn
   - setrotation{relative=true;yaw=<random.0to359>} @self ~onSpawn
   - brightness{b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -350,7 +350,7 @@ VFX_Blasting_Combo_EVASIVE_SHOT_DASH:
     Invincible: true
     Collidable: false
   Skills: 
-  - model{usestatemachine=true;mid=evasive_shot_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=evasive_shot_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=back_roll;speed=1} @self ~onSpawn
@@ -384,7 +384,7 @@ VFX_Blasting_Combo_EVASIVE_SHOT_ARROWS:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=evasive_shot_arrows;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=evasive_shot_arrows;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=evasive_shot;speed=1} @self ~onSpawn
@@ -399,7 +399,7 @@ VFX_Blasting_Combo_VOLLEY_OF_ARROWS1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_volley_of_arrow;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_volley_of_arrow;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation3;speed=1} @self ~onSpawn
@@ -413,7 +413,7 @@ VFX_Blasting_Combo_VOLLEY_OF_ARROWS2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_volley_of_arrow;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_volley_of_arrow;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
@@ -428,7 +428,7 @@ VFX_Blasting_Combo_PIERCING_SKYFALL_SHOOTMULTIPLE:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=piercing_skyfall;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=piercing_skyfall;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=firing_multiple_arrows;speed=1} @self ~onSpawn
@@ -442,7 +442,7 @@ VFX_Blasting_Combo_PIERCING_SKYFALL_RANDOMARROW:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=piercing_skyfall;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=piercing_skyfall;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - partvis{p=trail;v=false;em=true;child=true;delay=5} @self ~onSpawn
@@ -469,7 +469,7 @@ VFX_SOD_CHARGE:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shot_of_destruction;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shot_of_destruction;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=chrage;speed=1} @self ~onSpawn
@@ -483,8 +483,8 @@ VFX_SOD_THEARROW:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shot_of_destruction;lockpitch=true;delay=2} @self ~onSpawn
-  - lockmodel{delay=7} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shot_of_destruction;lockpitch=true;delay=2} @self ~onSpawn
+  - lockmodel{sync=true;delay=7} @self ~onSpawn
   - brightness{p=bone;em=false;b=15;s=15;delay=2} @self ~onSpawn
   - brightness{p=trail;em=false;b=15;s=15;delay=2} @self ~onSpawn
   - brightness{p=body;em=false;b=15;s=15;delay=2} @self ~onSpawn
@@ -505,7 +505,7 @@ VFX_SOD_RUBBLES:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_sod_rubble;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_sod_rubble;lockpitch=true} @self ~onSpawn
   - brightness{b=9;s=9} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - randomskill{skills=

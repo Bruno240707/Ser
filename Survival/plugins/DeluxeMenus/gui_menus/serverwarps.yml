@@ -171,11 +171,11 @@ items:
     # Mascotas
   'Mascotas':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJmYzQ2NzZmNWFiMTQ0ZTY3NDhiY2FiNjFhMzRlODgzYzYxMmRkMmI2MWUwZWZmNWNhNGM1MjllMTJhYWM4In19fQ== # Cabeza de jugador personalizada
-    slot: 31
+    slot: 20
     priority: 1
     update: true
     item_flags: [HIDE_ATTRIBUTES] # Ocultar atributos
-    display_name: '&cTienda de Mascotas'
+    display_name: '&aTienda de Mascotas'
     lore:
       - '&8Warp del Servidor'
       - '&r'
@@ -185,5 +185,23 @@ items:
       - ''
       - '&e→ &lCLIC &r&epara Teletransportarte!'
     left_click_commands:
-      - '[player] essentials:warp Mascotas' # Comando para ir al warp 'mina'
+      - '[player] essentials:warp Mascotas'
+      - '[close]'
+
+  'Pesca':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEzOGY2NzM4MDhjZTNjZTc5NTdlYzUxOTlmNTAyZDFmZTFkYWJkMDNlODExZDY4NzZmZjI5NTFlZGUxNGU2NiJ9fX0=
+    slot: 24
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES] # Ocultar atributos
+    display_name: '&aVenta de Peces'
+    lore:
+      - '&8Warp del Servidor'
+      - '&r'
+      - '&bDescripción:'
+      - '&f¡Vende y evalua tus Peces!'
+      - ''
+      - '&e→ &lCLIC &r&epara Teletransportarte!'
+    left_click_commands:
+      - '[player] essentials:warp Pesca'
       - '[close]'

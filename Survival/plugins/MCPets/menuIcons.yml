@@ -51,8 +51,8 @@ common_pet_food:
   id: minecraft:sweet_berries
   count: 1
   components:
-    minecraft:custom_name: '{color:"white",italic:0b,text:"Common Pet Food"}'
     minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+    minecraft:custom_name: '{color:"white",italic:0b,text:"Common Pet Food"}'
   schema_version: 1
 rare_pet_food:
   ==: org.bukkit.inventory.ItemStack
@@ -60,8 +60,8 @@ rare_pet_food:
   id: minecraft:apple
   count: 1
   components:
-    minecraft:custom_name: '{color:"green",italic:0b,text:"Rare Pet Food"}'
     minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+    minecraft:custom_name: '{color:"green",italic:0b,text:"Rare Pet Food"}'
   schema_version: 1
 epic_pet_food:
   ==: org.bukkit.inventory.ItemStack
@@ -69,8 +69,8 @@ epic_pet_food:
   id: minecraft:golden_apple
   count: 1
   components:
-    minecraft:custom_name: '{color:"light_purple",italic:0b,text:"Epic Pet Food"}'
     minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+    minecraft:custom_name: '{color:"light_purple",italic:0b,text:"Epic Pet Food"}'
   schema_version: 1
 inventory:
   ==: org.bukkit.inventory.ItemStack

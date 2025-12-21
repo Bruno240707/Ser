@@ -271,6 +271,18 @@ PAPER:
   livingroom:curtainblue: 10178
   livingroom:aquariumwhite: 10179
   livingroom:smallchairbeige: 10180
+  infinitefishing:gui_bar1: 40096
+  infinitefishing:gui_bar2: 40097
+  infinitefishing:gui_bar3: 40098
+  infinitefishing:crab: 50075
+  infinitefishing:simple_bait: 50070
+  infinitefishing:magnetic_bait: 50071
+  infinitefishing:wild_bait: 50072
+  infinitefishing:nice_bait: 50073
+  infinitefishing:worm_bait: 50074
+  infinitefishing:fishfinder: 50080
+  infinitefishing:water_effect: 49998
+  infinitefishing:lava_effect: 49999
 PLAYER_HEAD:
   __manually_handled:_iainternal__player_phead_0: 10000
   __manually_handled:_iainternal__player_parm_left_3: 10001
@@ -742,3 +754,84 @@ BRICK:
   companions_2:icon_shark_chef: 12052
   companions_2:icon_shark_dragonborn: 12053
   companions_2:icon_shark_oceanic: 12054
+COD:
+  infinitefishing:rainbow_fish: 50100
+  infinitefishing:radioactive_fish: 50000
+  infinitefishing:tuna_fish: 50001
+  infinitefishing:tuna_fish_silver_star: 50002
+  infinitefishing:tuna_fish_golden_star: 50003
+  infinitefishing:pike_fish: 50004
+  infinitefishing:pike_fish_silver_star: 50005
+  infinitefishing:pike_fish_golden_star: 50006
+  infinitefishing:gold_fish: 50007
+  infinitefishing:gold_fish_silver_star: 50008
+  infinitefishing:gold_fish_golden_star: 50009
+  infinitefishing:perch_fish: 50010
+  infinitefishing:perch_fish_silver_star: 50011
+  infinitefishing:perch_fish_golden_star: 50012
+  infinitefishing:mullet_fish: 50013
+  infinitefishing:mullet_fish_silver_star: 50014
+  infinitefishing:mullet_fish_golden_star: 50015
+  infinitefishing:sardine_fish: 50016
+  infinitefishing:sardine_fish_silver_star: 50017
+  infinitefishing:sardine_fish_golden_star: 50018
+  infinitefishing:carp_fish: 50019
+  infinitefishing:carp_fish_silver_star: 50020
+  infinitefishing:carp_fish_golden_star: 50021
+  infinitefishing:cat_fish: 50022
+  infinitefishing:cat_fish_silver_star: 50023
+  infinitefishing:cat_fish_golden_star: 50024
+  infinitefishing:octopus_fish: 50025
+  infinitefishing:octopus_fish_silver_star: 50026
+  infinitefishing:octopus_fish_golden_star: 50027
+  infinitefishing:sunfish_fish: 50028
+  infinitefishing:sunfish_fish_silver_star: 50029
+  infinitefishing:sunfish_fish_golden_star: 50030
+  infinitefishing:red_spnapper_fish: 50031
+  infinitefishing:red_spnapper_silver_star: 50032
+  infinitefishing:red_spnapper_fish_golden_star: 50033
+  infinitefishing:salmon_void_fish: 50034
+  infinitefishing:salmon_void_silver_star: 50035
+  infinitefishing:salmon_void_fish_golden_star: 50036
+  infinitefishing:woodskip_fish: 50037
+  infinitefishing:woodskip_silver_star: 50038
+  infinitefishing:woodskip_fish_golden_star: 50039
+  infinitefishing:sturgeon_fish: 50040
+  infinitefishing:sturgeon_silver_star: 50041
+  infinitefishing:sturgeon_fish_golden_star: 50042
+  infinitefishing:blue_jellyfish: 50043
+  infinitefishing:blue_jellyfish_silver_star: 50044
+  infinitefishing:blue_jellyfish_golden_star: 50045
+  infinitefishing:pink_jellyfish: 50046
+  infinitefishing:pink_jellyfish_silver_star: 50047
+  infinitefishing:pink_jellyfish_golden_star: 50048
+  infinitefishing:blue_jellyfish_amethyst_star: 50049
+  infinitefishing:carp_fish_amethyst_star: 50050
+  infinitefishing:cat_fish_amethyst_star: 50051
+  infinitefishing:gold_fish_amethyst_star: 50052
+  infinitefishing:golden_fish_amethyst_star: 50053
+  infinitefishing:mullet_fish_amethyst_star: 50054
+  infinitefishing:octopus_fish_amethyst_star: 50055
+  infinitefishing:perch_fish_amethyst_star: 50056
+  infinitefishing:pike_fish_amethyst_star: 50057
+  infinitefishing:pink_jellyfish_amethyst_star: 50058
+  infinitefishing:red_spnapper_fish_amethyst_star: 50059
+  infinitefishing:salmon_void_fish_amethyst_star: 50060
+  infinitefishing:sardine_fish_amethyst_star: 50061
+  infinitefishing:sturgeon_fish_amethyst_star: 50062
+  infinitefishing:sunfish_fish_amethyst_star: 50063
+  infinitefishing:tuna_fish_amethyst_star: 50064
+  infinitefishing:woodskip_fish_amethyst_star: 50065
+  infinitefishing:golden_fish: 50066
+  infinitefishing:golden_fish_gold_star: 50067
+  infinitefishing:golden_fish_silver_star: 50068
+FISHING_ROD:
+  infinitefishing:beginner_rod: 50081
+  infinitefishing:silver_rod: 50082
+  infinitefishing:golden_rod: 50083
+  infinitefishing:star_rod: 50084
+  infinitefishing:bone_rod: 50085
+  infinitefishing:magical_rod: 50086
+  infinitefishing:master_rod: 50087
+SHEARS:
+  infinitefishing:delicate_hook: 50220

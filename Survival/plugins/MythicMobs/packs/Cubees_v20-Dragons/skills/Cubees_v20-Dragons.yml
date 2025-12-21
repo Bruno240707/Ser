@@ -364,7 +364,7 @@ Cubee-darkness_dragon-Pet-Attack_Execute:
   - sound{s=cubees_v20:cubee-darkness_dragon;sc=PLAYERS;p=1;v=0.35} @selflocation
   - aura{auraname=Stay;d=70;i=1} @self
   - delay 1
-  - lockmodel{l=true} @self
+  - lockmodel{sync=true;l=true} @self
   - particleline{particle=dust_color_transition;startyoffset=1.5;sso=1.5;targetyoffset=0.4;color1=#b75bfb;color2=#ff6df8;amount=1;size=1.2;distanceBetween=0.15;hs=0.15;vs=0.15} @target
   - teleport{radius=1.5;unsafe=true} @Target
   - tracklocation @self
@@ -379,7 +379,7 @@ Cubee-darkness_dragon-Pet-Attack_Execute:
   - sound{s=minecraft:entity.warden.death;p=0.85;v=3;sc=HOSTILE} @selflocation
   - skill{s=Cubee-darkness_dragon-Pet-HadesLair_Cast} @EIR{r=4.5}
   - delay 20
-  - lockmodel{l=false} @self
+  - lockmodel{sync=true;l=false} @self
 
 Cubee-darkness_dragon-Pet-HadesLair_Cast:
   Skills:
@@ -585,7 +585,7 @@ Cubee-earth_dragon-Pet-Attack_Execute:
   - skill{s=[ - tracklocation @floorsOfTarget{tries=99}]} @self
   - teleport{repeat=73;repeatinterval=1} @trackedLocation{y=1} 
   - delay 10
-  - lockmodel{l=true}
+  - lockmodel{sync=true;l=true}
   - skill{s=Cubee-earth_dragon-Pet-ClobberingCrash_Hit;delay=0} @ModelPart{mid=cubee-earth_dragon;p=vfx_earth_1}
   - skill{s=Cubee-earth_dragon-Pet-ClobberingCrash_Hit;delay=1} @ModelPart{mid=cubee-earth_dragon;p=vfx_earth_2}
   - skill{s=Cubee-earth_dragon-Pet-ClobberingCrash_Hit;delay=2} @ModelPart{mid=cubee-earth_dragon;p=vfx_earth_3}
@@ -598,7 +598,7 @@ Cubee-earth_dragon-Pet-Attack_Execute:
   - skill{s=Cubee-earth_dragon-Pet-ClobberingCrash_Hit;delay=9} @ModelPart{mid=cubee-earth_dragon;p=vfx_earth_10}
   - skill{s=Cubee-earth_dragon-Pet-ClobberingCrash_Hit;delay=10} @ModelPart{mid=cubee-earth_dragon;p=vfx_earth_11}
   - skill{s=Cubee-earth_dragon-Pet-ClobberingCrash_Hit;delay=11} @ModelPart{mid=cubee-earth_dragon;p=vfx_earth_12}
-  - lockmodel{l=false;delay=65} @self
+  - lockmodel{sync=true;l=false;delay=65} @self
 
 Cubee-earth_dragon-Pet-ClobberingCrash_Hit:
   Skills:
@@ -770,8 +770,8 @@ Cubee-fire_dragon-Pet-Attack_Execute:
   - sound{s=entity.player.levelup;p=1.5;v=0.35} @selflocation
   - sound{s=cubees_v20:cubee-fire_dragon;sc=PLAYERS;p=1;v=0.35} @selflocation
   - aura{auraname=Stay;d=70;i=1} @self
-  - lockmodel{l=true} @self
-  - lockmodel{l=true} @self
+  - lockmodel{sync=true;l=true} @self
+  - lockmodel{sync=true;l=true} @self
   - particleline{particle=dust_color_transition;startyoffset=1.5;sso=1.5;targetyoffset=0.4;color1=#942c4b;color2=#f2cb9b;amount=1;size=1.2;distanceBetween=0.15;hs=0.15;vs=0.15} @target
   - particleline{particle=flame;startyoffset=1.5;sso=1.5;targetyoffset=0.4;amount=1;size=1.2;distanceBetween=0.15;hs=0.15;vs=0.15} @target
   - teleport{radius=2.5;unsafe=true} @Target
@@ -780,7 +780,7 @@ Cubee-fire_dragon-Pet-Attack_Execute:
   - teleport{repeat=53;repeatinterval=1} @trackedLocation
   - setgravity{gravity=false} @Self
   - setgravity{gravity=true;delay=75} @self
-  - lockmodel{l=false;delay=75} @self
+  - lockmodel{sync=true;l=false;delay=75} @self
   - delay 30
   - particle{particle=flame;a=80;speed=0.5} @selflocation{y=1.2}
   - particle{particle=lava;a=40;hs=2;vs=0.7;speed=0.5} @selflocation{y=1.2}
@@ -1147,8 +1147,8 @@ Cubee-ice_dragon-Pet-Attack_Execute:
         - pull{v=6} @Trigger
       ];repeat=20;repeatInterval=1;cat=true} @Target
   - delay 25
-  - lockmodel{l=true} @self
-  - lockmodel{l=false;delay=100} @self
+  - lockmodel{sync=true;l=true} @self
+  - lockmodel{sync=true;l=false;delay=100} @self
   - particle{p=firework;a=10;hS=0.1;vS=0.1;speed=0.3} @self
   - particle{p=end_rod;a=10;hS=0.1;vS=0.1;speed=0.3} @self
   - skill{s=Cubee-ice_dragon-Pet-Niflheim_Hit;repeat=10;repeatInterval=5;cat=true} @EIR{r=5.5}
@@ -1336,8 +1336,8 @@ Cubee-light_dragon-Pet-Attack_Execute:
   - setgravity{gravity=true;delay=100} @self
   - teleport{repeat=99;repeatinterval=1} @trackedLocation 
   - delay 9
-  - lockmodel{l=true} @self
-  - lockmodel{l=false;delay=90} @self
+  - lockmodel{sync=true;l=true} @self
+  - lockmodel{sync=true;l=false;delay=90} @self
   - skill{s=Cubee-light_dragon-Pet-FreyrJudgement_Hit;repeat=8;repeatInterval=5} @EIR{r=3}
   - addtag{t=LastHit;delay=64} @self
   - skill{s=Cubee-light_dragon-Pet-FreyrJudgement_Hit;power=9;delay=66} @EIR{r=5}

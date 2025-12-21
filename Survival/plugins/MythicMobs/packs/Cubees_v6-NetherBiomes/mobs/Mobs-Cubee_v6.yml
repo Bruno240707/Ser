@@ -30,7 +30,7 @@ cubee-basalt_delta:
   - setvar{var=caster.cubeemodel;value="basalt_delta";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{scale=0.56;mid=cubee-basalt_delta;n=false} @self ~onSpawn
+  - model{sync=true;scale=0.56;mid=cubee-basalt_delta;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -72,7 +72,7 @@ cubee-blackstone:
   - setvar{var=caster.cubeemodel;value="blackstone";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{scale=0.56;mid=cubee-blackstone;n=false} @self ~onSpawn
+  - model{sync=true;scale=0.56;mid=cubee-blackstone;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -116,7 +116,7 @@ cubee-crimson_fungus:
   - setvar{var=caster.cubeemodel;value="crimson_fungus";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{scale=0.56;mid=cubee-crimson_fungus;n=false} @self ~onSpawn
+  - model{sync=true;scale=0.56;mid=cubee-crimson_fungus;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -158,7 +158,7 @@ cubee-magma:
   - setvar{var=caster.cubeemodel;value="magma";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{scale=0.56;mid=cubee-magma;n=false} @self ~onSpawn
+  - model{sync=true;scale=0.56;mid=cubee-magma;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -200,7 +200,7 @@ cubee-nether_portal:
   - setvar{var=caster.cubeemodel;value="nether_portal";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{scale=0.56;mid=cubee-nether_portal;n=false} @self ~onSpawn
+  - model{sync=true;scale=0.56;mid=cubee-nether_portal;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -242,7 +242,7 @@ cubee-nether_waste:
   - setvar{var=caster.cubeemodel;value="nether_waste";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{scale=0.56;mid=cubee-nether_waste;n=false} @self ~onSpawn
+  - model{sync=true;scale=0.56;mid=cubee-nether_waste;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -284,7 +284,7 @@ cubee-soul_valley:
   - setvar{var=caster.cubeemodel;value="soul_valley";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{scale=0.56;mid=cubee-soul_valley;n=false} @self ~onSpawn
+  - model{sync=true;scale=0.56;mid=cubee-soul_valley;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -326,7 +326,7 @@ cubee-warped_fungus:
   - setvar{var=caster.cubeemodel;value="warped_fungus";type=STRING;save=true} @Self ~onSpawn
   #- animation{a=walk} @self ~onMove
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1
-  - model{scale=0.56;mid=cubee-warped_fungus;n=false} @self ~onSpawn
+  - model{sync=true;scale=0.56;mid=cubee-warped_fungus;n=false} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged

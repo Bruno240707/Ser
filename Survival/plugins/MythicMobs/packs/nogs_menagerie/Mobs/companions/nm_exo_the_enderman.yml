@@ -18,10 +18,10 @@ nm_exo_the_enderman:
     PreventLeashing: false
     AlwaysShowName: false
   Skills:
-  - model{mid=nm_exo_the_enderman;n=name} @self ~onSpawn
+  - model{sync=true;mid=nm_exo_the_enderman;n=name} @self ~onSpawn
   - skill{s=nm_exo_the_enderman_spawn;sync=true} ~onSpawn
   
-  - model{mid=nm_exo_the_enderman;n=name} @self ~onLoad
+  - model{sync=true;mid=nm_exo_the_enderman;n=name} @self ~onLoad
   
   - randomskill{s=nm_exo_the_enderman_teleport_parse;sync=true;cd=3} ~onInteract
   

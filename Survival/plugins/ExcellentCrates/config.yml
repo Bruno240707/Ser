@@ -115,6 +115,14 @@ Crate:
         - '&r'
         - '&7→ Right Click to Open'
         - '&7← Left Click to Preview'
+      petCrate:
+        Text:
+        - '&6&ki&r #ff8000&lP#ffa500&lE#ffca00&lT #d4ff00&lC#aaff00&lR#80ff00&lA#55ff00&lT#2bff00&lE &6&ki'
+        - '&fAbre #ff8000C#ffa500a#ffca00j#ffef00a#d4ff00s #aaff00d#80ff00e #55ff00M#2bff00a#00ff00s#00ff00c#00ff00o#00ff00t#00ff00a#00ff00s &faquí.'
+        - '&r'
+        - '&7→ Click Derecho para Abrir'
+        - '&7← Click Izquierdo para Previsualizar'
+
   Effects:
     # Sets max. distance where players can see crate particles and holograms.
     Visibility_Distance: 24

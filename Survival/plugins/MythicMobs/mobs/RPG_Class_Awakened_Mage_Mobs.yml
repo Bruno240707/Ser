@@ -31,7 +31,7 @@ VFX_AwakenedMage_Fireball2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=fireball;delay=2} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fireball;delay=2} @self ~onSpawn
   - brightness{b=15;s=15;delay=2} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0;delay=2} @self ~onSpawn
   - state{s=animation3;speed=1;delay=2} @self ~onSpawn
@@ -45,7 +45,7 @@ VFX_AwakenedMage_Fireball3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=fireball;delay=2} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fireball;delay=2} @self ~onSpawn
   - brightness{b=15;s=15;delay=2} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0;delay=2} @self ~onSpawn
   - state{s=animation4;speed=1;delay=2} @self ~onSpawn
@@ -59,7 +59,7 @@ VFX_AwakenedMage_Fireball:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=fireball;delay=2} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fireball;delay=2} @self ~onSpawn
   - brightness{b=15;s=15;delay=2} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0;delay=2} @self ~onSpawn
   - state{s=animation;speed=1;delay=2} @self ~onSpawn
@@ -73,7 +73,7 @@ VFX_AwakenedMage_Fireball_Explosion:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=fireball_explosion_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fireball_explosion_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -84,7 +84,7 @@ VFX_AwakenedMage_Fireball_Explosion:
     ];
     ot=[
     - setvariable{var=caster.iteration;val="<caster.var.iteration>+1"}
-    - remapmodel{m=fireball_explosion_1;n=fireball_explosion_<caster.var.iteration>}
+    - remapmodel{sync=true;m=fireball_explosion_1;n=fireball_explosion_<caster.var.iteration>}
     ];
     oe=[ - remove{delay=1} @self ]} @self ~onSpawn
 VFX_AwakenedMage_Fireball_Explosion2:
@@ -96,7 +96,7 @@ VFX_AwakenedMage_Fireball_Explosion2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=fireball_explosion_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fireball_explosion_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
@@ -107,7 +107,7 @@ VFX_AwakenedMage_Fireball_Explosion2:
     ];
     ot=[
     - setvariable{var=caster.iteration;val="<caster.var.iteration>+1"}
-    - remapmodel{m=fireball_explosion_1;n=fireball_explosion_<caster.var.iteration>}
+    - remapmodel{sync=true;m=fireball_explosion_1;n=fireball_explosion_<caster.var.iteration>}
     ];
     oe=[ - remove{delay=1} @self ]} @self ~onSpawn
 
@@ -133,7 +133,7 @@ VFX_AwakenedMage_Glacial_Spikes:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=glacial_spike} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=glacial_spike} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -147,7 +147,7 @@ VFX_AwakenedMage_Thunder_Strike1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
@@ -158,7 +158,7 @@ VFX_AwakenedMage_Thunder_Strike1:
     ];
     ot=[
     - setvariable{var=caster.iteration;val="<caster.var.iteration>+1"}
-    - remapmodel{m=thunder_strike_1;n=thunder_strike_<caster.var.iteration>}
+    - remapmodel{sync=true;m=thunder_strike_1;n=thunder_strike_<caster.var.iteration>}
     ];
     oe=[ - remove @self ]} @self ~onSpawn
 VFX_AwakenedMage_Thunder_Strike2:
@@ -170,7 +170,7 @@ VFX_AwakenedMage_Thunder_Strike2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation3;speed=1} @self ~onSpawn
@@ -181,7 +181,7 @@ VFX_AwakenedMage_Thunder_Strike2:
     ];
     ot=[
     - setvariable{var=caster.iteration;val="<caster.var.iteration>+1"}
-    - remapmodel{m=thunder_strike_1;n=thunder_strike_<caster.var.iteration>}
+    - remapmodel{sync=true;m=thunder_strike_1;n=thunder_strike_<caster.var.iteration>}
     ];
     oe=[ - remove @self ]} @self ~onSpawn
 VFX_AwakenedMage_Thunder_Strike3:
@@ -193,7 +193,7 @@ VFX_AwakenedMage_Thunder_Strike3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation4;speed=1} @self ~onSpawn
@@ -204,7 +204,7 @@ VFX_AwakenedMage_Thunder_Strike3:
     ];
     ot=[
     - setvariable{var=caster.iteration;val="<caster.var.iteration>+1"}
-    - remapmodel{m=thunder_strike_1;n=thunder_strike_<caster.var.iteration>}
+    - remapmodel{sync=true;m=thunder_strike_1;n=thunder_strike_<caster.var.iteration>}
     ];
     oe=[ - remove @self ]} @self ~onSpawn
 
@@ -217,7 +217,7 @@ VFX_AwakenedMage_Thunder_Teleport:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_teleport_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_teleport_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -228,7 +228,7 @@ VFX_AwakenedMage_Thunder_Teleport:
     ];
     ot=[
     - setvariable{var=caster.iteration;val="<caster.var.iteration>+1"}
-    - remapmodel{m=thunder_teleport_1;n=thunder_teleport_<caster.var.iteration>}
+    - remapmodel{sync=true;m=thunder_teleport_1;n=thunder_teleport_<caster.var.iteration>}
     ];
     oe=[ - remove @self ]} @self ~onSpawn
 VFX_AwakenedMage_Thunder_Explosion:
@@ -240,7 +240,7 @@ VFX_AwakenedMage_Thunder_Explosion:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_explosion_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_explosion_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -251,7 +251,7 @@ VFX_AwakenedMage_Thunder_Explosion:
     ];
     ot=[
     - setvariable{var=caster.iteration;val="<caster.var.iteration>+1"}
-    - remapmodel{m=thunder_explosion_1;n=thunder_explosion_<caster.var.iteration>}
+    - remapmodel{sync=true;m=thunder_explosion_1;n=thunder_explosion_<caster.var.iteration>}
     ];
     oe=[ - remove @self ]} @self ~onSpawn
 
@@ -265,7 +265,7 @@ VFX_AwakenedMage_Rupture_Small:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=15;s=15} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=13;s=13;delay=22} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=11;s=11;delay=26} @self ~onSpawn
@@ -292,7 +292,7 @@ VFX_AwakenedMage_Rubbles_Small:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_rubbles;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_rubbles;lockpitch=true} @self ~onSpawn
   - setrotation{relative=true;yaw=<random.0to359>} @self ~onSpawn
   - brightness{b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -309,7 +309,7 @@ VFX_AwakenedMage_Cryo_Prison:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=cryo_prison;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=cryo_prison;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -327,7 +327,7 @@ VFX_AwakenedMage_Cryo_Prison_Cage:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=cryo_prison_cage;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=cryo_prison_cage;lockpitch=true} @self ~onSpawn
   - lockmodel @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -343,7 +343,7 @@ VFX_AwakenedMage_Hailpiercer_Inhale:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=hailpiercer_inhale_breath;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=hailpiercer_inhale_breath;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -357,7 +357,7 @@ VFX_AwakenedMage_Hailpiercer0:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=hailpiercer;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=hailpiercer;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=ice_spike_o;speed=1} @self ~onSpawn
@@ -374,7 +374,7 @@ VFX_AwakenedMage_Hailpiercer1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=hailpiercer;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=hailpiercer;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=ice_spike;speed=1} @self ~onSpawn
@@ -391,7 +391,7 @@ VFX_AwakenedMage_Hailpiercer2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=hailpiercer;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=hailpiercer;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=ice_spike2;speed=1} @self ~onSpawn
@@ -409,7 +409,7 @@ VFX_AwakenedMage_Fireblast:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=big_fireball_charge;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=big_fireball_charge;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -423,7 +423,7 @@ VFX_AwakenedMage_FireCircle1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation6;speed=1} @self ~onSpawn
@@ -437,7 +437,7 @@ VFX_AwakenedMage_FireCircle2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation7;speed=1} @self ~onSpawn
@@ -451,7 +451,7 @@ VFX_AwakenedMage_FireCircle3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation4;speed=1} @self ~onSpawn
@@ -465,7 +465,7 @@ VFX_AwakenedMage_FireCircle4:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation5;speed=1} @self ~onSpawn
@@ -479,7 +479,7 @@ VFX_AwakenedMage_FireCircle5:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
@@ -493,7 +493,7 @@ VFX_AwakenedMage_FireCircle6:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=magic_fire_circle;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation3;speed=1} @self ~onSpawn
@@ -510,7 +510,7 @@ VFX_AwakenedMage_Meteor_Create:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=meteor_of_doom;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=meteor_of_doom;lockpitch=true} @self ~onSpawn
   - brightness{b=9;s=9;p=bone;em=true;c=true} @self ~onSpawn
   - brightness{b=9;s=9;p=allef_stone;em=true;c=true} @self ~onSpawn
   - brightness{b=15;s=15;p=all_asset_meteor;em=true;c=true} @self ~onSpawn
@@ -527,7 +527,7 @@ VFX_AwakenedMage_Meteor:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=meteor_of_doom;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=meteor_of_doom;lockpitch=true} @self ~onSpawn
   - brightness{b=9;s=9;p=bone;em=true;c=true} @self ~onSpawn
   - brightness{b=9;s=9;p=allef_stone;em=true;c=true} @self ~onSpawn
   - brightness{b=15;s=15;p=all_asset_meteor;em=true;c=true} @self ~onSpawn
@@ -546,7 +546,7 @@ VFX_AwakenedMage_Meteor_Cross:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=meteor_of_doom_cross;lockpitch=true;lockyaw=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=meteor_of_doom_cross;lockpitch=true;lockyaw=true} @self ~onSpawn
   - brightness{b=15;s=15;p=blazing_fire;em=true;c=true} @self ~onSpawn
   - brightness{b=15;s=15;p=allef_meteor_hit;em=true;c=true} @self ~onSpawn
   - brightness{b=15;s=15;p=allef_impact;em=true;c=true} @self ~onSpawn

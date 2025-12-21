@@ -38,7 +38,7 @@ VFX_SA_SlashCut_1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=lr_cut;speed=1} @self ~onSpawn
@@ -61,7 +61,7 @@ VFX_SA_SlashCut_2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=rl_cut;speed=1} @self ~onSpawn
@@ -84,7 +84,7 @@ VFX_SA_Spin_Slash:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_spin_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_spin_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -115,7 +115,7 @@ VFX_SA_Pierce:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_pierce_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_pierce_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2;speed=1} @self ~onSpawn
@@ -150,7 +150,7 @@ VFX_SA_Dagger_Diag:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_dagger;lockpitch=false} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_dagger;lockpitch=false} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot_down;p=1} @self ~onSpawn
@@ -167,7 +167,7 @@ VFX_SA_Double_Slashdown:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_downslash;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_downslash;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -198,7 +198,7 @@ VFX_SA_Rupture_Small:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=11;s=11} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3} @self ~onSpawn
@@ -225,7 +225,7 @@ VFX_SA_Rubbles_Small:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_rubbles;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_rubbles;lockpitch=true} @self ~onSpawn
   - brightness{b=11;s=11} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2;speed=1} @self ~onSpawn
@@ -241,7 +241,7 @@ VFX_SA_Dash:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_dash;lockpitch=false} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_dash;lockpitch=false} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -257,7 +257,7 @@ VFX_SA_Dash_Impact:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_dash_impact_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_dash_impact_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -282,7 +282,7 @@ VFX_SA_Slash_RANDOM:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - partvis{m=vfx_dusk_slash_1;p=cut;v=false;em=true;child=true} @self ~onSpawn
@@ -329,7 +329,7 @@ VFX_SA_Cut_RANDOM:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_cut;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_cut;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - randomskill{skills=
@@ -350,7 +350,7 @@ VFX_SA_Rupture:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=11;s=11} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2} @self ~onSpawn
@@ -377,7 +377,7 @@ VFX_SA_Rubbles:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_rubbles;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_rubbles;lockpitch=true} @self ~onSpawn
   - brightness{b=11;s=11} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -393,7 +393,7 @@ VFX_SA_Pulse:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_pulse;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_pulse;lockpitch=true} @self ~onSpawn
   - brightness{b=5;s=5} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3;speed=1} @self ~onSpawn
@@ -409,7 +409,7 @@ VFX_SA_X_Slash:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_shockwave_slash;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_shockwave_slash;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -425,7 +425,7 @@ VFX_SA_Shuriken:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_shuriken;lockpitch=false} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_shuriken;lockpitch=false} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{mh=360;mb=360;player=true} @self ~onSpawn
   - state{s=loop;speed=1} @self ~onSpawn
@@ -440,7 +440,7 @@ VFX_SA_Shuriken_BACK:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_shuriken;lockpitch=false;delay=1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_shuriken;lockpitch=false;delay=1} @self ~onSpawn
   - brightness{b=15;s=15;delay=1} @self ~onSpawn
   - BodyRotation{mh=360;mb=360;player=true;delay=1} @self ~onSpawn
   #- BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0;delay=6} @self ~onSpawn
@@ -461,7 +461,7 @@ VFX_SA_Blades_Summon:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_dagger_circle;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_dagger_circle;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -477,7 +477,7 @@ VFX_SA_Blades_Spin:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_spinning_blades;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_spinning_blades;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=spin;speed=1} @self ~onSpawn
@@ -493,7 +493,7 @@ VFX_SA_Dagger:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_dagger;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_dagger;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{mh=360;mb=360;player=true} @self ~onSpawn
   - state{s=shoot;p=1} @self ~onSpawn
@@ -529,7 +529,7 @@ VFX_SA_Shadow_RANDOM1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
   - brightness{b=12;s=12} @self ~onSpawn
   - brightness{b=9;s=9;delay=18} @self ~onSpawn
   - brightness{b=6;s=6;delay=20} @self ~onSpawn
@@ -583,7 +583,7 @@ VFX_SA_Shadow_RANDOM2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
   - brightness{b=12;s=12} @self ~onSpawn
   - brightness{b=9;s=9;delay=18} @self ~onSpawn
   - brightness{b=6;s=6;delay=20} @self ~onSpawn
@@ -637,7 +637,7 @@ VFX_SA_Shadow_RANDOM3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
   - brightness{b=12;s=12} @self ~onSpawn
   - brightness{b=9;s=9;delay=18} @self ~onSpawn
   - brightness{b=6;s=6;delay=20} @self ~onSpawn
@@ -691,7 +691,7 @@ VFX_SA_Shadow_RANDOM4:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
   - brightness{b=12;s=12} @self ~onSpawn
   - brightness{b=9;s=9;delay=18} @self ~onSpawn
   - brightness{b=6;s=6;delay=20} @self ~onSpawn
@@ -745,7 +745,7 @@ VFX_SA_Shadow_RANDOM5:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
   - brightness{b=12;s=12} @self ~onSpawn
   - brightness{b=9;s=9;delay=18} @self ~onSpawn
   - brightness{b=6;s=6;delay=20} @self ~onSpawn
@@ -799,7 +799,7 @@ VFX_SA_Shadow_RANDOM6:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_shadow_figure_1;lockpitch=true} @self ~onSpawn
   - brightness{b=12;s=12} @self ~onSpawn
   - brightness{b=9;s=9;delay=18} @self ~onSpawn
   - brightness{b=6;s=6;delay=20} @self ~onSpawn
@@ -868,7 +868,7 @@ VFX_SA_Spin_Slash2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_dusk_spin_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_dusk_spin_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2;speed=1} @self ~onSpawn

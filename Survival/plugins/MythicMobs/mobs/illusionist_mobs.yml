@@ -13,7 +13,7 @@ Queen_Tarot:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_card_orbital;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_card_orbital;n=false} @self ~onSpawn
   
 Card_Throw:
   Type: ARMOR_STAND
@@ -26,7 +26,7 @@ Card_Throw:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_card_throw;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_card_throw;n=false} @self ~onSpawn
   
 Card_Throw_2:
   Type: ARMOR_STAND
@@ -39,7 +39,7 @@ Card_Throw_2:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_card_throw;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_card_throw;n=false} @self ~onSpawn
   - state{s=idle2} @self ~onSpawn
   
 Phantom_Blink_Clone:
@@ -53,7 +53,7 @@ Phantom_Blink_Clone:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_clone;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_clone;n=false} @self ~onSpawn
   - state{s=skill_2} @self ~onSpawn
   #- remove{delay=15} @self ~onSpawn
   
@@ -68,7 +68,7 @@ Phantom_Blink_Clone_2:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_clone;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_clone;n=false} @self ~onSpawn
   - state{s=skill_1} @self ~onSpawn
   #- remove{delay=15} @self ~onSpawn
   
@@ -84,7 +84,7 @@ Mirror_Shuriken:
     Invincible: true
   Skills:
   - look{headOnly=false;immediately=true} @forward{f=5;y=1.5} ~onSpawn
-  - model{mid=fx_mirror_shuriken;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_mirror_shuriken;n=false} @self ~onSpawn
   
 Mirror_ShurikenBACK:
   Type: ARMOR_STAND
@@ -98,7 +98,7 @@ Mirror_ShurikenBACK:
     Invincible: true
   Skills:
   - look{headOnly=false;immediately=true} @forward{f=5;y=1.5} ~onSpawn
-  - model{mid=fx_mirror_shuriken;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_mirror_shuriken;n=false} @self ~onSpawn
   - skill{s=Mirror_Shuriken_End_Back_REMOVE} @EIR{r=5} ~onTimer:5
   - remove{delay=100} @self ~onSpawn
 
@@ -134,7 +134,7 @@ Mirror_Needles_Mirror:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_mirror;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_mirror;n=false} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
   - remove{delay=60} @self ~onSpawn
   
@@ -147,7 +147,7 @@ Mirror_Needles_Needle_1:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_mirror_needle;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_mirror_needle;n=false} @self ~onSpawn
   - state{s=skill_1} @self ~onSpawn
   
 Mirror_Needles_Needle_2:
@@ -159,7 +159,7 @@ Mirror_Needles_Needle_2:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_mirror_needle;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_mirror_needle;n=false} @self ~onSpawn
   - state{s=skill_2} @self ~onSpawn
   
 Mirror_Dimension_Portal:

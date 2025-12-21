@@ -17,10 +17,10 @@ nm_zekk_the_zombie:
     PreventLeashing: false
     AlwaysShowName: false
   Skills:
-  - model{mid=nm_zekk_the_zombie;n=name} @self ~onSpawn
+  - model{sync=true;mid=nm_zekk_the_zombie;n=name} @self ~onSpawn
   - skill{s=nm_zekk_the_zombie_spawn;sync=true} ~onSpawn
   
-  - model{mid=nm_zekk_the_zombie;n=name} @self ~onLoad
+  - model{sync=true;mid=nm_zekk_the_zombie;n=name} @self ~onLoad
   
   - randomskill{s=nm_zekk_the_zombie_trip_parse;sync=true;cd=3} ~onInteract
   

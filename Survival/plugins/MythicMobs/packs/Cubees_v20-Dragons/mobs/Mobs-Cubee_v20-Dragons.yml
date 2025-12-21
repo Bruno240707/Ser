@@ -46,7 +46,7 @@ cubee-air_dragon:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="air_dragon";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.6;mid=cubee-air_dragon;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.6;mid=cubee-air_dragon;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking}
   - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
   - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
@@ -114,7 +114,7 @@ cubee-darkness_dragon:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="darkness_dragon";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.6;mid=cubee-darkness_dragon;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.6;mid=cubee-darkness_dragon;n=false;usm=true} @self ~onSpawn
   - defaultstate{t=WALK;s=walk;li=20;lo=20;delay=2} @self ~onSpawn
   - defaultstate{t=IDLE;s=idle;li=20;lo=20;delay=2} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking}
@@ -184,7 +184,7 @@ cubee-earth_dragon:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="earth_dragon";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.6;mid=cubee-earth_dragon;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.6;mid=cubee-earth_dragon;n=false;usm=true} @self ~onSpawn
   - defaultstate{t=WALK;s=walk;li=0;lo=0;delay=2} @self ~onSpawn
   - defaultstate{t=IDLE;s=idle;li=0;lo=0;delay=2} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking}
@@ -254,7 +254,7 @@ cubee-fire_dragon:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="fire_dragon";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.6;mid=cubee-fire_dragon;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.6;mid=cubee-fire_dragon;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking}
   - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
   - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
@@ -322,7 +322,7 @@ cubee-galaxy_dragon:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="galaxy_dragon";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.6;mid=cubee-galaxy_dragon;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.6;mid=cubee-galaxy_dragon;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking}
   - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
   - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
@@ -390,7 +390,7 @@ cubee-ice_dragon:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="ice_dragon";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.6;mid=cubee-ice_dragon;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.6;mid=cubee-ice_dragon;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking}
   - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
   - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
@@ -458,7 +458,7 @@ cubee-light_dragon:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="light_dragon";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.6;mid=cubee-light_dragon;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.6;mid=cubee-light_dragon;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking}
   - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
   - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
@@ -528,7 +528,7 @@ cubee-nature_dragon:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="nature_dragon";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking} 
-  - model{scale=0.6;mid=cubee-nature_dragon;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.6;mid=cubee-nature_dragon;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching} ?!hasaura{auraname=Attacking}
   - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
   - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
@@ -554,7 +554,7 @@ vfx_cubee-nature_dragon:
   Health: 1
   Damage: 1
   Skills:
-  - model{mid=vfx-nature_dragon;usm=true;scale=2} @self ~onSpawn
+  - model{sync=true;mid=vfx-nature_dragon;usm=true;scale=2} @self ~onSpawn
   - state{s=spawn;li=0;li=0;speed=1} @self ~onSpawn
   - remove{delay=63} @self ~onSpawn
   - sound{s=minecraft:entity.wither.hurt;sc=HOSTILE;p=0.2;v=5;delay=41} @selflocation ~onSpawn

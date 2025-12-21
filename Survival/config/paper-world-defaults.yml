@@ -68,7 +68,7 @@ collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
   fix-climbing-bypassing-cramming-rule: false
-  max-entity-collisions: 8
+  max-entity-collisions: 3
   only-players-collide: false
 command-blocks:
   force-follow-perm-level: true
@@ -307,7 +307,7 @@ tick-rates:
       validatenearbypoi: -1
   container-update: 1
   dry-farmland: 1
-  grass-spread: 1
+  grass-spread: 4
   mob-spawner: 1
   sensor:
     villager:

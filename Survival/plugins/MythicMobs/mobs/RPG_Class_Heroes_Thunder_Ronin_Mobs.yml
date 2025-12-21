@@ -7,7 +7,7 @@ VFX_Thunder_Impact:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_hit_impact_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_hit_impact_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -42,7 +42,7 @@ VFX_Thunder_Impact_Critical:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_hit_critical_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_hit_critical_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -79,7 +79,7 @@ VFX_Thunder_Strike:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -116,7 +116,7 @@ VFX_Thunder_Strike_BIG:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_strike_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
@@ -154,7 +154,7 @@ VFX_Thunder_Reflex:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=lightning_reflex_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=lightning_reflex_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -186,7 +186,7 @@ VFX_Thunder_Slash_LEFT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -215,7 +215,7 @@ VFX_Thunder_Slash_RIGHT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2;speed=1} @self ~onSpawn
@@ -244,7 +244,7 @@ VFX_Thunder_Slash_DOWN:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3;speed=1} @self ~onSpawn
@@ -273,7 +273,7 @@ VFX_Thunder_Slash_UP:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunder_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunder_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill4;speed=1} @self ~onSpawn
@@ -304,7 +304,7 @@ VFX_Thunder_Slash_LEFT_ULT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=flaming_thunder_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=flaming_thunder_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -335,7 +335,7 @@ VFX_Thunder_Slash_RIGHT_ULT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=flaming_thunder_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=flaming_thunder_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2;speed=1} @self ~onSpawn
@@ -366,7 +366,7 @@ VFX_Thunder_Slash_DOWN_ULT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=flaming_thunder_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=flaming_thunder_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3;speed=1} @self ~onSpawn
@@ -397,7 +397,7 @@ VFX_Thunder_Slash_UP_ULT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=flaming_thunder_slash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=flaming_thunder_slash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill4;speed=1} @self ~onSpawn
@@ -430,7 +430,7 @@ VFX_Thunder_Dash:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunderclap_and_flash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunderclap_and_flash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -465,7 +465,7 @@ VFX_Thunder_Dash_REVERSAL:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunderclap_and_flash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunderclap_and_flash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
@@ -500,7 +500,7 @@ VFX_Thunder_Dash_ULT:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=flaming_thunder_dash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=flaming_thunder_dash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
@@ -535,7 +535,7 @@ VFX_Thunder_Dash_ULT_L:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=flaming_thunder_dash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=flaming_thunder_dash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
@@ -570,7 +570,7 @@ VFX_Thunder_Dash_ULT_R:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=flaming_thunder_dash_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=flaming_thunder_dash_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation3;speed=1} @self ~onSpawn
@@ -606,7 +606,7 @@ VFX_Crackling_Skyfall_CHARGE:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=crackling_skyfall_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=crackling_skyfall_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=charge;speed=1} @self ~onSpawn
@@ -676,7 +676,7 @@ VFX_Crackling_Skyfall_SMASH:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=crackling_skyfall_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=crackling_skyfall_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=impact_floor;speed=1} @self ~onSpawn
@@ -720,7 +720,7 @@ VFX_Thunder_Barrage:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=thunderous_barrage;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=thunderous_barrage;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
@@ -735,7 +735,7 @@ VFX_Thunder_Dragon:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=flaming_rhunder_god_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=flaming_rhunder_god_1;lockpitch=true} @self ~onSpawn
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=on;speed=1} @self ~onSpawn

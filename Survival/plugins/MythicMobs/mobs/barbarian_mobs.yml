@@ -12,7 +12,7 @@ Rageblade_1:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -43,7 +43,7 @@ Rageblade_2:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -74,7 +74,7 @@ Rageblade_3:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -105,7 +105,7 @@ Rageblade_Impact:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_impact_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_impact_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -136,7 +136,7 @@ Primal_Axe_PRO:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_axe} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_axe} @self ~onSpawn
   
   - effect:sound{s=item.trident.throw;volume=0.4;pitch=0.4} @self ~onTimer:5
   
@@ -153,7 +153,7 @@ Primal_Axe_PINNED:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_axe} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_axe} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -178,7 +178,7 @@ War_Cry:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_war_cry_aura;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_war_cry_aura;lockpitch=true} @self ~onSpawn
   
 War_Cry_Taunt:
   Type: ARMOR_STAND
@@ -191,7 +191,7 @@ War_Cry_Taunt:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_taunt;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_taunt;lockpitch=true} @self ~onSpawn
   - remove{delay=80} @self ~onSpawn
   
 War_Cry_Spread:
@@ -205,7 +205,7 @@ War_Cry_Spread:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_war_cry_spread_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_war_cry_spread_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -237,7 +237,7 @@ Cone_Rupture1:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_cone_rupture;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_cone_rupture;lockpitch=true} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -256,7 +256,7 @@ Cone_Rupture2:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_cone_rupture;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_cone_rupture;lockpitch=true} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -275,7 +275,7 @@ Cone_Rupture3:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_cone_rupture;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_cone_rupture;lockpitch=true} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -295,7 +295,7 @@ Double_Edge:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_double_edge_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_double_edge_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -343,7 +343,7 @@ Eternal_Fury:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_eternal_fury_aura;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_eternal_fury_aura;lockpitch=true} @self ~onSpawn
   
   
   
@@ -358,7 +358,7 @@ Rageblade_1_B:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -389,7 +389,7 @@ Rageblade_2_B:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -420,7 +420,7 @@ Rageblade_3_B:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=fx_babarian_slash_1} @self ~onSpawn
   
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   

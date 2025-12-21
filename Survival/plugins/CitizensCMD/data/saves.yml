@@ -269,3 +269,17 @@ npc-data:
     left-click-commands:
     - '[player] storage'
     price: 0
+  npc-51:
+    cooldown: 0
+    right-click-commands:
+    - '[player] fishmarket'
+    left-click-commands:
+    - '[player] fishmarket'
+    price: 0
+  npc-52:
+    cooldown: 0
+    right-click-commands:
+    - '[player] evaluator'
+    left-click-commands:
+    - '[player] evaluator'
+    price: 0

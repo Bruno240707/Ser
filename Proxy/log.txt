@@ -3,22 +3,29 @@ WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal
 WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
 WARNING: Restricted methods will be blocked in a future release unless native access is enabled
 
-2025-12-20T19:15:11.330515367Z main WARN Advanced terminal features are not available in this environment
-[16:15:12 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
-[16:15:12 INFO]: Loading localizations...
-[16:15:13 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[16:15:13 INFO]: Loading plugins...
-[16:15:13 INFO]: Loaded 1 plugins
-[16:15:13 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[16:15:13 INFO]: Done (1.84s)!
-[16:33:31 INFO]: [connected player] Bruno240707 (/127.19.211.102:36105) has connected
-[16:33:31 INFO]: [server connection] Bruno240707 -> lobby has connected
-[16:33:34 INFO]: [server connection] Bruno240707 -> survival has connected
-[16:33:36 INFO]: [server connection] Bruno240707 -> lobby has disconnected
-[16:38:07 INFO]: [connected player] Bruno240707 (/127.19.211.102:36105): kicked from server survival: Server closed
-[16:38:07 INFO]: [server connection] Bruno240707 -> survival has disconnected
-[16:38:07 INFO]: [server connection] Bruno240707 -> lobby has connected
-[16:38:11 INFO]: Shutting down the proxy...
-[16:38:11 INFO]: Closing endpoint /0.0.0.0:25565
-[16:38:11 INFO]: [connected player] Bruno240707 (/127.19.211.102:36105) has disconnected: El proxy se ha apagado.
-[16:38:11 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+2025-12-21T03:17:36.779268337Z main WARN Advanced terminal features are not available in this environment
+[00:17:37 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
+[00:17:37 INFO]: Loading localizations...
+[00:17:38 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[00:17:38 INFO]: Loading plugins...
+[00:17:38 INFO]: Loaded 1 plugins
+[00:17:38 ERROR]: Can't bind to /0.0.0.0:25565
+io.netty.channel.unix.Errors$NativeIoException: bind(..) failed with error(-98): Address already in use
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:686) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:427) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+		at com.velocit[00:17:44 INFO]: [connected player] Bruno240707 (/127.19.211.102:38641) has disconnected
+[00:17:44 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+Server.start(VelocityServer.java:322) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+		at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
+[00:17:38 ERROR]: Exception in thread "main" io.netty.channel.unix.Errors$NativeIoException: bind(..) failed with error(-98): Address already in use
+[00:17:38 ERROR]: 	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+[00:17:38 ERROR]: 		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:686)
+[00:17:38 ERROR]: 		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:427)
+[00:17:38 ERROR]: 		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+[00:17:38 ERROR]: 		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+[00:17:38 ERROR]: 		at com.velocitypowered.proxy.network.ConnectionManager.bind(ConnectionManager.java:149)
+[00:17:38 ERROR]: 		at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:322)
+[00:17:38 ERROR]: 		at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)

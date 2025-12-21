@@ -13,7 +13,7 @@ VFX_Focus_Chi_Heal:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_chi_heal;lockpitch=true;lockyaw=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_chi_heal;lockpitch=true;lockyaw=true} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
   - remove{delay=10} @self ~onSpawn
@@ -29,7 +29,7 @@ VFX_Swift_Strikes_1:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_swift_strikes_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_swift_strikes_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill1} @self ~onSpawn
   - changepart{m=vfx_swift_strikes_1;p=body;nm=vfx_swift_strikes_2;np=body;delay=2} @self ~onSpawn
@@ -50,7 +50,7 @@ VFX_Swift_Strikes_2:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_swift_strikes_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_swift_strikes_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2} @self ~onSpawn
   - changepart{m=vfx_swift_strikes_1;p=body;nm=vfx_swift_strikes_2;np=body;delay=2} @self ~onSpawn
@@ -71,7 +71,7 @@ VFX_Swift_Strikes_IMPACT:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_monk_impact_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_monk_impact_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
   - changepart{m=vfx_monk_impact_1;p=body;nm=vfx_monk_impact_2;np=body;delay=2} @self ~onSpawn
@@ -92,7 +92,7 @@ VFX_Chi_Blast:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_chi_blast} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_chi_blast} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
 VFX_Chi_Blast_Hit:
@@ -106,7 +106,7 @@ VFX_Chi_Blast_Hit:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_chi_hit} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_chi_hit} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - remove{delay=80} @self ~onSpawn
   
@@ -121,7 +121,7 @@ VFX_Zen_Throw:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_swift_strikes_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_swift_strikes_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3} @self ~onSpawn
   - changepart{m=vfx_swift_strikes_1;p=body;nm=vfx_swift_strikes_2;np=body;delay=2} @self ~onSpawn
@@ -142,7 +142,7 @@ VFX_Zen_Throw_IMPACT:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_monk_impact_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_monk_impact_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2} @self ~onSpawn
   - changepart{m=vfx_monk_impact_1;p=body;nm=vfx_monk_impact_2;np=body;delay=2} @self ~onSpawn
@@ -163,7 +163,7 @@ VFX_Beads_Of_Karma:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_meditation_beads;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_meditation_beads;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - effect:particles{particle=end_rod;amount=1;hS=0;vS=0;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=front_bead} ~onTimer:1
   - effect:particles{particle=end_rod;amount=1;hS=0;vS=0;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=right_back_bead} ~onTimer:1
@@ -184,7 +184,7 @@ VFX_Absorb_Shield:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_absorb_shield;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_absorb_shield;lockpitch=true} @self ~onSpawn
   - state{s=hit} @self ~onSignal:HIT
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -199,7 +199,7 @@ VFX_Chi_Wave_LVL_1:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_chi_wave} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_chi_wave} @self ~onSpawn
   - defaultstate{t=idle;s=idle3;delay=1} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -214,7 +214,7 @@ VFX_Chi_Wave_LVL_2:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_chi_wave} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_chi_wave} @self ~onSpawn
   - defaultstate{t=idle;s=idle2;delay=1} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -229,7 +229,7 @@ VFX_Chi_Wave_LVL_3:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_chi_wave} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_chi_wave} @self ~onSpawn
   - defaultstate{t=idle;s=idle;delay=1} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -244,7 +244,7 @@ VFX_Dragon_Fists:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_monk_dragon_fists;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_monk_dragon_fists;lockpitch=true} @self ~onSpawn
   - effect:particles{particle=end_rod;amount=7;hS=0.35;vS=0.35;y=0;speed=0;forwardOffset=0;sideOffset=0;delay=3} @modelpart{mid=vfx_monk_dragon_fists;pid=right_fist} ~onSpawn
   - effect:particles{particle=end_rod;amount=7;hS=0.35;vS=0.35;y=0;speed=0;forwardOffset=0;sideOffset=0;delay=3} @modelpart{mid=vfx_monk_dragon_fists;pid=left_fist} ~onSpawn
   - effect:particles{particle=end_rod;amount=7;hS=0.35;vS=0.35;y=0;speed=0;forwardOffset=0;sideOffset=0;delay=114} @modelpart{mid=vfx_monk_dragon_fists;pid=right_fist} ~onSpawn
@@ -264,7 +264,7 @@ VFX_Focus_Chi_Heal2:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_chi_heal;lockpitch=true;lockyaw=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_chi_heal;lockpitch=true;lockyaw=true} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2} @self ~onSpawn
   - remove{delay=16} @self ~onSpawn

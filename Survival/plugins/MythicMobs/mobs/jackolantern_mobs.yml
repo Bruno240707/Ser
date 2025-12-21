@@ -13,7 +13,7 @@ Pumpkin_Bombs:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_pumpkin;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_pumpkin;n=false} @self ~onSpawn
   
 dash_dummy:
   Type: ARMOR_STAND
@@ -40,7 +40,7 @@ Midnight_Crow:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_crow;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_crow;n=false} @self ~onSpawn
   
 Scarecrow_Summon:
   Type: ARMOR_STAND
@@ -53,7 +53,7 @@ Scarecrow_Summon:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_scarecrow;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_scarecrow;n=false} @self ~onSpawn
   - remove{delay=140} @self ~onSpawn
   - effect:particlering{particle=redstone;color=#19191c;radius=8;points=70;amount=1;hS=0;vS=0;y=0.1} @self ~onTimer:8
   
@@ -68,5 +68,5 @@ Nightmare:
     Invisible: true
     Invincible: true
   Skills:
-  - model{mid=fx_pumpkin_skull;n=false} @self ~onSpawn
+  - model{sync=true;mid=fx_pumpkin_skull;n=false} @self ~onSpawn
   - skill{s=Nightmare_FX} @EIR{r=4;limit=1;sort=NEAREST} ~onTimer:10

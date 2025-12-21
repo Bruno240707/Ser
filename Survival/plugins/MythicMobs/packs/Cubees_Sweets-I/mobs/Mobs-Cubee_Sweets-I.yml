@@ -37,7 +37,7 @@ cubee-candy_corn_crab:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="candy_corn_crab";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching}
-  - model{scale=0.9;mid=cubee-candy_corn_crab;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.9;mid=cubee-candy_corn_crab;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching}
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:100
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -84,7 +84,7 @@ cubee-croissant_shark:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="croissant_shark";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch=0} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching}
-  - model{scale=0.9;mid=cubee-croissant_shark;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.9;mid=cubee-croissant_shark;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching}
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:100
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -131,7 +131,7 @@ cubee-cupcake_snake:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="cupcake_snake";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching}
-  - model{scale=0.9;mid=cubee-cupcake_snake;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.9;mid=cubee-cupcake_snake;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching}
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:100
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -178,7 +178,7 @@ cubee-donut:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="donut";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching}
-  - model{scale=0.9;mid=cubee-donut;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.9;mid=cubee-donut;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching}
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:100
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -226,7 +226,7 @@ cubee-gummy_bear:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="gummy_bear";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching}
-  - model{scale=0.9;mid=cubee-gummy_bear;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.9;mid=cubee-gummy_bear;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching}
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:100
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -273,7 +273,7 @@ cubee-macarons:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="macarons";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching}
-  - model{scale=0.9;mid=cubee-macarons;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.9;mid=cubee-macarons;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching}
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:100
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -320,7 +320,7 @@ cubee-marshmellow:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="marshmellow";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching}
-  - model{scale=0.9;mid=cubee-marshmellow;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.9;mid=cubee-marshmellow;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching}
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:100
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
@@ -368,7 +368,7 @@ cubee-creamie_cookie_boar:
   - unsetvar{var=target.cubeetype} @Owner ~onDespawn
   - setvar{var=caster.cubeemodel;value="creamie_cookie_boar";type=STRING;save=true} @Self ~onSpawn
   - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:1 ?!hasaura{auraname=Crouching}
-  - model{scale=0.9;mid=cubee-creamie_cookie_boar;n=false;usm=true} @self ~onSpawn
+  - model{sync=true;scale=0.9;mid=cubee-creamie_cookie_boar;n=false;usm=true} @self ~onSpawn
   - skill{s=Cubees-Setting-Movement} @self ~onTimer:1 ?!hasaura{auraname=Crouching}
   - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:100
   - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged

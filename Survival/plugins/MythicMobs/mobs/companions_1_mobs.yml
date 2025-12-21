@@ -4,6 +4,7 @@ Pet_Fire_Dragon_Fire:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO PARA QUE NO SE VEA EL LOBO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -26,7 +27,7 @@ Pet_Fire_Dragon_Fire:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_fire_dragon_fire;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_fire_dragon_fire;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.fox.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Fire_Dragon_Fire_Skill} ~onTimer:40
   - skill{s=Cancelattack;sync=true} ~onAttack
@@ -44,7 +45,7 @@ VFX_Flame_Shot_Fire:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_flame_shot_fire} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_flame_shot_fire} @self ~onSpawn
   - brightness{mid=vfx_flame_shot_fire;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - effect:particles{particle=small_flame;amount=5;hS=0.05;vS=0.05;speed=0.03;forwardOffset=0;sideOffset=0;y=0} @modelpart{mid=vfx_flame_shot_fire;pid=body;em=true} ~onTimer:2
@@ -56,6 +57,7 @@ Pet_Fire_Dragon_Soulfire:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -78,7 +80,7 @@ Pet_Fire_Dragon_Soulfire:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_fire_dragon_soulfire;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_fire_dragon_soulfire;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.fox.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Fire_Dragon_Soulfire_Skill} ~onTimer:40
   - skill{s=Cancelattack;sync=true} ~onAttack
@@ -96,7 +98,7 @@ VFX_Flame_Shot_Soulfire:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_flame_shot_soulfire} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_flame_shot_soulfire} @self ~onSpawn
   - brightness{mid=vfx_flame_shot_soulfire;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - effect:particles{particle=soul_fire_flame;amount=3;hS=0.05;vS=0.05;speed=0.03;forwardOffset=0;sideOffset=0;y=0} @modelpart{mid=vfx_flame_shot_fire;pid=body;em=true} ~onTimer:2
@@ -108,6 +110,7 @@ Pet_Fire_Dragon_Holyfire:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -130,7 +133,7 @@ Pet_Fire_Dragon_Holyfire:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_fire_dragon_holyfire;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_fire_dragon_holyfire;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.fox.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - brightness{m=pet_fire_dragon_holyfire;block=9;sky=9;em=true} @self ~onSpawn
   - skill{s=Pet_Fire_Dragon_Holyfire_Skill} ~onTimer:40
@@ -149,7 +152,7 @@ VFX_Flame_Shot_Holyfire:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_flame_shot_holyfire} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_flame_shot_holyfire} @self ~onSpawn
   - brightness{mid=vfx_flame_shot_holyfire;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - effect:particles{particle=end_rod;amount=5;hS=0.05;vS=0.05;speed=0.03;forwardOffset=0;sideOffset=0;y=0} @modelpart{mid=vfx_flame_shot_fire;pid=body;em=true} ~onTimer:2
@@ -161,6 +164,7 @@ Pet_Fire_Dragon_Shadowflame:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -183,7 +187,7 @@ Pet_Fire_Dragon_Shadowflame:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_fire_dragon_shadowflame;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_fire_dragon_shadowflame;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.fox.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Fire_Dragon_Shadowflame_Skill} ~onTimer:40
   - skill{s=Cancelattack;sync=true} ~onAttack
@@ -201,7 +205,7 @@ VFX_Flame_Shot_Shadowflame:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_flame_shot_shadowflame} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_flame_shot_shadowflame} @self ~onSpawn
   - brightness{mid=vfx_flame_shot_shadowflame;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - effect:particles{particle=portal;amount=5;hS=0.05;vS=0.05;speed=0.03;forwardOffset=0;sideOffset=0;y=0} @modelpart{mid=vfx_flame_shot_fire;pid=body;em=true} ~onTimer:2
@@ -217,6 +221,7 @@ Pet_Unicorn_Heavenly:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -239,7 +244,7 @@ Pet_Unicorn_Heavenly:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_unicorn_heavenly;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_unicorn_heavenly;usm=true;step=1} @self ~onSpawn
   - brightness{m=pet_unicorn_heavenly;block=9;sky=9;em=true} @self ~onSpawn
   - effect:sound{s=entity.allay.ambient_without_item;volume=1;pitch=1.6} @self ~onTimer:220 0.35
   - skill{s=Pet_Unicorn_Heavenly_Skill} ~onTimer:10
@@ -255,6 +260,7 @@ Pet_Unicorn_Nature:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -277,7 +283,7 @@ Pet_Unicorn_Nature:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_unicorn_nature;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_unicorn_nature;usm=true;step=1} @self ~onSpawn
   - brightness{m=pet_unicorn_heavenly;block=5;sky=5;em=true} @self ~onSpawn
   - effect:sound{s=entity.allay.ambient_without_item;volume=1;pitch=1.6} @self ~onTimer:220 0.35
   - skill{s=Pet_Unicorn_Nature_Skill} ~onTimer:10
@@ -293,6 +299,7 @@ Pet_Unicorn_Rainbow:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -315,7 +322,7 @@ Pet_Unicorn_Rainbow:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_unicorn_rainbow;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_unicorn_rainbow;usm=true;step=1} @self ~onSpawn
   - brightness{m=pet_unicorn_heavenly;block=9;sky=9;em=true} @self ~onSpawn
   - effect:sound{s=entity.allay.ambient_without_item;volume=1;pitch=1.6} @self ~onTimer:220 0.35
   - skill{s=Pet_Unicorn_Rainbow_Skill} ~onTimer:10
@@ -331,6 +338,7 @@ Pet_Unicorn_Undead:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -353,7 +361,7 @@ Pet_Unicorn_Undead:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_unicorn_undead;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_unicorn_undead;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.allay.ambient_without_item;volume=1;pitch=0.4} @self ~onTimer:220 0.35
   - skill{s=Pet_Unicorn_Undead_Skill} ~onTimer:10
   - skill{s=Cancelattack;sync=true} ~onAttack
@@ -371,6 +379,7 @@ Pet_Frog_Green:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -393,7 +402,7 @@ Pet_Frog_Green:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_frog_green;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_frog_green;usm=true;step=1} @self ~onSpawn
   - partvis{m=pet_frog_green;p=fly;v=false;em=true;child=true;delay=1} @self ~onSpawn
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Frog_Green_Skill} ~onTimer:40
@@ -401,12 +410,14 @@ Pet_Frog_Green:
   - skill{s=EXP_Gain} ~onTimer:100
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Frog_Green} ~onInteract
+
 Pet_Frog_Mushroom:
   Type: wolf
   Display: '&fMushroom Frog'
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -429,7 +440,7 @@ Pet_Frog_Mushroom:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_frog_mushroom;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_frog_mushroom;usm=true;step=1} @self ~onSpawn
   - partvis{m=pet_frog_mushroom;p=fly;v=false;em=true;child=true;delay=1} @self ~onSpawn
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Frog_Mushroom_Skill} ~onTimer:40
@@ -437,12 +448,14 @@ Pet_Frog_Mushroom:
   - skill{s=EXP_Gain} ~onTimer:100
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Frog_Mushroom} ~onInteract
+
 Pet_Frog_Stone:
   Type: wolf
   Display: '&fStone Frog'
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -465,7 +478,7 @@ Pet_Frog_Stone:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_frog_stone;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_frog_stone;usm=true;step=1} @self ~onSpawn
   - partvis{m=pet_frog_stone;p=fly;v=false;em=true;child=true;delay=1} @self ~onSpawn
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Frog_Stone_Skill} ~onTimer:40
@@ -473,12 +486,14 @@ Pet_Frog_Stone:
   - skill{s=EXP_Gain} ~onTimer:100
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Frog_Stone} ~onInteract
+
 Pet_Frog_Golden:
   Type: wolf
   Display: '&fGolden Frog'
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -501,7 +516,7 @@ Pet_Frog_Golden:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_frog_golden;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_frog_golden;usm=true;step=1} @self ~onSpawn
   - brightness{m=pet_unicorn_heavenly;block=9;sky=9;em=true} @self ~onSpawn
   - partvis{m=pet_frog_golden;p=fly;v=false;em=true;child=true;delay=1} @self ~onSpawn
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
@@ -511,12 +526,14 @@ Pet_Frog_Golden:
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Frog_Golden} ~onInteract
   - skill{s=Pet_Frog_Golden_FX} ~onTimer:20
+
 Pet_Frog_Nether:
   Type: wolf
   Display: '&fNether Frog'
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -539,7 +556,7 @@ Pet_Frog_Nether:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_frog_nether;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_frog_nether;usm=true;step=1} @self ~onSpawn
   - brightness{m=pet_unicorn_heavenly;block=4;sky=4;em=true} @self ~onSpawn
   - partvis{m=pet_frog_nether;p=fly;v=false;em=true;child=true;delay=1} @self ~onSpawn
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
@@ -558,6 +575,7 @@ Pet_Cacti_Desert:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -580,13 +598,14 @@ Pet_Cacti_Desert:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_cacti_desert;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_cacti_desert;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.fox.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Cacti_Desert_Skill} ~onTimer:40
   - skill{s=Cancelattack;sync=true} ~onAttack
   - skill{s=EXP_Gain} ~onTimer:100
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Cacti_Desert} ~onInteract
+
 VFX_Spike_Armor_Desert:
   Type: ARMOR_STAND
   Options:
@@ -596,7 +615,7 @@ VFX_Spike_Armor_Desert:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_spike_shield_desert} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_spike_shield_desert} @self ~onSpawn
   - brightness{mid=vfx_spike_shield_desert;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -606,6 +625,7 @@ Pet_Cacti_Sculk:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -628,7 +648,7 @@ Pet_Cacti_Sculk:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_cacti_sculk;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_cacti_sculk;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.fox.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Cacti_Sculk_Skill} ~onTimer:40
   - skill{s=Cancelattack;sync=true} ~onAttack
@@ -636,6 +656,7 @@ Pet_Cacti_Sculk:
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Cacti_Sculk} ~onInteract
   - skill{s=Pet_Cacti_Sculk_FX} ~onTimer:40
+
 VFX_Spike_Armor_Sculk:
   Type: ARMOR_STAND
   Options:
@@ -645,7 +666,7 @@ VFX_Spike_Armor_Sculk:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_spike_shield_sculk} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_spike_shield_sculk} @self ~onSpawn
   - brightness{mid=vfx_spike_shield_sculk;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -655,6 +676,7 @@ Pet_Cacti_Frozen:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -677,7 +699,7 @@ Pet_Cacti_Frozen:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_cacti_frozen;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_cacti_frozen;usm=true;step=1} @self ~onSpawn
   - brightness{m=pet_unicorn_heavenly;block=7;sky=7;em=true} @self ~onSpawn
   - effect:sound{s=entity.fox.ambient;volume=0.8;pitch=1.2} @self ~onTimer:220 0.35
   - skill{s=Pet_Cacti_Frozen_Skill} ~onTimer:40
@@ -686,6 +708,7 @@ Pet_Cacti_Frozen:
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Cacti_Frozen} ~onInteract
   - skill{s=Pet_Cacti_Frozen_FX} ~onTimer:40
+
 VFX_Spike_Armor_Frozen:
   Type: ARMOR_STAND
   Options:
@@ -695,7 +718,7 @@ VFX_Spike_Armor_Frozen:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_spike_shield_frozen} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_spike_shield_frozen} @self ~onSpawn
   - brightness{mid=vfx_spike_shield_frozen;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   
@@ -708,6 +731,7 @@ Pet_Knight_Castle:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -730,13 +754,14 @@ Pet_Knight_Castle:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_knight_castle;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_knight_castle;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.pillager.ambient;volume=0.8;pitch=1.6} @self ~onTimer:220 0.35
   - skill{s=Pet_Knight_Castle_Skill} ~onTimer:40
   - skill{s=Cancelattack;sync=true} ~onAttack
   - skill{s=EXP_Gain} ~onTimer:100
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Knight_Castle} ~onInteract
+
 VFX_Knight_Thrust_Castle:
   Type: ARMOR_STAND
   Pose:
@@ -748,7 +773,7 @@ VFX_Knight_Thrust_Castle:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_pet_pierce_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_pet_pierce_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - brightness{mid=vfx_pet_pierce_1;b=15;s=15} @self ~onSpawn
 
@@ -778,6 +803,7 @@ Pet_Knight_Glacial:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -800,7 +826,7 @@ Pet_Knight_Glacial:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_knight_glacial;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_knight_glacial;usm=true;step=1} @self ~onSpawn
   - brightness{m=pet_unicorn_heavenly;block=7;sky=7;em=true} @self ~onSpawn
   - effect:sound{s=entity.pillager.ambient;volume=0.8;pitch=1.6} @self ~onTimer:220 0.35
   - skill{s=Pet_Knight_Glacial_Skill} ~onTimer:40
@@ -809,6 +835,7 @@ Pet_Knight_Glacial:
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Knight_Glacial} ~onInteract
   - skill{s=Pet_Knight_Glacial_FX} ~onTimer:40
+
 VFX_Knight_Thrust_Glacial:
   Type: ARMOR_STAND
   Pose:
@@ -820,7 +847,7 @@ VFX_Knight_Thrust_Glacial:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_pet_pierce_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_pet_pierce_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - brightness{mid=vfx_pet_pierce_1;b=15;s=15} @self ~onSpawn
 
@@ -850,6 +877,7 @@ Pet_Knight_Holy:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -872,7 +900,7 @@ Pet_Knight_Holy:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_knight_holy;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_knight_holy;usm=true;step=1} @self ~onSpawn
   - brightness{m=pet_unicorn_heavenly;block=9;sky=9;em=true} @self ~onSpawn
   - effect:sound{s=entity.pillager.ambient;volume=0.8;pitch=1.6} @self ~onTimer:220 0.35
   - skill{s=Pet_Knight_Holy_Skill} ~onTimer:40
@@ -881,6 +909,7 @@ Pet_Knight_Holy:
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Knight_Holy} ~onInteract
   - skill{s=Pet_Knight_Holy_FX} ~onTimer:40
+
 VFX_Knight_Thrust_Holy:
   Type: ARMOR_STAND
   Pose:
@@ -892,7 +921,7 @@ VFX_Knight_Thrust_Holy:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_pet_pierce_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_pet_pierce_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - brightness{mid=vfx_pet_pierce_1;b=15;s=15} @self ~onSpawn
 
@@ -922,6 +951,7 @@ Pet_Knight_Ender:
   Health: 60
   Damage: 2
   Options:
+    Invisible: true  # <--- AGREGADO
     MovementSpeed: 0.33
     ShowHealth: false
     PreventRandomEquipment: true
@@ -944,7 +974,7 @@ Pet_Knight_Ender:
   - 2 ownerattacker
   - 3 monsters
   Skills:
-  - model{mid=pet_knight_ender;usm=true;step=1} @self ~onSpawn
+  - model{sync=true;mid=pet_knight_ender;usm=true;step=1} @self ~onSpawn
   - effect:sound{s=entity.pillager.ambient;volume=0.8;pitch=1.6} @self ~onTimer:220 0.35
   - skill{s=Pet_Knight_Ender_Skill} ~onTimer:40
   - skill{s=Cancelattack;sync=true} ~onAttack
@@ -952,6 +982,7 @@ Pet_Knight_Ender:
   - skill{s=Pet_Look} ~onTimer:1
   - skill{s=Pet_Interact_Knight_Ender} ~onInteract
   - skill{s=Pet_Knight_Ender_FX} ~onTimer:40
+
 VFX_Knight_Thrust_Ender:
   Type: ARMOR_STAND
   Pose:
@@ -963,7 +994,7 @@ VFX_Knight_Thrust_Ender:
     Invisible: true
     Invincible: true
   Skills:
-  - model{usestatemachine=true;mid=vfx_pet_pierce_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_pet_pierce_1;lockpitch=true} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - brightness{mid=vfx_pet_pierce_1;b=15;s=15} @self ~onSpawn
 

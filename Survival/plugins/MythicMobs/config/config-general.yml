@@ -3,3 +3,5 @@ Configuration:
     Language: en-us
     ThreadPoolSize: -1
     UseVirtualThreads: false
+    GenerateExamples: false
+

@@ -10,14 +10,14 @@ Generation:
   # General Generator Options
   #================================================================================
   Namespace: mythic                 # Namespace to save everything under
-  GenerateOnStartup: true           # If the pack should auto-generate on server startup
+  GenerateOnStartup: false           # If the pack should auto-generate on server startup
 
-  MergeModelEngine: true            # Whether to merge ModelEngine files if available
-  MergeHappyHUD: true               # Whether to merge HappyHUD files if available
-  MergeMythicHUD: true
-  MergeEmojy: true                  # Whether to merge Emojy files if available
+  MergeModelEngine: false            # Whether to merge ModelEngine files if available
+  MergeHappyHUD: false               # Whether to merge HappyHUD files if available
+  MergeMythicHUD: false
+  MergeEmojy: false                  # Whether to merge Emojy files if available
 
-  ZipPack: true                     # Whether to zip the pack after completion. Required for deployment.
+  ZipPack: false                     # Whether to zip the pack after completion. Required for deployment.
   LegacyNoteblocksSupport: true     # Supports noteblocks id from Oraxen. Disabling it will allow to use the harp instrument and increasing the limit of 800 maximum blocks to 1150
 
   ImplicitGeneration:

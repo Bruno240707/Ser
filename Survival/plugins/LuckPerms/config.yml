@@ -341,7 +341,7 @@ require-sender-group-membership-to-modify: false
 # - Notifications are only sent to those with the appropriate permission to receive them
 # - They can also be temporarily enabled/disabled on a per-user basis using
 #   '/lp log notify <on|off>'
-log-notify: true
+log-notify: false
 
 # Defines a list of log entries which should not be sent as notifications to users.
 #

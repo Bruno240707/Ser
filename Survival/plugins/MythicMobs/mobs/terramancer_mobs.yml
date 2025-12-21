@@ -87,7 +87,7 @@ VFX_Earth_Break_Impact:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_impact} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_impact} @self ~onSpawn
   - setrotation{relative=true;yaw=<random.0to360>} @self ~onSpawn
   - partvis{p=bone2;v=false;em=true;child=true} @self ~onSpawn 0.5
   - partvis{p=bone3;v=false;em=true;child=true} @self ~onSpawn 0.5
@@ -108,7 +108,7 @@ VFX_Earth_Break_Impact2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_impact;scale=1.3} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_impact;scale=1.3} @self ~onSpawn
   - setrotation{relative=true;yaw=<random.0to360>} @self ~onSpawn
   - partvis{p=bone2;v=false;em=true;child=true} @self ~onSpawn 0.3
   - partvis{p=bone3;v=false;em=true;child=true} @self ~onSpawn 0.3
@@ -132,7 +132,7 @@ VFX_Earth_Pulse1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill1} @self ~onSpawn
@@ -147,7 +147,7 @@ VFX_Earth_Pulse2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2} @self ~onSpawn
@@ -162,7 +162,7 @@ VFX_Earth_Pulse3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3} @self ~onSpawn
@@ -177,7 +177,7 @@ VFX_Earth_Pulse4:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true;scale=1.4} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_pulse;lockpitch=true;scale=1.4} @self ~onSpawn
   - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3} @self ~onSpawn
@@ -192,7 +192,7 @@ VFX_Earth_Pulse5:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_pulse;lockpitch=false;scale=1.7} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_pulse;lockpitch=false;scale=1.7} @self ~onSpawn
   - setrotation{relative=true;pitch=78;yaw=90} @self ~onSpawn
   - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -209,7 +209,7 @@ VFX_Earth_Pulse_Shoot_Impact:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_pulse;scale=1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_pulse;scale=1} @self ~onSpawn
   - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot_impact;speed=1.3} @self ~onSpawn
@@ -224,7 +224,7 @@ VFX_Earth_Pulse_Shoot_Impact2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_pulse;scale=1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_pulse;scale=1} @self ~onSpawn
   - brightness{mid=vfx_earth_pulse;b=12;s=12} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot_impact2} @self ~onSpawn
@@ -242,7 +242,7 @@ VFX_Earth_Root:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_root;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_root;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_root;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
@@ -256,7 +256,7 @@ VFX_Earth_Root2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_root;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_root;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_root;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
@@ -273,7 +273,7 @@ VFX_Earth_Ring:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_ring;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_ring;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_ring;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - skill{s=Earth_Ring_REMOVE_AS_CHILD} @owner ~onTimer:10
@@ -294,7 +294,7 @@ VFX_Earth_Rubble_Trail:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_trail;scale=0.8} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_trail;scale=0.8} @self ~onSpawn
   - partvis{p=bone8;v=false;em=true;child=true} @self ~onSpawn
   - skill{s=Earth_Rubble_TRAIL;delay=1} @self ~onSpawn
   - brightness{mid=vfx_earth_trail;b=1;s=15} @self ~onSpawn
@@ -313,7 +313,7 @@ VFX_Earth_Rubble_1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_rubble_small_1} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_rubble_small_1} @self ~onSpawn
   - brightness{mid=vfx_earth_rubble_small_1;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=loop} @self ~onSpawn
@@ -327,7 +327,7 @@ VFX_Earth_Rubble_2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_rubble_small_2} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_rubble_small_2} @self ~onSpawn
   - brightness{mid=vfx_earth_rubble_small_2;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=loop} @self ~onSpawn
@@ -341,7 +341,7 @@ VFX_Earth_Rubble_3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_rubble_small_3} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_rubble_small_3} @self ~onSpawn
   - brightness{mid=vfx_earth_rubble_small_3;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=loop} @self ~onSpawn
@@ -358,7 +358,7 @@ VFX_Earth_Rubble_Large:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_rubble_large} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_rubble_large} @self ~onSpawn
   - brightness{mid=vfx_earth_rubble_large;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=loop} @self ~onSpawn
@@ -375,7 +375,7 @@ VFX_Earth_Shift_Impact:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_impact;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_impact;lockpitch=true} @self ~onSpawn
   - partvis{p=bone2;v=false;em=true;child=true} @self ~onSpawn 0.5
   - partvis{p=bone3;v=false;em=true;child=true} @self ~onSpawn 0.5
   - partvis{p=bone4;v=false;em=true;child=true} @self ~onSpawn 0.5
@@ -398,7 +398,7 @@ VFX_Earth_Shift_Impact2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_impact;lockpitch=true;scale=1.7} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_impact;lockpitch=true;scale=1.7} @self ~onSpawn
   - partvis{p=bone2;v=false;em=true;child=true} @self ~onSpawn 0.2
   - partvis{p=bone3;v=false;em=true;child=true} @self ~onSpawn 0.2
   - partvis{p=bone4;v=false;em=true;child=true} @self ~onSpawn 0.2
@@ -422,7 +422,7 @@ VFX_Earth_Shift_1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_shift_small;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_shift_small;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_shift_small;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
@@ -439,7 +439,7 @@ VFX_Earth_Shift_2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_shift_medium;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_shift_medium;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_shift_medium;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
@@ -456,7 +456,7 @@ VFX_Earth_Shift_3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_shift_large;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_shift_large;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_shift_large;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
@@ -475,7 +475,7 @@ VFX_Earth_Clap:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_clap;lockpitch=true;delay=5} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_clap;lockpitch=true;delay=5} @self ~onSpawn
   - brightness{mid=vfx_earth_clap;b=1;s=15;delay=5} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0;delay=5} @self ~onSpawn
   - state{s=skill;delay=5} @self ~onSpawn
@@ -510,7 +510,7 @@ VFX_Earth_Spike_Summon:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_spike_summon;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_spike_summon;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_spike_summon;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=emerge} @self ~onSpawn
@@ -538,7 +538,7 @@ VFX_Earth_Spike_1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_spike_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_spike_1;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_spike_1;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot} @self ~onSpawn
@@ -557,7 +557,7 @@ VFX_Earth_Spike_2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_spike_2;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_spike_2;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_spike_2;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot} @self ~onSpawn
@@ -576,7 +576,7 @@ VFX_Earth_Spike_3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_spike_3;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_spike_3;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_spike_3;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot} @self ~onSpawn
@@ -598,7 +598,7 @@ VFX_Earth_Wave:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_wave;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_wave;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earth_wave;b=1;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
@@ -625,7 +625,7 @@ VFX_Earth_Shockwave:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earth_platform;lockpitch=true;delay=7} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earth_platform;lockpitch=true;delay=7} @self ~onSpawn
   - brightness{mid=vfx_earth_platform;b=1;s=15;delay=7} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0;delay=7} @self ~onSpawn
   - setrotation{relative=true;yaw=<random.0to360>;delay=7} @self ~onSpawn

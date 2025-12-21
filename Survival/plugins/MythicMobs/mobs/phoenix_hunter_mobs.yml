@@ -16,7 +16,7 @@ VFX_Phoenix_Impact:
   - aura{d=18;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_impact_1;lockpitch=true}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_impact_1;lockpitch=true}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_impact_1;b=15;s=15}
     - state{s=skill}
@@ -38,7 +38,7 @@ VFX_Phoenix_Impact2:
   - aura{d=18;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_impact_1;lockpitch=true}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_impact_1;lockpitch=true}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_impact_1;b=15;s=15}
     - state{s=skill2}
@@ -60,7 +60,7 @@ VFX_Phoenix_Feather:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot;p=1} @self ~onSpawn
@@ -74,7 +74,7 @@ VFX_Phoenix_Feather1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot1;p=1} @self ~onSpawn
@@ -88,7 +88,7 @@ VFX_Phoenix_Feather2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot2;p=1} @self ~onSpawn
@@ -102,7 +102,7 @@ VFX_Phoenix_Feather3:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot3;p=1} @self ~onSpawn
@@ -116,7 +116,7 @@ VFX_Phoenix_Feather4:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot4;p=1} @self ~onSpawn
@@ -130,7 +130,7 @@ VFX_Phoenix_Feather5:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot5;p=1} @self ~onSpawn
@@ -144,7 +144,7 @@ VFX_Phoenix_Feather6:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot6;p=1} @self ~onSpawn
@@ -158,7 +158,7 @@ VFX_Phoenix_Feather7:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=shoot7;p=1} @self ~onSpawn
@@ -173,7 +173,7 @@ VFX_Phoenix_Feather_NOTRAIL:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - partvis{m=vfx_phoenix_feather;p=trail;v=false;em=true;child=true} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -189,7 +189,7 @@ VFX_Phoenix_Feather_NOTRAIL1:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - partvis{m=vfx_phoenix_feather;p=trail;v=false;em=true;child=true} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -205,7 +205,7 @@ VFX_Phoenix_Feather_NOTRAIL2:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather} @self ~onSpawn
   - partvis{m=vfx_phoenix_feather;p=trail;v=false;em=true;child=true} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -227,7 +227,7 @@ VFX_Phoenix_Shoot_Impact:
   - aura{d=18;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_shoot_impact_1;lockpitch=false}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_shoot_impact_1;lockpitch=false}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_shoot_impact_1;b=15;s=15}
     - state{s=skill}
@@ -250,7 +250,7 @@ VFX_Phoenix_Shoot_Impact2:
   - aura{d=18;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_shoot_impact_1;lockpitch=false}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_shoot_impact_1;lockpitch=false}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_shoot_impact_1;b=15;s=15}
     - state{s=skill3}
@@ -273,7 +273,7 @@ VFX_Phoenix_Shoot_Impact3:
   - aura{d=18;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_shoot_impact_1;lockpitch=false}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_shoot_impact_1;lockpitch=false}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_shoot_impact_1;b=15;s=15}
     - state{s=skill2}
@@ -298,7 +298,7 @@ VFX_Phoenix_Explosion_SMALL:
   - aura{d=24;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_explosion_1;lockpitch=true;scale=0.35}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_explosion_1;lockpitch=true;scale=0.35}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_explosion_1;b=15;s=15}
     - skill{s=VFX_Phoenix_Explosion_RAN}
@@ -327,7 +327,7 @@ VFX_Phoenix_Dash:
   - aura{delay=3;d=11;i=1;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_dash_1;lockpitch=true}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_dash_1;lockpitch=true}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_dash_1;b=15;s=15}
     - state{s=skill}
@@ -349,7 +349,7 @@ VFX_Phoenix_Fireball:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_fireball} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_fireball} @self ~onSpawn
   - brightness{mid=vfx_phoenix_fireball;b=15;s=15} @self ~onSpawn
   #- effect:particles{p=campfire_cosy_smoke;amount=1;hS=0;vS=0;y=0;size=0.5;speed=0} @modelpart{p=body} ~onTimer:1
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
@@ -373,7 +373,7 @@ VFX_Phoenix_Explosion_BIG:
   - aura{d=24;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_explosion_1;lockpitch=true;scale=0.7}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_explosion_1;lockpitch=true;scale=0.7}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_explosion_1;b=15;s=15}
     - skill{s=VFX_Phoenix_Explosion_RAN}
@@ -415,7 +415,7 @@ VFX_Phoenix_Totem:
   AITargetSelectors:
   - clear
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_totem} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_totem} @self ~onSpawn
   - brightness{mid=vfx_phoenix_totem;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=spawn} @self ~onSpawn
@@ -440,7 +440,7 @@ VFX_Phoenix_Rupture:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true} @self ~onSpawn
   - brightness{mid=vfx_earthquake_rupture_1;b=11;s=11} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2} @self ~onSpawn
@@ -468,7 +468,7 @@ VFX_Phoenix_Feather_Spread:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_feather_spread} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_feather_spread} @self ~onSpawn
   - brightness{mid=vfx_phoenix_feather_spread;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=spawn} @self ~onSpawn
@@ -485,7 +485,7 @@ VFX_Phoenix_Wings:
     Invincible: true
     Collidable: false
   Skills:
-  - model{usestatemachine=true;mid=vfx_phoenix_wings_1;lockpitch=true} @self ~onSpawn
+  - model{sync=true;usestatemachine=true;mid=vfx_phoenix_wings_1;lockpitch=true} @self ~onSpawn
   - changepart{m=vfx_phoenix_wings_1;p=bone;nm=vfx_phoenix_wings_2;np=bone;delay=2} @self ~onSpawn
   - changepart{m=vfx_phoenix_wings_1;p=bone;nm=vfx_phoenix_wings_3;np=bone;delay=4} @self ~onSpawn
   - changepart{m=vfx_phoenix_wings_1;p=bone;nm=vfx_phoenix_wings_a;np=bone;delay=6} @self ~onSpawn
@@ -510,7 +510,7 @@ VFX_Phoenix_Blaze_Wave_1:
   - aura{d=18;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_blaze_wave_1;lockpitch=false;scale=2}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_blaze_wave_1;lockpitch=false;scale=2}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_blaze_wave_1;b=15;s=15}
     - state{s=skill1} @self ~onSpawn
@@ -536,7 +536,7 @@ VFX_Phoenix_Blaze_Wave_2:
   - aura{d=18;i=2;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
-    - model{usestatemachine=true;mid=vfx_phoenix_blaze_wave_1;lockpitch=false;scale=2}
+    - model{sync=true;usestatemachine=true;mid=vfx_phoenix_blaze_wave_1;lockpitch=false;scale=2}
     - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0}
     - brightness{mid=vfx_phoenix_blaze_wave_1;b=15;s=15}
     - state{s=skill2} @self ~onSpawn
