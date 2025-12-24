@@ -4,15 +4,15 @@
 
 Queen_Tarot_BUFF:
   Skills:
-  - orbital{auraName=QTA;bulletType=MOB;mob=Queen_Tarot;hr=1;vr=1;onTick=Queen_Tarot_BUFFCHECK;hp=false;hnp=false;r=0;points=1;i=1;duration=30;oy=-0.8;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
-  - effect:particles{particle=redstone;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
+  - orbital{auraName=QTA;bulletType=MOB;mob=Queen_Tarot;hr=1;vr=1;onTick=Queen_Tarot_BUFFCHECK;hp=false;hnp=false;r=0;points=1;i=10;duration=30;oy=-0.8;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - effect:particles{particle=dust;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
 
 Queen_Tarot_BUFFCHECK:
   Conditions:
   - hasaura{n=Queen_Tarot} castinstead Queen_Tarot_BUFFCHECKER
   Skills:
   - auraremove{aura=QTA} @self
-  - effect:particles{particle=redstone;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
+  - effect:particles{particle=dust;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
   
 Queen_Tarot_BUFFCHECKER:
   Skills:
@@ -45,29 +45,29 @@ Card_Throw:
   Conditions:
   - crouching false
   Skills:
-  - effect:sound{s=illusionist_sounds:samus.card_throw;volume=0.8;pitch="random(0.8, 1.1)"} @self
+  - effect:sound{s=illusionist_sounds:samus.card_throw;volume=0.8;pitch=<random.float.0.8to1.1>} @self
   - randomskill{skills=Card_Throw_1,Card_Throw_2,Card_Throw_3}
 
 Card_Throw_1:
   Conditions:
   - crouching false
   Skills:
-  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
 
 Card_Throw_2:
   Conditions:
   - crouching false
   Skills:
-  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=8;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=-8;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=8;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=-8;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
 
 Card_Throw_3:
   Conditions:
   - crouching false
   Skills:
-  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=12;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=-12;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=12;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Card_Throw;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=-12;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
 
 Card_Throw_HIT_D:
   Skills:
@@ -89,18 +89,18 @@ Phantom_Blink:
   - crouching false
   - onground true
   Skills:
-  - effect:particles{particle=redstone;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
+  - effect:particles{particle=dust;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
   - lunge{velocity=1.5;velocityY=0.5} @forward{f=-7;y=4.5;lockpitch=true}
   - stun{d=15;f=true;CancelOnTakeDamage=false;CancelOnDeath=true;delay=8} @self
   - effect:sound{s=entity.illusioner.mirror_move;volume=1;pitch=1} @self
-  - projectile{bulletType=MOB;mob=Phantom_Blink_Clone;onHit=Phantom_Blink_HIT_D;oS=Phantom_Blink_Tick;v=1;i=1;hR=1;vR=1;mr=8;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @forward{f=-7;y=2;lockpitch=true}
+  - projectile{bulletType=MOB;mob=Phantom_Blink_Clone;onHit=Phantom_Blink_HIT_D;oS=Phantom_Blink_Tick;v=1;i=10;hR=1;vR=1;mr=8;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @forward{f=-7;y=2;lockpitch=true}
   
   - delay 8
-  - effect:particles{particle=redstone;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
+  - effect:particles{particle=dust;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
   - effect:sound{s=illusionist_sounds:samus.card_throw;volume=0.8;pitch="random(0.8, 1.1)"} @self
-  - projectile{bulletType=MOB;mob=Card_Throw_2;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=0} @Forward{f=15;y=-2;lockpitch=true}
-  - projectile{bulletType=MOB;mob=Card_Throw_2;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=12;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=0} @Forward{f=15;y=-2;lockpitch=true}
-  - projectile{bulletType=MOB;mob=Card_Throw_2;onHit=Card_Throw_HIT_D;v=18;i=1;hR=1;vR=1;mr=14;hnp=true;hO=-12;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=0} @Forward{f=15;y=-2;lockpitch=true}
+  - projectile{bulletType=MOB;mob=Card_Throw_2;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=0} @Forward{f=15;y=-2;lockpitch=true}
+  - projectile{bulletType=MOB;mob=Card_Throw_2;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=12;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=0} @Forward{f=15;y=-2;lockpitch=true}
+  - projectile{bulletType=MOB;mob=Card_Throw_2;onHit=Card_Throw_HIT_D;v=18;i=10;hR=1;vR=1;mr=14;hnp=true;hO=-12;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=0} @Forward{f=15;y=-2;lockpitch=true}
 
 
 Phantom_Blink_Tick:
@@ -133,7 +133,7 @@ Mirror_Shuriken_SKILL:
   Cooldown: 2
   Skills:
   - effect:sound{s=illusionist_sounds:samus.mirror_shuriken;volume=1;pitch=1.5} @self
-  - projectile{bulletType=MOB;mob=Mirror_Shuriken;onHit=Mirror_Shuriken_hit;onEnd=Mirror_Shuriken_MISSILE_SUDO;v=26;i=1;hR=1;vR=1;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Mirror_Shuriken;onHit=Mirror_Shuriken_hit;onEnd=Mirror_Shuriken_MISSILE_SUDO;v=26;i=10;hR=1;vR=1;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.5;syo=1.5;tyo=1.5} @Forward{f=15;y=0}
 
 Mirror_Shuriken_Summon:
   Skills:
@@ -150,7 +150,7 @@ Mirror_Shuriken_SUDO:
   
 Mirror_Shuriken_MISSILE_SUDO:
   Skills:
-  - missile{fO=true;bulletType=MOB;mob=Mirror_Shuriken_Back;onHit=Mirror_Shuriken_hit_Back;md=100;mr=400;v=32;i=1;hR=1;vR=1;in=2;sE=false;sB=false;syo=0.3;tyo=1} @self
+  - missile{fO=true;bulletType=MOB;mob=Mirror_Shuriken_Back;onHit=Mirror_Shuriken_hit_Back;md=100;mr=400;v=32;i=10;hR=1;vR=1;in=2;sE=false;sB=false;syo=0.3;tyo=1} @self
   
   
 Mirror_Shuriken_hit:
@@ -200,11 +200,11 @@ Mirage_Slot:
   Skills:
   - effect:sound{s=entity.illusioner.mirror_move;volume=0.8;pitch=1} @self
   - onDamaged{auraName=resist;d=12;cE=true} @self
-  - effect:particles{particle=redstone;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
-  - effect:particles{particle=redstone;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5;delay=11} @self
+  - effect:particles{particle=dust;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5} @self
+  - effect:particles{particle=dust;color=#bdfff2;amount=20;speed=0;hS=0.3;vS=0.7;y=0.5;delay=11} @self
   - lunge{velocity=1.15;velocityY=0.05;repeat=3;repeatinterval=1} @forward{f=12;y=0.05;lockpitch=true}
   - stun{d=15;f=true;CancelOnTakeDamage=false;CancelOnDeath=true;delay=11} @self
-  - projectile{bulletType=MOB;mob=Phantom_Blink_Clone_2;onHit=Mirage_Slot_HIT_D;oS=Mirage_Slot_Tick;v=1;i=1;hR=1;vR=1;mr=8;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @forward{f=12;y=0.05;lockpitch=true}
+  - projectile{bulletType=MOB;mob=Phantom_Blink_Clone_2;onHit=Mirage_Slot_HIT_D;oS=Mirage_Slot_Tick;v=1;i=10;hR=1;vR=1;mr=8;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5} @forward{f=12;y=0.05;lockpitch=true}
   
 Mirage_Slot_Tick:
   Skills:
@@ -243,31 +243,31 @@ Mirror_Needles_Skill:
   Skills:
   - auraremove{aura=Mirror_Needles_STACK_STACK} @self
   - effect:sound{s=illusionist_sounds:samus.summon_mirror;volume=0.8;pitch=1} @self
-  - orbital{bulletType=MOB;mob=Mirror_Needles_Mirror;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=60;oy=-0.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{bulletType=MOB;mob=Mirror_Needles_Mirror;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=60;oy=-0.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   - potion{type=SLOW;duration=60;level=2;hasParticles=false} @self
 
   - delay 10
-  - projectile{bulletType=MOB;sso=1;mob=Mirror_Needles_Needle_1;onHit=Mirror_Needles_HIT_D;v=20;i=1;hR=1;vR=1;mr=17;hnp=true;hO=3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
+  - projectile{bulletType=MOB;sso=1;mob=Mirror_Needles_Needle_1;onHit=Mirror_Needles_HIT_D;v=20;i=10;hR=1;vR=1;mr=17;hnp=true;hO=3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
   - effect:sound{s=illusionist_sounds:samus.shoot_needle;volume=0.8;pitch=1} @self
   
   - delay 10
-  - projectile{bulletType=MOB;sso=-1;mob=Mirror_Needles_Needle_2;onHit=Mirror_Needles_HIT_D;v=20;i=1;hR=1;vR=1;mr=17;hnp=true;hO=-3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
+  - projectile{bulletType=MOB;sso=-1;mob=Mirror_Needles_Needle_2;onHit=Mirror_Needles_HIT_D;v=20;i=10;hR=1;vR=1;mr=17;hnp=true;hO=-3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
   - effect:sound{s=illusionist_sounds:samus.shoot_needle;volume=0.8;pitch=1} @self
   
   - delay 10
-  - projectile{bulletType=MOB;sso=1;mob=Mirror_Needles_Needle_1;onHit=Mirror_Needles_HIT_D;v=20;i=1;hR=1;vR=1;mr=17;hnp=true;hO=3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
+  - projectile{bulletType=MOB;sso=1;mob=Mirror_Needles_Needle_1;onHit=Mirror_Needles_HIT_D;v=20;i=10;hR=1;vR=1;mr=17;hnp=true;hO=3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
   - effect:sound{s=illusionist_sounds:samus.shoot_needle;volume=0.8;pitch=1} @self
   
   - delay 10
-  - projectile{bulletType=MOB;sso=-1;mob=Mirror_Needles_Needle_2;onHit=Mirror_Needles_HIT_D;v=20;i=1;hR=1;vR=1;mr=17;hnp=true;hO=-3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
+  - projectile{bulletType=MOB;sso=-1;mob=Mirror_Needles_Needle_2;onHit=Mirror_Needles_HIT_D;v=20;i=10;hR=1;vR=1;mr=17;hnp=true;hO=-3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
   - effect:sound{s=illusionist_sounds:samus.shoot_needle;volume=0.8;pitch=1} @self
   
   - delay 10
-  - projectile{bulletType=MOB;sso=1;mob=Mirror_Needles_Needle_1;onHit=Mirror_Needles_HIT_D;v=20;i=1;hR=1;vR=1;mr=17;hnp=true;hO=3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
+  - projectile{bulletType=MOB;sso=1;mob=Mirror_Needles_Needle_1;onHit=Mirror_Needles_HIT_D;v=20;i=10;hR=1;vR=1;mr=17;hnp=true;hO=3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
   - effect:sound{s=illusionist_sounds:samus.shoot_needle;volume=0.8;pitch=1} @self
   
   - delay 10
-  - projectile{bulletType=MOB;sso=-1;mob=Mirror_Needles_Needle_2;onHit=Mirror_Needles_HIT_D;v=20;i=1;hR=1;vR=1;mr=17;hnp=true;hO=-3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
+  - projectile{bulletType=MOB;sso=-1;mob=Mirror_Needles_Needle_2;onHit=Mirror_Needles_HIT_D;v=20;i=10;hR=1;vR=1;mr=17;hnp=true;hO=-3;sE=false;sB=true;hs=false;hfs=0;sfo=2;syo=2;tyo=2} @forward{f=12;y=0;lockpitch=true}
   - effect:sound{s=illusionist_sounds:samus.shoot_needle;volume=0.8;pitch=1} @self
   
 Mirror_Needles_HIT_D:
@@ -317,5 +317,5 @@ Mirror_Dimension_HIT:
 
 Mirror_Dimension_HIT_TICK:
   Skills:
-  - effect:particles{p=redstone;color=#bdfff2;amount=2;speed=0;hS=0;vS=0} @origin
+  - effect:particles{p=dust;color=#bdfff2;amount=2;speed=0;hS=0;vS=0} @origin
 #IGWmhzVJV1N0UETlV0Q4Q2bvNjV0EEVNRzaU5kMJRlT4FFWahmbYlDWaV2Y3h2NyJzbLR2M

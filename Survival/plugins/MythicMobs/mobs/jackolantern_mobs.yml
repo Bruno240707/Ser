@@ -55,7 +55,7 @@ Scarecrow_Summon:
   Skills:
   - model{sync=true;mid=fx_scarecrow;n=false} @self ~onSpawn
   - remove{delay=140} @self ~onSpawn
-  - effect:particlering{particle=redstone;color=#19191c;radius=8;points=70;amount=1;hS=0;vS=0;y=0.1} @self ~onTimer:8
+  - effect:particlering{particle=dust;color=#19191c;radius=8;points=70;amount=1;hS=0;vS=0;y=0.1} @self ~onTimer:8
   
 Nightmare:
   Type: ARMOR_STAND

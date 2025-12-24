@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 52
+last-created-npc-id: 53
 npc:
   '27':
     metadata:
@@ -60,12 +60,12 @@ npc:
       skintrait: {
         }
       location:
-        bodyYaw: -81.29065
+        bodyYaw: -161.43434
         x: 11.5045
         y: 89.0
         z: 65.5118
-        yaw: -81.2906
-        pitch: 4.7187
+        yaw: -161.4343
+        pitch: -1.9339
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: WANDERING_TRADER
       owner:
@@ -211,12 +211,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -33.411533
+        bodyYaw: 15.50779
         x: -23.5147
         y: 87.0
         z: 93.4948
-        yaw: -33.4115
-        pitch: -16.3754
+        yaw: 15.5078
+        pitch: -1.0635
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -379,12 +379,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -53.9902
+        bodyYaw: 46.353683
         x: -8.51
         y: 87.0
         z: 105.4913
-        yaw: -53.9902
-        pitch: -12.3415
+        yaw: 46.3537
+        pitch: 0.0
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -421,12 +421,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -78.4134
+        bodyYaw: -11.125458
         x: -11.5128
         y: 87.0
         z: 105.4743
-        yaw: -78.4134
-        pitch: -26.9468
+        yaw: -11.1255
+        pitch: -45.4215
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -908,12 +908,12 @@ npc:
         - 0.0
         - 360.0
       location:
-        bodyYaw: -19.075424
+        bodyYaw: 99.93512
         x: 17.4438
         y: 88.0
         z: 30.4944
-        yaw: -19.0754
-        pitch: 1.0901
+        yaw: 99.9351
+        pitch: -23.2732
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: HUSK
       owner:
@@ -1297,12 +1297,12 @@ npc:
       skinlayers:
         cape: false
       location:
-        bodyYaw: -177.74197
+        bodyYaw: -170.56763
         x: -42.4998
         y: 89.0
         z: 124.5005
-        yaw: -177.742
-        pitch: -1.2278
+        yaw: -170.5676
+        pitch: 9.0015
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       type: PLAYER
       owner:
@@ -1360,12 +1360,12 @@ npc:
           hand: RIGHT
           player: true
       location:
-        bodyYaw: -165.91046
+        bodyYaw: -125.123375
         x: 19.46
         y: 89.0
         z: 130.4519
-        yaw: -165.9105
-        pitch: -2.0098
+        yaw: -125.1234
+        pitch: -36.4564
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       gravity:
         enabled: true
@@ -1487,12 +1487,12 @@ npc:
         uuid: 0ea956ef-8df7-4ed1-bbaa-e4496278c809
       type: PLAYER
       location:
-        bodyYaw: -25.063843
+        bodyYaw: 62.11383
         x: -3.5049
         y: 88.0
         z: 26.5327
-        yaw: -25.0638
-        pitch: -18.5084
+        yaw: 62.1138
+        pitch: -28.7588
         worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
       commandtrait:
         commands:
@@ -1760,9 +1760,9 @@ npc:
         x: 41.5465
         y: 87.0
         z: 104.5343
-        bodyYaw: 98.39247
-        pitch: -25.8956
-        yaw: 118.3925
+        bodyYaw: 38.463165
+        pitch: -38.8163
+        yaw: 38.4632
       type: PLAYER
     traitnames: spawned,scoreboardtrait,owner,rotationtrait,skintrait,lookclose,location,inventory,type,chunktickettrait
     name: PLAYER
@@ -1791,9 +1791,9 @@ npc:
         x: 38.6607
         y: 87.0
         z: 107.5559
-        bodyYaw: 137.83469
-        pitch: -26.1348
-        yaw: 146.5547
+        bodyYaw: -148.63536
+        pitch: -75.8821
+        yaw: -148.6354
       type: PLAYER
       lookclose:
         enabled: true
@@ -1810,3 +1810,41 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
     uuid: e8d30577-706d-4c09-9055-7e8f646b624b
+  '53':
+    metadata:
+      nameplate-visible: 'false'
+      cached-skin-uuid-name: 08cf8212-161b-42b6-9a5a-33c0a8e324ce
+    traits:
+      scoreboardtrait:
+        tags:
+        - CITIZENS_NPC
+      owner:
+        uuid: 0d45db84-9179-4b23-93b7-38a90642b372
+      skintrait:
+        signature: jVwQkp6x/sQE4n2C+zDaJ3aOKdZc/evSVxXqHG9TxMLrV+z/Uf3hXlr8WwPYQ2KnCoJwGpFI/gVq6eir0SOcAOZq6trVY7dbcW1/HZkMBJ+dVmqpKzcfHV+yQtUBkEkSFNUDSQVsbvOmoYW/WA/RH24/bDfUxUnVbnxWrVm8M0efdBjgM/JinEfHCERuHXofY7ttEFuIEYHEcFZ+RyhsWX+co0RnpBN52BNPMG8gkcrs2hrdhTiz2L9xEYdlKO7bdQFZZDBcjdPgCZtqsQOHxVb34AXnQUmIQcG3x4SUlkkfPZhdbanMK95igfiowKPpkh1gkRfWvt59K0JxnVrwYXkwSFbDc5VKEoXHTfS8+nn9VNpmT4D8BVKMexa4KS5dhhQt41xZ1i4HXhMsAVe8qjG5KVhXxSgYN2aIIF3lIDGPjs0squTFkNmuhqaIZl1tkA3HU/MivY59ilT7Wy3ch8Rtt8pHSjwDQn1nwRku1Kzgob1hz5n/hCpmQiGC7C4v/peOMD6nusmaBL+vZsgRuuuvLKQl8rPI2USVs2eXz7JxPivtjgjij6hmhrai6lUPuMccF7txRPcbUFc9d/EROBZ1cwkZfeR0GEl5loddgiO5KIMyoMzQR+NMFYlJVocDAUg3nFWQuRW1hTzIMQRo5K8N5EKVFHbKxhjLlR1rfaw=
+        skinName: 08cf8212-161b-42b6-9a5a-33c0a8e324ce
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzk5MDQ5NjQ3NCwKICAicHJvZmlsZUlkIiA6ICJiMWMyNWQ0YjMwZDU0N2Y4YTk3NmZlYTllOGU1YzBjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJvd29FbmRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MTU5ODU0MzU1OTE0NmQ2ZmQ1ZmU3NzFhNTVlYjc0ZjQ3YjYwNTliOTczNzQwOGVmZWRmNDY2MDFhOGE5YzVlIgogICAgfQogIH0KfQ==
+      lookclose:
+        enabled: true
+        randomPitchRange:
+        - 0.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+      location:
+        worldid: 0c52527c-f895-4989-828f-80caa9f6e8b5
+        x: 282.5248
+        y: 95.0
+        z: 565.1715
+        bodyYaw: 16.78688
+        pitch: 7.5419
+        yaw: 16.7869
+      type: PLAYER
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
+    name: --nameplate
+    navigator:
+      usedefaultstuckaction: false
+      speedmodifier: 1.0
+      avoidwater: false
+    uuid: 4b50b949-0d99-4921-96e7-e1fab1d2a7c1

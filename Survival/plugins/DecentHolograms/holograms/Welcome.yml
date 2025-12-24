@@ -9,27 +9,26 @@ pages:
 - lines:
   - content: '#ICON:gold_ingot'
     height: 0.6
-  - content: '&#fbe200★ &#fbe400&lS&#fbe500&lE&#fce700&lR&#fce800&lV&#fcea00&lE&#fceb00&lR
-      &#fced00&lN&#fcee00&lA&#fdf000&lM&#fdf100&lE &#fdf300★'
+  - content: '&#fbe200★ &#fbe400&lS&#fbe500&lE&#fce700&lR&#fce800&lV&#fcea00&lE&#fceb00&lR &#fced00&lN&#fcee00&lA&#fdf000&lM&#fdf100&lE &#fdf300★'
+    height: 0.4
+  - content: '&f'
+    height: 0.2
+  - content: '&e&o&lSURVIVAL &8&o- &7&o[1.21]'
     height: 0.3
-  - content: '&r'
+  - content: '&f'
+    height: 0.2
+  - content: '&f&o¡Bienvenido de vuelta, &e&o%player_name%&f&o!'
     height: 0.3
-  - content: '&e&o&lSURVIVAL&r &8&o- &7&o[1.21]'
+  - content: '&f&o¡Nos alegra verte de nuevo!'
     height: 0.3
-  - content: '&r'
+  - content: '&f'
+    height: 0.2
+  - content: '&f&oUsa &e&o/rtp&f&o para comenzar tu aventura'
     height: 0.3
-  - content: '&f&o¡Bienvenido de vuelta a Server Name, &e&o{player}&f&o!'
+  - content: '&f&o¡Reclama tierra y expande tu &e&oimperio&f&o!'
     height: 0.3
-  - content: '&f&o¡Nos alegra que estés aquí!'
+  - content: '&f&oRecompensas diarias: &e&o/rewards'
     height: 0.3
-  - content: '&r'
-    height: 0.3
-  - content: '&f&o¿Listo para empezar? ¡Usa &e&o/rtp&f&o para comenzar tu aventura!'
-    height: 0.3
-  - content: '&f&o¡Reclama tierra y comienza a expandir tu &e&oimperio&f&o!'
-    height: 0.3
-  - content: '&f&o¡Reclama tus recompensas con &e&o/rewards&f&o!'
-    height: 0.5
-  - content: '&f&o¡Asegúrate de revisar nuestro &e&o/help &f&opara información útil!'
+  - content: '&f&o¿Dudas? Usa &e&o/help'
     height: 0.3
   actions: {}

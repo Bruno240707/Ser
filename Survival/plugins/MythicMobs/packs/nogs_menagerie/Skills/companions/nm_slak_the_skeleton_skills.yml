@@ -25,7 +25,7 @@ nm_slak_the_skeleton_head_spin_activate:
   Skills:
   - gcd{ticks=60}
   - freeze{ticks=23} @self
-  - state{state=head_spin;li=1;lo=1;n=false;speed=1} @self
+  - state{state=head_spin;li=10;lo=1;n=false;speed=1} @self
   - sound{s=entity.skeleton.ambient;p=1.6;v=1} @self
   - delay 4
   - sound{s=block.bone_block.fall;p=1.6;v=0.4} @self

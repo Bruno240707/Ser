@@ -12,18 +12,18 @@ Pumpkin_Bombs:
 
 Pumpkin_Bombs_1:
   Skills:
-  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=1;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=10;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
 
 Pumpkin_Bombs_2:
   Skills:
-  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=1;hR=1;vR=1;mr=20;hnp=true;hO=7;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=1;hR=1;vR=1;mr=20;hnp=true;hO=-7;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=10;hR=1;vR=1;mr=20;hnp=true;hO=7;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=10;hR=1;vR=1;mr=20;hnp=true;hO=-7;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
 
 Pumpkin_Bombs_3:
   Skills:
-  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=1;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=1;hR=1;vR=1;mr=20;hnp=true;hO=11;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=1;hR=1;vR=1;mr=20;hnp=true;hO=-11;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=10;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=10;hR=1;vR=1;mr=20;hnp=true;hO=11;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Pumpkin_Bombs;onEnd=Pumpkin_Bombs_HIT_D;v=15;i=10;hR=1;vR=1;mr=20;hnp=true;hO=-11;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=3;g=1} @Forward{f=15;y=0}
 
 Pumpkin_Bombs_HIT_D:
   Skills:
@@ -83,7 +83,7 @@ Summon_Scarecrow_SKILL:
   Cooldown: 5
   Skills:
   - effect:sound{s=entity.illusioner.cast_spell;volume=1;pitch=0.7} @self
-  - projectile{onEnd=Summon_Scarecrow_END;v=30;i=1;hR=1;vR=1;mr=25;hnp=false;hp=false;hO=0;sE=false;sB=true;hs=false;hfs=0;syo=1.5;tyo=1} @TargetBlock
+  - projectile{onEnd=Summon_Scarecrow_END;v=30;i=10;hR=1;vR=1;mr=25;hnp=false;hp=false;hO=0;sE=false;sB=true;hs=false;hfs=0;syo=1.5;tyo=1} @TargetBlock
   
 Summon_Scarecrow_END:
   Skills:
@@ -98,7 +98,7 @@ Summon_Scarecrow_HIT:
   TargetConditions:
   - entitytype{t=ARMOR_STAND} false
   Skills:
-  - effect:particles{particle=redstone;color=#070f14;amount=20;hS=1;vS=1;y=0.7;speed=0;forwardOffset=0;sideOffset=0} @origin
+  - effect:particles{particle=dust;color=#070f14;amount=20;hS=1;vS=1;y=0.7;speed=0;forwardOffset=0;sideOffset=0} @origin
   - damage{a=4}
   - effect:sound{s=entity.bat.takeoff;volume=0.6;pitch="random(0.9, 1.1)"} @origin
   - skill{s=Summon_Scarecrow_HIT2}
@@ -113,8 +113,8 @@ Summon_Scarecrow_HIT3:
   Skills:
   - Aura{auraName=Midnight_Crows_HIT;duration=60}
   - throw{velocity=1.4;velocityY=0;repeat=59;repeatinterval=1}
-  - effect:particles{particle=redstone;color=#19191c;amount=15;speed=0;hS=0.3;vS=1;y=0.5;repeat=7;repeatinterval=8}
-  - effect:particles{particle=redstone;color=#2c5252;amount=5;speed=0;hS=0.3;vS=1;y=0.5;repeat=7;repeatinterval=8}
+  - effect:particles{particle=dust;color=#19191c;amount=15;speed=0;hS=0.3;vS=1;y=0.5;repeat=7;repeatinterval=8}
+  - effect:particles{particle=dust;color=#2c5252;amount=5;speed=0;hS=0.3;vS=1;y=0.5;repeat=7;repeatinterval=8}
 
 # Midnight Crows #
   
@@ -126,14 +126,14 @@ Midnight_Crows:
   - effect:sound{s=jackolantern_sounds:samus.crow_1;volume=0.8;pitch=1} @self
   - effect:sound{s=entity.bat.takeoff;volume=0.7;pitch=1.1} @self
   - effect:sound{s=jackolantern_sounds:samus.crow_2;volume=0.8;pitch=1;delay=12} @self
-  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=20;i=1;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5;delay=1} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=18;i=1;hR=1;vR=1;mr=20;hnp=true;hO=10;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.7;delay=3} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=17;i=1;hR=1;vR=1;mr=20;hnp=true;hO=-7;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5;delay=6} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=22;i=1;hR=1;vR=1;mr=20;hnp=true;hO=2;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.3;delay=9} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=19;i=1;hR=1;vR=1;mr=20;hnp=true;hO=-5;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.6;delay=11} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=21;i=1;hR=1;vR=1;mr=20;hnp=true;hO=5;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.8;delay=15} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=23;i=1;hR=1;vR=1;mr=20;hnp=true;hO=-9;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.2;delay=17} @Forward{f=15;y=0}
-  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=20;i=1;hR=1;vR=1;mr=20;hnp=true;hO=4;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5;delay=20} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=20;i=10;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5;delay=1} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=18;i=10;hR=1;vR=1;mr=20;hnp=true;hO=10;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.7;delay=3} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=17;i=10;hR=1;vR=1;mr=20;hnp=true;hO=-7;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5;delay=6} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=22;i=10;hR=1;vR=1;mr=20;hnp=true;hO=2;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.3;delay=9} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=19;i=10;hR=1;vR=1;mr=20;hnp=true;hO=-5;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.6;delay=11} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=21;i=10;hR=1;vR=1;mr=20;hnp=true;hO=5;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.8;delay=15} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=23;i=10;hR=1;vR=1;mr=20;hnp=true;hO=-9;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.2;delay=17} @Forward{f=15;y=0}
+  - projectile{bulletType=MOB;mob=Midnight_Crow;onHit=Midnight_Crows_HIT_D;v=20;i=10;hR=1;vR=1;mr=20;hnp=true;hO=4;sE=true;sB=true;hs=false;hfs=0;sfo=1.5;syo=1.5;tyo=1.5;delay=20} @Forward{f=15;y=0}
   
 Midnight_Crows_HIT_D:
   Skills:
@@ -146,7 +146,7 @@ Midnight_Crows_HIT2:
   Skills:
   - damage{a=4}
   - potion{type=BLINDNESS;duration=60;level=3;hasParticles=false}
-  - effect:particles{particle=redstone;color=#070f14;amount=20;hS=1;vS=1;y=0.7;speed=0;forwardOffset=0;sideOffset=0} @origin
+  - effect:particles{particle=dust;color=#070f14;amount=20;hS=1;vS=1;y=0.7;speed=0;forwardOffset=0;sideOffset=0} @origin
   
 Midnight_Crows_HIT:
   TargetConditions:
@@ -156,8 +156,8 @@ Midnight_Crows_HIT:
   - effect:sound{s=entity.bat.takeoff;volume=0.6;pitch="random(0.9, 1.1)"} @origin
   - Aura{auraName=Midnight_Crows_HIT;duration=60}
   - throw{velocity=1.4;velocityY=0;repeat=59;repeatinterval=1}
-  - effect:particles{particle=redstone;color=#19191c;amount=15;speed=0;hS=0.3;vS=1;y=0.5;repeat=7;repeatinterval=8}
-  - effect:particles{particle=redstone;color=#2c5252;amount=5;speed=0;hS=0.3;vS=1;y=0.5;repeat=7;repeatinterval=8}
+  - effect:particles{particle=dust;color=#19191c;amount=15;speed=0;hS=0.3;vS=1;y=0.5;repeat=7;repeatinterval=8}
+  - effect:particles{particle=dust;color=#2c5252;amount=5;speed=0;hS=0.3;vS=1;y=0.5;repeat=7;repeatinterval=8}
   
 # Nightmare #
 
@@ -167,10 +167,10 @@ Nightmare:
   - crouching true
   Skills:
   - effect:sound{s=jackolantern_sounds:samus.nightmare_sound;volume=0.8;pitch=1} @self
-  - effect:particles{particle=redstone;color=#4d031f;amount=10;hS=0.4;vS=0.7;speed=0;y=0.8;repeat=19;repeati=10} @self
-  - effect:particlering{particle=redstone;color=#290601;radius=10;points=80;amount=1;hS=0;vS=0;y=0.1;repeat=19;repeati=10} @self
-  - effect:particlering{particle=redstone;color=#420b03;radius=10;points=80;amount=1;hS=0;vS=0;y=0.3;repeat=19;repeati=10} @self
-  - effect:particlering{particle=redstone;color=#590e04;radius=10;points=80;amount=1;hS=0;vS=0;y=0.5;repeat=19;repeati=10} @self
+  - effect:particles{particle=dust;color=#4d031f;amount=10;hS=0.4;vS=0.7;speed=0;y=0.8;repeat=19;repeati=100} @self
+  - effect:particlering{particle=dust;color=#290601;radius=10;points=80;amount=1;hS=0;vS=0;y=0.1;repeat=19;repeati=100} @self
+  - effect:particlering{particle=dust;color=#420b03;radius=10;points=80;amount=1;hS=0;vS=0;y=0.3;repeat=19;repeati=100} @self
+  - effect:particlering{particle=dust;color=#590e04;radius=10;points=80;amount=1;hS=0;vS=0;y=0.5;repeat=19;repeati=100} @self
   - skill{s=Nightmare_HIT_D;repeat=9;repeati=20} @EIR{r=10}
   - skill{s=Nightmare_HIT_D2;repeat=3;repeati=50} @EIR{r=10}
   
@@ -187,7 +187,7 @@ Nightmare_HIT:
   TargetConditions:
   - entitytype{t=ARMOR_STAND} false
   Skills:
-  - effect:particlelinehelix{Fo=false;db=0.4;hl=4;syo=1;tyo=1;p=redstone;hr=0.2;md=50;repeat=1;repeati=10}
+  - effect:particlelinehelix{Fo=false;db=0.4;hl=4;syo=1;tyo=1;p=dust;hr=0.2;md=50;repeat=1;repeati=100}
   - Aura{auraName=Skull_aura;duration=60;delay=1}
   - potion{type=DARKNESS;duration=60;level=1;hasParticles=false}
   - potion{type=SLOW;duration=60;level=1;hasParticles=false}
@@ -198,7 +198,7 @@ Nightmare_FX2:
   TargetConditions:
   - hasaura{n=Skull_aura} false
   Skills:
-  - orbital{bulletType=MOB;mob=Nightmare;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=20000;oy=-0.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
+  - orbital{bulletType=MOB;mob=Nightmare;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=20000;oy=-0.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
   
 Nightmare_FX:
   TargetConditions:

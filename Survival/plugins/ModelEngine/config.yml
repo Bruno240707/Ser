@@ -29,10 +29,10 @@ Model-Generator:
   Enable-Error: true
   Debug-Level: 1
   Namespace: modelengine
-  Create-Zip: true
+  Create-Zip: false
   Create-Atlas: true
   Create-Shader: true
-  Create-MC-META: true
+  Create-MC-META: false
   Item-Model: LEATHER_HORSE_ARMOR
   Item-Models: []
   Max-Generator-Threads: 10

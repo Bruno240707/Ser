@@ -31,12 +31,12 @@ regions:
         min: {x: -204, y: -34, z: -58}
         max: {x: 197, y: 310, z: 270}
         members: {}
-        flags: {deny-message: '', mycelium-spread: deny, invincible: allow, use: deny,
-            leaf-decay: deny, snow-fall: deny, block-trampling: deny, interact: deny,
+        flags: {deny-message: '', mycelium-spread: deny, use: deny, invincible: allow,
+            block-trampling: deny, leaf-decay: deny, snow-fall: deny, interact: deny,
             chest-access: deny, ride: deny, fire-spread: deny, sculk-growth: deny,
-            coral-fade: deny, vehicle-place: deny, rock-growth: deny, passthrough: allow,
-            block-break: deny, ice-form: deny, block-place: deny, mob-spawning: deny,
-            crop-growth: deny, natural-hunger-drain: deny, soil-dry: deny, vine-growth: deny,
+            coral-fade: deny, vehicle-place: deny, rock-growth: deny, block-break: deny,
+            passthrough: allow, ice-form: deny, mob-spawning: deny, block-place: deny,
+            natural-hunger-drain: deny, crop-growth: deny, soil-dry: deny, vine-growth: deny,
             fall-damage: deny, item-frame-rotation: deny, damage-animals: deny, grass-growth: deny}
         owners: {}
         type: cuboid
@@ -49,18 +49,26 @@ regions:
         owners: {}
         type: cuboid
         priority: 100
+    casino:
+        min: {x: 226, y: 90, z: 535}
+        max: {x: 338, y: 135, z: 595}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
     pvpspawn:
         min: {x: 345, y: 33, z: 45}
         max: {x: 440, y: 153, z: 141}
         members: {}
         flags: {deny-message: '', use: allow, block-break: deny, interact: allow,
-            chest-access: allow, pvp: deny, block-place: deny}
+            pvp: deny, chest-access: allow, block-place: deny}
         owners: {}
         type: cuboid
         priority: 0
     __global__:
         members: {}
-        flags: {enderpearl: deny, glide: DENY, pvp: deny}
+        flags: {enderpearl: deny, keep-inventory: true, glide: DENY, pvp: deny}
         owners: {}
         type: global
         priority: 0

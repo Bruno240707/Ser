@@ -6,12 +6,17 @@ players:
     logged_in_flight: false
     compat_logged_in_flight: true
   0d45db84-9179-4b23-93b7-38a90642b372:
-    compat_logged_in_flight: false
-    last_daily_bonus: 1766287977071
+    compat_logged_in_flight: true
+    last_daily_bonus: 1766421257593
     logged_in_flight: false
-    time: 290.0
+    time: 330.0
   c832f10d-3fc3-3b4e-bff6-a86f8c5759e0:
     time: 10.0
     last_daily_bonus: 1766270810790
+    logged_in_flight: false
+    compat_logged_in_flight: false
+  26ed0e51-3dbb-3950-b9ae-1b7db8ac61c6:
+    time: 130.0
+    last_daily_bonus: 1766545504178
     logged_in_flight: false
     compat_logged_in_flight: false

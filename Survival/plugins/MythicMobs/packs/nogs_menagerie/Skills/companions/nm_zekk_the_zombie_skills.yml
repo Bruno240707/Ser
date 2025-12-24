@@ -25,7 +25,7 @@ nm_zekk_the_zombie_trip_activate:
   Skills:
   - gcd{ticks=60}
   - freeze{ticks=53} @self
-  - state{state=trip;li=1;lo=1;n=false;speed=1} @self
+  - state{state=trip;li=10;lo=1;n=false;speed=1} @self
   - sound{s=entity.zombie.ambient;p=1.6;v=1.4} @self
   - delay 10
   - sound{s=entity.wind_charge.wind_burst;p=1.6;v=1.4} @self

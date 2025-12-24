@@ -181,7 +181,7 @@ VFX_Death_Strike_4_WAVE:
   - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
-  #- effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=2;hS=0.04;size=1.25;vS=0.2;speed=0;repeat=5;repeati=1} @modelpart{mid=vfx_death_shockwave;pid=p;location=0,0,0;em=false;offset=LOCAL} ~onTimer:1
+  #- effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=2;hS=0.04;size=1.25;vS=0.2;speed=0;repeat=5;repeati=10} @modelpart{mid=vfx_death_shockwave;pid=p;location=0,0,0;em=false;offset=LOCAL} ~onTimer:1
 
 VFX_Death_Chains:
   Type: block_display
@@ -313,7 +313,7 @@ Death_Chains_DISTANCECHECK:
     Collidable: false
   Skills:
   - sudoskill{s=Death_Chains_DISTANCECHECK_CHANGE;cat=true;delay=1} @owner ~onSpawn
-  - pull{to=true;velocity=6;repeat=3;repeati=1;delay=10} @owner{conditions=[ - hasaura{aura=LATCHED} true  ]} ~onSpawn
+  - pull{to=true;velocity=6;repeat=3;repeati=10;delay=10} @owner{conditions=[ - hasaura{aura=LATCHED} true  ]} ~onSpawn
   - remove{delay=60} @self ~onSpawn
 
 VFX_Death_Wings_Phantom_Charge:
@@ -325,7 +325,7 @@ VFX_Death_Wings_Phantom_Charge:
     Invincible: true
     Collidable: false
   Skills:
-  - aura{d=8;i=1;
+  - aura{d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     - model{sync=true;usestatemachine=true;mid=vfx_death_wings_1;lockpitch=true}
@@ -343,7 +343,7 @@ VFX_Death_Wings_Phantom_Charge:
     - changepart{m=vfx_death_wings_1;nm=vfx_death_wings_<caster.var.iteration>;p=left_wing_end;np=left_wing_end} ?!varequals{var=caster.iteration;val=8}
     ]} @self ~onSpawn
 
-  - aura{d=8;i=1;
+  - aura{d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=7;type=INTEGER}
     ];
@@ -514,7 +514,7 @@ VFX_Death_Wings_Death_Sentence:
     Invincible: true
     Collidable: false
   Skills:
-  - aura{d=8;i=1;
+  - aura{d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     - model{sync=true;usestatemachine=true;mid=vfx_death_wings_1;lockpitch=true}
@@ -532,7 +532,7 @@ VFX_Death_Wings_Death_Sentence:
     - changepart{m=vfx_death_wings_1;nm=vfx_death_wings_<caster.var.iteration>;p=left_wing_end;np=left_wing_end} ?!varequals{var=caster.iteration;val=8}
     ]} @self ~onSpawn
 
-  - aura{d=8;i=1;
+  - aura{d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=7;type=INTEGER}
     ];
@@ -562,22 +562,22 @@ VFX_Soul_Blade:
   - partvis{m=vfx_soul_blade;p=bone;v=false;em=true;child=true} @self ~onSpawn
   - partvis{m=vfx_soul_blade;p=bone;v=true;em=true;child=true;delay=42} @self ~onSpawn
 
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=40;repeati=1;delay=2} @modelpart{mid=vfx_soul_blade;pid=p1;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=38;repeati=1;delay=4} @modelpart{mid=vfx_soul_blade;pid=p2;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=36;repeati=1;delay=6} @modelpart{mid=vfx_soul_blade;pid=p3;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=34;repeati=1;delay=8} @modelpart{mid=vfx_soul_blade;pid=p4;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=32;repeati=1;delay=10} @modelpart{mid=vfx_soul_blade;pid=p5;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=32;repeati=1;delay=10} @modelpart{mid=vfx_soul_blade;pid=p6;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=30;repeati=1;delay=12} @modelpart{mid=vfx_soul_blade;pid=p7;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=30;repeati=1;delay=12} @modelpart{mid=vfx_soul_blade;pid=p8;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=28;repeati=1;delay=14} @modelpart{mid=vfx_soul_blade;pid=p9;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=28;repeati=1;delay=14} @modelpart{mid=vfx_soul_blade;pid=p10;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=32;repeati=1;delay=10} @modelpart{mid=vfx_soul_blade;pid=p11;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=30;repeati=1;delay=12} @modelpart{mid=vfx_soul_blade;pid=p12;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=28;repeati=1;delay=14} @modelpart{mid=vfx_soul_blade;pid=p13;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=26;repeati=1;delay=16} @modelpart{mid=vfx_soul_blade;pid=p14;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=24;repeati=1;delay=18} @modelpart{mid=vfx_soul_blade;pid=p15;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
-  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=22;repeati=1;delay=20} @modelpart{mid=vfx_soul_blade;pid=p16;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=40;repeati=10;delay=2} @modelpart{mid=vfx_soul_blade;pid=p1;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=38;repeati=10;delay=4} @modelpart{mid=vfx_soul_blade;pid=p2;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=36;repeati=10;delay=6} @modelpart{mid=vfx_soul_blade;pid=p3;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=34;repeati=10;delay=8} @modelpart{mid=vfx_soul_blade;pid=p4;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=32;repeati=10;delay=10} @modelpart{mid=vfx_soul_blade;pid=p5;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=32;repeati=10;delay=10} @modelpart{mid=vfx_soul_blade;pid=p6;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=30;repeati=10;delay=12} @modelpart{mid=vfx_soul_blade;pid=p7;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=30;repeati=10;delay=12} @modelpart{mid=vfx_soul_blade;pid=p8;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=28;repeati=10;delay=14} @modelpart{mid=vfx_soul_blade;pid=p9;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=28;repeati=10;delay=14} @modelpart{mid=vfx_soul_blade;pid=p10;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=32;repeati=10;delay=10} @modelpart{mid=vfx_soul_blade;pid=p11;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=30;repeati=10;delay=12} @modelpart{mid=vfx_soul_blade;pid=p12;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=28;repeati=10;delay=14} @modelpart{mid=vfx_soul_blade;pid=p13;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=26;repeati=10;delay=16} @modelpart{mid=vfx_soul_blade;pid=p14;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=24;repeati=10;delay=18} @modelpart{mid=vfx_soul_blade;pid=p15;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
+  - effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=3;hS=0.15;size=1.25;vS=0.05;speed=0;repeat=22;repeati=10;delay=20} @modelpart{mid=vfx_soul_blade;pid=p16;location=0,0,0;em=true;offset=LOCAL} ~onSpawn
   
   - sound{sound=event.mob_effect.bad_omen;volume=0.9;pitch=0.5;delay=22} @self ~onSpawn
 

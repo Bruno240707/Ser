@@ -4,7 +4,7 @@ legacy-data-migrated: true
 previous-handler: yaml
 player:
   26ed0e51-3dbb-3950-b9ae-1b7db8ac61c6:
-    eco:player_name: §4Bruno240707§r
+    eco:player_name: Bruno240707
   0d45db84-9179-4b23-93b7-38a90642b372:
     eco:player_name: Bruno240707
   c832f10d-3fc3-3b4e-bff6-a86f8c5759e0:

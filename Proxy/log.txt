@@ -1,89 +1,68 @@
 WARNING: A restricted method in java.lang.System has been called
-WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/workspaces/prueba/Proxy/velocity.jar)
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/workspaces/Ser/Proxy/velocity.jar)
 WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
 WARNING: Restricted methods will be blocked in a future release unless native access is enabled
 
-2025-12-21T04:05:21.461194695Z main WARN Advanced terminal features are not available in this environment
-[01:05:22 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
-[01:05:22 INFO]: Loading localizations...
-[01:05:23 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[01:05:23 INFO]: Loading plugins...
-[01:05:23 INFO]: Loaded 1 plugins
-[01:05:23 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[01:05:23 INFO]: Done (2.16s)!
-[01:05:28 INFO]: [connected player] Bruno240707 (/127.19.211.102:34285) has connected
-[01:05:28 ERROR]: [connected player] Bruno240707 (/127.19.211.102:34285): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[01:05:28 INFO]: [connected player] Bruno240707 (/127.19.211.102:34285) has disconnected: [38;2;255;85;85mNo hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.[0m
-[01:05:33 INFO]: [connected player] Bruno240707 (/127.19.211.102:55285) has connected
-[01:05:33 ERROR]: [connected player] Bruno240707 (/127.19.211.102:55285): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[01:05:33 INFO]: [connected player] Bruno240707 (/127.19.211.102:55285) has disconnected: [38;2;255;85;85mNo hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.[0m
-[01:05:38 INFO]: [connected player] Bruno240707 (/127.19.211.102:34523) has connected
-[01:05:38 ERROR]: [connected player] Bruno240707 (/127.19.211.102:34523): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[01:05:38 INFO]: [connected player] Bruno240707 (/127.19.211.102:34523) has disconnected: [38;2;255;85;85mUnable to connect you to lobby. Please try again later.[0m
-[01:05:42 INFO]: [connected player] Bruno240707 (/127.19.211.102:41377) has connected
-[01:05:43 INFO]: [server connection] Bruno240707 -> lobby has connected
-[01:06:22 INFO]: [server connection] Bruno240707 -> survival has connected
-[01:06:52 ERROR]: [server connection] Bruno240707 -> survival: read timed out
-[01:06:52 INFO]: [server connection] Bruno240707 -> survival has disconnected
-[01:06:52 ERROR]: [connected player] Bruno240707 (/127.19.211.102:41377): unable to connect to server survival
-io.netty.handler.timeout.ReadTimeoutException: null
-[01:07:19 INFO]: [server connection] Bruno240707 -> survival has connected
-[01:07:20 INFO]: [server connection] Bruno240707 -> lobby has disconnected
-[01:18:40 INFO]: [connected player] Bruno240707 (/127.19.211.102:41377) has disconnected
-[01:18:40 INFO]: [server connection] Bruno240707 -> survival has disconnected
-[01:18:51 INFO]: Shutting down the proxy...
-[01:18:51 INFO]: Closing endpoint /0.0.0.0:25565
+2025-12-24T05:16:57.198222871Z main WARN Advanced terminal features are not available in this environment
+[02:16:58 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
+[02:16:58 INFO]: Loading localizations...
+[02:16:59 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[02:16:59 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[02:16:59 INFO]: Loading plugins...
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/workspaces/Ser/Proxy/velocity.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[02:17:00 INFO]: Loaded plugin luckperms 5.5.21 by Luck
+[02:17:00 INFO]: Loaded plugin nantibot 2.0.3 by NickUC
+[02:17:01 INFO]: Loaded plugin nlogin 2.0.7 by NickUC
+[02:17:01 INFO]: Loaded 4 plugins
+[02:17:01 INFO] [luckperms]: Loading configuration...
+[02:17:02 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[02:17:02 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [0m[38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.5.21[0m
+[02:17:02 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Velocity - Velocity[0m
+[02:17:02 INFO]: 
+[02:17:02 INFO] [luckperms]: Loading storage provider... [H2]
+[02:17:04 INFO] [luckperms]: Loading internal permission managers...
+[02:17:04 INFO] [luckperms]: Performing initial data load...
+[02:17:04 INFO] [luckperms]: Successfully enabled. (took 3101ms)
+[02:17:06 INFO] [nantibot]: Successful plugin core start (took 0.66s)
+[02:17:06 INFO]: [nAntiBot] [38;2;255;85;85m          _         _   _   ___       _   [0m
+[02:17:06 INFO]: [nAntiBot] [38;2;255;85;85m  _ __   /_\  _ __ | |_(_) / __\ ___ | |_ [0m
+[02:17:06 INFO]: [nAntiBot] [38;2;255;85;85m | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|[0m
+[02:17:06 INFO]: [nAntiBot] [38;2;255;85;85m | | | /  _  \ | | | |_| / \/  \ (_) | |_ [0m
+[02:17:06 INFO]: [nAntiBot] [38;2;255;85;85m |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|[0m
+[02:17:06 INFO]: [nAntiBot] [38;2;255;85;85m                                         [0m
+[02:17:06 INFO]: [nAntiBot] [38;2;255;85;85m By: www.nickuc.com - V 2.0.3[0m
+[02:17:06 INFO]: [nAntiBot] 
+[02:17:10 INFO] [nlogin]: Successful plugin core start (took 0.43s)
+[02:17:10 INFO]: [nLogin] [38;2;85;85;255m          __             _       [0m
+[02:17:10 INFO]: [nLogin] [38;2;85;85;255m  _ __   / /  ___   __ _(_)_ __  [0m
+[02:17:10 INFO]: [nLogin] [38;2;85;85;255m | '_ \ / /  / _ \ / _` | | '_ \ [0m
+[02:17:10 INFO]: [nLogin] [38;2;85;85;255m | | | / /__| (_) | (_| | | | | |[0m
+[02:17:10 INFO]: [nLogin] [38;2;85;85;255m |_| |_\____/\___/ \__, |_|_| |_|[0m
+[02:17:10 INFO]: [nLogin] [38;2;85;85;255m                  |___/            [0m
+[02:17:10 INFO]: [nLogin] [38;2;85;85;255m By: www.nickuc.com - V 2.0.7[0m
+[02:17:10 INFO]: [nLogin] [38;2;85;85;255m [0m
+[02:17:13 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[02:17:13 INFO] [nantibot]: Injecting channel initializers
+[02:17:13 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[02:17:14 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[02:17:14 INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
+[02:17:14 INFO]: Done (16.68s)!
+[02:17:17 INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 50, threads = 4, took 9.88s)
+[02:22:05 INFO]: [connected player] Bruno240707 (/127.19.211.102:35881) has connected
+[02:22:05 INFO]: [server connection] Bruno240707 -> lobby has connected
+[02:22:19 INFO] [nlogin]: The user Bruno240707 has successfully logged in.
+[02:22:22 INFO]: [server connection] Bruno240707 -> survival has connected
+[02:22:23 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[02:54:31 INFO]: [connected player] Bruno240707 (/127.19.211.102:35881) has disconnected
+[02:54:31 INFO]: [server connection] Bruno240707 -> survival has disconnected
+[02:54:48 INFO]: Shutting down the proxy...
+[02:54:48 INFO]: Closing endpoint /0.0.0.0:25565
+[02:54:48 INFO] [nantibot]: Successful plugin core shutdown (took 0.02s)
+[02:54:48 INFO] [nantibot]: Disconnecting from remote server...
+[02:54:50 INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
+[02:54:50 INFO] [luckperms]: Starting shutdown process...
+[02:54:50 INFO] [luckperms]: Closing storage...
+[02:54:50 INFO] [luckperms]: Goodbye!

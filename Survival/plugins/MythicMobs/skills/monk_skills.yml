@@ -43,21 +43,21 @@ Swift_Strikes_1:
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch0.6} @self
   - effect:sound{s=item.trident.throw;volume=0.8;pitch=0.6} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=0.6} @self
-  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Swift_Strikes_1;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0.7;y=0.2;sideOffset=0;lockpitch=true}
   - delay 4
   - effect:sound{s=entity.witch.throw;volume=0.7;pitch=0.4} @self
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch0.6} @self
   - effect:sound{s=item.trident.throw;volume=0.8;pitch=0.6} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=0.6} @self
-  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Swift_Strikes_2;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0.7;y=0.2;sideOffset=0;lockpitch=true}
   - delay 4
   - effect:sound{s=entity.witch.throw;volume=0.7;pitch=0.4} @self
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch0.6} @self
   - effect:sound{s=item.trident.throw;volume=0.8;pitch=0.6} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=0.6} @self
-  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Swift_Strikes_1;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0.7;y=0.2;sideOffset=0;lockpitch=true}
 
 Swift_Strikes_2:
@@ -69,21 +69,21 @@ Swift_Strikes_2:
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch0.6} @self
   - effect:sound{s=item.trident.throw;volume=0.8;pitch=0.6} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=0.6} @self
-  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Swift_Strikes_2;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0.7;y=0.2;sideOffset=0;lockpitch=true}
   - delay 4
   - effect:sound{s=entity.witch.throw;volume=0.7;pitch=0.4} @self
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch0.6} @self
   - effect:sound{s=item.trident.throw;volume=0.8;pitch=0.6} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=0.6} @self
-  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Swift_Strikes_1;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0.7;y=0.2;sideOffset=0;lockpitch=true}
   - delay 4
   - effect:sound{s=entity.witch.throw;volume=0.7;pitch=0.4} @self
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch0.6} @self
   - effect:sound{s=item.trident.throw;volume=0.8;pitch=0.6} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=0.6} @self
-  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Swift_Strikes_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Swift_Strikes_2;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0.7;y=0.2;sideOffset=0;lockpitch=true}
 
 Swift_Strikes_DAMAGE_D:
@@ -110,7 +110,7 @@ Chi_Blast:
   - effect:sound{s=entity.phantom.hurt;volume=0.7;pitch=1.3} @self
   - effect:sound{s=entity.drowned.shoot;volume=0.7;pitch=0.6} @self
   - effect:sound{s=entity.shulker.shoot;volume=0.7;pitch=0.7} @self
-  - projectile{bulletType=MOB;mob=VFX_Chi_Blast;onHit=Chi_Blast_HIT_D;v=24;i=1;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0.1;syo=1.5;tyo=1.5;sso=0} @Forward{f=25;y=0}
+  - projectile{bulletType=MOB;mob=VFX_Chi_Blast;onHit=Chi_Blast_HIT_D;v=24;i=10;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0.1;syo=1.5;tyo=1.5;sso=0} @Forward{f=25;y=0}
   
   
 Chi_Blast_HIT_D:
@@ -127,7 +127,7 @@ Chi_Blast_HIT:
   - Aura{auraName=Chi_Blast_HIT;duration=80}
   - damage{a=4;pkb=true;hnp=true;hp=true;delay=1}
   - potion{type=SLOW;duration=80;level=1;hasParticles=false}
-  - orbital{auraName=CHIBLAST;bulletType=MOB;mob=VFX_Chi_Blast_Hit;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=80;oy=1.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
+  - orbital{auraName=CHIBLAST;bulletType=MOB;mob=VFX_Chi_Blast_Hit;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=80;oy=1.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
   - effect:sound{s=item.trident.riptide_1;volume=1.1;pitch=0.6;delay=11} @self
   
   - delay 15
@@ -212,7 +212,7 @@ Zen_Throw_SKILL:
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=0.6} @self
   - effect:sound{s=entity.wither.shoot;volume=0.8;pitch=0.6} @self
   - summon{type=VFX_Zen_Throw;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=1;y=0.2;sideOffset=0;lockpitch=true}
-  - totem{md=2;c=1;oH=Zen_Throw_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Zen_Throw_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   
 Zen_Throw_DAMAGE_D:
   Skills:
@@ -228,7 +228,7 @@ Zen_Throw_DAMAGE:
   - delay 6
   - effect:sound{s=entity.zoglin.step;volume=0.8;pitch=0.45}
   - effect:sound{s=entity.zombie.break_wooden_door;volume=0.5;pitch=0.6}
-  - totem{md=2;c=1;oS=Zen_Throw_DAMAGE_BW;oH=Zen_Throw_DAMAGE_AOE;hnp=true;hp=true;hR=2;vR=2;i=1}
+  - totem{md=2;c=1;oS=Zen_Throw_DAMAGE_BW;oH=Zen_Throw_DAMAGE_AOE;hnp=true;hp=true;hR=2;vR=2;i=10}
   - summon{type=VFX_Zen_Throw_IMPACT;amount=1;radius=0;yRadius=0;onSurface=true}
   
 Zen_Throw_DAMAGE_BW:
@@ -245,7 +245,7 @@ Zen_Throw_DAMAGE_AOE_DAMAGE:
   Skills:
   - damage{a=4;pkb=true;hnp=true;hp=true}
   - potion{type=SLOW;duration=60;level=50;hasParticles=false}
-  - effect:particleorbital{r=0.5;points=16;t=60;i=1;particle=crit;oy=2.5}
+  - effect:particleorbital{r=0.5;points=16;t=60;i=10;particle=crit;oy=2.5}
   
 # Beads of Karma #
   
@@ -266,19 +266,19 @@ Beads_Of_Karma:
   - effect:sound{s=entity.wither.death;volume=0.75;pitch=1.3} @self
   - effect:sound{s=entity.wither.ambient;volume=0.6;pitch=0.6} @self
   
-  - totem{md=2;c=1;oH=Beads_Of_Karma_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0;lockpitch=true}
+  - totem{md=2;c=1;oH=Beads_Of_Karma_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0;lockpitch=true}
   - skill{s=Beads_Of_Karma_BUFF_D} @PIR{r=7}
   - skill{s=Beads_Of_Karma_BUFF_D} @self
   
   - delay 20
   
-  - totem{md=2;c=1;oH=Beads_Of_Karma_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0;lockpitch=true}
+  - totem{md=2;c=1;oH=Beads_Of_Karma_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0;lockpitch=true}
   - skill{s=Beads_Of_Karma_BUFF_D} @PIR{r=7}
   - skill{s=Beads_Of_Karma_BUFF_D} @self
   
   - delay 20
   
-  - totem{md=2;c=1;oH=Beads_Of_Karma_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=0;lockpitch=true}
+  - totem{md=2;c=1;oH=Beads_Of_Karma_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=0;lockpitch=true}
   - skill{s=Beads_Of_Karma_BUFF_D} @PIR{r=7}
   - skill{s=Beads_Of_Karma_BUFF_D} @self
   
@@ -330,19 +330,19 @@ Counterstrike_CHICIRCLE1:
   - hasaura{n=Counterstrike_SHIELD} true
   - hasaurastacks{auraName=Counterstrike_SHIELD;stacks=>3} cast Counterstrike_CHICIRCLE2
   Skills:
-  - effect:particlering{particle=redstone;color=#FFFFFF;size=0.75;radius=1;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=dust;color=#FFFFFF;size=0.75;radius=1;points=40;amount=1;hS=0;vS=0;y=0.1} @self
   
 Counterstrike_CHICIRCLE2:
   Conditions:
   - hasaurastacks{auraName=Counterstrike_SHIELD;stacks=>7} cast Counterstrike_CHICIRCLE3
   Skills:
-  - effect:particlering{particle=redstone;color=#FFFFFF;size=0.75;radius=2;points=80;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=dust;color=#FFFFFF;size=0.75;radius=2;points=80;amount=1;hS=0;vS=0;y=0.1} @self
   
 Counterstrike_CHICIRCLE3:
   Conditions:
   - hasaurastacks{auraName=Counterstrike_SHIELD;stacks=>9} cast Counterstrike_CHIWAVE_LVL_3
   Skills:
-  - effect:particlering{particle=redstone;color=#FFFFFF;size=0.75;radius=3;points=120;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=dust;color=#FFFFFF;size=0.75;radius=3;points=120;amount=1;hS=0;vS=0;y=0.1} @self
   
 Counterstrike_CHIWAVE_LVL_1:
   Skills:
@@ -352,7 +352,7 @@ Counterstrike_CHIWAVE_LVL_1:
   - auraremove{aura=Counterstrike_Shield_HIT_aura} @self
   - effect:sound{s=entity.warden.sonic_boom;volume=0.7;pitch=1.5} @self
   - effect:sound{s=entity.wither.hurt;volume=0.7;pitch=1.5} @self
-  - projectile{bulletType=MOB;mob=VFX_Chi_Wave_LVL_1;onHit=Counterstrike_CHIWAVE_LVL_1_HIT_D;v=7;i=1;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=1.5;tyo=1.5;sso=0} @Forward{f=25;y=0}
+  - projectile{bulletType=MOB;mob=VFX_Chi_Wave_LVL_1;onHit=Counterstrike_CHIWAVE_LVL_1_HIT_D;v=7;i=10;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=1.5;tyo=1.5;sso=0} @Forward{f=25;y=0}
   
 Counterstrike_CHIWAVE_LVL_1_HIT_D:
   Skills:
@@ -381,7 +381,7 @@ Counterstrike_CHIWAVE_LVL_2:
   - auraremove{aura=Counterstrike_Shield_HIT_aura} @self
   - effect:sound{s=entity.warden.sonic_boom;volume=0.7;pitch=1} @self
   - effect:sound{s=entity.wither.hurt;volume=0.7;pitch=1} @self
-  - projectile{bulletType=MOB;mob=VFX_Chi_Wave_LVL_2;onHit=Counterstrike_CHIWAVE_LVL_2_HIT_D;v=15;i=1;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=1.5;tyo=1.5;sso=0} @Forward{f=25;y=0}
+  - projectile{bulletType=MOB;mob=VFX_Chi_Wave_LVL_2;onHit=Counterstrike_CHIWAVE_LVL_2_HIT_D;v=15;i=10;hR=1;vR=1;mr=20;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=1.5;tyo=1.5;sso=0} @Forward{f=25;y=0}
   
 Counterstrike_CHIWAVE_LVL_2_HIT_D:
   Skills:
@@ -408,7 +408,7 @@ Counterstrike_CHIWAVE_LVL_3:
   - auraremove{aura=Counterstrike_Shield_HIT_aura} @self
   - effect:sound{s=entity.warden.sonic_boom;volume=0.7;pitch=0.6} @self
   - effect:sound{s=entity.wither.hurt;volume=0.7;pitch=0.6} @self
-  - projectile{bulletType=MOB;mob=VFX_Chi_Wave_LVL_3;onHit=Counterstrike_CHIWAVE_LVL_3_HIT_D;v=26;i=1;hR=1;vR=1;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=1.5;tyo=1.5;sso=0} @Forward{f=25;y=0}
+  - projectile{bulletType=MOB;mob=VFX_Chi_Wave_LVL_3;onHit=Counterstrike_CHIWAVE_LVL_3_HIT_D;v=26;i=10;hR=1;vR=1;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=1.5;tyo=1.5;sso=0} @Forward{f=25;y=0}
   
 Counterstrike_CHIWAVE_LVL_3_HIT_D:
   Skills:
@@ -442,7 +442,7 @@ Counterstrike_Shield_Skill:
   Skills:
   - auraremove{aura=Counterstrike_STACK} @self
   - Aura{auraName=Counterstrike_SHIELD;duration=99999;maxStacks=10} @self
-  - orbital{auraName=COUNTERSTRIKEORBITAL;bulletType=MOB;mob=VFX_Absorb_Shield;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=99999;oy=1.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{auraName=COUNTERSTRIKEORBITAL;bulletType=MOB;mob=VFX_Absorb_Shield;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=99999;oy=1.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   - onDamaged{auraName=Counterstrike_Shield_HIT_aura;c=99999;oH=Counterstrike_Shield_HITSTACK;cE=true} @self
   
 Counterstrike_Shield_HITSTACK:
@@ -461,7 +461,7 @@ Dragon_Fists:
   Skills:
   - Aura{auraName=Dragon_Fists;duration=115} @self
   - potion{type=SLOW;duration=115;level=0;hasParticles=false} @self
-  - orbital{bulletType=MOB;mob=VFX_Dragon_Fists;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=115;oy=2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{bulletType=MOB;mob=VFX_Dragon_Fists;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=115;oy=2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   - effect:sound{s=entity.illusioner.prepare_mirror;volume=0.7;pitch=0.6} @self
   - effect:sound{s=entity.evoker.prepare_summon;volume=0.8;pitch=0.5} @self
   - effect:sound{s=entity.wither.spawn;volume=0.6;pitch=1.4} @self
@@ -480,7 +480,7 @@ Dragon_Fists:
   - effect:sound{s=entity.wither.shoot;volume=0.7;pitch=1.3} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=1.2} @self
   - effect:sound{s=entity.warden.heartbeat;volume=0.6;pitch=1} @self
-  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_PALM;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=3;lockpitch=true}
+  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_PALM;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=3;lockpitch=true}
   
   - delay 10
   
@@ -488,7 +488,7 @@ Dragon_Fists:
   - effect:sound{s=entity.wither.shoot;volume=0.7;pitch=1.3} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=1.2} @self
   - effect:sound{s=entity.warden.heartbeat;volume=0.6;pitch=1} @self
-  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_FIST;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=3;lockpitch=true}
+  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_FIST;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=3;lockpitch=true}
   
   - delay 6
   
@@ -496,7 +496,7 @@ Dragon_Fists:
   - effect:sound{s=entity.wither.shoot;volume=0.7;pitch=1.3} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=1.2} @self
   - effect:sound{s=entity.warden.heartbeat;volume=0.6;pitch=1} @self
-  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_FIST;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=3;lockpitch=true}
+  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_FIST;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=3;lockpitch=true}
   
   - delay 8
   
@@ -504,7 +504,7 @@ Dragon_Fists:
   - effect:sound{s=entity.wither.shoot;volume=0.7;pitch=1.3} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=1.2} @self
   - effect:sound{s=entity.warden.heartbeat;volume=0.6;pitch=1} @self
-  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_PALM;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=3;lockpitch=true}
+  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_PALM;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=3;lockpitch=true}
   
   - delay 15
   
@@ -512,7 +512,7 @@ Dragon_Fists:
   - effect:sound{s=entity.wither.shoot;volume=0.7;pitch=1.3} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=1.2} @self
   - effect:sound{s=entity.warden.heartbeat;volume=0.6;pitch=1} @self
-  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_SWINGUP;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=3;lockpitch=true}
+  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_SWINGUP;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=3;lockpitch=true}
   
   - delay 11
   
@@ -520,7 +520,7 @@ Dragon_Fists:
   - effect:sound{s=entity.wither.shoot;volume=0.7;pitch=1.3} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=1.2} @self
   - effect:sound{s=entity.warden.heartbeat;volume=0.6;pitch=1} @self
-  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_SWINGDOWN;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=3;y=1.3;lockpitch=true}
+  - totem{md=2;c=1;oH=Dragon_Fists_DAMAGE_D_SWINGDOWN;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=3;y=1.3;lockpitch=true}
   
   - delay 13
   
@@ -528,7 +528,7 @@ Dragon_Fists:
   - effect:sound{s=entity.wither.shoot;volume=0.7;pitch=1.3} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=1.2} @self
   - effect:sound{s=entity.warden.heartbeat;volume=0.6;pitch=1} @self
-  - totem{md=2;c=1;oS=Dragon_Fists_DAMAGE_BW;oH=Dragon_Fists_DAMAGE_D_STRIKEGROUND;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=3;lockpitch=true}
+  - totem{md=2;c=1;oS=Dragon_Fists_DAMAGE_BW;oH=Dragon_Fists_DAMAGE_D_STRIKEGROUND;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=3;lockpitch=true}
   - effect:sound{s=entity.zoglin.step;volume=0.7;pitch=0.4} @self
   - effect:sound{s=entity.dragon_fireball.explode;volume=0.7;pitch=0.7} @self
   - effect:sound{s=entity.player.hurt;volume=0.7;pitch=0.6} @self
@@ -620,7 +620,7 @@ Dragon_Fists_DAMAGE_STRIKEGROUND:
   - damage{a=5;pkb=true;hnp=true;hp=true;delay=1}
   - throw{velocity=0;velocityY=-7}
   - potion{type=SLOW;duration=80;level=50;hasParticles=false}
-  - effect:particleorbital{r=0.5;points=16;t=80;i=1;particle=crit;oy=2.5}
+  - effect:particleorbital{r=0.5;points=16;t=80;i=10;particle=crit;oy=2.5}
   - summon{type=VFX_Swift_Strikes_IMPACT;amount=1;radius=0;yRadius=0;onSurface=true}
   
 Dragon_Fists_DAMAGE_BW:

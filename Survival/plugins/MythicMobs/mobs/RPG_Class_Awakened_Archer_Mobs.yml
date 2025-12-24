@@ -150,7 +150,7 @@ VFX_Blasting_Combo_ROLL_VFX:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0;delay=0} @self ~onSpawn
   - state{s=back_roll;speed=1;delay=0} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -183,7 +183,7 @@ VFX_Blasting_Combo_ROLL_BACK:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=back_roll;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -215,7 +215,7 @@ VFX_Blasting_Combo_ROLL_SIDE:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=side_roll;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -247,7 +247,7 @@ VFX_Blasting_Combo_ROLL_JUMP:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=jump;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -355,7 +355,7 @@ VFX_Blasting_Combo_EVASIVE_SHOT_DASH:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=back_roll;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.19.211.102
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766553743909
+  login: 1766553728797
+money: '0'
+last-account-name: Bruno240707
+logoutlocation:
+  world: f9f42665-d084-4921-862b-ce7d2039b3ff
+  world-name: Lobby
+  x: -317.0
+  y: 64.0
+  z: -339.06100758767695
+  yaw: -11.371077537536621
+  pitch: -1.21112060546875

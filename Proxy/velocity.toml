@@ -13,10 +13,10 @@ show-max-players = 500
 # IMPORTANTE:
 # true = Solo cuentas originales (Premium).
 # false = Entran todos (No Premium / Crackeado).
-online-mode = true
+online-mode = false
 
 # Seguridad de claves (Déjalo en true si usas online-mode true)
-force-key-authentication = true
+force-key-authentication = false
 
 # Protección básica contra VPNs
 prevent-client-proxy-connections = false
@@ -24,7 +24,7 @@ prevent-client-proxy-connections = false
 # --- CONFIGURACIÓN CRÍTICA ---
 # "modern" es OBLIGATORIO para servidores Paper actuales (1.13+).
 # Esto permite que Velocity pase la información del jugador (Skin, UUID) al Lobby/Survival.
-player-info-forwarding-mode = "modern"
+player-info-forwarding-mode = "bungeeguard"
 
 # Archivo de seguridad. Velocity lo creará automáticamente.
 # IMPORTANTE: Tendrás que copiar el contenido de este archivo al "paper-global.yml" de tus servidores.

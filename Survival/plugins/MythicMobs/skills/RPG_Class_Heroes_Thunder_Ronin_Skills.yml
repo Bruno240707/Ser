@@ -15,7 +15,7 @@ Lightning_Reflex_AVOID:
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_circle_charge;volume=0.7;pitch=<random.float.1.5to1.6>} @self
   - potion{type=SPEED;duration=40;level=2;hasParticles=false} @self
   - particles{p=dust_color_transition;color1=#f3ffb2;color2=#32ffd3;amount=20;hS=0.3;vS=0.05;y=0.1;size=0.7;speed=0;repeat=19;repeati=2} @self
-  - orbital{auraName=VFX_Thunder_Reflex;bulletType=MOB;mob=VFX_Thunder_Reflex;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=10;oy=2.4;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{auraName=VFX_Thunder_Reflex;bulletType=MOB;mob=VFX_Thunder_Reflex;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=10;oy=2.4;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
 
 
 Thunder_Slash:
@@ -43,7 +43,7 @@ Thunder_Slash_ST_1:
   - hasaurastacks{auraName=Thunder_Slash_Stack;stacks=2} false
   Skills:
   - Aura{auraName=Thunder_Slash_Stack;duration=300;maxStacks=2;delay=1} @self
-  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D;hnp=true;hp=true;hR=2.4;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D;hnp=true;hp=true;hR=2.4;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Thunder_Slash_LEFT;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0.2;y=1.4;sideOffset=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_slash;volume=0.7;pitch=<random.float.0.9to1.1>} @self
 
@@ -56,7 +56,7 @@ Thunder_Slash_ST_2:
   - hasaurastacks{auraName=Thunder_Slash_Stack;stacks=2} false
   Skills:
   - Aura{auraName=Thunder_Slash_Stack;duration=300;maxStacks=2;delay=1} @self
-  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D;hnp=true;hp=true;hR=2.4;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D;hnp=true;hp=true;hR=2.4;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Thunder_Slash_RIGHT;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0.2;y=1.4;sideOffset=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_slash;volume=0.7;pitch=<random.float.0.9to1.1>} @self
 
@@ -76,7 +76,7 @@ Thunder_Slash_ST_3:
   - effect:sound{s=entity.ender_dragon.flap;volume=0.7;pitch=<random.float.0.9to1.1>} @self
   - onDamaged{auraName=NOAVOID;d=15;cE=true;damagemods=FALL;delay=0} @self
   - delay 4
-  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D2;hnp=true;hp=true;hR=2.4;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D2;hnp=true;hp=true;hR=2.4;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Thunder_Strike_BIG;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=1.5;y=0;sideOffset=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_strike;volume=0.7;pitch=<random.float.0.9to1.1>} @self
 
@@ -91,7 +91,7 @@ Thunder_Slash_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
 
 Thunder_Slash_DAMAGE_D2:
   Skills:
@@ -102,13 +102,13 @@ Thunder_Slash_DAMAGE2:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage> * 1.5;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact_Critical;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.5;tyo=0.5;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact_Critical;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.5;tyo=0.5;sso=0;fo=true;byo=0;ham=true}
   - skill{s=Thunder_Slash_DAMAGE2_STUN} 0.2
 
 Thunder_Slash_DAMAGE2_STUN:
   Skills:
   - stun{d=40;f=true;CancelOnTakeDamage=false;CancelOnDeath=true}
-  - orbital{onTick=Thunder_Slash_STUN_FX;r=0.5;points=22;i=1;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
+  - orbital{onTick=Thunder_Slash_STUN_FX;r=0.5;points=22;i=10;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
 Thunder_Slash_STUN_FX:
   Skills:
   - particles{p=crit;amount=1;hS=0;vS=0;y=0;size=0.4;speed=0} @origin
@@ -132,7 +132,7 @@ Thunder_Slash_ST_1_ULT:
   - hasaurastacks{auraName=Thunder_Slash_Stack_ULT;stacks=3} false
   Skills:
   - Aura{auraName=Thunder_Slash_Stack_ULT;duration=300;maxStacks=3;delay=1} @self
-  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D_ULT;hnp=true;hp=true;hR=2.4;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D_ULT;hnp=true;hp=true;hR=2.4;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Thunder_Slash_LEFT_ULT;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0.2;y=1.4;sideOffset=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_slash_ult;volume=0.7;pitch=<random.float.0.9to1.1>} @self
 
@@ -146,7 +146,7 @@ Thunder_Slash_ST_2_ULT:
   - hasaurastacks{auraName=Thunder_Slash_Stack_ULT;stacks=3} false
   Skills:
   - Aura{auraName=Thunder_Slash_Stack_ULT;duration=300;maxStacks=3;delay=1} @self
-  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D_ULT;hnp=true;hp=true;hR=2.4;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D_ULT;hnp=true;hp=true;hR=2.4;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Thunder_Slash_RIGHT_ULT;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0.2;y=1.4;sideOffset=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_slash_ult;volume=0.7;pitch=<random.float.0.9to1.1>} @self
 
@@ -167,7 +167,7 @@ Thunder_Slash_ST_3_ULT:
   - effect:sound{s=entity.ender_dragon.flap;volume=0.7;pitch=<random.float.0.9to1.1>} @self
   - onDamaged{auraName=NOAVOID;d=15;cE=true;damagemods=FALL;delay=0} @self
   - delay 4
-  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D2_ULT;hnp=true;hp=true;hR=2.4;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunder_Slash_DAMAGE_D2_ULT;hnp=true;hp=true;hR=2.4;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Thunder_Strike_BIG;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=1.5;y=0;sideOffset=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_strike;volume=0.7;pitch=<random.float.0.6to0.8>} @self
 
@@ -202,7 +202,7 @@ Thunder_Slash_ULT_T_DMG:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage> * 1.5;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact_Critical;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.5;tyo=0.5;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact_Critical;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.5;tyo=0.5;sso=0;fo=true;byo=0;ham=true}
   - skill{s=Thunder_Slash_DAMAGE2_STUN_ULT} 0.3
 
 
@@ -215,7 +215,7 @@ Thunder_Slash_DAMAGE_ULT:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
 
 Thunder_Slash_DAMAGE_D2_ULT:
   Skills:
@@ -227,13 +227,13 @@ Thunder_Slash_DAMAGE2_ULT:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage> * 1.5;pkb=true;hnp=true;hp=true}
   - summon{type=VFX_Thunder_Strike;amount=1;radius=0;yRadius=0;onSurface=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact_Critical;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.5;tyo=0.5;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact_Critical;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.5;tyo=0.5;sso=0;fo=true;byo=0;ham=true}
   - skill{s=Thunder_Slash_DAMAGE2_STUN_ULT} 0.3
 
 Thunder_Slash_DAMAGE2_STUN_ULT:
   Skills:
   - stun{d=40;f=true;CancelOnTakeDamage=false;CancelOnDeath=true}
-  - orbital{onTick=Thunder_Slash_STUN_FX;r=0.5;points=22;i=1;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
+  - orbital{onTick=Thunder_Slash_STUN_FX;r=0.5;points=22;i=10;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
 
 
 
@@ -257,14 +257,14 @@ Thunderclap_And_Flash_CAST:
   
   - delay 10
 
-  - projectile{onHit=Thunderclap_And_Flash_DAMAGE_D;i=1;v=30;hR=1;vR=1;mr=11;hnp=true;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} @forward{f=5;y=0;lockpitch=true}
+  - projectile{onHit=Thunderclap_And_Flash_DAMAGE_D;i=10;v=30;hR=1;vR=1;mr=11;hnp=true;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} @forward{f=5;y=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_dash;volume=0.7;pitch=<random.float.0.9to1.1>} @self
   - summon{type=VFX_Thunder_Dash;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0;y=1.4;sideOffset=0;lockpitch=true}
 
   - delay 1
 
   - onDamaged{auraName=landresist;d=15;cE=true} @self
-  - lunge{velocity=12;velocityY=-0.05;repeat=1;repeati=1} @forward{f=12;y=-0.05;lockpitch=true}
+  - lunge{velocity=12;velocityY=-0.05;repeat=1;repeati=10} @forward{f=12;y=-0.05;lockpitch=true}
 
 
 Thunderclap_And_Flash_DAMAGE_D:
@@ -276,7 +276,7 @@ Thunderclap_And_Flash_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
 
 Thunderclap_And_Flash_RING:
   Skills:
@@ -318,21 +318,21 @@ Thunderclap_And_Flash_CAST_ULT:
 
 Thunderclap_And_Flash_CAST_ULT_DASH_LEFT:
   Skills:
-  - skill{s=Thunderclap_And_Flash_DAMAGE_ULT;repeat=3;repeati=1} @EIR{r=4.5;limit=7;sort=NEAREST;conditions=[ - isLiving true - hasaura{aura=immunedelay} false  ]}
+  - skill{s=Thunderclap_And_Flash_DAMAGE_ULT;repeat=3;repeati=10} @EIR{r=4.5;limit=7;sort=NEAREST;conditions=[ - isLiving true - hasaura{aura=immunedelay} false  ]}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_dash;volume=0.7;pitch=<random.float.0.7to0.8>} @self
   - summon{type=VFX_Thunder_Dash_ULT_L;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0;y=1.4;sideOffset=0;lockpitch=true}
   - delay 1
   - onDamaged{auraName=landresist;d=15;cE=true} @self
-  - lunge{velocity=30;velocityY=-0.05;repeat=1;repeati=1} @forward{f=10;y=-0.05;sideoffset=-17;lockpitch=true}
+  - lunge{velocity=30;velocityY=-0.05;repeat=1;repeati=10} @forward{f=10;y=-0.05;sideoffset=-17;lockpitch=true}
 
 Thunderclap_And_Flash_CAST_ULT_DASH_RIGHT:
   Skills:
-  - skill{s=Thunderclap_And_Flash_DAMAGE_ULT;repeat=3;repeati=1} @EIR{r=4.5;limit=7;sort=NEAREST;conditions=[ - isLiving true - hasaura{aura=immunedelay} false  ]}
+  - skill{s=Thunderclap_And_Flash_DAMAGE_ULT;repeat=3;repeati=10} @EIR{r=4.5;limit=7;sort=NEAREST;conditions=[ - isLiving true - hasaura{aura=immunedelay} false  ]}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_dash;volume=0.7;pitch=<random.float.0.7to0.8>} @self
   - summon{type=VFX_Thunder_Dash_ULT_R;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0;y=1.4;sideOffset=0;lockpitch=true}
   - delay 1
   - onDamaged{auraName=landresist;d=15;cE=true} @self
-  - lunge{velocity=30;velocityY=-0.05;repeat=1;repeati=1} @forward{f=10;y=-0.05;sideoffset=17;lockpitch=true}
+  - lunge{velocity=30;velocityY=-0.05;repeat=1;repeati=10} @forward{f=10;y=-0.05;sideoffset=17;lockpitch=true}
 
 Thunderclap_And_Flash_DAMAGE_D_ULT:
   Skills:
@@ -343,9 +343,9 @@ Thunderclap_And_Flash_DAMAGE_ULT:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
   - stun{d=15;f=true;CancelOnTakeDamage=false;CancelOnDeath=true}
-  - orbital{onTick=Thunder_Slash_STUN_FX;r=0.5;points=22;i=1;duration=15;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
+  - orbital{onTick=Thunder_Slash_STUN_FX;r=0.5;points=22;i=10;duration=15;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
 
 
 
@@ -378,13 +378,13 @@ Flashstorm_Reversal_CAST:
 
   - delay 4
 
-  - totem{md=2;c=1;oH=Flashstorm_Reversal_DAMAGE_D;hnp=true;hp=true;hR=2.4;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Flashstorm_Reversal_DAMAGE_D;hnp=true;hp=true;hR=2.4;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Thunder_Slash_LEFT;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0.2;y=1.4;sideOffset=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_slash_ult;volume=0.7;pitch=<random.float.1.2to1.4>} @self
   
   - delay 4
   
-  - totem{md=2;c=1;oH=Flashstorm_Reversal_DAMAGE_D;hnp=true;hp=true;hR=2.4;vR=2;i=1} @forward{f=0.6;lockpitch=true}
+  - totem{md=2;c=1;oH=Flashstorm_Reversal_DAMAGE_D;hnp=true;hp=true;hR=2.4;vR=2;i=10} @forward{f=0.6;lockpitch=true}
   - summon{type=VFX_Thunder_Slash_RIGHT;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=0.2;y=1.4;sideOffset=0;lockpitch=true}
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_slash_ult;volume=0.7;pitch=<random.float.1.2to1.4>} @self
 
@@ -397,9 +397,9 @@ Flashstorm_Reversal_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
   - stun{d=40;f=true;CancelOnTakeDamage=false;CancelOnDeath=true}
-  - orbital{onTick=Thunder_Slash_STUN_FX;r=0.5;points=22;i=1;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
+  - orbital{onTick=Thunder_Slash_STUN_FX;r=0.5;points=22;i=10;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0}
 
 
 Crackling_Skyfall:
@@ -426,7 +426,7 @@ Crackling_Skyfall_CAST:
   - auraremove{aura=Crackling_Skyfall_STACK} @self
   
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_charge;volume=0.7;pitch=<random.float.0.9to1.1>} @self
-  - orbital{auraName=VFX_Crackling_Skyfall_CHARGE;bulletType=MOB;mob=VFX_Crackling_Skyfall_CHARGE;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=29;oy=1.4;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{auraName=VFX_Crackling_Skyfall_CHARGE;bulletType=MOB;mob=VFX_Crackling_Skyfall_CHARGE;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=29;oy=1.4;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   
   - potion{type=LEVITATION;duration=30;level=4;hasParticles=false} @self
 
@@ -451,7 +451,7 @@ Crackling_Skyfall_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
   - throw{velocity=5;velocityY=0}
 
 
@@ -472,36 +472,36 @@ Thunderous_Barrage_CAST:
   
   - delay 8
 
-  - orbital{auraName=VFX_Thunder_Barrage;bulletType=MOB;mob=VFX_Thunder_Barrage;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=37;oy=2.4;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{auraName=VFX_Thunder_Barrage;bulletType=MOB;mob=VFX_Thunder_Barrage;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=37;oy=2.4;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_charge;volume=0.7;pitch=<random.float.0.9to1.1>} @self
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_barrage;volume=0.7;pitch=<random.float.0.9to1.1>} @self
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
   - delay 4
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
   - delay 4
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
   - delay 4
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
   - delay 4
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
   - delay 4
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
   - delay 4
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
   - delay 4
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
   - delay 4
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=1;lockpitch=true}
-  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=1} @forward{f=4;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=1;lockpitch=true}
+  - totem{md=2;c=1;oH=Thunderous_Barrage_DAMAGE_D;hnp=true;hp=true;hR=2;vR=2;i=10} @forward{f=4;lockpitch=true}
 
 Thunderous_Barrage_DAMAGE_D:
   Skills:
@@ -511,7 +511,7 @@ Thunderous_Barrage_DAMAGE:
   - entitytype{t=ARMOR_STAND} false
   Skills:
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_Thunder_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0.95;tyo=0.95;sso=0;fo=true;byo=0;ham=true}
 
 Thunderous_Barrage_RING:
   Skills:
@@ -539,8 +539,8 @@ Flaming_Thunder_God_CAST:
 
   - delay 10
 
-  - orbital{auraName=VFX_Thunder_Dragon;bulletType=MOB;mob=VFX_Thunder_Dragon;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=215;oy=2.4;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;delay=1} @self
-  - particles{p=dust_color_transition;color1=#f3ffb2;color2=#32ffd3;amount=30;hS=0.4;vS=0.7;y=0.7;size=0.7;speed=0;repeat=71;repeati=1} @self
+  - orbital{auraName=VFX_Thunder_Dragon;bulletType=MOB;mob=VFX_Thunder_Dragon;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=215;oy=2.4;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;delay=1} @self
+  - particles{p=dust_color_transition;color1=#f3ffb2;color2=#32ffd3;amount=30;hS=0.4;vS=0.7;y=0.7;size=0.7;speed=0;repeat=71;repeati=10} @self
   - effect:sound{s=thunder_ronin_sounds:samus.thunder_ronin.thunder_dragon_summon;volume=0.7;pitch=1} @self
 
 

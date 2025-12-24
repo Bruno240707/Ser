@@ -23,7 +23,7 @@ nm_colin_the_creeper_fuse_activate:
   Skills:
   - gcd{ticks=60}
   - freeze{ticks=30} @self
-  - state{state=fuse;li=1;lo=1;n=false;speed=1} @self
+  - state{state=fuse;li=10;lo=1;n=false;speed=1} @self
   - delay 2
   - sound{s=entity.creeper.primed;p=1.6;v=1.4} @self
   - effect:particle{particle=smoke;amount=12;hS=0.3;vS=0.3} @self

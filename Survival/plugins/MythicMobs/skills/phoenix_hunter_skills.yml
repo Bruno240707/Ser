@@ -53,9 +53,9 @@ Blazing_Feathers_SHOOT_FX:
   - summon{type=VFX_Phoenix_Shoot_Impact;amount=1;radius=0;yRadius=0;onSurface=true}
 Blazing_Feathers_SHOOT_PRO:
   Skills:
-  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather;onHit=Blazing_Feathers_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} ?!hasaurastacks{auraName=Blazing_Feathers_STACK;stacks=3}
+  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather;onHit=Blazing_Feathers_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} ?!hasaurastacks{auraName=Blazing_Feathers_STACK;stacks=3}
   - effect:sound{s=phoenix_hunter_sounds:samus.phoenix_hunter.phoenix_feather_shoot;volume=0.6;pitch=<random.float.0.8to1.2>} @self ?!hasaurastacks{auraName=Blazing_Feathers_STACK;stacks=3}
-  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Fireball;onEnd=Blazing_Feathers_EXPLOSIVE_DAMAGE_SKILL;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} ?hasaurastacks{auraName=Blazing_Feathers_STACK;stacks=3}
+  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Fireball;onEnd=Blazing_Feathers_EXPLOSIVE_DAMAGE_SKILL;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} ?hasaurastacks{auraName=Blazing_Feathers_STACK;stacks=3}
   - effect:sound{s=phoenix_hunter_sounds:samus.phoenix_hunter.explosion_small;volume=0.6;pitch=0.8;repeat=2;repeati=2} @self ?hasaurastacks{auraName=Blazing_Feathers_STACK;stacks=3}
 
 Blazing_Feathers_DAMAGE_D:
@@ -86,8 +86,8 @@ Blazing_Feathers_EXPLOSIVE_DAMAGE_SKILL:
 Blazing_Feathers_EXPLOSIVE_DAMAGE:
   Skills:
   #horiz explosion
-  - projectile{oT=Blazing_Feathers_EXPLOSION_SUMMON1;onHit=Blazing_Feathers_EXPLOSIVE_DAMAGE_D;v=7;i=1;hR=0.5;vR=0.5;mr=4;hnp=true;hO=90;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{oT=Blazing_Feathers_EXPLOSION_SUMMON2;onHit=Blazing_Feathers_EXPLOSIVE_DAMAGE_D;v=7;i=1;hR=0.5;vR=0.5;mr=4;hnp=true;hO=-90;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oT=Blazing_Feathers_EXPLOSION_SUMMON1;onHit=Blazing_Feathers_EXPLOSIVE_DAMAGE_D;v=7;i=10;hR=0.5;vR=0.5;mr=4;hnp=true;hO=90;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oT=Blazing_Feathers_EXPLOSION_SUMMON2;onHit=Blazing_Feathers_EXPLOSIVE_DAMAGE_D;v=7;i=10;hR=0.5;vR=0.5;mr=4;hnp=true;hO=-90;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
   
 Blazing_Feathers_EXPLOSION_SUMMON1:
   Cooldown: 0.2
@@ -134,9 +134,9 @@ Blazing_Feathers_Rebirth_SHOOT_FX:
   - summon{type=VFX_Phoenix_Shoot_Impact;amount=1;radius=0;yRadius=0;onSurface=true}
 Blazing_Feathers_Rebirth_SHOOT_PRO:
   Skills:
-  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather;onHit=Blazing_Feathers_Rebirth_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true;repeat=2;repeati=3} ?!hasaurastacks{auraName=Blazing_Feathers_Rebirth_STACK;stacks=3}
+  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather;onHit=Blazing_Feathers_Rebirth_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true;repeat=2;repeati=3} ?!hasaurastacks{auraName=Blazing_Feathers_Rebirth_STACK;stacks=3}
   - effect:sound{s=phoenix_hunter_sounds:samus.phoenix_hunter.phoenix_feather_shoot;volume=0.6;pitch=<random.float.0.8to1.2>;repeat=2;repeati=3} @self ?!hasaurastacks{auraName=Blazing_Feathers_Rebirth_STACK;stacks=3}
-  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Fireball;onEnd=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_SKILL;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} ?hasaurastacks{auraName=Blazing_Feathers_Rebirth_STACK;stacks=3}
+  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Fireball;onEnd=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_SKILL;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} ?hasaurastacks{auraName=Blazing_Feathers_Rebirth_STACK;stacks=3}
   - effect:sound{s=phoenix_hunter_sounds:samus.phoenix_hunter.explosion_small;volume=0.6;pitch=0.8;repeat=2;repeati=2} @self ?hasaurastacks{auraName=Blazing_Feathers_Rebirth_STACK;stacks=3}
 
 Blazing_Feathers_Rebirth_DAMAGE_D:
@@ -168,10 +168,10 @@ Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_SKILL:
 Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE:
   Skills:
   #X explosion
-  - projectile{oT=Blazing_Feathers_Rebirth_EXPLOSION_SUMMON1;onHit=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_D;v=7;i=1;hR=0.5;vR=0.5;mr=4;hnp=true;hO=45;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{oT=Blazing_Feathers_Rebirth_EXPLOSION_SUMMON2;onHit=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_D;v=7;i=1;hR=0.5;vR=0.5;mr=4;hnp=true;hO=135;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{oT=Blazing_Feathers_Rebirth_EXPLOSION_SUMMON3;onHit=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_D;v=7;i=1;hR=0.5;vR=0.5;mr=4;hnp=true;hO=225;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{oT=Blazing_Feathers_Rebirth_EXPLOSION_SUMMON4;onHit=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_D;v=7;i=1;hR=0.5;vR=0.5;mr=4;hnp=true;hO=315;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oT=Blazing_Feathers_Rebirth_EXPLOSION_SUMMON1;onHit=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_D;v=7;i=10;hR=0.5;vR=0.5;mr=4;hnp=true;hO=45;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oT=Blazing_Feathers_Rebirth_EXPLOSION_SUMMON2;onHit=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_D;v=7;i=10;hR=0.5;vR=0.5;mr=4;hnp=true;hO=135;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oT=Blazing_Feathers_Rebirth_EXPLOSION_SUMMON3;onHit=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_D;v=7;i=10;hR=0.5;vR=0.5;mr=4;hnp=true;hO=225;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oT=Blazing_Feathers_Rebirth_EXPLOSION_SUMMON4;onHit=Blazing_Feathers_Rebirth_EXPLOSIVE_DAMAGE_D;v=7;i=10;hR=0.5;vR=0.5;mr=4;hnp=true;hO=315;sE=false;sB=false;hs=false;hfs=0;sfo=0.1;syo=0;tyo=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
   
 Blazing_Feathers_Rebirth_EXPLOSION_SUMMON1:
   Cooldown: 0.2
@@ -241,7 +241,7 @@ Ashdance_NORMAL:
   Skills:
   - effect:sound{s=entity.ender_dragon.flap;volume=0.6;pitch=1.4} @self
   - effect:sound{s=entity.blaze.shoot;volume=0.6;pitch=0.7} @self
-  - lunge{velocity=1;velocityY=-0.1;repeat=5;repeati=1} @Forward{f=-6;y=-1;lockpitch=true}
+  - lunge{velocity=1;velocityY=-0.1;repeat=5;repeati=10} @Forward{f=-6;y=-1;lockpitch=true}
   - summon{type=VFX_Phoenix_Dash;amount=1;radius=0;yRadius=0;onSurface=true} @SelfLocation{y=1.2}
   
   - delay 7
@@ -260,12 +260,12 @@ Ashdance_NORMAL:
   - effect:sound{s=block.fire.extinguish;volume=0.5;pitch=0.7} @self
 Ashdance_Missiles:
   Skills:
-  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=1;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true}
-  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=1;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=2}
-  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=1;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=4}
-  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=1;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=6}
-  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=1;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=8}
-  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=1;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=10}
+  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=10;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true}
+  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=10;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=2}
+  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=10;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=4}
+  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=10;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=6}
+  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=10;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=8}
+  - missile{oT=Ashdance_Missiles_TICK;onHit=Ashdance_PRO_DAMAGE_D;in=0.5;v=3;i=10;hR=0.3;vR=0.3;md=80;mr=30;hnp=true;hO=0;vo=0;sso=<random.float.-1to1>;eso=<random.float.-0.25to0.25>;sE=true;sB=true;hs=false;hfs=0;syo=<random.float.-1to1>;tyo=<random.float.0.9to1.7>;fo=true;byo=0;drawhitbox=false;ham=true;delay=10}
 
   
 Ashdance_PRO_DAMAGE_D:
@@ -328,15 +328,15 @@ Ashdance_Rebirth_PRO_VS2:
 Ashdance_Rebirth_PRO_VISUALSHOOT1:
   Skills:
   #visuals
-  - projectile{oT=Ashdance_Rebirth_SUMMON1;tickinterpolation=5;v=25;i=1;hR=1;vR=1;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0.8;tyo=0.8;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oT=Ashdance_Rebirth_SUMMON1;tickinterpolation=5;v=25;i=10;hR=1;vR=1;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0.8;tyo=0.8;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 Ashdance_Rebirth_PRO_VISUALSHOOT2:
   Skills:
   #visuals
-  - projectile{oT=Ashdance_Rebirth_SUMMON2;tickinterpolation=5;v=25;i=1;hR=1;vR=1;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0.8;tyo=0.8;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oT=Ashdance_Rebirth_SUMMON2;tickinterpolation=5;v=25;i=10;hR=1;vR=1;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0.8;tyo=0.8;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 Ashdance_Rebirth_PRO:
   Skills:
   #actual
-  - projectile{tickinterpolation=5;onHit=Ashdance_Rebirth_DAMAGE_D;v=25;i=1;hR=1.5;vR=1.5;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{tickinterpolation=5;onHit=Ashdance_Rebirth_DAMAGE_D;v=25;i=10;hR=1.5;vR=1.5;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 Ashdance_Rebirth_SUMMON1:
   Cooldown: 0.1
   Skills:
@@ -405,9 +405,9 @@ Blazing_Feathers_SHOOT_FX3:
   - summon{type=VFX_Phoenix_Shoot_Impact3;amount=1;radius=0;yRadius=0;onSurface=true}
 Flameburst_Convergence_SHOOT_PRO:
   Skills:
-  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather_NOTRAIL;onHit=Flameburst_Convergence_DAMAGE_D;oE=Flameburst_Convergence_END;v=18;i=1;hR=0.4;vR=0.4;mr=15;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{oS=Flameburst_Convergence_T1;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather_NOTRAIL1;onHit=Flameburst_Convergence_DAMAGE_D;v=20;i=1;hR=0.4;vR=0.4;mr=16;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=0;tyo=0;sso=-0.7;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{oS=Flameburst_Convergence_T2;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather_NOTRAIL2;onHit=Flameburst_Convergence_DAMAGE_D;v=20;i=1;hR=0.4;vR=0.4;mr=16;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=0;tyo=0;sso=0.7;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather_NOTRAIL;onHit=Flameburst_Convergence_DAMAGE_D;oE=Flameburst_Convergence_END;v=18;i=10;hR=0.4;vR=0.4;mr=15;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Flameburst_Convergence_T1;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather_NOTRAIL1;onHit=Flameburst_Convergence_DAMAGE_D;v=20;i=10;hR=0.4;vR=0.4;mr=16;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=0;tyo=0;sso=-0.7;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Flameburst_Convergence_T2;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather_NOTRAIL2;onHit=Flameburst_Convergence_DAMAGE_D;v=20;i=10;hR=0.4;vR=0.4;mr=16;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.3;syo=0;tyo=0;sso=0.7;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 Flameburst_Convergence_T1:
   Skills:
   - setprojectiledirection{delay=0} @ProjectileForward{f=3;rot=-20}
@@ -499,12 +499,12 @@ Phoenix_Totem_Skill:
 
 Phoenix_Totem_SUMMON_PRO:
   Skills:
-  - projectile{tickinterpolation=5;ohb=Phoenix_Totem_SUMMON;v=35;i=1;hR=0.4;vR=0.4;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0.5;tyo=0.5;sso=0;fo=true;byo=0;drawhitbox=false;ham=true}
+  - projectile{tickinterpolation=5;ohb=Phoenix_Totem_SUMMON;v=35;i=10;hR=0.4;vR=0.4;mr=25;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0.5;tyo=0.5;sso=0;fo=true;byo=0;drawhitbox=false;ham=true}
 Phoenix_Totem_SUMMON:
   Cooldown: 1
   Skills:
   - summon{type=VFX_Phoenix_Totem;amount=1;radius=0;yRadius=0;onSurface=true} @origin{y=0.5}
-  - totem{md=200;oT=Phoenix_Totem_DMG_Aura;hnp=true;hp=true;hR=1;vR=1;i=1} @origin
+  - totem{md=200;oT=Phoenix_Totem_DMG_Aura;hnp=true;hp=true;hR=1;vR=1;i=10} @origin
 
 Phoenix_Totem_DMG_Aura:
   Skills:
@@ -618,7 +618,7 @@ Pyroclasmic_Barrage:
   - lunge{velocity=2.5;velocityY=0.6} @forward{f=-4;y=4}
 
   - effect:sound{delay=5;s=block.trial_spawner.spawn_item;volume=0.8;pitch=<random.float.0.8to1.1>;repeat=4;repeati=2} @self
-  - orbital{delay=5;auraName=VFX_Phoenix_Feather_Spread;bulletType=MOB;mob=VFX_Phoenix_Feather_Spread;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=80;oy=2.8;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{delay=5;auraName=VFX_Phoenix_Feather_Spread;bulletType=MOB;mob=VFX_Phoenix_Feather_Spread;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=80;oy=2.8;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   
   - delay 9
 
@@ -757,28 +757,28 @@ Pyroclasmic_Barrage_BARRAGE7:
   
 Pyroclasmic_Barrage_SHOOT_PRO_1:
   Skills:
-  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather1;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0.6;tyo=0.1;sso=0.9;eso=0.5;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather1;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0.6;tyo=0.1;sso=0.9;eso=0.5;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 Pyroclasmic_Barrage_SHOOT_PRO_2:
   Skills:
-  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather2;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0.6;tyo=0.1;sso=-0.9;eso=-0.5;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather2;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0.6;tyo=0.1;sso=-0.9;eso=-0.5;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 
 Pyroclasmic_Barrage_SHOOT_PRO_3:
   Skills:
-  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather3;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=-0.1;tyo=-0.1;sso=1.2;eso=0.6;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather3;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=-0.1;tyo=-0.1;sso=1.2;eso=0.6;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 Pyroclasmic_Barrage_SHOOT_PRO_4:
   Skills:
-  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather4;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=-0.1;tyo=-0.1;sso=-1.2;eso=-0.6;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather4;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=-0.1;tyo=-0.1;sso=-1.2;eso=-0.6;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 
 Pyroclasmic_Barrage_SHOOT_PRO_5:
   Skills:
-  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather5;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=-1.1;tyo=-0.5;sso=0.9;eso=0.5;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather5;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=-1.1;tyo=-0.5;sso=0.9;eso=0.5;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 Pyroclasmic_Barrage_SHOOT_PRO_6:
   Skills:
-  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather6;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=-1.1;tyo=-0.5;sso=-0.9;eso=-0.5;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather6;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=-1.1;tyo=-0.5;sso=-0.9;eso=-0.5;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 
 Pyroclasmic_Barrage_SHOOT_PRO_7:
   Skills:
-  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather7;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=1;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=1.15;tyo=0.5;sso=0;eso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Blazing_Feathers_SHOOT_FX;tickinterpolation=5;bulletType=MOB;mob=VFX_Phoenix_Feather7;onHit=Pyroclasmic_Barrage_DAMAGE_D;v=23;i=10;hR=0.4;vR=0.4;mr=50;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=1.15;tyo=0.5;sso=0;eso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 
 
 Pyroclasmic_Barrage_DAMAGE_D:
@@ -809,7 +809,7 @@ Phoenix_Rebirth:
   Skills:
   - effect:sound{s=phoenix_hunter_sounds:samus.phoenix_hunter.phoenix_form;volume=0.9;pitch=1} @self
   - effect:sound{s=entity.ender_dragon.flap;volume=0.9;pitch=0.6;repeat=1;repeati=3} @self
-  - orbital{auraName=VFX_Phoenix_Wings;bulletType=MOB;mob=VFX_Phoenix_Wings;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=200;oy=2.8;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{auraName=VFX_Phoenix_Wings;bulletType=MOB;mob=VFX_Phoenix_Wings;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=200;oy=2.8;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   
   - potion{type=JUMP;duration=200;level=1;hasParticles=false} @self
   - potion{type=SLOW_FALLING;duration=200;level=0;hasParticles=false} @self

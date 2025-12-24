@@ -2,12 +2,12 @@
   visitoSurvival: true
   ultimaUbicacion:
     ==: org.bukkit.Location
-    world: mina
-    x: 204.02144832890906
-    y: 27.0
-    z: 195.3241153825187
-    pitch: 13.281604
-    yaw: 176.73132
+    world: world
+    x: -2169.300000011921
+    y: 82.0
+    z: 2624.635645731337
+    pitch: 5.7192454
+    yaw: -154.29478
 fb3917eb-9fe6-31ce-a729-d659b2ebdf67:
   visitoSurvival: true
   ultimaUbicacion:

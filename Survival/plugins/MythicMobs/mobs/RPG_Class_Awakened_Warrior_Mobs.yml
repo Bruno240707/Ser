@@ -36,7 +36,7 @@ VFX_Brutal_Combo_SLASH_L:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=slash_left;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=8;i=1;
+  - aura{delay=2;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -68,7 +68,7 @@ VFX_Brutal_Combo_SLASH_R:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=slash_right;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=8;i=1;
+  - aura{delay=2;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -100,7 +100,7 @@ VFX_Brutal_Combo_SLASH_LD:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=slash_left_diag;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=8;i=1;
+  - aura{delay=2;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -132,7 +132,7 @@ VFX_Brutal_Combo_SLASH_RD:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=slash_right_diag;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=8;i=1;
+  - aura{delay=2;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -164,7 +164,7 @@ VFX_Brutal_Combo_SLASH_DOWN:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=strike;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=8;i=1;
+  - aura{delay=2;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -196,7 +196,7 @@ VFX_Brutal_Combo_SLASH_UP:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=slash_up;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=8;i=1;
+  - aura{delay=2;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -228,7 +228,7 @@ VFX_Brutal_Combo_SLASH_UP2:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=slash_up2;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=8;i=1;
+  - aura{delay=2;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -260,7 +260,7 @@ VFX_Brutal_Combo_PIERCE:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=pierce;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=8;i=1;
+  - aura{delay=2;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -292,7 +292,7 @@ VFX_Brutal_Combo_SPIN:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=spin;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -324,7 +324,7 @@ VFX_Brutal_Combo_SPIN_LOOP:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=spin_loop;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -406,7 +406,7 @@ VFX_Berserkers_Leap_LINE:
   - brightness{p=floor_crack;b=4;s=4;em=false;delay=35} @self ~onSpawn
   - brightness{p=floor_crack;b=3;s=3;em=false;delay=37} @self ~onSpawn
   - brightness{p=floor_crack;b=2;s=2;em=false;delay=39} @self ~onSpawn
-  - brightness{p=fire;b=15;s=15;em=false} @self ~onSpawn
+  - brightness{p=flame;b=15;s=15;em=false} @self ~onSpawn
   - brightness{p=impact;b=15;s=15;em=false} @self ~onSpawn
   - brightness{p=stone;b=10;s=10;em=false} @self ~onSpawn
   - brightness{p=rubble;b=10;s=10;em=false} @self ~onSpawn
@@ -417,7 +417,7 @@ VFX_Berserkers_Leap_LINE:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=13;i=1;
+  - aura{delay=1;d=13;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -467,7 +467,7 @@ VFX_Vicious_Strike_LINE_LONG:
   - brightness{p=floor_crack;b=4;s=4;em=false;delay=35} @self ~onSpawn
   - brightness{p=floor_crack;b=3;s=3;em=false;delay=37} @self ~onSpawn
   - brightness{p=floor_crack;b=2;s=2;em=false;delay=39} @self ~onSpawn
-  - brightness{p=fire;b=15;s=15;em=false} @self ~onSpawn
+  - brightness{p=flame;b=15;s=15;em=false} @self ~onSpawn
   - brightness{p=impact;b=15;s=15;em=false} @self ~onSpawn
   - brightness{p=stone;b=10;s=10;em=false} @self ~onSpawn
   - brightness{p=rubble;b=10;s=10;em=false} @self ~onSpawn
@@ -479,7 +479,7 @@ VFX_Vicious_Strike_LINE_LONG:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=13;i=1;
+  - aura{delay=1;d=13;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -532,7 +532,7 @@ VFX_Relentless_Whirlwind_SPIN:
   - state{s=spin2;speed=2} @self ~onSpawn
   - partvis{p=efv;v=false;em=false;child=true} @self ~onSpawn
 
-  - aura{delay=0;d=8;i=1;
+  - aura{delay=0;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=8;type=INTEGER}
     ];
@@ -549,7 +549,7 @@ VFX_Relentless_Whirlwind_SPIN:
     - changepart{m=relentless_whirlwind_1;nm=relentless_whirlwind_<caster.var.iteration>;p=warrior_efv4_4;np=warrior_efv4_4}
     ]} @self ~onSpawn
 
-  - aura{delay=22;d=8;i=1;
+  - aura{delay=22;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -580,7 +580,7 @@ VFX_Relentless_Whirlwind_SPIN2:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=spin2;speed=1} @self ~onSpawn
   
-  - aura{delay=0;d=8;i=1;
+  - aura{delay=0;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -595,7 +595,7 @@ VFX_Relentless_Whirlwind_SPIN2:
     - changepart{m=relentless_whirlwind_1;nm=relentless_whirlwind_<caster.var.iteration>;p=warrior_efv4_4;np=warrior_efv4_4}
     ]} @self ~onSpawn
 
-  - aura{delay=0;d=8;i=1;
+  - aura{delay=0;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -610,7 +610,7 @@ VFX_Relentless_Whirlwind_SPIN2:
     - changepart{m=relentless_whirlwind_1;nm=relentless_whirlwind_<caster.var.iteration>;p=warrior_efv4_4;np=warrior_efv4_4}
     ]} @self ~onTimer:8
 
-  - aura{delay=0;d=5;i=1;
+  - aura{delay=0;d=5;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -620,7 +620,7 @@ VFX_Relentless_Whirlwind_SPIN2:
     - changepart{m=relentless_whirlwind_1;nm=relentless_whirlwind_<caster.var.iteration>;p=warrior_spin;np=warrior_spin}
     ]} @self ~onSpawn
 
-  - aura{delay=0;d=5;i=1;
+  - aura{delay=0;d=5;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -643,7 +643,7 @@ VFX_Relentless_Whirlwind_PIERCE:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=dash_pierce;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -708,7 +708,7 @@ VFX_Strike_Of_Fury_SWORD2:
   - state{s=charge_sword;speed=1} @self ~onSpawn
 
   - state{s=sword_slash1;speed=1;delay=40} @self ~onSpawn
-  - aura{delay=40;d=8;i=1;
+  - aura{delay=40;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -725,7 +725,7 @@ VFX_Strike_Of_Fury_SWORD2:
     ]} @self ~onSpawn
 
   - state{s=sword_slash2;speed=1;delay=48} @self ~onSpawn
-  - aura{delay=48;d=8;i=1;
+  - aura{delay=48;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -742,7 +742,7 @@ VFX_Strike_Of_Fury_SWORD2:
     ]} @self ~onSpawn
 
   - state{s=sword_slash1;speed=1;delay=56} @self ~onSpawn
-  - aura{delay=56;d=8;i=1;
+  - aura{delay=56;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -759,7 +759,7 @@ VFX_Strike_Of_Fury_SWORD2:
     ]} @self ~onSpawn
 
   - state{s=sword_slash2;speed=1;delay=64} @self ~onSpawn
-  - aura{delay=64;d=8;i=1;
+  - aura{delay=64;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -794,7 +794,7 @@ VFX_Strike_Of_Fury_SWORD_SLASH1:
   - partvis{p=sword;v=false;em=true;child=true} @self ~onSpawn
 
   - state{s=sword_slash1;speed=1} @self ~onSpawn
-  - aura{delay=0;d=8;i=1;
+  - aura{delay=0;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -824,7 +824,7 @@ VFX_Strike_Of_Fury_SWORD_SLASH2:
   - partvis{p=sword;v=false;em=true;child=true} @self ~onSpawn
 
   - state{s=sword_slash2;speed=1} @self ~onSpawn
-  - aura{delay=0;d=8;i=1;
+  - aura{delay=0;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -868,7 +868,7 @@ VFX_Strike_Of_Fury_RUPTURE:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=floor_crack;speed=1} @self ~onSpawn
   
-  - aura{delay=5;d=13;i=1;
+  - aura{delay=5;d=13;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -877,7 +877,7 @@ VFX_Strike_Of_Fury_RUPTURE:
     - changepart{m=strike_of_fury_1;nm=strike_of_fury_<caster.var.iteration>;p=ef_floor_crack;np=ef_floor_crack}
     ]} @self ~onSpawn
 
-  - aura{delay=26;d=13;i=1;
+  - aura{delay=26;d=13;i=10;
     os=[
     - setvariable{var=caster.iteration;val=13;type=INTEGER}
     ];

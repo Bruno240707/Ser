@@ -86,7 +86,7 @@ Mirror_Shuriken:
   - look{headOnly=false;immediately=true} @forward{f=5;y=1.5} ~onSpawn
   - model{sync=true;mid=fx_mirror_shuriken;n=false} @self ~onSpawn
   
-Mirror_ShurikenBACK:
+Mirror_Shuriken_Back:
   Type: ARMOR_STAND
   Pose:
       RightArm: 0,0,0
@@ -172,7 +172,7 @@ Mirror_Dimension_Portal:
     Invincible: true
   Skills:
   - polygon{db=0.25;y=0.1;mpd=false;scale=7;
-    oE=[ - effect:particles{p=redstone;color=#bdfff2} ];
-    oS=[ - effect:particles{p=redstone;color=#bdfff2} ]
+    oE=[ - effect:particles{p=dust;color=#bdfff2} ];
+    oS=[ - effect:particles{p=dust;color=#bdfff2} ]
     ;p=8;skip=6} @Origin ~onTimer:5
   - remove{delay=40} @self ~onSpawn

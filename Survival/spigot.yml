@@ -22,7 +22,7 @@ advancements:
   disabled:
   - minecraft:story/disabled
 settings:
-  bungeecord: false
+  bungeecord: true
   save-user-cache-on-stop-only: false
   sample-count: 12
   player-shuffle: 0

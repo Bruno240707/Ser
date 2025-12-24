@@ -50,7 +50,7 @@ Blasting_Combo_SHOOT_FX:
   - summon{type=VFX_AwakenedArcher_SHOOTIMPACT;amount=1;radius=0;yRadius=0;onSurface=true}
 Blasting_Combo_SHOOT_PRO:
   Skills:
-  - projectile{bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow;onHit=Blasting_Combo_DAMAGE_D;v=41;i=1;hR=0.7;vR=0.7;mr=70;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow;onHit=Blasting_Combo_DAMAGE_D;v=41;i=10;hR=0.7;vR=0.7;mr=70;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
   - effect:sound{s=awakened_archer_sounds:samus.awakened_archer.awakened_archer_arrow_shoot;volume=0.7;pitch=<random.float.0.9to1.1>} @self
 
 
@@ -139,7 +139,7 @@ Blasting_Combo_ST_4:
 
   - delay 7
 
-  - lunge{velocity=-1;velocityY=-0.8;repeat=1;repeati=1} @Forward{f=-5;y=-4;lockpitch=true;sideOffset=0}
+  - lunge{velocity=-1;velocityY=-0.8;repeat=1;repeati=10} @Forward{f=-5;y=-4;lockpitch=true;sideOffset=0}
 
 
 Blasting_Combo_SHOOT_CHARGED:
@@ -150,7 +150,7 @@ Blasting_Combo_SHOOT_CHARGED_FX:
   - summon{type=VFX_AwakenedArcher_FOURTH_CHARGE;amount=1;radius=0;yRadius=0;onSurface=true}
 Blasting_Combo_SHOOT_PRO_CHARGED:
   Skills:
-  - projectile{bulletType=MOB;mob=VFX_AwakenedArcher_Arrow_SHAKING;onHit=Blasting_Combo_DAMAGE_D;ohb=Blasting_Combo_SMASH_DAMAGE_D;v=41;i=1;hR=0.4;vR=0.4;mr=70;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{bulletType=MOB;mob=VFX_AwakenedArcher_Arrow_SHAKING;onHit=Blasting_Combo_DAMAGE_D;ohb=Blasting_Combo_SMASH_DAMAGE_D;v=41;i=10;hR=0.4;vR=0.4;mr=70;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 
 
 
@@ -169,14 +169,14 @@ Blasting_Combo_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=3}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
 Blasting_Combo_DAMAGE_FIRSTHIT:
   TargetConditions:
   - entitytype{t=ARMOR_STAND} false
   Skills:
   - damage{a=<skill.damage> * 1.5;pkb=true;hnp=true;hp=true}
-  - projectile{bmd=true;targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_FIRSTIMPACT;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{bmd=true;targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_FIRSTIMPACT;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
   - effect:sound{s=awakened_archer_sounds:samus.awakened_archer.awakened_archer_first_hit;volume=0.7;pitch=<random.float.0.9to1.1>} @self
   - aura{auraName=FIRSTHIT;duration=600}
@@ -200,7 +200,7 @@ Blasting_Combo_SMASH_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage> * 1.5;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
   - throw{velocity=0;velocityY=4}
 Blasting_Combo_SMASH_DAMAGE_FIRSTHIT:
@@ -255,8 +255,8 @@ Evasive_Shot_SHOOT_FX:
   - summon{type=VFX_AwakenedArcher_SHOOTIMPACT;amount=1;radius=0;yRadius=0;onSurface=true}
 Evasive_Shot_SHOOT_PRO:
   Skills:
-  - projectile{bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow;onHit=Evasive_Shot_DAMAGE_D;v=41;i=1;hR=0.4;vR=0.4;mr=70;hnp=true;hO=<random.1to3>;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow;onHit=Evasive_Shot_DAMAGE_D2;v=41;i=1;hR=0.4;vR=0.4;mr=70;hnp=true;hO=<random.-3to-1>;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow;onHit=Evasive_Shot_DAMAGE_D;v=41;i=10;hR=0.4;vR=0.4;mr=70;hnp=true;hO=<random.1to3>;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow;onHit=Evasive_Shot_DAMAGE_D2;v=41;i=10;hR=0.4;vR=0.4;mr=70;hnp=true;hO=<random.-3to-1>;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
   
 Evasive_Shot_DAMAGE_D2:
   Cooldown: 0.001
@@ -276,7 +276,7 @@ Evasive_Shot_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=3}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
 Evasive_Shot_DAMAGE_FIRSTHIT:
   TargetConditions:
@@ -327,16 +327,16 @@ Volley_Of_Arrows_CAST:
   
 Volley_Of_Arrows_SHOOT_PRO:
   Skills:
-  - projectile{oS=Volley_Of_Arrows_DAMAGE_D;v=41;i=1;hR=1;vR=1;mr=1;hnp=true;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=5;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{oS=Volley_Of_Arrows_DAMAGE_D;v=41;i=10;hR=1;vR=1;mr=1;hnp=true;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=5;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 
 
 Volley_Of_Arrows_SHOOT_PRO2:
   Skills:
-  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=1;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=1;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=40;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=1;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=-40;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=1;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=20;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
-  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=1;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=-20;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=10;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=10;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=40;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=10;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=-40;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=10;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=20;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{onHit=Volley_Of_Arrows_DAMAGE_D2;v=45;i=10;hR=0.7;vR=0.7;mr=12.5;hnp=true;hO=-20;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 
 Volley_Of_Arrows_DAMAGE_D:
   Cooldown: 0
@@ -352,7 +352,7 @@ Volley_Of_Arrows_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
   - throw{velocity=5;velocityY=0}
 Volley_Of_Arrows_DAMAGE_FIRSTHIT:
@@ -380,11 +380,11 @@ Volley_Of_Arrows_DAMAGE2:
   Skills:
   - aura{auraName=immunedelay;duration=5}
   - damage{a=<skill.damage> * 1.5;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
   - throw{velocity=13;velocityY=0}
   - stun{d=40;f=true;CancelOnTakeDamage=false;CancelOnDeath=true;delay=7}
-  - orbital{onTick=Volley_Of_Arrows_STUN_FX;r=0.5;points=22;i=1;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;delay=7}
+  - orbital{onTick=Volley_Of_Arrows_STUN_FX;r=0.5;points=22;i=10;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;delay=7}
 Volley_Of_Arrows_STUN_FX:
   Skills:
   - particles{p=crit;amount=1;hS=0;vS=0;y=0;size=0.4;speed=0} @origin
@@ -399,7 +399,7 @@ Volley_Of_Arrows_DAMAGE_FIRSTHIT2:
   - effect:sound{s=awakened_archer_sounds:samus.awakened_archer.awakened_archer_first_hit;volume=0.7;pitch=<random.float.0.9to1.1>} @self
   - throw{velocity=13;velocityY=0}
   - stun{d=40;f=true;CancelOnTakeDamage=false;CancelOnDeath=true;delay=7}
-  - orbital{onTick=Volley_Of_Arrows_STUN_FX;r=0.5;points=22;i=1;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;delay=7}
+  - orbital{onTick=Volley_Of_Arrows_STUN_FX;r=0.5;points=22;i=10;duration=40;oy=2.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;delay=7}
 
 
 
@@ -433,7 +433,7 @@ Piercing_Skyfall_CAST:
   - delay 20
 
   - projectile{oT=Piercing_Skyfall_DAMAGE_D;v=35;i=3;hR=1;vR=1;mr=50;hnp=true;hO=0;sE=false;sB=false;hs=true;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} @forward{f=10;lockpitch=true}
-  - projectile{oT=Piercing_Skyfall_SUMMON;v=35;i=1;hR=0.7;vR=0.7;mr=50;hnp=true;hO=0;sE=false;sB=false;hs=true;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} @forward{f=10;lockpitch=true}
+  - projectile{oT=Piercing_Skyfall_SUMMON;v=35;i=10;hR=0.7;vR=0.7;mr=50;hnp=true;hO=0;sE=false;sB=false;hs=true;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true} @forward{f=10;lockpitch=true}
 Piercing_Skyfall_SUMMON:
   Skills:
   - summon{type=VFX_Blasting_Combo_PIERCING_SKYFALL_RANDOMARROW;amount=2;radius=4;yRadius=0;onSurface=true} @origin
@@ -454,7 +454,7 @@ Piercing_Skyfall_DAMAGE:
   - entitytype{t=ARMOR_STAND} false
   Skills:
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
 Piercing_Skyfall_DAMAGE_FIRSTHIT:
   TargetConditions:
@@ -533,7 +533,7 @@ Rapid_Arrows_SHOOT_FX:
   - summon{type=VFX_AwakenedArcher_SHOOTIMPACT;amount=1;radius=0;yRadius=0;onSurface=true}
 Rapid_Arrows_SHOOT_PRO:
   Skills:
-  - projectile{bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow;onHit=Rapid_Arrows_DAMAGE_D;v=41;i=1;hR=0.7;vR=0.7;mr=70;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow;onHit=Rapid_Arrows_DAMAGE_D;v=41;i=10;hR=0.7;vR=0.7;mr=70;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
   - effect:sound{s=awakened_archer_sounds:samus.awakened_archer.awakened_archer_arrow_shoot;volume=0.7;pitch=<random.float.1.2to1.3>} @self
 
 
@@ -546,7 +546,7 @@ Rapid_Arrows_SHOOT_FX_PIERCING:
   - summon{type=VFX_AwakenedArcher_SHOOTIMPACT_PIERCING;amount=1;radius=0;yRadius=0;onSurface=true}
 Rapid_Arrows_SHOOT_PRO_PIERCING:
   Skills:
-  - projectile{ti=10;bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow_PIERCING;onHit=Rapid_Arrows_DAMAGE_D_PIERCING;v=46;i=1;hR=0.7;vR=0.7;mr=70;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{ti=100;bmd=true;bulletType=MOB;mob=VFX_AwakenedArcher_Arrow_PIERCING;onHit=Rapid_Arrows_DAMAGE_D_PIERCING;v=46;i=10;hR=0.7;vR=0.7;mr=70;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
   - effect:sound{s=awakened_archer_sounds:samus.awakened_archer.awakened_archer_rapid_fire;volume=0.7;pitch=<random.float.0.9to1.1>} @self
 
 Rapid_Arrows_DAMAGE_D:
@@ -563,7 +563,7 @@ Rapid_Arrows_DAMAGE:
   Skills:
   - aura{auraName=immunedelay;duration=3}
   - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
 Rapid_Arrows_DAMAGE_FIRSTHIT:
   TargetConditions:
@@ -591,7 +591,7 @@ Rapid_Arrows_DAMAGE_PIERCING:
   Skills:
   - aura{auraName=immunedelay;duration=3}
   - damage{a=<skill.damage> * 1.5;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
   - throw{velocity=6;velocityY=0}
 Rapid_Arrows_DAMAGE_FIRSTHIT_PIERCING:
@@ -620,7 +620,7 @@ Shot_Of_Destruction_CAST:
   - stun{d=29;f=true;CancelOnTakeDamage=false;CancelOnDeath=true} @self
   - skill{s=Shot_Of_Destruction_SPHERE} @selflocation{y=0.9}
 
-  - orbital{auraName=VFX_SOD_CHARGE;bulletType=MOB;mob=VFX_SOD_CHARGE;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=42;oy=1.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - orbital{auraName=VFX_SOD_CHARGE;bulletType=MOB;mob=VFX_SOD_CHARGE;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration=42;oy=1.3;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   - effect:sound{s=awakened_archer_sounds:samus.awakened_archer.awakened_archer_charge;volume=0.7;pitch=0.7} @self
   
   - delay 30
@@ -636,7 +636,7 @@ Shot_Of_Destruction_SHOOT_PIERCING:
   - skill{s=Shot_Of_Destruction_SHOOT_PRO_PIERCING;origin=@SelfEyeLocation{fo=-0.5;yo=-0.2}} @forward{f=12;uel=true}
 Shot_Of_Destruction_SHOOT_PRO_PIERCING:
   Skills:
-  - projectile{ti=10;maxclimbheight=0;bmd=true;bulletType=MOB;mob=VFX_SOD_THEARROW;onHit=Shot_Of_Destruction_DAMAGE_D_PIERCING;v=45;i=1;hR=1;vR=1;mr=70;hnp=true;hO=0;sE=false;sB=true;hs=true;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
+  - projectile{ti=100;maxclimbheight=0;bmd=true;bulletType=MOB;mob=VFX_SOD_THEARROW;onHit=Shot_Of_Destruction_DAMAGE_D_PIERCING;v=45;i=10;hR=1;vR=1;mr=70;hnp=true;hO=0;sE=false;sB=true;hs=true;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
   - projectile{maxclimbheight=0;oT=Shot_Of_Destruction_SUMMONRUBBLES;v=45;i=2;hR=1;vR=1;mr=70;hnp=true;hO=0;sE=false;sB=true;hs=true;hfs=0;sfo=0;syo=0;tyo=0;sso=0;fo=true;hitConditions=[- isLiving true];byo=0;drawhitbox=false;ham=true}
 
 
@@ -660,7 +660,7 @@ Shot_Of_Destruction_DAMAGE_PIERCING:
   Skills:
   - aura{auraName=immunedelay;duration=3}
   - damage{a=<skill.damage> * 1.5;pkb=true;hnp=true;hp=true}
-  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=1;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
+  - projectile{targetisorigin=true;bulletType=MOB;mob=VFX_AwakenedArcher_Impact;v=0;i=10;hR=0;vR=0;mr=2;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;sfo=0;syo=1.2;tyo=1.2;sso=0;fo=true;byo=0;ham=true}
   - effect:sound{s=universal_sounds:samus.universal.hit_impact_thud;volume=0.7;pitch=<random.float.1.1to1.2>} @self
   - throw{velocity=9;velocityY=0}
 Shot_Of_Destruction_DAMAGE_FIRSTHIT_PIERCING:

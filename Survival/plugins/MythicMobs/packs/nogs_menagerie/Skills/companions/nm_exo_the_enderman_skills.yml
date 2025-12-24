@@ -22,7 +22,7 @@ nm_exo_the_enderman_teleport_activate:
   - gcd{ticks=60}
   - freeze{ticks=31} @self
   - sound{s=entity.enderman.ambient;p=1.6;v=1} @self
-  - state{state=teleport;li=1;lo=1;n=false;speed=1} @self
+  - state{state=teleport;li=10;lo=1;n=false;speed=1} @self
   - delay 4
   - sound{s=entity.enderman.teleport;p=1.6;v=1} @self
   - effect:particle{particle=portal;amount=16;hS=0.25;vS=0.25} @self

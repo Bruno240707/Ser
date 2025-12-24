@@ -12,7 +12,7 @@ VFX_Thunder_Impact:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=2;d=6;i=1;
+  - aura{delay=2;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -47,7 +47,7 @@ VFX_Thunder_Impact_Critical:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=4;d=6;i=1;
+  - aura{delay=4;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -84,7 +84,7 @@ VFX_Thunder_Strike:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=9;i=1;
+  - aura{delay=1;d=9;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -121,7 +121,7 @@ VFX_Thunder_Strike_BIG:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=9;i=1;
+  - aura{delay=1;d=9;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -159,7 +159,7 @@ VFX_Thunder_Reflex:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=5;i=1;
+  - aura{delay=1;d=5;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -191,7 +191,7 @@ VFX_Thunder_Slash_LEFT:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=6;i=1;
+  - aura{delay=3;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -220,7 +220,7 @@ VFX_Thunder_Slash_RIGHT:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=6;i=1;
+  - aura{delay=3;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -249,7 +249,7 @@ VFX_Thunder_Slash_DOWN:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=6;i=1;
+  - aura{delay=3;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -278,7 +278,7 @@ VFX_Thunder_Slash_UP:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill4;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=6;i=1;
+  - aura{delay=3;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -309,7 +309,7 @@ VFX_Thunder_Slash_LEFT_ULT:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
   
-  - aura{delay=5;d=6;i=1;
+  - aura{delay=5;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -340,7 +340,7 @@ VFX_Thunder_Slash_RIGHT_ULT:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2;speed=1} @self ~onSpawn
   
-  - aura{delay=5;d=6;i=1;
+  - aura{delay=5;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -371,7 +371,7 @@ VFX_Thunder_Slash_DOWN_ULT:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill3;speed=1} @self ~onSpawn
   
-  - aura{delay=5;d=6;i=1;
+  - aura{delay=5;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -402,7 +402,7 @@ VFX_Thunder_Slash_UP_ULT:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill4;speed=1} @self ~onSpawn
   
-  - aura{delay=5;d=6;i=1;
+  - aura{delay=5;d=6;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -435,7 +435,7 @@ VFX_Thunder_Dash:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=7;i=1;
+  - aura{delay=3;d=7;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -470,7 +470,7 @@ VFX_Thunder_Dash_REVERSAL:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=7;i=1;
+  - aura{delay=3;d=7;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -505,7 +505,7 @@ VFX_Thunder_Dash_ULT:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=7;i=1;
+  - aura{delay=3;d=7;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -540,7 +540,7 @@ VFX_Thunder_Dash_ULT_L:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=7;i=1;
+  - aura{delay=3;d=7;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -575,7 +575,7 @@ VFX_Thunder_Dash_ULT_R:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation3;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=7;i=1;
+  - aura{delay=3;d=7;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -611,7 +611,7 @@ VFX_Crackling_Skyfall_CHARGE:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=charge;speed=1} @self ~onSpawn
   
-  - aura{delay=0;d=8;i=1;
+  - aura{delay=0;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -625,7 +625,7 @@ VFX_Crackling_Skyfall_CHARGE:
     - changepart{m=crackling_skyfall_1;nm=crackling_skyfall_<caster.var.iteration>;p=ef_thuder_chargev3_2;np=ef_thuder_chargev3_2}
     ]} @self ~onSpawn
   
-  - aura{delay=8;d=8;i=1;
+  - aura{delay=8;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -639,7 +639,7 @@ VFX_Crackling_Skyfall_CHARGE:
     - changepart{m=crackling_skyfall_1;nm=crackling_skyfall_<caster.var.iteration>;p=ef_thuder_chargev3_2;np=ef_thuder_chargev3_2}
     ]} @self ~onSpawn
 
-  - aura{delay=16;d=8;i=1;
+  - aura{delay=16;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -653,7 +653,7 @@ VFX_Crackling_Skyfall_CHARGE:
     - changepart{m=crackling_skyfall_1;nm=crackling_skyfall_<caster.var.iteration>;p=ef_thuder_chargev3_2;np=ef_thuder_chargev3_2}
     ]} @self ~onSpawn
 
-  - aura{delay=24;d=8;i=1;
+  - aura{delay=24;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -681,7 +681,7 @@ VFX_Crackling_Skyfall_SMASH:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=impact_floor;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=10;i=1;
+  - aura{delay=1;d=10;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -741,7 +741,7 @@ VFX_Thunder_Dragon:
   - state{s=on;speed=1} @self ~onSpawn
   - state{s=loop;speed=1;delay=14} @self ~onSpawn
   
-  - aura{delay=6;d=8;i=1;
+  - aura{delay=6;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];

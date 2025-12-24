@@ -324,7 +324,7 @@ VFX_Phoenix_Dash:
     Invincible: true
     Collidable: false
   Skills:
-  - aura{delay=3;d=11;i=1;
+  - aura{delay=3;d=11;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     - model{sync=true;usestatemachine=true;mid=vfx_phoenix_dash_1;lockpitch=true}
@@ -472,7 +472,7 @@ VFX_Phoenix_Feather_Spread:
   - brightness{mid=vfx_phoenix_feather_spread;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=spawn} @self ~onSpawn
-  - state{s=loop;delay=12;li=10} @self ~onSpawn
+  - state{s=loop;delay=12;li=100} @self ~onSpawn
 
 # Phoenix Wings #
 

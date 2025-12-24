@@ -1,83 +1,58 @@
-[01:05:22] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
-[01:05:22] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[01:05:23] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[01:05:23] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[01:05:23] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
-[01:05:23] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[01:05:23] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.16s)!
-[01:05:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:34285) has connected
-[01:05:28] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:34285): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[01:05:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:34285) has disconnected: No hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.
-[01:05:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:55285) has connected
-[01:05:33] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:55285): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[01:05:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:55285) has disconnected: No hemos podido conectarte a lobby. Por favor, inténtalo de nuevo más tarde.
-[01:05:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:34523) has connected
-[01:05:38] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:34523): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:30001
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-8f65a814-b558)]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[01:05:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:34523) has disconnected: Unable to connect you to lobby. Please try again later.
-[01:05:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:41377) has connected
-[01:05:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has connected
-[01:06:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has connected
-[01:06:52] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival: read timed out
-[01:06:52] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has disconnected
-[01:06:52] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Bruno240707 (/127.19.211.102:41377): unable to connect to server survival
-io.netty.handler.timeout.ReadTimeoutException: null
-[01:07:19] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has connected
-[01:07:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has disconnected
-[01:18:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Bruno240707 (/127.19.211.102:41377) has disconnected
-[01:18:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has disconnected
-[01:18:51] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[01:18:51] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[02:16:58] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
+[02:16:58] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[02:16:59] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[02:16:59] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[02:16:59] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[02:17:00] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.21 by Luck
+[02:17:00] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.3 by NickUC
+[02:17:01] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.7 by NickUC
+[02:17:01] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
+[02:17:01] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
+[02:17:02] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[02:17:02] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.21
+[02:17:02] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity - Velocity
+[02:17:02] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[02:17:02] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
+[02:17:04] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
+[02:17:04] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
+[02:17:04] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 3101ms)
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 0.66s)
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.3
+[02:17:06] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.43s)
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.7
+[02:17:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
+[02:17:13] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[02:17:13] [main/INFO] [nantibot]: Injecting channel initializers
+[02:17:13] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[02:17:14] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[02:17:14] [nAntiBot - Task Executor #2/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
+[02:17:14] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (16.68s)!
+[02:17:17] [pool-7-thread-3/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 50, threads = 4, took 9.88s)
+[02:22:05] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Bruno240707 (/127.19.211.102:35881) has connected
+[02:22:05] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has connected
+[02:22:19] [nLogin - Task Executor #0/INFO] [nlogin]: The user Bruno240707 has successfully logged in.
+[02:22:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has connected
+[02:22:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> lobby has disconnected
+[02:54:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Bruno240707 (/127.19.211.102:35881) has disconnected
+[02:54:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Bruno240707 -> survival has disconnected
+[02:54:48] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[02:54:48] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[02:54:48] [nAntiBot - Task Executor #12/INFO] [nantibot]: Successful plugin core shutdown (took 0.02s)
+[02:54:48] [nAntiBot - Task Executor #12/INFO] [nantibot]: Disconnecting from remote server...
+[02:54:50] [nAntiBot - Task Executor #12/INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
+[02:54:50] [nAntiBot - Task Executor #12/INFO] [luckperms]: Starting shutdown process...
+[02:54:50] [nAntiBot - Task Executor #12/INFO] [luckperms]: Closing storage...
+[02:54:50] [nAntiBot - Task Executor #12/INFO] [luckperms]: Goodbye!

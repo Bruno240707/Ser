@@ -82,7 +82,7 @@ Cubee-ebony_cat-Pet-Attack_SudoOwner:
   - totem{
       oS=[
         - skill{s=Cubee-ebony_cat-Pet-Attack_LOS} @Origin
-      ];md=3;i=1} @Forward{f=20}
+      ];md=3;i=10} @Forward{f=20}
 
 Cubee-ebony_cat-Pet-Attack_LOS:
   Conditions:
@@ -189,8 +189,8 @@ Cubee-ebony_cat-Pet-Attack_Activat_InheritTarget: #Cubee is Caster
   - settarget
   - threat{mode=forcetop}
   - setvariable{var=caster.distanceHDIFF;type=INTEGER;value="sqrt( ((<caster.l.x> - <target.l.x>))^2 + ((<caster.l.y> - <target.l.y>))^2 + ((<caster.l.z> - <target.l.z>))^2 )"}
-  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=1} @Trigger ?hasaura{auraname=CubeeAttackCooldown}];cat=true} @Owner ?stringEq{value1=<placeholder.Cubee-ebony_cat-SharedCooldown>;value2=true}
-  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=1} @Trigger ?hasaura{auraname=CubeeAttackCooldown-ebony_cat}];cat=true} @Owner
+  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=10} @Trigger ?hasaura{auraname=CubeeAttackCooldown}];cat=true} @Owner ?stringEq{value1=<placeholder.Cubee-ebony_cat-SharedCooldown>;value2=true}
+  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=10} @Trigger ?hasaura{auraname=CubeeAttackCooldown-ebony_cat}];cat=true} @Owner
   - threat{mode=ADD;amount=1}
   - potion{t=GLOWING;d=2;p=false}
   - particlering{points=64;radius=1.5;audience=@owner;particle=dust_color_transition;color1=#e11717;color2=#fc5aa4;a=1;size=0.75;repeat=2;repeatInterval=1}
@@ -205,7 +205,7 @@ Cubee-ebony_cat-Pet-Attack_Activat_InheritAlly: #Cubee is Caster
   - settarget @Self
   - potion{t=GLOWING;d=2;p=false}
   - particlering{points=64;radius=1.5;audience=@owner;particle=dust_color_transition;color1=#8ee6ec;color2=#eafd47;a=1;size=0.75;repeat=2;repeatInterval=1}
-  - aura{auraname="<caster.uuid>";d=9999999;i=1;cancelondeath=false;cancelonteleport=false;cancelonchangeworld=false;canceloncasterdeath=false;cancelonquit=false}
+  - aura{auraname="<caster.uuid>";d=9999999;i=10;cancelondeath=false;cancelonteleport=false;cancelonchangeworld=false;canceloncasterdeath=false;cancelonquit=false}
 
 Cubee-ebony_cat-Pet-Attack_Execute:
   Conditions:
@@ -429,7 +429,7 @@ Cubee-gothic_hag-Pet-Attack_SudoOwner:
   - totem{
       oS=[
         - skill{s=Cubee-gothic_hag-Pet-Attack_LOS} @Origin
-      ];md=3;i=1} @Forward{f=20}
+      ];md=3;i=10} @Forward{f=20}
 
 Cubee-gothic_hag-Pet-Attack_LOS:
   Conditions:
@@ -536,8 +536,8 @@ Cubee-gothic_hag-Pet-Attack_Activat_InheritTarget: #Cubee is Caster
   - settarget
   - threat{mode=forcetop}
   - setvariable{var=caster.distanceHDIFF;type=INTEGER;value="sqrt( ((<caster.l.x> - <target.l.x>))^2 + ((<caster.l.y> - <target.l.y>))^2 + ((<caster.l.z> - <target.l.z>))^2 )"}
-  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=1} @Trigger ?hasaura{auraname=CubeeAttackCooldown}];cat=true} @Owner ?stringEq{value1=<placeholder.Cubee-gothic_hag-SharedCooldown>;value2=true}
-  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=1} @Trigger ?hasaura{auraname=CubeeAttackCooldown-gothic_hag}];cat=true} @Owner
+  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=10} @Trigger ?hasaura{auraname=CubeeAttackCooldown}];cat=true} @Owner ?stringEq{value1=<placeholder.Cubee-gothic_hag-SharedCooldown>;value2=true}
+  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=10} @Trigger ?hasaura{auraname=CubeeAttackCooldown-gothic_hag}];cat=true} @Owner
   - threat{mode=ADD;amount=1}
   - potion{t=GLOWING;d=2;p=false}
   - particlering{points=64;radius=1.5;audience=@owner;particle=dust_color_transition;color1=#e11717;color2=#fc5aa4;a=1;size=0.75;repeat=2;repeatInterval=1}
@@ -552,7 +552,7 @@ Cubee-gothic_hag-Pet-Attack_Activat_InheritAlly: #Cubee is Caster
   - settarget @Self
   - potion{t=GLOWING;d=2;p=false}
   - particlering{points=64;radius=1.5;audience=@owner;particle=dust_color_transition;color1=#8ee6ec;color2=#eafd47;a=1;size=0.75;repeat=2;repeatInterval=1}
-  - aura{auraname="<caster.uuid>";d=9999999;i=1;cancelondeath=false;cancelonteleport=false;cancelonchangeworld=false;canceloncasterdeath=false;cancelonquit=false}
+  - aura{auraname="<caster.uuid>";d=9999999;i=10;cancelondeath=false;cancelonteleport=false;cancelonchangeworld=false;canceloncasterdeath=false;cancelonquit=false}
 
 Cubee-gothic_hag-Pet-Attack_Execute:
   Conditions:
@@ -613,7 +613,7 @@ Cubee-gothic_hag-Pet-Attack_Ultimate:
 
 Cubee-gothic_hag-key-crows:
   Skills:
-  - totem{c=99;hp=false;hnp=false;md=3;i=1;
+  - totem{c=99;hp=false;hnp=false;md=3;i=10;
     oS=[
       - skill{s=[
         - skill{s=Cubee-gothic_hag-Pet-InflictDamage_Hit} @EntitiesInLine{r=4;targetconditions=[ - distance{d=<8}]}
@@ -622,7 +622,7 @@ Cubee-gothic_hag-key-crows:
 
 Cubee-gothic_hag-key-final_crows:
   Skills:
-  - projectile{v=12;i=1;hR=1;vR=1;hnp=true;
+  - projectile{v=12;i=10;hR=1;vR=1;hnp=true;
     oS=[
       - vfx{mid=cubee-gothic_hag;pid=ef_final_crow}
       - vfxscale{s=1.5,1.5,1.5}
@@ -762,7 +762,7 @@ Cubee-skelly_warlock-Pet-Attack_SudoOwner:
   - totem{
       oS=[
         - skill{s=Cubee-skelly_warlock-Pet-Attack_LOS} @Origin
-      ];md=3;i=1} @Forward{f=20}
+      ];md=3;i=10} @Forward{f=20}
 
 Cubee-skelly_warlock-Pet-Attack_LOS:
   Conditions:
@@ -869,8 +869,8 @@ Cubee-skelly_warlock-Pet-Attack_Activat_InheritTarget: #Cubee is Caster
   - settarget
   - threat{mode=forcetop}
   - setvariable{var=caster.distanceHDIFF;type=INTEGER;value="sqrt( ((<caster.l.x> - <target.l.x>))^2 + ((<caster.l.y> - <target.l.y>))^2 + ((<caster.l.z> - <target.l.z>))^2 )"}
-  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=1} @Trigger ?hasaura{auraname=CubeeAttackCooldown}];cat=true} @Owner ?stringEq{value1=<placeholder.Cubee-skelly_warlock-SharedCooldown>;value2=true}
-  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=1} @Trigger ?hasaura{auraname=CubeeAttackCooldown-skelly_warlock}];cat=true} @Owner
+  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=10} @Trigger ?hasaura{auraname=CubeeAttackCooldown}];cat=true} @Owner ?stringEq{value1=<placeholder.Cubee-skelly_warlock-SharedCooldown>;value2=true}
+  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=10} @Trigger ?hasaura{auraname=CubeeAttackCooldown-skelly_warlock}];cat=true} @Owner
   - threat{mode=ADD;amount=1}
   - potion{t=GLOWING;d=2;p=false}
   - particlering{points=64;radius=1.5;audience=@owner;particle=dust_color_transition;color1=#e11717;color2=#fc5aa4;a=1;size=0.75;repeat=2;repeatInterval=1}
@@ -885,7 +885,7 @@ Cubee-skelly_warlock-Pet-Attack_Activat_InheritAlly: #Cubee is Caster
   - settarget @Self
   - potion{t=GLOWING;d=2;p=false}
   - particlering{points=64;radius=1.5;audience=@owner;particle=dust_color_transition;color1=#8ee6ec;color2=#eafd47;a=1;size=0.75;repeat=2;repeatInterval=1}
-  - aura{auraname="<caster.uuid>";d=9999999;i=1;cancelondeath=false;cancelonteleport=false;cancelonchangeworld=false;canceloncasterdeath=false;cancelonquit=false}
+  - aura{auraname="<caster.uuid>";d=9999999;i=10;cancelondeath=false;cancelonteleport=false;cancelonchangeworld=false;canceloncasterdeath=false;cancelonquit=false}
   
 Cubee-skelly_warlock-Pet-Attack_Execute:
   Conditions:
@@ -1122,7 +1122,7 @@ Cubee-soul_weaver-Pet-Attack_SudoOwner:
   - totem{
       oS=[
         - skill{s=Cubee-soul_weaver-Pet-Attack_LOS} @Origin
-      ];md=3;i=1} @Forward{f=20}
+      ];md=3;i=10} @Forward{f=20}
 
 Cubee-soul_weaver-Pet-Attack_LOS:
   Conditions:
@@ -1229,8 +1229,8 @@ Cubee-soul_weaver-Pet-Attack_Activat_InheritTarget: #Cubee is Caster
   - settarget
   - threat{mode=forcetop}
   - setvariable{var=caster.distanceHDIFF;type=INTEGER;value="sqrt( ((<caster.l.x> - <target.l.x>))^2 + ((<caster.l.y> - <target.l.y>))^2 + ((<caster.l.z> - <target.l.z>))^2 )"}
-  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=1} @Trigger ?hasaura{auraname=CubeeAttackCooldown}];cat=true} @Owner ?stringEq{value1=<placeholder.Cubee-soul_weaver-SharedCooldown>;value2=true}
-  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=1} @Trigger ?hasaura{auraname=CubeeAttackCooldown-soul_weaver}];cat=true} @Owner
+  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=10} @Trigger ?hasaura{auraname=CubeeAttackCooldown}];cat=true} @Owner ?stringEq{value1=<placeholder.Cubee-soul_weaver-SharedCooldown>;value2=true}
+  - sudoskill{s=[ - aura{aura=OnCooldown;d=3;i=10} @Trigger ?hasaura{auraname=CubeeAttackCooldown-soul_weaver}];cat=true} @Owner
   - threat{mode=ADD;amount=1}
   - potion{t=GLOWING;d=2;p=false}
   - particlering{points=64;radius=1.5;audience=@owner;particle=dust_color_transition;color1=#e11717;color2=#fc5aa4;a=1;size=0.75;repeat=2;repeatInterval=1}
@@ -1245,7 +1245,7 @@ Cubee-soul_weaver-Pet-Attack_Activat_InheritAlly: #Cubee is Caster
   - settarget @Self
   - potion{t=GLOWING;d=2;p=false}
   - particlering{points=64;radius=1.5;audience=@owner;particle=dust_color_transition;color1=#8ee6ec;color2=#eafd47;a=1;size=0.75;repeat=2;repeatInterval=1}
-  - aura{auraname="<caster.uuid>";d=9999999;i=1;cancelondeath=false;cancelonteleport=false;cancelonchangeworld=false;canceloncasterdeath=false;cancelonquit=false}
+  - aura{auraname="<caster.uuid>";d=9999999;i=10;cancelondeath=false;cancelonteleport=false;cancelonchangeworld=false;canceloncasterdeath=false;cancelonquit=false}
 
 Cubee-soul_weaver-Pet-Attack_Execute:
   Conditions:

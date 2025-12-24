@@ -73,7 +73,7 @@ Pet_Fire_Dragon_Fire_Skill:
   - targetwithin{d=15} true
   Skills:
   - gcd{ticks=85}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=60;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=60;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=65;level=50;hasParticles=false} @self
@@ -86,7 +86,7 @@ Pet_Fire_Dragon_Fire_Skill:
   - delay 33
   
   - effect:sound{s=entity.blaze.shoot;volume=0.8;pitch=1.3} @self
-  - projectile{bulletType=MOB;mob=VFX_Flame_Shot_Fire;sfo=0;onHit=Pet_Fire_Dragon_Fire_Skill_DAMAGE;v=11;i=1;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=2.4;tyo=1.7} @target
+  - projectile{bulletType=MOB;mob=VFX_Flame_Shot_Fire;sfo=0;onHit=Pet_Fire_Dragon_Fire_Skill_DAMAGE;v=11;i=10;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=2.4;tyo=1.7} @target
 Pet_Fire_Dragon_Fire_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -127,7 +127,7 @@ Pet_Fire_Dragon_Soulfire_Skill:
   - targetwithin{d=15} true
   Skills:
   - gcd{ticks=85}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=60;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=60;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=65;level=50;hasParticles=false} @self
@@ -140,7 +140,7 @@ Pet_Fire_Dragon_Soulfire_Skill:
   - delay 33
   
   - effect:sound{s=entity.blaze.shoot;volume=0.8;pitch=1.3} @self
-  - projectile{bulletType=MOB;mob=VFX_Flame_Shot_Soulfire;sfo=0;onHit=Pet_Fire_Dragon_Soulfire_Skill_DAMAGE;v=11;i=1;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=2.4;tyo=1.7} @target
+  - projectile{bulletType=MOB;mob=VFX_Flame_Shot_Soulfire;sfo=0;onHit=Pet_Fire_Dragon_Soulfire_Skill_DAMAGE;v=11;i=10;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=2.4;tyo=1.7} @target
 Pet_Fire_Dragon_Soulfire_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -181,7 +181,7 @@ Pet_Fire_Dragon_Holyfire_Skill:
   - targetwithin{d=15} true
   Skills:
   - gcd{ticks=85}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=60;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=60;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=65;level=50;hasParticles=false} @self
@@ -194,7 +194,7 @@ Pet_Fire_Dragon_Holyfire_Skill:
   - delay 33
   
   - effect:sound{s=entity.blaze.shoot;volume=0.8;pitch=1.3} @self
-  - projectile{bulletType=MOB;mob=VFX_Flame_Shot_Holyfire;sfo=0;onHit=Pet_Fire_Dragon_Holyfire_Skill_DAMAGE;v=11;i=1;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=2.4;tyo=1.7} @target
+  - projectile{bulletType=MOB;mob=VFX_Flame_Shot_Holyfire;sfo=0;onHit=Pet_Fire_Dragon_Holyfire_Skill_DAMAGE;v=11;i=10;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=2.4;tyo=1.7} @target
 Pet_Fire_Dragon_Holyfire_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -235,7 +235,7 @@ Pet_Fire_Dragon_Shadowflame_Skill:
   - targetwithin{d=15} true
   Skills:
   - gcd{ticks=85}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=60;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=60;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=65;level=50;hasParticles=false} @self
@@ -248,7 +248,7 @@ Pet_Fire_Dragon_Shadowflame_Skill:
   - delay 33
   
   - effect:sound{s=entity.blaze.shoot;volume=0.8;pitch=1.3} @self
-  - projectile{bulletType=MOB;mob=VFX_Flame_Shot_Shadowflame;sfo=0;onHit=Pet_Fire_Dragon_Shadowflame_Skill_DAMAGE;v=11;i=1;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=2.4;tyo=1.7} @target
+  - projectile{bulletType=MOB;mob=VFX_Flame_Shot_Shadowflame;sfo=0;onHit=Pet_Fire_Dragon_Shadowflame_Skill_DAMAGE;v=11;i=10;hR=1;vR=1;mr=15;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=2.4;tyo=1.7} @target
 Pet_Fire_Dragon_Shadowflame_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -264,28 +264,28 @@ Pet_Fire_Dragon_Shadowflame_Skill_DAMAGE:
 
 Pet_Unicorn_Heavenly_FX:
   Skills:
-  - orbital{onTick=Pet_Unicorn_Heavenly_Skill_FX_RED;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=15;onTick=Pet_Unicorn_Heavenly_Skill_FX_BLUE;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=30;onTick=Pet_Unicorn_Heavenly_Skill_FX_YELLOW;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{onTick=Pet_Unicorn_Heavenly_Skill_FX_RED;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=15;onTick=Pet_Unicorn_Heavenly_Skill_FX_BLUE;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=30;onTick=Pet_Unicorn_Heavenly_Skill_FX_YELLOW;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
 Pet_Unicorn_Nature_FX:
   Skills:
-  - orbital{onTick=Pet_Unicorn_Nature_Skill_FX_RED;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=15;onTick=Pet_Unicorn_Nature_Skill_FX_BLUE;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=30;onTick=Pet_Unicorn_Nature_Skill_FX_YELLOW;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{onTick=Pet_Unicorn_Nature_Skill_FX_RED;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=15;onTick=Pet_Unicorn_Nature_Skill_FX_BLUE;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=30;onTick=Pet_Unicorn_Nature_Skill_FX_YELLOW;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
 Pet_Unicorn_Rainbow_FX:
   Skills:
-  - orbital{onTick=Pet_Unicorn_Rainbow_Skill_FX_RED;r=0.75;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=7;onTick=Pet_Unicorn_Rainbow_Skill_FX_ORANGE;r=0.75;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=14;onTick=Pet_Unicorn_Rainbow_Skill_FX_YELLOW;r=0.75;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=21;onTick=Pet_Unicorn_Rainbow_Skill_FX_GREEN;r=0.75;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=28;onTick=Pet_Unicorn_Rainbow_Skill_FX_BLUE;r=0.75;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=35;onTick=Pet_Unicorn_Rainbow_Skill_FX_INDIGO;r=0.75;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=42;onTick=Pet_Unicorn_Rainbow_Skill_FX_PURPLE;r=0.75;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{onTick=Pet_Unicorn_Rainbow_Skill_FX_RED;r=0.75;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=7;onTick=Pet_Unicorn_Rainbow_Skill_FX_ORANGE;r=0.75;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=14;onTick=Pet_Unicorn_Rainbow_Skill_FX_YELLOW;r=0.75;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=21;onTick=Pet_Unicorn_Rainbow_Skill_FX_GREEN;r=0.75;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=28;onTick=Pet_Unicorn_Rainbow_Skill_FX_BLUE;r=0.75;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=35;onTick=Pet_Unicorn_Rainbow_Skill_FX_INDIGO;r=0.75;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=42;onTick=Pet_Unicorn_Rainbow_Skill_FX_PURPLE;r=0.75;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
 Pet_Unicorn_Undead_FX:
   Skills:
-  - orbital{onTick=Pet_Unicorn_Undead_Skill_FX_RED;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=15;onTick=Pet_Unicorn_Undead_Skill_FX_BLUE;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
-  - orbital{startingpoint=30;onTick=Pet_Unicorn_Undead_Skill_FX_YELLOW;r=0.75;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{onTick=Pet_Unicorn_Undead_Skill_FX_RED;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=15;onTick=Pet_Unicorn_Undead_Skill_FX_BLUE;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
+  - orbital{startingpoint=30;onTick=Pet_Unicorn_Undead_Skill_FX_YELLOW;r=0.75;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @self
   - particlering{particle=smoke;radius=1.2;points=45;amount=1;hS=0;vS=0} @self
   
 Pet_Interact_Unicorn_Heavenly:
@@ -310,9 +310,9 @@ Pet_Unicorn_Heavenly_Skill:
   - potion{type=INCREASE_DAMAGE;duration=20;level=<pet.power>;hasParticles=false} @owner
   - potion{type=SPEED;duration=20;level=<pet.power>;hasParticles=false} @owner
   - potion{type=DAMAGE_RESISTANCE;duration=20;level=<pet.power>;hasParticles=false} @owner
-  - orbital{onTick=Pet_Unicorn_Heavenly_Skill_FX_RED;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=15;onTick=Pet_Unicorn_Heavenly_Skill_FX_BLUE;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=30;onTick=Pet_Unicorn_Heavenly_Skill_FX_YELLOW;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{onTick=Pet_Unicorn_Heavenly_Skill_FX_RED;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=15;onTick=Pet_Unicorn_Heavenly_Skill_FX_BLUE;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=30;onTick=Pet_Unicorn_Heavenly_Skill_FX_YELLOW;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
 Pet_Unicorn_Heavenly_Skill_FX_RED:
   Skills:
   - effect:particles{p=dust_color_transition;color1=#FFFFFF;color2=#D1F1FC;size=0.45;amount=5;hS=0.02;vS=0.02;speed=0} @origin
@@ -343,9 +343,9 @@ Pet_Unicorn_Nature_Skill:
   - potion{type=INCREASE_DAMAGE;duration=20;level=<pet.power>;hasParticles=false} @owner
   - potion{type=SPEED;duration=20;level=<pet.power>;hasParticles=false} @owner
   - potion{type=DAMAGE_RESISTANCE;duration=20;level=<pet.power>;hasParticles=false} @owner
-  - orbital{onTick=Pet_Unicorn_Nature_Skill_FX_RED;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=15;onTick=Pet_Unicorn_Nature_Skill_FX_BLUE;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=30;onTick=Pet_Unicorn_Nature_Skill_FX_YELLOW;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{onTick=Pet_Unicorn_Nature_Skill_FX_RED;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=15;onTick=Pet_Unicorn_Nature_Skill_FX_BLUE;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=30;onTick=Pet_Unicorn_Nature_Skill_FX_YELLOW;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
 Pet_Unicorn_Nature_Skill_FX_RED:
   Skills:
   - effect:particles{p=totem;size=0.45;amount=2;hS=0.02;vS=0.02;speed=0} @origin
@@ -382,13 +382,13 @@ Pet_Unicorn_Rainbow_Skill:
   - potion{type=INCREASE_DAMAGE;duration=20;level=<pet.power>;hasParticles=false} @owner
   - potion{type=SPEED;duration=20;level=<pet.power>;hasParticles=false} @owner
   - potion{type=DAMAGE_RESISTANCE;duration=20;level=<pet.power>;hasParticles=false} @owner
-  - orbital{onTick=Pet_Unicorn_Rainbow_Skill_FX_RED;r=1;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=7;onTick=Pet_Unicorn_Rainbow_Skill_FX_ORANGE;r=1;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=14;onTick=Pet_Unicorn_Rainbow_Skill_FX_YELLOW;r=1;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=21;onTick=Pet_Unicorn_Rainbow_Skill_FX_GREEN;r=1;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=28;onTick=Pet_Unicorn_Rainbow_Skill_FX_BLUE;r=1;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=35;onTick=Pet_Unicorn_Rainbow_Skill_FX_INDIGO;r=1;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=42;onTick=Pet_Unicorn_Rainbow_Skill_FX_PURPLE;r=1;points=49;i=1;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{onTick=Pet_Unicorn_Rainbow_Skill_FX_RED;r=1;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=7;onTick=Pet_Unicorn_Rainbow_Skill_FX_ORANGE;r=1;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=14;onTick=Pet_Unicorn_Rainbow_Skill_FX_YELLOW;r=1;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=21;onTick=Pet_Unicorn_Rainbow_Skill_FX_GREEN;r=1;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=28;onTick=Pet_Unicorn_Rainbow_Skill_FX_BLUE;r=1;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=35;onTick=Pet_Unicorn_Rainbow_Skill_FX_INDIGO;r=1;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=42;onTick=Pet_Unicorn_Rainbow_Skill_FX_PURPLE;r=1;points=49;i=10;duration=49;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
 Pet_Unicorn_Rainbow_Skill_FX_RED:
   Skills:
   - effect:particles{p=dust_color_transition;color1=#FC7550;color2=#D60A0A;size=0.45;amount=5;hS=0.02;vS=0.02;speed=0} @origin
@@ -434,9 +434,9 @@ Pet_Unicorn_Undead_Skill:
   - potion{type=SPEED;duration=20;level=<pet.power>;hasParticles=false} @owner
   - potion{type=DAMAGE_RESISTANCE;duration=20;level=<pet.power>;hasParticles=false} @owner
   - particlering{particle=smoke;radius=1.5;points=45;amount=1;hS=0;vS=0} @owner
-  - orbital{onTick=Pet_Unicorn_Undead_Skill_FX_RED;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=15;onTick=Pet_Unicorn_Undead_Skill_FX_BLUE;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
-  - orbital{startingpoint=30;onTick=Pet_Unicorn_Undead_Skill_FX_YELLOW;r=1;points=45;i=1;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{onTick=Pet_Unicorn_Undead_Skill_FX_RED;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=15;onTick=Pet_Unicorn_Undead_Skill_FX_BLUE;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
+  - orbital{startingpoint=30;onTick=Pet_Unicorn_Undead_Skill_FX_YELLOW;r=1;points=45;i=10;duration=45;oy=0.2;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0;cooldown=1.5} @owner
 Pet_Unicorn_Undead_Skill_FX_RED:
   Skills:
   - effect:particles{p=soul;size=0.45;amount=1;hS=0;vS=0;speed=0.01} @origin
@@ -489,7 +489,7 @@ Pet_Frog_Green_Skill:
   - targetwithin{d=10} true
   Skills:
   - gcd{ticks=52}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=35;level=50;hasParticles=false} @self
@@ -498,7 +498,7 @@ Pet_Frog_Green_Skill:
   
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.3} @self
   - effect:sound{s=entity.slime.attack;volume=0.8;pitch=1.2} @self
-  - projectile{sfo=0;onHit=Pet_Frog_Green_Skill_DAMAGE;v=30;i=1;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
+  - projectile{sfo=0;onHit=Pet_Frog_Green_Skill_DAMAGE;v=30;i=10;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
 Pet_Frog_Green_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -540,7 +540,7 @@ Pet_Frog_Mushroom_Skill:
   - targetwithin{d=10} true
   Skills:
   - gcd{ticks=52}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=35;level=50;hasParticles=false} @self
@@ -549,7 +549,7 @@ Pet_Frog_Mushroom_Skill:
   
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.3} @self
   - effect:sound{s=entity.slime.attack;volume=0.8;pitch=1.2} @self
-  - projectile{sfo=0;onHit=Pet_Frog_Mushroom_Skill_DAMAGE;v=30;i=1;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
+  - projectile{sfo=0;onHit=Pet_Frog_Mushroom_Skill_DAMAGE;v=30;i=10;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
 Pet_Frog_Mushroom_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -591,7 +591,7 @@ Pet_Frog_Stone_Skill:
   - targetwithin{d=10} true
   Skills:
   - gcd{ticks=52}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=35;level=50;hasParticles=false} @self
@@ -600,7 +600,7 @@ Pet_Frog_Stone_Skill:
   
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.3} @self
   - effect:sound{s=entity.slime.attack;volume=0.8;pitch=1.2} @self
-  - projectile{sfo=0;onHit=Pet_Frog_Stone_Skill_DAMAGE;v=30;i=1;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
+  - projectile{sfo=0;onHit=Pet_Frog_Stone_Skill_DAMAGE;v=30;i=10;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
 Pet_Frog_Stone_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -642,7 +642,7 @@ Pet_Frog_Golden_Skill:
   - targetwithin{d=10} true
   Skills:
   - gcd{ticks=52}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=35;level=50;hasParticles=false} @self
@@ -651,7 +651,7 @@ Pet_Frog_Golden_Skill:
   
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.3} @self
   - effect:sound{s=entity.slime.attack;volume=0.8;pitch=1.2} @self
-  - projectile{sfo=0;onHit=Pet_Frog_Golden_Skill_DAMAGE;v=30;i=1;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
+  - projectile{sfo=0;onHit=Pet_Frog_Golden_Skill_DAMAGE;v=30;i=10;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
 Pet_Frog_Golden_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -693,7 +693,7 @@ Pet_Frog_Nether_Skill:
   - targetwithin{d=10} true
   Skills:
   - gcd{ticks=52}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=35;level=50;hasParticles=false} @self
@@ -702,7 +702,7 @@ Pet_Frog_Nether_Skill:
   
   - effect:sound{s=entity.frog.ambient;volume=0.8;pitch=1.3} @self
   - effect:sound{s=entity.slime.attack;volume=0.8;pitch=1.2} @self
-  - projectile{sfo=0;onHit=Pet_Frog_Nether_Skill_DAMAGE;v=30;i=1;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
+  - projectile{sfo=0;onHit=Pet_Frog_Nether_Skill_DAMAGE;v=30;i=10;hR=1;vR=1;mr=10;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.7;tyo=1.5} @target
 Pet_Frog_Nether_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -752,7 +752,7 @@ Pet_Cacti_Desert_Skill:
   
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch=1.4} @self
   - effect:sound{s=entity.evoker.cast_spell;volume=0.8;pitch=1.4;delay=2} @owner
-  - orbital{auraName=Spike_Armor_Desert;bulletType=MOB;mob=VFX_Spike_Armor_Desert;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration="<pet.power> * 20";oy=2.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @owner
+  - orbital{auraName=Spike_Armor_Desert;bulletType=MOB;mob=VFX_Spike_Armor_Desert;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration="<pet.power> * 20";oy=2.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @owner
   - onDamaged{auraName=Spike_Armor_Desert_OD;d="<pet.power> * 20";oH=Pet_Cacti_Desert_Skill_DAMAGE;cE=false;deflectProjectiles=false} @owner
 Pet_Cacti_Desert_Skill_DAMAGE:
   Skills:
@@ -790,7 +790,7 @@ Pet_Cacti_Sculk_Skill:
   
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch=1.4} @self
   - effect:sound{s=entity.evoker.cast_spell;volume=0.8;pitch=1.4;delay=2} @owner
-  - orbital{auraName=Spike_Armor_Sculk;bulletType=MOB;mob=VFX_Spike_Armor_Sculk;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration="<pet.power> * 20";oy=2.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @owner
+  - orbital{auraName=Spike_Armor_Sculk;bulletType=MOB;mob=VFX_Spike_Armor_Sculk;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration="<pet.power> * 20";oy=2.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @owner
   - onDamaged{auraName=Spike_Armor_Sculk_OD;d="<pet.power> * 20";oH=Pet_Cacti_Sculk_Skill_DAMAGE;cE=false;deflectProjectiles=false} @owner
 Pet_Cacti_Sculk_Skill_DAMAGE:
   Skills:
@@ -828,7 +828,7 @@ Pet_Cacti_Frozen_Skill:
   
   - effect:sound{s=entity.player.attack.sweep;volume=0.8;pitch=1.4} @self
   - effect:sound{s=entity.evoker.cast_spell;volume=0.8;pitch=1.4;delay=2} @owner
-  - orbital{auraName=Spike_Armor_Frozen;bulletType=MOB;mob=VFX_Spike_Armor_Frozen;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration="<pet.power> * 20";oy=2.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @owner
+  - orbital{auraName=Spike_Armor_Frozen;bulletType=MOB;mob=VFX_Spike_Armor_Frozen;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=10;duration="<pet.power> * 20";oy=2.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @owner
   - onDamaged{auraName=Spike_Armor_Frozen_OD;d="<pet.power> * 20";oH=Pet_Cacti_Frozen_Skill_DAMAGE;cE=false;deflectProjectiles=false} @owner
 Pet_Cacti_Frozen_Skill_DAMAGE:
   Skills:
@@ -875,7 +875,7 @@ Pet_Knight_Castle_Skill:
   - targetwithin{d=7} true
   Skills:
   - gcd{ticks=75}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=55;level=50;hasParticles=false} @self
@@ -891,7 +891,7 @@ Pet_Knight_Castle_Skill:
   - skill{s=Pet_Knight_Castle_Skill_TOTEM} @targetlocation
 Pet_Knight_Castle_Skill_TOTEM:
   Skills:
-  - totem{md=2;c=1;oH=Pet_Knight_Castle_Skill_DAMAGE;hnp=true;hp=true;hR=2;vR=2;i=1}
+  - totem{md=2;c=1;oH=Pet_Knight_Castle_Skill_DAMAGE;hnp=true;hp=true;hR=2;vR=2;i=10}
 Pet_Knight_Castle_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -929,7 +929,7 @@ Pet_Knight_Glacial_Skill:
   - targetwithin{d=7} true
   Skills:
   - gcd{ticks=75}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=55;level=50;hasParticles=false} @self
@@ -945,7 +945,7 @@ Pet_Knight_Glacial_Skill:
   - skill{s=Pet_Knight_Glacial_Skill_TOTEM} @targetlocation
 Pet_Knight_Glacial_Skill_TOTEM:
   Skills:
-  - totem{md=2;c=1;oH=Pet_Knight_Glacial_Skill_DAMAGE;hnp=true;hp=true;hR=2;vR=2;i=1}
+  - totem{md=2;c=1;oH=Pet_Knight_Glacial_Skill_DAMAGE;hnp=true;hp=true;hR=2;vR=2;i=10}
 Pet_Knight_Glacial_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -983,7 +983,7 @@ Pet_Knight_Holy_Skill:
   - targetwithin{d=7} true
   Skills:
   - gcd{ticks=75}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=55;level=50;hasParticles=false} @self
@@ -999,7 +999,7 @@ Pet_Knight_Holy_Skill:
   - skill{s=Pet_Knight_Holy_Skill_TOTEM} @targetlocation
 Pet_Knight_Holy_Skill_TOTEM:
   Skills:
-  - totem{md=2;c=1;oH=Pet_Knight_Holy_Skill_DAMAGE;hnp=true;hp=true;hR=2;vR=2;i=1}
+  - totem{md=2;c=1;oH=Pet_Knight_Holy_Skill_DAMAGE;hnp=true;hp=true;hR=2;vR=2;i=10}
 Pet_Knight_Holy_Skill_DAMAGE:
   TargetConditions:
   - owner{} false
@@ -1037,7 +1037,7 @@ Pet_Knight_Ender_Skill:
   - targetwithin{d=7} true
   Skills:
   - gcd{ticks=75}
-  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=1}
+  - skill{s=Pet_Look_FORCELOOKTARGET;repeat=40;repeati=10}
   - delay 20
   - state{s=skill;lo=15} @self
   - potion{type=SLOW;duration=55;level=50;hasParticles=false} @self
@@ -1053,7 +1053,7 @@ Pet_Knight_Ender_Skill:
   - skill{s=Pet_Knight_Ender_Skill_TOTEM} @targetlocation
 Pet_Knight_Ender_Skill_TOTEM:
   Skills:
-  - totem{md=2;c=1;oH=Pet_Knight_Ender_Skill_DAMAGE;hnp=true;hp=true;hR=2;vR=2;i=1}
+  - totem{md=2;c=1;oH=Pet_Knight_Ender_Skill_DAMAGE;hnp=true;hp=true;hR=2;vR=2;i=10}
 Pet_Knight_Ender_Skill_DAMAGE:
   TargetConditions:
   - owner{} false

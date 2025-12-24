@@ -78,7 +78,7 @@ VFX_AwakenedMage_Fireball_Explosion:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -101,7 +101,7 @@ VFX_AwakenedMage_Fireball_Explosion2:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=8;i=1;
+  - aura{delay=1;d=8;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -152,7 +152,7 @@ VFX_AwakenedMage_Thunder_Strike1:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation2;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=9;i=1;
+  - aura{delay=1;d=9;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -175,7 +175,7 @@ VFX_AwakenedMage_Thunder_Strike2:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation3;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=9;i=1;
+  - aura{delay=1;d=9;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -198,7 +198,7 @@ VFX_AwakenedMage_Thunder_Strike3:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation4;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=9;i=1;
+  - aura{delay=1;d=9;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -222,7 +222,7 @@ VFX_AwakenedMage_Thunder_Teleport:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=1;d=10;i=1;
+  - aura{delay=1;d=10;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
@@ -245,7 +245,7 @@ VFX_AwakenedMage_Thunder_Explosion:
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=animation;speed=1} @self ~onSpawn
   
-  - aura{delay=3;d=14;i=1;
+  - aura{delay=3;d=14;i=10;
     os=[
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     ];
