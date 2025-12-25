@@ -41,6 +41,16 @@ spectra_aurelium_skills:stats_crit_chance: 
 spectra_aurelium_skills:stats_crit_damage: 
 spectra_aurelium_skills:skill_book_sources: 
 spectra_aurelium_skills:xp_bar_white_lore: 
+custom_esc:top_logo_1: 
+custom_esc:top_logo_2: 
+custom_esc:bottom_news: 
+custom_esc:quit_button: 
+custom_esc:back_button: 
+custom_esc:options_button: 
+custom_esc:preport_button: 
+custom_esc:rbugs_button: 
+custom_esc:feedback_button: 
+custom_esc:stats_button: 
 mmoitems_pack:attack_damage: ᎈ
 mmoitems_pack:ability_haste: ᎉ
 mmoitems_pack:attack_speed: ᎊ

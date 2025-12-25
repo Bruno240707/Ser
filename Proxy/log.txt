@@ -3,66 +3,66 @@ WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal
 WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
 WARNING: Restricted methods will be blocked in a future release unless native access is enabled
 
-2025-12-25T00:25:18.804271923Z main WARN Advanced terminal features are not available in this environment
-[21:25:19 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
-[21:25:20 INFO]: Loading localizations...
-[21:25:20 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[21:25:20 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[21:25:20 INFO]: Loading plugins...
+2025-12-25T06:12:44.995160989Z main WARN Advanced terminal features are not available in this environment
+[03:12:46 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-8f65a814-b558)...
+[03:12:46 INFO]: Loading localizations...
+[03:12:46 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[03:12:46 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[03:12:46 INFO]: Loading plugins...
 WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
 WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/workspaces/Ser/Proxy/velocity.jar)
 WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
 WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
-[21:25:21 INFO]: Loaded plugin luckperms 5.5.21 by Luck
-[21:25:21 INFO]: Loaded plugin nantibot 2.0.3 by NickUC
-[21:25:22 INFO]: Loaded plugin nlogin 2.0.7 by NickUC
-[21:25:22 INFO]: Loaded 4 plugins
-[21:25:23 INFO] [luckperms]: Loading configuration...
-[21:25:23 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
-[21:25:23 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [0m[38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.5.21[0m
-[21:25:23 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Velocity - Velocity[0m
-[21:25:23 INFO]: 
-[21:25:24 INFO] [luckperms]: Loading storage provider... [H2]
-[21:25:25 INFO] [luckperms]: Loading internal permission managers...
-[21:25:25 INFO] [luckperms]: Performing initial data load...
-[21:25:25 INFO] [luckperms]: Successfully enabled. (took 2635ms)
-[21:25:27 INFO] [nantibot]: Successful plugin core start (took 0.65s)
-[21:25:27 INFO]: [nAntiBot] [38;2;255;85;85m          _         _   _   ___       _   [0m
-[21:25:27 INFO]: [nAntiBot] [38;2;255;85;85m  _ __   /_\  _ __ | |_(_) / __\ ___ | |_ [0m
-[21:25:27 INFO]: [nAntiBot] [38;2;255;85;85m | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|[0m
-[21:25:27 INFO]: [nAntiBot] [38;2;255;85;85m | | | /  _  \ | | | |_| / \/  \ (_) | |_ [0m
-[21:25:27 INFO]: [nAntiBot] [38;2;255;85;85m |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|[0m
-[21:25:27 INFO]: [nAntiBot] [38;2;255;85;85m                                         [0m
-[21:25:27 INFO]: [nAntiBot] [38;2;255;85;85m By: www.nickuc.com - V 2.0.3[0m
-[21:25:27 INFO]: [nAntiBot] 
-[21:25:30 INFO] [nlogin]: Successful plugin core start (took 0.52s)
-[21:25:30 INFO]: [nLogin] [38;2;85;85;255m          __             _       [0m
-[21:25:30 INFO]: [nLogin] [38;2;85;85;255m  _ __   / /  ___   __ _(_)_ __  [0m
-[21:25:30 INFO]: [nLogin] [38;2;85;85;255m | '_ \ / /  / _ \ / _` | | '_ \ [0m
-[21:25:30 INFO]: [nLogin] [38;2;85;85;255m | | | / /__| (_) | (_| | | | | |[0m
-[21:25:30 INFO]: [nLogin] [38;2;85;85;255m |_| |_\____/\___/ \__, |_|_| |_|[0m
-[21:25:30 INFO]: [nLogin] [38;2;85;85;255m                  |___/            [0m
-[21:25:30 INFO]: [nLogin] [38;2;85;85;255m By: www.nickuc.com - V 2.0.7[0m
-[21:25:30 INFO]: [nLogin] [38;2;85;85;255m [0m
-[21:25:33 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[21:25:33 INFO] [nantibot]: Injecting channel initializers
-[21:25:33 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[21:25:33 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[21:25:33 INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
-[21:25:33 INFO]: Done (14.91s)!
-[21:25:36 INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 50, threads = 4, took 7.76s)
-[21:29:21 INFO]: [connected player] Bruno240707 (/127.19.211.102:40537) has connected
-[21:29:22 INFO]: [server connection] Bruno240707 -> lobby has connected
-[21:29:32 INFO] [nlogin]: The user Bruno240707 has successfully logged in.
-[21:29:34 INFO]: [server connection] Bruno240707 -> survival has connected
-[21:29:35 INFO]: [server connection] Bruno240707 -> lobby has disconnected
-[21:38:41 INFO]: [connected player] Bruno240707 (/127.19.211.102:40537) has disconnected
-[21:38:41 INFO]: [server connection] Bruno240707 -> survival has disconnected
-[21:39:14 INFO]: Shutting down the proxy...
-[21:39:14 INFO]: Closing endpoint /0.0.0.0:25565
-[21:39:14 INFO] [nantibot]: Successful plugin core shutdown (took 0.00s)
-[21:39:14 INFO] [nantibot]: Disconnecting from remote server...
-[21:39:16 INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
-[21:39:16 INFO] [luckperms]: Starting shutdown process...
-[21:39:16 INFO] [luckperms]: Closing storage...
-[21:39:16 INFO] [luckperms]: Goodbye!
+[03:12:47 INFO]: Loaded plugin luckperms 5.5.21 by Luck
+[03:12:48 INFO]: Loaded plugin nantibot 2.0.3 by NickUC
+[03:12:48 INFO]: Loaded plugin nlogin 2.0.7 by NickUC
+[03:12:48 INFO]: Loaded 4 plugins
+[03:12:49 INFO] [luckperms]: Loading configuration...
+[03:12:50 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[03:12:50 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [0m[38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.5.21[0m
+[03:12:50 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Velocity - Velocity[0m
+[03:12:50 INFO]: 
+[03:12:50 INFO] [luckperms]: Loading storage provider... [H2]
+[03:12:51 INFO] [luckperms]: Loading internal permission managers...
+[03:12:51 INFO] [luckperms]: Performing initial data load...
+[03:12:52 INFO] [luckperms]: Successfully enabled. (took 3213ms)
+[03:12:53 INFO] [nantibot]: Successful plugin core start (took 0.62s)
+[03:12:53 INFO]: [nAntiBot] [38;2;255;85;85m          _         _   _   ___       _   [0m
+[03:12:53 INFO]: [nAntiBot] [38;2;255;85;85m  _ __   /_\  _ __ | |_(_) / __\ ___ | |_ [0m
+[03:12:53 INFO]: [nAntiBot] [38;2;255;85;85m | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|[0m
+[03:12:53 INFO]: [nAntiBot] [38;2;255;85;85m | | | /  _  \ | | | |_| / \/  \ (_) | |_ [0m
+[03:12:53 INFO]: [nAntiBot] [38;2;255;85;85m |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|[0m
+[03:12:53 INFO]: [nAntiBot] [38;2;255;85;85m                                         [0m
+[03:12:53 INFO]: [nAntiBot] [38;2;255;85;85m By: www.nickuc.com - V 2.0.3[0m
+[03:12:53 INFO]: [nAntiBot] 
+[03:12:56 INFO] [nlogin]: Successful plugin core start (took 0.54s)
+[03:12:57 INFO]: [nLogin] [38;2;85;85;255m          __             _       [0m
+[03:12:57 INFO]: [nLogin] [38;2;85;85;255m  _ __   / /  ___   __ _(_)_ __  [0m
+[03:12:57 INFO]: [nLogin] [38;2;85;85;255m | '_ \ / /  / _ \ / _` | | '_ \ [0m
+[03:12:57 INFO]: [nLogin] [38;2;85;85;255m | | | / /__| (_) | (_| | | | | |[0m
+[03:12:57 INFO]: [nLogin] [38;2;85;85;255m |_| |_\____/\___/ \__, |_|_| |_|[0m
+[03:12:57 INFO]: [nLogin] [38;2;85;85;255m                  |___/            [0m
+[03:12:57 INFO]: [nLogin] [38;2;85;85;255m By: www.nickuc.com - V 2.0.7[0m
+[03:12:57 INFO]: [nLogin] [38;2;85;85;255m [0m
+[03:12:59 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:12:59 INFO] [nantibot]: Injecting channel initializers
+[03:13:00 WARN]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:13:00 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[03:13:00 INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
+[03:13:00 INFO]: Done (15.13s)!
+[03:13:01 INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 50, threads = 4, took 7.37s)
+[03:15:12 INFO]: [connected player] Bruno240707 (/127.19.211.102:51785) has connected
+[03:15:12 INFO]: [server connection] Bruno240707 -> lobby has connected
+[03:15:20 INFO] [nlogin]: The user Bruno240707 has successfully logged in.
+[03:15:22 INFO]: [server connection] Bruno240707 -> survival has connected
+[03:15:23 INFO]: [server connection] Bruno240707 -> lobby has disconnected
+[03:31:26 INFO]: [connected player] Bruno240707 (/127.19.211.102:51785) has disconnected
+[03:31:26 INFO]: [server connection] Bruno240707 -> survival has disconnected
+[03:31:29 INFO]: Shutting down the proxy...
+[03:31:29 INFO]: Closing endpoint /0.0.0.0:25565
+[03:31:29 INFO] [nantibot]: Successful plugin core shutdown (took 0.00s)
+[03:31:29 INFO] [nantibot]: Disconnecting from remote server...
+[03:31:31 INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
+[03:31:31 INFO] [luckperms]: Starting shutdown process...
+[03:31:31 INFO] [luckperms]: Closing storage...
+[03:31:31 INFO] [luckperms]: Goodbye!

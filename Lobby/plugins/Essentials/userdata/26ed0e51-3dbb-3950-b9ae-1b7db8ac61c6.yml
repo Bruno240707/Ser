@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1766622575417
-  login: 1766622564128
+  logout: 1766643323695
+  login: 1766643315136
 money: '0'
 last-account-name: Bruno240707
 logoutlocation:
@@ -26,5 +26,5 @@ logoutlocation:
   x: -317.0
   y: 64.0
   z: -341.0
-  yaw: -0.8746981620788574
-  pitch: -0.605560302734375
+  yaw: -5.315474510192871
+  pitch: -3.8352160453796387
