@@ -347,3 +347,59 @@ MATERIAL:
         - '{tier}&8Item Info:'
         - '{range}&8- &7Lvl Range: &e#range#'
         - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+ARTIFACT:
+    display: PAPER
+    name: 'Artifact'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Artifact'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+RING:
+    display: PAPER
+    name: 'Ring'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Ring'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+AMULET:
+    display: PAPER
+    name: 'Amulet'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Amulet'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+BRACELET:
+    display: PAPER
+    name: 'Bracelet'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Bracelet'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'

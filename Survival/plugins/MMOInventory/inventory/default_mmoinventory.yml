@@ -257,14 +257,13 @@ items:
     slot: 5
     lore:
       - ''
-      - '&f ⌛ &7Level &f%mmocore_level%'
-      - '&f %MYTHIClib_space_1%❣%MYTHIClib_space_1% &7Class: &f%mmocore_class%'
       - '&f ☄ &7Gold: &f%vault_eco_balance%'
       - ''
       - '&7Health: &f%MYTHIClib_stat_max_health%'
       - '&7Defense: &f%MYTHIClib_stat_defense%'
       - '&7Attack: &f%MYTHIClib_stat_attack_damage%'
       - '&7Speed: &f%MYTHIClib_stat_movement_speed%'
+      - '&7Mana: &f%auraskills_mana%&7/&f%auraskills_max_mana%'
     on_click:
       - 'command{format="p";from_console=false}'
 

@@ -2352,7 +2352,7 @@ URANIUM_HELMET:
     dye-color: 0 0 2
     hide-dye: true
     set: Uranium
-    name: '<#cb8592>Uranium Helmet'
+    name: <#cb8592>Uranium Helmet
     tooltip-style: godlike
 URANIUM_CHESTPLATE:
   base:
@@ -2365,7 +2365,7 @@ URANIUM_CHESTPLATE:
     dye-color: 0 0 2
     hide-dye: true
     set: Uranium
-    name: '<#cb8592>Uranium Helmet'
+    name: <#cb8592>Uranium Helmet
     tooltip-style: godlike
 URANIUM_LEGGINGS:
   base:
@@ -2378,7 +2378,7 @@ URANIUM_LEGGINGS:
     dye-color: 0 0 2
     hide-dye: true
     set: Uranium
-    name: '<#cb8592>Uranium Helmet'
+    name: <#cb8592>Uranium Helmet
     tooltip-style: godlike
 URANIUM_BOOTS:
   base:
@@ -2392,7 +2392,7 @@ URANIUM_BOOTS:
     dye-color: 0 0 2
     hide-dye: true
     set: Uranium
-    name: '<#cb8592>Uranium Helmet'
+    name: <#cb8592>Uranium Helmet
     tooltip-style: godlike
 
 
@@ -2409,7 +2409,7 @@ ARCANE_HELMET:
     max-health: 40.0
     set: Arcane
     tooltip-style: godlike
-    name: '<#cb8592>Arcane Helmet'
+    name: <#cb8592>Arcane Helmet
 ARCANE_CHESTPLATE:
   base:
     material: LEATHER_CHESTPLATE
@@ -2420,7 +2420,7 @@ ARCANE_CHESTPLATE:
     max-health: 60.0
     set: Arcane
     tooltip-style: godlike
-    name: '<#cb8592>Arcane Helmet'
+    name: <#cb8592>Arcane Helmet
     dye-color: 122 90 143
     hide-dye: true
 ARCANE_LEGGINGS:
@@ -2433,7 +2433,7 @@ ARCANE_LEGGINGS:
     max-health: 50.0
     set: Arcane
     tooltip-style: godlike
-    name: '<#cb8592>Arcane Helmet'
+    name: <#cb8592>Arcane Helmet
     dye-color: 156 125 176
     hide-dye: true
 ARCANE_BOOTS:
@@ -2447,7 +2447,7 @@ ARCANE_BOOTS:
     max-health: 45.0
     set: Arcane
     tooltip-style: godlike
-    name: '<#cb8592>Arcane Helmet'
+    name: <#cb8592>Arcane Helmet
     dye-color: 202 175 219
     hide-dye: true
 
@@ -2464,8 +2464,7 @@ DAMNED_HELMET:
     max-health: 40.0
     set: Damned
     tooltip-style: godlike
-    name: '<#cb8592>Helmet of the Damned'
-    lore:
+    name: <#cb8592>Helmet of the Damned
 DAMNED_CHESTPLATE:
   base:
     material: LEATHER_CHESTPLATE
@@ -2477,8 +2476,7 @@ DAMNED_CHESTPLATE:
     max-health: 55.0
     set: Damned
     tooltip-style: godlike
-    name: '<#cb8592>Chestplate of the Damned'
-    lore:
+    name: <#cb8592>Chestplate of the Damned
     dye-color: 0 0 1
     hide-dye: true
 DAMNED_LEGGINGS:
@@ -2492,8 +2490,7 @@ DAMNED_LEGGINGS:
     max-health: 50.0
     set: Damned
     tooltip-style: godlike
-    name: '<#cb8592>Leggings of the Damned'
-    lore:
+    name: <#cb8592>Leggings of the Damned
     dye-color: 0 0 1
     hide-dye: true
 DAMNED_BOOTS:
@@ -2508,7 +2505,6 @@ DAMNED_BOOTS:
     max-health: 45.0
     set: Damned
     tooltip-style: godlike
-    name: '<#cb8592>Boots of the Damned'
-    lore:
+    name: <#cb8592>Boots of the Damned
     dye-color: 0 0 1
     hide-dye: true

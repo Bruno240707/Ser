@@ -1,0 +1,44 @@
+uuid: 26ed0e51-3dbb-3950-b9ae-1b7db8ac61c6
+skills:
+  auraskills/defense:
+    level: 0
+    xp: 19.020000457763672
+  auraskills/fishing:
+    level: 0
+    xp: 0.0
+  auraskills/fighting:
+    level: 0
+    xp: 20.0
+  auraskills/alchemy:
+    level: 0
+    xp: 0.0
+  auraskills/mining:
+    level: 0
+    xp: 0.0
+  auraskills/farming:
+    level: 0
+    xp: 0.0
+  auraskills/foraging:
+    level: 0
+    xp: 0.0
+  auraskills/enchanting:
+    level: 0
+    xp: 0.0
+  auraskills/excavation:
+    level: 0
+    xp: 0.0
+  auraskills/archery:
+    level: 0
+    xp: 0.0
+  auraskills/agility:
+    level: 0
+    xp: 7.0
+mana: 32.0
+action_bar:
+  idle: true
+trait_modifiers:
+  '0':
+    name: mmoitems_max_mana
+    trait: auraskills/max_mana
+    operation: ADD
+    value: 20.0

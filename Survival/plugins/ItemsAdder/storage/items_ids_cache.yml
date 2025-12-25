@@ -758,6 +758,43 @@ BRICK:
   companions_1:icon_unicorn_nature: 12017
   companions_1:icon_unicorn_rainbow: 12018
   companions_1:icon_unicorn_undead: 12019
+  spectra_aurelium_skills:skill_empty_slot: 40051
+  spectra_aurelium_skills:skill_left_arrow: 40052
+  spectra_aurelium_skills:skill_right_arrow: 40053
+  spectra_aurelium_skills:skills_level_next: 40054
+  spectra_aurelium_skills:skills_level_previous: 40055
+  spectra_aurelium_skills:skills_abilities_btn: 40056
+  spectra_aurelium_skills:skills_xp_source_btn: 40057
+  spectra_aurelium_skills:skills_leaderboard_btn: 40058
+  spectra_aurelium_skills:skills_level_close: 40047
+  spectra_aurelium_skills:skill_farming: 40048
+  spectra_aurelium_skills:skill_foraging: 40049
+  spectra_aurelium_skills:skill_fishing: 40059
+  spectra_aurelium_skills:skill_archery: 40060
+  spectra_aurelium_skills:skill_defence: 40061
+  spectra_aurelium_skills:skill_excavation: 40062
+  spectra_aurelium_skills:skill_agility: 40063
+  spectra_aurelium_skills:skill_fighting: 40064
+  spectra_aurelium_skills:skill_enchanting: 40065
+  spectra_aurelium_skills:skill_alchemy: 40066
+  spectra_aurelium_skills:skill_mining: 40067
+  spectra_aurelium_skills:skills_level_completed: 40068
+  spectra_aurelium_skills:skills_level_locked: 40069
+  spectra_aurelium_skills:skills_level_progress: 40070
+  spectra_aurelium_skills:book_previous_nav: 40071
+  spectra_aurelium_skills:book_next_nav: 40072
+  spectra_aurelium_skills:stats_animation: 40073
+  spectra_aurelium_skills:monster_head: 40074
+  spectra_aurelium_skills:monster_body_right: 40075
+  spectra_aurelium_skills:monster_body_left: 40076
+  spectra_aurelium_skills:skill_ship: 40077
+  spectra_aurelium_skills:skill_flag: 40078
+  spectra_aurelium_skills:icon_mana: 40079
+  spectra_aurelium_skills:icon_ability: 40080
+  spectra_aurelium_skills:icon_mana_locked: 40081
+  spectra_aurelium_skills:icon_ability_locked: 40082
+  spectra_aurelium_skills:job_icon_enabled: 40083
+  spectra_aurelium_skills:job_icon_off: 40084
 BARRIER:
   iavegastables:roulette: 66601
   iavegastables:darts: 66602
@@ -797,6 +834,7 @@ PLAYER_HEAD:
   __manually_handled:_iainternal__player_dummy_3: 10009
   __manually_handled:_iainternal__player_dummy_4: 10010
   __manually_handled:_iainternal__player_dummy_5: 10011
+  spectra_aurelium_skills:skills_head: 100
 STICK:
   mmoitems_pack:staff1: 1000
   mmoitems_pack:staff2: 1001
